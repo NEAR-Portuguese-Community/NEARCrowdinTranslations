@@ -1,0 +1,4 @@
+files:
+  - source: /src/The_Beginners_Guide_to_the_NEAR_Blockchain/en/*.md
+    translation: >-
+      /src/The_Beginners_Guide_to_the_NEAR_Blockchain/%two_letters_code%/%original_file_name%

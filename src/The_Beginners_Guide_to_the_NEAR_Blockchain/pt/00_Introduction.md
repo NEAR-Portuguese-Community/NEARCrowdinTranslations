@@ -1,7 +1,7 @@
-# The Beginner’s Guide to the NEAR Blockchain
+# O Guia do Iniciante para o NEAR Blockchain
 
-Welcome! This guide is intended to help anyone interested in understanding what NEAR actually is. That includes new users, curious community members, prospective partners and new core contributors to the NEAR Collective. I’ll provide a plain-English understanding of what we do, why we do it, and how you can learn what you need in order to get directly involved.
+Bem vindo(a)! Este guia destina-se a ajudar qualquer pessoa interessada em entender o que realmente é o NEAR. Isso inclui novos usuários, curiosos membros da comunidade, potenciais parceiros e novos colaboradores principais da NEAR Collective. Fornecerei uma compreensão simples em português do que fazemos, por que fazemos, e como você pode aprender o que você precisa para se envolver diretamente.
 
-We’ll keep this guide updated over time as well so you can be sure it’s as current as possible.
+Também vamos manter este guia atualizado ao longo do tempo para que você possa ter certeza de que está o mais atual possível.
 
-My assumption is that you’re familiar with the high level of what a blockchain is so I’m not going to be using any of those block-and-line diagrams here. I’ll make no assumption about your level of technicality — you could be a highly technical engineer but you could be a less technical designer or marketer or community manager as well.
+Minha suposição é que você está familiarizado com o alto nível do que é uma blockchain, então não usarei nenhum desses diagramas de block-and-line. I’ll make no assumption about your level of technicality — you could be a highly technical engineer but you could be a less technical designer or marketer or community manager as well.

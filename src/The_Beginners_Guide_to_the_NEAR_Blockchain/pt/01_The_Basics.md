@@ -1,6 +1,6 @@
-## The Basics
+## Noções básicas
 
-So what is NEAR (aka “the NEAR Platform”)? NEAR is a decentralized development platform built on top of the NEAR Protocol, which is a public, sharded, developer-friendly, proof-of-stake blockchain. Put another way, NEAR is like a public community-run cloud platform.  That means it is a highly scalable, low cost platform for developers to create decentralized apps on top of. While it’s built on top of the NEAR Protocol blockchain, the NEAR Platform also contains a wide range of tooling from explorers to CLI tools to wallet apps to interoperability components which help developers build much more easily and the ecosystem to scale more widely.
+Afinal, o que é a NEAR (ou ainda, "a plataforma NEAR")? A NEAR é uma plataforma de desenvolvimento descentralizada construída sobre o protocolo NEAR, que é uma blockchain pública, compartilhada, amigável ao desenvolvedor e baseada em prova de participação. Dito de outro modo, a NEAR é como uma plataforma de nuvem mantida pela comunidade.  Isso significa que é uma plataforma altamente escalável e de baixo custo sobre a qual desenvolvedores podem criar aplicativos descentralizados. While it’s built on top of the NEAR Protocol blockchain, the NEAR Platform also contains a wide range of tooling from explorers to CLI tools to wallet apps to interoperability components which help developers build much more easily and the ecosystem to scale more widely.
 
 Whereas most other “scalable” blockchains use approaches that centralize processing on high-end hardware to provide a temporary boost in throughput, NEAR Protocol’s approach allows the platform’s capacity to scale nearly linearly up to billions of transactions in a fully decentralized way.
 

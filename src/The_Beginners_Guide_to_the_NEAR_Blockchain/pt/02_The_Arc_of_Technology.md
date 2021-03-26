@@ -1,6 +1,6 @@
-## The Arc of Technology
+## O Arco da Tecnologia
 
-It’s worth checking in quickly with how we got here because it will help you understand the context of the current ecosystem. [A recent post](https://near.org/blog/the-evolution-of-the-open-web/) goes into greater detail but here’s the quick version:
+Vale a pena verificar rapidamente como chegamos aqui porque irá ajudá-lo a entender o contexto do ecossistema atual. [A recent post](https://near.org/blog/the-evolution-of-the-open-web/) goes into greater detail but here’s the quick version:
 
 **Bitcoin** is the original “programmable money” or “digital gold”. It has been doing a pretty good job of fulfilling those functions but its use so far as a more general-purpose computing platform (like we’re building) is mostly an accident. Essentially, developers saw they could hack together some basic programs on top of the limited functionality that Bitcoin provided and they began using Bitcoin as the base for some of these new applications because it’s now highly trusted and secure.
 

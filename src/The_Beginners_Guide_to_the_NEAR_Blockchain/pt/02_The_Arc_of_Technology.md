@@ -1,10 +1,10 @@
 ## O Arco da Tecnologia
 
-Vale a pena verificar rapidamente como chegamos aqui porque irá ajudá-lo a entender o contexto do ecossistema atual. [A recent post](https://near.org/blog/the-evolution-of-the-open-web/) goes into greater detail but here’s the quick version:
+Vale a pena verificar rapidamente como chegamos aqui porque irá ajudá-lo a entender o contexto do ecossistema atual. Em [um post recente](https://near.org/blog/the-evolution-of-the-open-web/) entramos em mais detalhes, mas aqui vai uma versão rápida:
 
-**Bitcoin** is the original “programmable money” or “digital gold”. It has been doing a pretty good job of fulfilling those functions but its use so far as a more general-purpose computing platform (like we’re building) is mostly an accident. Essentially, developers saw they could hack together some basic programs on top of the limited functionality that Bitcoin provided and they began using Bitcoin as the base for some of these new applications because it’s now highly trusted and secure.
+**Bitcoin** é o "dinheiro programável" original ou "ouro digital". Ele tem feito um bom trabalho cumprindo essas funções, mas seu uso até agora como uma plataforma de computação de uso mais geral (como nós estamos construindo) é principalmente um acidente. Basicamente, desenvolvedores viram que eles podiam adaptar alguns programas básicos sobre a funcionalidade limitada que o Bitcoin forneceu e começaram a usar o Bitcoin como base para algumas dessas novas aplicações, porque agora é altamente confiável e seguro.
 
-Unfortunately, transactions are very costly and, because this was definitely NOT what the Bitcoin platform was meant for, the functionality is very limited. The platform there is slow (roughly 4 transactions per second), costly, and a massive waste of global energy.
+Infelizmente, as transações são muito caras e, como isso definitivamente NÃO era o que a plataforma Bitcoin se destinava, a funcionalidade é muito limitada. A plataforma é lenta (aproximadamente 4 transações por segundo), cara e um enorme desperdício de energia global.
 
 **Ethereum**, back in 2014, tried to directly address this use case by creating a platform that was, from day 1, intended to use the same blockchain technology to build a global virtual computer which any application could be built on top of.
 

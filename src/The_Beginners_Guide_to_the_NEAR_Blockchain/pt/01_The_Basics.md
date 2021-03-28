@@ -16,7 +16,7 @@ Ok… Vamos dar um passo atrás e assumir que você ainda está pegando o ritmo 
 
 #### From 10,000 feet…
 
-The NEAR Collective is basically building the infrastructure for a new Internet which makes it harder for giant companies to steal your data and for bad guy countries to shut it down. People have been trying to figure this stuff out with similar technologies since 2008 but it’s been slow going.
+A Colaboração NEAR está basicamente construindo a infraestrutura para uma nova Internet, que tornará mais difícil para as companhias gigantes roubarem seus dados e para os países do mal a tirarem do ar. Tem-se tentado entender isso com tecnologias similares desde 2008, mas vem-se evoluindo lentamente.
 
 You’ve heard of Bitcoin, that digital currency everyone thinks is only used by criminals and third-world dictators. Well, despite a really bad reputation and a lot of hiccups along the way, ten years later they still haven’t been able to kill Bitcoin so you know it’s built on very resilient technology. We’re basically trying to use that same kind of technology to power a brand new Internet which is just as hard to kill or screw up.
 

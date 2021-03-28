@@ -10,9 +10,9 @@ Essa colaboração contém um número extraordinário de times e [inclui program
 
 Por que estamos fazendo isso? Porque esta é uma oportunidade de construir uma base sólida para uma Internet muito melhor, que colocará o usuário no controle do seu dinheiro, seus dados e sua identidade. Com potencial de criar serviços públicos integráveis, é uma chance de começar rapidamente a maior onda de inovação — e de progresso de negócios — desde a Internet.  Esta visão é a mais importante - existem poucas oportunidades no mundo maiores que esta que estamos enfrentando.
 
-Let’s be clear: **NEAR is not a side chain, an ERC20 token or a highly specialized task-specific blockchain… it is nothing less than a brand new and fundamentally reimagined layer 1 protocol designed to independently power the base of the emerging Open Web stack.**
+Vamos ser claros: **NEAR não é uma side chain, um token ERC20 ou uma blockchain altamente especializada para uma atividade... ela não é nada menos que um protocolo de primeira camada totalmente novo e fundamentalmente reimaginado, projetado para potencializar de forma independente a base da Open Web stack**
 
-Ok… Let’s back up and assume you’re still getting up to speed on what the heck a public, sharded, developer-friendly, proof-of-stake blockchain really is.
+Ok… Vamos dar um passo atrás e assumir que você ainda está pegando o ritmo do que realmente é uma blockchain pública, compartilhada, amigável ao desenvolvedor e baseada em proof-of-stake.
 
 #### From 10,000 feet…
 

@@ -16,18 +16,18 @@ Ok… Vamos dar um passo atrás e assumir que você ainda está pegando o ritmo 
 
 #### From 10,000 feet…
 
-A Colaboração NEAR está basicamente construindo a infraestrutura para uma nova Internet, que tornará mais difícil para as companhias gigantes roubarem seus dados e para os países do mal a tirarem do ar. Tem-se tentado entender isso com tecnologias similares desde 2008, mas vem-se evoluindo lentamente.
+A Colaboração NEAR está basicamente construindo a infraestrutura para uma nova Internet, que tornará mais difícil para as companhias gigantes roubarem seus dados e para os países do mal a tirarem do ar. Tem-se tentado entender isso com tecnologias similares desde 2008, mas isso tem sido lento.
 
-You’ve heard of Bitcoin, that digital currency everyone thinks is only used by criminals and third-world dictators. Well, despite a really bad reputation and a lot of hiccups along the way, ten years later they still haven’t been able to kill Bitcoin so you know it’s built on very resilient technology. We’re basically trying to use that same kind of technology to power a brand new Internet which is just as hard to kill or screw up.
+Você já ouviu sobre Bitcoin, essa moeda digital que todo mundo pensa ser somente usada para meios criminais e por ditadores de terceiro mundo. Bem, apesar da má reputação e dos muitos contratempos ao longo do caminho, 10 anos depois eles ainda não conseguiram matar o Bitcoin, então dá pra entender que ele é construído sobre um tecnologia muito resiliente. Nós basicamente estamos tentando usar o mesmo tipo de tecnologia para potencializar uma Internet totalmente nova que é justamente tão difícil de desligar ou se ferrar.
 
-A few other projects, especially one called Ethereum, tried doing this a few years ago and got a really good start but ultimately got totally bogged down in the growing pains of early technology and they were too slow and expensive to get mainstream adoption. Now, a lot of really smart people are working on a way to speed this up and keep costs low while making sure this new Internet is just as hard to mess up as Bitcoin.
+Alguns outros projetos, especificamente um chamado Ethereum, tentou faze-lo alguns anos atrás e teve realmente um bom começo, mas acabou por ficar completamente atolado nas dores crescentes da tecnologia precoce e eles estavam muito lentos e caros para atingir uma adoção convencional. Agora, muitas pessoas realmente espertas estão trabalhando em um jeito de acelerar isto e manter os custos baixos, enquanto se asseguram que essa nova Internet seja tão difícil de bagunçar quanto o Bitcoin.
 
-You can read more about this journey in [the Evolution of the Open Web](https://near.org/blog/the-evolution-of-the-open-web/).
+Você pode ler mais sobre essa jornada em [A Evolução da Open Web](https://near.org/blog/the-evolution-of-the-open-web/).
 
 #### From 1,000 feet…
 
-We aren’t building the only blockchain which is taking on the scaling and cost problems but NEAR has a team that’s all aces and we’re coming at this in a slightly different way.
+Não estamos construindo a única blockchain que resolve problemas de escala e custo, mas a NEAR tem um time com todas as vantagens e que esta chegando nisso de um jeito ligeiramente diferente.
 
-To set the stage, we’re building a “base-layer blockchain”, meaning that it’s on the same level of the infrastructure as projects like Ethereum, EOS or Polkadot. That means everything else will be built on top of NEAR.
+Para definir o estágio, nós estamos construindo a "camada base da blockchain", ou seja, está no mesmo nível da infraestrutura que projetos como Ethereum, EOS ou Polkadot. Isso significa todo o resto será construído sobre a NEAR.
 
-It’s a general-purpose platform that allows developers to create and deploy decentralized applications on top of it. A decent analogy is that it’s sort of like Amazon’s AWS platform, which is where most of the applications you know and love host their servers, except the NEAR platform isn’t actually run and controlled by one company, it’s run and controlled by thousands or even millions of people. You can call it a “community-operated cloud” but we usually prefer to simply call it a “decentralized application platform.”
+É uma plataforma de proposta genérica que possibilita desenvolvedores criarem e lançarem aplicações descentralizadas em cima dela. Uma comparação conveniente é com a plataforma AWS da amazon, que é onde a maioria dos aplicativos que você conhece e ama deixa seus servidores, com exceção de que a plataforma NEAR na realidade não é executada e controlada por uma companhia, ela roda e é controlada por milhares, ou até milhões de pessoas. You can call it a “community-operated cloud” but we usually prefer to simply call it a “decentralized application platform.”

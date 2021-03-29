@@ -1,4 +1,4 @@
-## The NEAR Token
+## O Token NEAR
 
 So who actually runs all those individual “nodes” that make up this decentralized network? Anyone who feels properly incentivized to do so! The [incentives for this permissionless network](https://near.org/blog/near-protocol-economics/) are powered by the NEAR token.
 

@@ -6,9 +6,9 @@ Vale a pena verificar rapidamente como chegamos aqui porque irá ajudá-lo a ent
 
 Infelizmente, as transações são muito caras e, como isso definitivamente NÃO era o que a plataforma Bitcoin se destinava, a funcionalidade é muito limitada. A plataforma é lenta (aproximadamente 4 transações por segundo), cara e um enorme desperdício de energia global.
 
-**Ethereum**, back in 2014, tried to directly address this use case by creating a platform that was, from day 1, intended to use the same blockchain technology to build a global virtual computer which any application could be built on top of.
+**Ethereum**, lá atras em 2014, tentou endereçar diretamente esse caso de uso criando uma plataforma que era, desde de o dia 1, destinada ao uso da mesma tecnologia de blockchain para construir um computador virtual global onde qualquer aplicação poderia ser construída.
 
-So, if Bitcoin was really just a basic calculator, Ethereum was a fancy TI-83 graphing calculator on which you could write some interesting, if basic, games. While it put lots of good ideas into place, it is also rather slow (14 transactions per second) and still quite costly for developers to use. They’ve tried to upgrade this but are now having difficulty pivoting because of how much technical work, value storage and community growth has already occurred in their legacy model.
+Então, se o Bitcoin era realmente uma calculadora básica, Ethereum era uma elegante calculadora de gráficos TI-83, na qual você poderia desenvolver algumas coisas interessantes, até jogos se fossem básicos. Embora isso coloca muitas boas ideias em questão, continua sendo lento (14 transações por segundo) e ainda é bastante custoso para os desenvolvedores usarem. Eles tem tendado dar melhorar isso, mas agora estão tendo dificuldades nessa mudança, por causa de quanto trabalho técnico, valor armazenado e crescimento da comunidade já ocorreu no seu modelo legado.
 
 **“Layer 2” scaling** solutions, including “state channels” and “side chains”, have popped up to try and improve the performance and cost of these slower (but rather secure) platforms by taking some of the work off the main chain and doing it elsewhere. They exist for both Bitcoin and Ethereum but haven’t achieved the adoption we hoped.
 

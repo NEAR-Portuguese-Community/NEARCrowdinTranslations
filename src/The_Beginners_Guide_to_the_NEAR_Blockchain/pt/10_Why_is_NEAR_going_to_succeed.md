@@ -10,7 +10,7 @@ For starters… [NEAR has already launched its MainNet genesis](https://near.org
 
 If you hop over to the NEAR project website and [you’ll see the best team in the industry](https://www.near.org/team) and, importantly, a team who has shipped sharded systems before in production settings. Having that kind of experienced team behind it already sets the NEAR Protocol apart from almost every other network out there.
 
-This technology is complicated! Technically speaking, sharding is a scaling approach that’s being seriously attempted by roughly a dozen chains, including the market-leading Ethereum… but they’ve taken years to put together their proposal and expect to take more years to implement it. So it’s non-trivial to get this started.
+Essa tecnologia é complicada! Technically speaking, sharding is a scaling approach that’s being seriously attempted by roughly a dozen chains, including the market-leading Ethereum… but they’ve taken years to put together their proposal and expect to take more years to implement it. So it’s non-trivial to get this started.
 
 To round things out, the NEAR team has the support of [the best financial and non-financial backers](https://www.near.org/backers) in the space and a cadre of informal advisors who span everything from economics and mechanism design to cryptography and blockchain design.
 

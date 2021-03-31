@@ -2,7 +2,7 @@
 
 Vale a pena verificar rapidamente como chegamos aqui porque irá ajudá-lo a entender o contexto do ecossistema atual. Em [um post recente](https://near.org/blog/the-evolution-of-the-open-web/) entramos em mais detalhes, mas aqui vai uma versão rápida:
 
-**Bitcoin** é o "dinheiro programável" original ou "ouro digital". Ele tem feito um bom trabalho cumprindo essas funções, mas seu uso até agora como uma plataforma de computação de uso mais geral (como nós estamos construindo) é principalmente um acidente. Basicamente, desenvolvedores viram que eles podiam adaptar alguns programas básicos sobre a funcionalidade limitada que o Bitcoin forneceu e começaram a usar o Bitcoin como base para algumas dessas novas aplicações, porque agora é altamente confiável e seguro.
+**Bitcoin** é o "dinheiro programável" ou "ouro digital" original. Ele tem feito um bom trabalho cumprindo essas funções, mas seu uso até agora como uma plataforma de computação de uso mais geral (como nós estamos construindo) é em grande parte um acidente. Basicamente, desenvolvedores viram que eles podiam adaptar alguns programas básicos sobre a funcionalidade limitada que o Bitcoin forneceu e começaram a usar o Bitcoin como base para algumas dessas novas aplicações, porque agora é altamente confiável e seguro.
 
 Infelizmente, as transações são muito caras e, como isso definitivamente NÃO era o que a plataforma Bitcoin se destinava, a funcionalidade é muito limitada. A plataforma é lenta (aproximadamente 4 transações por segundo), cara e um enorme desperdício de energia global.
 

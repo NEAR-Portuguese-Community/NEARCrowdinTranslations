@@ -16,7 +16,7 @@ Então, se o Bitcoin era realmente uma calculadora básica, Ethereum era uma ele
 
 **Próxima geração de blockchains escaláveis**, como a NEAR, representam uma nova onda. Nesse caso, a NEAR se liberta da ideia de que cada um dos nós que participam da rede precisam executar todo o código, pois isso essencialmente cria um grande gargalo dispendioso e atrasa todas as outras abordagens.
 
-To fix this, NEAR uses a technique called “sharding” from the database world (technical explanation) which splits the network so that much of the computation is actually being done in parallel. This allows the network’s capacity to scale up as the number of nodes in the network increases so there isn’t a theoretical limit on the network’s capacity.
+Para corrigir isso, a NEAR usa uma técnica do mundo dos bancos de dados conhecida como "sharding" (explicação técnica) que divide a rede, de modo que grande parte do cálculo esteja sendo feita em paralelo. Isso permite que a capacidade da rede aumente à medida que o número de nós na rede aumenta, então não há um limite teórico para a capacidade da rede.
 
 Unlike a lot of other sharding approaches, which still require nodes to be run on increasingly complex hardware (reducing the ability of more people to participate in the network), NEAR’s technique allows nodes to stay small enough to run on simple cloud-hosted instances.
 

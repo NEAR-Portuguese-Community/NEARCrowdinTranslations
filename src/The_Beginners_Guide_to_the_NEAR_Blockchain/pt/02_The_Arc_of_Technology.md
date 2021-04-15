@@ -14,7 +14,7 @@ Então, se o Bitcoin era realmente uma calculadora básica, Ethereum era uma ele
 
 **As primeiras blockchains desafiantes** foram lançadas em 2017-2018, com uma grande variedade de abordagens para ajudar o problema de escala. Eles geralmente tentam centralizar mais o hardware (por exemplo, EOS), mas a maioria das abordagens ainda são, em última análise, limitadas por um limite fixo porque cada um dos "nós" que compõem a rede estão repetindo exatamente o mesmo trabalho, indiferentemente de haver 21 ou 1.000 nós. Deste modo, tais abordagens conseguiram alcançar taxas de transferências de milhares de transações (ou mais) por segundo, mas muitas vezes sacrificam a descentralização para isso.
 
-**Próxima geração de blockchains escaláveis**, como a NEAR, representam uma nova onda. Nesse caso, a NEAR se liberta da ideia de que cada um dos nós que participam da rede precisam executar todo o código, pois isso essencialmente cria um grande gargalo dispendioso e atrasa todas as outras abordagens.
+**As blockchains escaláveis de próxima geração**, como a NEAR, representam uma nova onda. Nesse caso, a NEAR se liberta da ideia de que cada um dos nós que participam da rede precisa executar todo o código, pois isso essencialmente cria um grande gargalo dispendioso e atrasa todas as outras abordagens.
 
 Para corrigir isso, a NEAR usa uma técnica do mundo dos bancos de dados conhecida como "sharding" (explicação técnica) que divide a rede, de modo que grande parte do cálculo esteja sendo feita em paralelo. Isso permite que a capacidade da rede aumente à medida que o número de nós na rede aumenta, então não há um limite teórico para a capacidade da rede.
 

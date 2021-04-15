@@ -18,7 +18,7 @@ Então, se o Bitcoin era realmente uma calculadora básica, Ethereum era uma ele
 
 Para corrigir isso, a NEAR usa uma técnica do mundo dos bancos de dados conhecida como "sharding" (explicação técnica) que divide a rede, de modo que grande parte do cálculo esteja sendo feita em paralelo. Isso permite que a capacidade da rede aumente à medida que o número de nós na rede aumenta, então não há um limite teórico para a capacidade da rede.
 
-Unlike a lot of other sharding approaches, which still require nodes to be run on increasingly complex hardware (reducing the ability of more people to participate in the network), NEAR’s technique allows nodes to stay small enough to run on simple cloud-hosted instances.
+Diferente de muitas outras abordagens de sharding, que ainda exigem que os nós sejam executados em hardware cada vez mais complexo (reduzindo a capacidade de mais pessoas participarem da rede), a técnica da NEAR permite que os nós permaneçam pequenos o suficiente para serem executados em instâncias simples hospedadas na nuvem.
 
 Mas não é tudo sobre dimensionamento. In fact, for scaling to even be a benefit, **developers need to be able to create apps that people actually use** and current blockchains make this difficult on both the developer and the end-user. Many of these issues have to be addressed by setting up the protocol properly from the beginning and few projects who focus on scalability have taken this properly into account.
 

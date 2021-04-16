@@ -6,6 +6,6 @@ Aqui estão algumas das perspectivas sobre por que descentralização é útil:
 
 1. **Desenvolvedores/Empreendedores:** É bom ter uma aplicação descentralizada dessa forma pois, como desenvolvedor, você não está a mercê de somente uma companhia como a Amazon ou até a um governo que talvez queira derrubar seu app... ambos têm prejudicado empresas desde o começo. Durante o processo de desenvolvimento, você também pode ter acesso a algumas outras coisas "grátis", como meio de pagamento e criptografia, que podem ser um desafio de configurar em uma aplicação tradicional.
 
-2. **End Users:** It’s better to have a decentralized application in some cases because the code is all open source (so you know exactly what it’s doing) and it can’t be changed once it has been launched (so there’s no chance they’re going to do sketchy things with your money or data). Even better, the app is actively disincentivized from hoarding your data.
+2. **Usuários Finais:** É melhor ter uma aplicação descentralizada em alguns casos, pois o código é aberto (então você sabe exatamente o que está fazendo) e isso não pode ser mudado, uma vez lançado (então não tem chance deles estarem fazendo coisas estranhas com seu dinheiro ou dados). Ainda melhor, o app esta ativamente desincentivado de acumular seus dados.
 
-Let’s dig a bit deeper into how this network is run.
+Bora aprofundar um pouco mais em como a rede roda.

@@ -1,8 +1,8 @@
 ## Algumas observações rápidas…
 
-There are a few kinds of projects that sort of fit into the landscape but won’t be covered much further here:
+Existem alguns tipos de projetos que até se encaixam no escopo, mas que não serão aprofundados aqui:
 
-1. **Currencies:** Fundamentally, any token can operate as a currency because you can use it as a unit of account, a medium of exchange and/or a store of value. But a number of blockchains have been created to specifically act either as currencies (Bitcoin, Zcash, Monero…) or operate directly in the world of currencies (Ripple, Stellar, Libra). These are not general computation platforms, which we’re targeting here, so I’ll leave it at that.
+1. **Moedas:** Fundamentalmente, qualquer token pode operar como uma moeda porque você pode usá-lo como uma unidade de conta, um meio de troca e/ou uma reserva de valor. But a number of blockchains have been created to specifically act either as currencies (Bitcoin, Zcash, Monero…) or operate directly in the world of currencies (Ripple, Stellar, Libra). These are not general computation platforms, which we’re targeting here, so I’ll leave it at that.
 
 2. **Private Chains:** Some blockchains, like Linux Foundation’s Hyperledger project or R3 Corda, are pitched to big companies as a more secure sort of blockchain because they allow those companies to control all of the nodes of the network. While NEAR also has the ability to provide privacy in its network shards, I’ll ignore this category of chains as well because the biggest security advantages come from broad public decentralization not building an oligopoly of a few big companies controlling the chain.
 

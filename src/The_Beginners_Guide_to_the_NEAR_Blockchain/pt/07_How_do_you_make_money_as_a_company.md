@@ -1,6 +1,6 @@
-## How do you make money as a “company”?
+## Como você ganha dinheiro como uma "empresa"?
 
-Boa pergunta. For starters, **NEAR is not a company!**
+Boa pergunta. Para começar, **NEAR não é uma empresa!**
 
 One of the biggest stumbling blocks people seem to have with blockchains is figuring out how they work as if they were traditional businesses. And that’s totally valid since the 2017 bubble saw all manner of convoluted monetization schemes which actually didn’t make any sense and usually didn’t require a token anyway.
 

@@ -1,4 +1,4 @@
-## People and Community at NEAR
+## Pessoas e comunidades na NEAR
 
 1. To stay in the loop on an ongoing basis, follow us on Twitter at https://twitter.com/nearprotocol
 

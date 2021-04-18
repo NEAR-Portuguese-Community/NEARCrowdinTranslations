@@ -1,4 +1,4 @@
-## What are the use cases for the NEAR blockchain?
+## Quais são os casos de uso para a blockchain NEAR?
 
 One of the hottest questions is what the use cases are for blockchains precisely because it hasn’t been definitively answered. Sure, it’s being used in everything from supply chain tracking to cross border payments, but most of these cases are still early enough that they haven’t achieved mainstream adoption. We’re still in a phase of trying new things to see what new primitives they unlock and how they extend.
 

@@ -1,6 +1,6 @@
 ## Design
 
-We’re focusing on building a great developer and end-user experience. And here are a few resources that will be helpful from a design perspective.
+Estamos focando na construção de uma ótima experiência para o desenvolvedor e usuário final. E aqui estão alguns recursos que serão úteis de uma perspectiva de design.
 
 1. Improving blockchain developer experience (slides)
 2. The design of blockchain-based applications (DApps) (slides)

@@ -1,4 +1,4 @@
-## Technical Stuff
+## Informações Técnicas
 No matter what role you have, you’ll need to get up to speed technically because the lingo is going to come up repeatedly. That doesn’t necessarily mean you have to understand all the computer science underneath it but you should know the basics.
 
 Generally:

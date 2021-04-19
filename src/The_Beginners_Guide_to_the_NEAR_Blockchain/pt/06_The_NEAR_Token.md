@@ -1,6 +1,6 @@
 ## O Token NEAR
 
-Então, quem na verdade roda todos esses "nós" individuais que compõe a rede descentralizada? Qualquer um que sinta-se propriamente incentivado a fazê-lo! Os [incentivos para essa rede sem permissões](https://near.org/blog/near-protocol-economics/) são empoderadas pelo token NEAR.
+Então, quem na verdade roda todos esses "nós" individuais que compõe a rede descentralizada? Qualquer um que sinta-se propriamente incentivado a fazê-lo! Os [incentivos para essa rede sem permissões](https://near.org/blog/near-protocol-economics/) são empoderados pelo token NEAR.
 
 O token NEAR é como quem usa aplicações da rede pagam para enviar transações para os nós que realmente roda a rede. O token, portanto, é um utilitário - se você mantê-lo, você pode usar aplicações hospedados na rede.
 

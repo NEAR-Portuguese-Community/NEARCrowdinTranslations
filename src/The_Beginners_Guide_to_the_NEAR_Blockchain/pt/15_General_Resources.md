@@ -1,8 +1,8 @@
-## General Resources
+## Recursos Gerais
 
 #### Podcasts
 
-Podcasts are one of the best ways to educate yourself because the back catalogs can be very informative. I recommend taking up a time-consuming endurance sport where you can listen to them for hours on end and then consuming the following:
+Os podcasts são uma das melhores maneiras de se informar porque os catálogos anteriores podem ser muito informativos. Eu recomendo praticar um esporte de longa duração, onde você pode ouvi-los por horas a fio e, em seguida, consumir o seguinte:
 
 1. **[Laura Shin’s Unchained](http://unchainedpodcast.co/)** and **[Unconfirmed](https://unconfirmed.libsyn.com/)** for plain-English interviews
 2. **[Epicenter](https://epicenter.tv/)** for a bit more technical dives into various systems.
@@ -10,7 +10,7 @@ Podcasts are one of the best ways to educate yourself because the back catalogs 
 
 #### Newsletters
 
-There aren’t too many great newsletters and you should avoid anything that is primarily price or trading focused. That said, check out:
+There aren’t too many great newsletters and you should avoid anything that is primarily price or trading focused. Dito isso, confira:
 
 1. **[Token Economy](http://weekly.tokeneconomy.co/)** is a good weekly roundup.
 2. It’s highly Bitcoin-biased but I do enjoy reading Anthony Pompliano’s **[Off the Chain daily](https://offthechain.substack.com/)** because it doesn’t have a lot of BS.

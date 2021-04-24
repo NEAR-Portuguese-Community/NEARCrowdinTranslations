@@ -4,17 +4,17 @@
 
 Os podcasts são uma das melhores maneiras de se informar porque os catálogos anteriores podem ser muito informativos. Eu recomendo praticar um esporte de longa duração, onde você pode ouvi-los por horas a fio e, em seguida, consumir o seguinte:
 
-1. **[Laura Shin’s Unchained](http://unchainedpodcast.co/)** and **[Unconfirmed](https://unconfirmed.libsyn.com/)** for plain-English interviews
-2. **[Epicenter](https://epicenter.tv/)** for a bit more technical dives into various systems.
-3. **[Zero Knowledge](https://www.zeroknowledge.fm/)** is another on the more technical side.
+1. **[Laura Shin Unchained](http://unchainedpodcast.co/)** e **[Unconfirmed](https://unconfirmed.libsyn.com/)** para entrevistas em inglês simples
+2. **[Epicenter](https://epicenter.tv/)** para mergulhos um pouco mais técnicos em vários sistemas.
+3. **[Zero Knowledge](https://www.zeroknowledge.fm/)** é outro no lado mais técnico.
 
 #### Newsletters
 
 There aren’t too many great newsletters and you should avoid anything that is primarily price or trading focused. Dito isso, confira:
 
-1. **[Token Economy](http://weekly.tokeneconomy.co/)** is a good weekly roundup.
-2. It’s highly Bitcoin-biased but I do enjoy reading Anthony Pompliano’s **[Off the Chain daily](https://offthechain.substack.com/)** because it doesn’t have a lot of BS.
-3. The **[CB Insights newsletter](https://www.cbinsights.com/newsletter)** is more broad-ranging but generally has one general-interest blockchain story per issue.
+1. **[Token Economy](http://weekly.tokeneconomy.co/)** é um bom resumo semanal.
+2. É altamente tendencioso para o Bitcoin, mas eu gosto de ler **[Off the Chain daily](https://offthechain.substack.com/)** de Anthony Pompliano porque não tem muita besteira.
+3. O **[CB Insights newsletter](https://www.cbinsights.com/newsletter)** é mais abrangente, mas geralmente tem uma história de blockchain de interesse geral por edição.
 
 #### Writing
 

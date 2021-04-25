@@ -1,6 +1,6 @@
 ## O que é a NEAR Collective?
 
-**NEAR Collective** é um grupo de equipes distribuído globalmente composto por várias organizações e contribuidores individuais, que se auto-organizam para dar vida a essa tecnologia.  Não se trata de um negócio ou qualquer coisa tão formal. Pense nela como um grupo de pessoas que executa grandes projetos open-source.
+**NEAR Collective** é um grupo de equipes distribuído globalmente composto por várias organizações e contribuidores individuais, que se auto-organizam para dar vida a essa tecnologia.  Não se trata de um negócio ou qualquer coisa tão formal. Em vez disso, pense nela como um grupo de pessoas que executa grandes projetos open-source.
 
 Um dos projetos da Collective é escrever o código inicial e as referencias da implementação open source da rede NEAR, algo como construir os motores de foguete em uma nave espacial. O seu trabalho é fazer a pesquisa e desenvolvimento necessários para ajudar a blockchain a entrar em órbita. O [código dessa blockchain é open source](https://github.com/near) então literalmente qualquer um pode contribuir ou executá-lo.
 

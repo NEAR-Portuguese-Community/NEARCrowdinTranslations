@@ -1,4 +1,4 @@
-## Como você ganha dinheiro como uma "empresa"?
+## Como vocês ganham dinheiro como uma "empresa"?
 
 Boa pergunta. Para começar, **NEAR não é uma empresa!**
 

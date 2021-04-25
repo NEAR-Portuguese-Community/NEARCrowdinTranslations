@@ -4,9 +4,9 @@
 
 Os podcasts são uma das melhores maneiras de se informar porque os catálogos anteriores podem ser muito informativos. Eu recomendo praticar um esporte de longa duração, onde você pode ouvi-los por horas a fio e, em seguida, consumir o seguinte:
 
-1. **[Laura Shin Unchained](http://unchainedpodcast.co/)** e **[Unconfirmed](https://unconfirmed.libsyn.com/)** para entrevistas em inglês simples
+1. **[Unchained](http://unchainedpodcast.co/)** e **[Unconfirmed](https://unconfirmed.libsyn.com/)**, de Laura Shin, para entrevistas em inglês simples
 2. **[Epicenter](https://epicenter.tv/)** para mergulhos um pouco mais técnicos em vários sistemas.
-3. **[Zero Knowledge](https://www.zeroknowledge.fm/)** é outro no lado mais técnico.
+3. **[Zero Knowledge](https://www.zeroknowledge.fm/)** é outro sobre aspectos mais técnicos.
 
 #### Newsletters
 

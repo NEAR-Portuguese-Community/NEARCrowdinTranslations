@@ -13,7 +13,7 @@ Os podcasts são uma das melhores maneiras de se informar porque os catálogos a
 There aren’t too many great newsletters and you should avoid anything that is primarily price or trading focused. Dito isso, confira:
 
 1. **[Token Economy](http://weekly.tokeneconomy.co/)** é um bom resumo semanal.
-2. É altamente tendencioso para o Bitcoin, mas eu gosto de ler **[Off the Chain daily](https://offthechain.substack.com/)** de Anthony Pompliano porque não tem muita besteira.
+2. É altamente voltado para o Bitcoin, mas eu gosto de ler **[Off the Chain daily](https://offthechain.substack.com/)** de Anthony Pompliano porque não tem muita besteira.
 3. O **[CB Insights newsletter](https://www.cbinsights.com/newsletter)** é mais abrangente, mas geralmente tem uma história de blockchain de interesse geral por edição.
 
 #### Writing

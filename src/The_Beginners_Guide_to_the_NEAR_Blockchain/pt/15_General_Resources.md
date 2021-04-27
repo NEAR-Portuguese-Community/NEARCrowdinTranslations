@@ -19,4 +19,4 @@ There aren’t too many great newsletters and you should avoid anything that is 
 #### Writing
 
 1. The team from **a16z Crypto** has excellent writing on everything from legal issues around tokens to the future of web 3 with open state. See their main blog at https://a16zcrypto.com/content but also check out the original a16z blog before 2018 when they migrated to the new site for the legacy content, which is great too.
-2. **Vitalik** from the Ethereum Foundation has been a prolific writer over the years and just about everything he puts out is interesting. Check out his blog at https://vitalik.ca/ and Ethereum-related research at https://ethresear.ch/.
+2. **Vitalik** da Ethereum Foundation tem sido um escritor prolífico ao longo dos anos e praticamente tudo o que ele publica é interessante. Confira o blog dele em https://vitalik.ca/ e as pesquisas relacionadas ao Ethereum em https://ethresear.ch/.

@@ -1,4 +1,4 @@
-## What is the Path Ahead?
+## Qual é o caminho à frente?
 
 In the early phases of this market, projects focused on strutting a bunch of vanity metrics in order to get as many retail investors on board for a big ICO (initial coin offering). That meant trying to have the biggest Telegram community, the most big-name advisors, the best-looking proof-of-concept projects from big businesses and so on.
 

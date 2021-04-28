@@ -8,9 +8,9 @@ Temos equipes técnicas extraordinárias que estão trabalhando para garantir qu
 
 O ecossistema é mais útil quando há várias aplicações e vários usuários que querem usar essas aplicações. Por vermos um mundo onde o maior paradigma de desenvolvimento é construir de uma forma descentralizada, há muito terreno a percorrer entre aqui e ali. Então, a principal métrica que estamos mirando é a adoção e o uso da plataforma.
 
-A lot of projects are focusing on targeting developers to build apps on top of their platforms. That’s obviously important since this is a highly technical field but it’s not the only thing that matters. Specifically, if you look at the history of major development platforms, the ones that are truly successful need to support real, at-scale businesses not just a bunch of side projects.
+Muitos projetos estão focando em agregar desenvolvedores para construir apps em suas plataformas. Isso é obviamente importante, já que este é um campo altamente técnico, mas não é a única coisa que importa. Especificamente, se você olhar para a história das maiores plataformas de desenvolvimento, as que são verdadeiramente bem sucedidas precisam suportar negócios reais e em escala, não somente alguns projetos secundários.
 
-So building an ecosystem that has the kind of functional breadth and technical depth to create at-scale businesses for the long term is everything to us. That requires significant efforts on the dimensions of community building, education and overall user experience. And plenty of cool technical tools as well, of course!
+Portanto, construir um ecossistema com a amplitude funcional e profundidade técnica que pode ser usado para criar negócios em escala a longo prazo é tudo para nós. Isso requer esforços significativos nas dimensões da construção de comunidade, educação e experiência geral de usuário. E muitas ferramentas técnicas legais também, é claro!
 
-Luckily, if we succeed, we have the opportunity to drive the greatest wealth creation since the original Internet by helping developers and entrepreneurs everywhere access new markets and build new kinds of businesses on top of the NEAR Protocol. The upside of what we’re doing is super exciting!
+Felizmente, se conseguirmos, temos a oportunidade de impulsionar a maior criação de riqueza desde a Internet original, ajudando desenvolvedores e empresários de todos os lugares a acessarem novos mercados e a construírem novos tipos de negócios em cima do protocolo NEAR. As vantagens do que estamos fazendo é super empolgante!
 

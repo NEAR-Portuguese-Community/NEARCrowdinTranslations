@@ -1,10 +1,10 @@
 ## Qual é o caminho à frente?
 
-In the early phases of this market, projects focused on strutting a bunch of vanity metrics in order to get as many retail investors on board for a big ICO (initial coin offering). That meant trying to have the biggest Telegram community, the most big-name advisors, the best-looking proof-of-concept projects from big businesses and so on.
+Nas fases iniciais deste mercado, projetos focados em solucionar um monte de métricas de vaidade a fim de obter o máximo de investidores de varejo a bordo para uma grande ICO (oferta inicial de moeda). Isso significou tentar ter a maior comunidade do Telegram, os consultores de maior nome, os projetos de provas de conceito mais bonitos de grandes empresas e assim por diante.
 
-The ICO boom finished in 2018 so, luckily, we’re able to focus more on what actually matters. In this case, it’s all about community and adoption.
+A explosão de ICO terminou em 2018 então, felizmente, somos capazes de focar mais no que realmente importa. No caso, trata-se de comunidade e adoção.
 
-We have extraordinary technical teams who are working to make sure the technology is implemented properly but everything they build will be open source. That means anyone in the world could, theoretically, just copy the code and run their own NEAR blockchain. Now, it’s not quite as easy as that and our teams’ expertise puts this version ahead should anyone try that, but ultimately technology is merely a time-based advantage. The real traction comes from building a great community.
+Temos equipes técnicas extraordinárias que estão trabalhando para garantir que a tecnologia seja implementada adequadamente, mas tudo o que eles construírem será de código aberto. That means anyone in the world could, theoretically, just copy the code and run their own NEAR blockchain. Now, it’s not quite as easy as that and our teams’ expertise puts this version ahead should anyone try that, but ultimately technology is merely a time-based advantage. The real traction comes from building a great community.
 
 The ecosystem is most useful when there are lots of applications and lots of users who want to use those applications. Because we see a world where the major development paradigm is to build in a decentralized fashion, there is lots of ground to cover between here and there. So the key metric we’re shooting for is adoption and usage of the platform.
 

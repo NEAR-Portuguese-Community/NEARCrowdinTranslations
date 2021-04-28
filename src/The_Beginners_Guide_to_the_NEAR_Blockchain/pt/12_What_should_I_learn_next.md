@@ -1,6 +1,6 @@
 ## O que devo aprender em seguida?
 
-Se você chegou até aqui, você provavelmente está curioso para aprender mais. Há muitos recursos disponíveis por aí mas eu recomendarei um caminho razoável através deles. A Blockchain é uma área bastante técnica que cobre praticamente todas as disciplinas da face da Terra então, se não tiver uma orientação adequada, poderá ter a impressão de estar tentando beber água em uma mangueira de incêndio.
+Se você chegou até aqui, você provavelmente está curioso para aprender mais. Há muitos recursos disponíveis por aí mas eu recomendarei um caminho razoável através deles. A Blockchain é uma área bastante técnica que cobre praticamente todas as disciplinas da face da Terra. Então, se não tiver uma orientação adequada, poderá ter a impressão de estar tentando beber água em uma mangueira de incêndio.
 
 Se blockchain é um conceito bem novo para você, comece por aqui para obter uma visão geral do ecossistema e do seu desenvolvimento:
 

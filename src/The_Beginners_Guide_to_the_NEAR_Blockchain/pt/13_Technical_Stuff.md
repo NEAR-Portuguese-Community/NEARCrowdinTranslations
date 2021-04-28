@@ -1,25 +1,25 @@
 ## Informações Técnicas
-No matter what role you have, you’ll need to get up to speed technically because the lingo is going to come up repeatedly. That doesn’t necessarily mean you have to understand all the computer science underneath it but you should know the basics.
+Não importa qual papel você tiver, você terá de se mobilizar tecnicamente para acelerar porque o dialeto vai aparecer repetidamente. Isso não significa necessariamente que você tem que entender toda a ciência da computação debaixo dela, mas você deve saber o básico.
 
-Generally:
+Geralmente:
 
-1. What are decentralized applications and how do they work (slides)
-2. Using blockchain in “regular” web and mobile apps (slides)
-3. An overview of “all you need to know” in blockchain development by Haseeb Qureshi
+1. O que são aplicativos descentralizados e como eles funcionam (slides)
+2. Usando blockchain na web e em aplicativos móveis "regulares" (slides)
+3. Uma visão geral de "tudo o que você precisa saber" em desenvolvimento na blockchain por Haseeb Qureshi
 
-NEAR specific:
-1. **Overview:**
-    1. Check out [the NEAR Whitepaper](https://near.org/papers/the-official-near-white-paper/) for the first layer of depth into the technical aspects of this project.
-    2. From there, this blog (at https://near.org/blog) is the best record of technical specs as they grow and change over time. Subscribe for updates at https://near.org/newsletter.
-    3. A good primer is on the [Bison Trails blog](https://bisontrails.co/near-on-the-bison-trails-platform/).
+Específico para NEAR:
+1. **Visão Geral:**
+    1. Confira [o Whitepaper NEAR](https://near.org/papers/the-official-near-white-paper/) para a primeira camada de profundidade nos aspectos técnicos deste projeto.
+    2. A partir daí, este blog (em https://near.org/blog) é o melhor registro de especificações técnicas à medida que elas crescem e mudam ao longo do tempo. Assine para atualizações em https://near.org/newsletter.
+    3. Uma boa introdução está no [Bison Trails blog](https://bisontrails.co/near-on-the-bison-trails-platform/).
 
-2. **Economics:**
-    1. Learn about how NEAR Economics work in the [Introduction to NEAR Economics post](https://near.org/blog/near-protocol-economics/)
-    2. Dive deeper [into the NEAR Economics Paper](https://near.org/papers/economics-in-sharded-blockchain/)
-    3. If you are curious about acquiring tokens in the future, any information about that will be available on [the tokens page](https://near.org/tokens).
+2. **Economia:**
+    1. Saiba mais sobre como a Economia da NEAR funciona na [Introdução à Economia da NEAR](https://near.org/blog/near-protocol-economics/)
+    2. Mergulhe mais fundo [no Artigo da Economia da NEAR](https://near.org/papers/economics-in-sharded-blockchain/)
+    3. Se você estiver curioso sobre comprar tokens no futuro, toda a informação sobre isso estará disponível na [página dos tokens](https://near.org/tokens).
 
-3. **Technical:**
-    1. The [NEAR Whiteboard Series on YouTube](https://near.ai/whiteboard_series) has founders Alex and Illia do technical deep-dives with the founders of over 30 other projects including Ethereum, Cosmos, Nervos, Celo, IOTA, and so on.
-    2. Differences between the NEAR approach and Ethereum 2.0 sharding (written with Vitalik’s feedback)
-    3. Our sharding talk at Blockchain@Berkeley
-    4. Our work with Vlad Zamfir on a sharding POC during the Ethereum SF hackathon
+3. **Área Técnica:**
+    1. A [Série NEAR Whiteboard no YouTube](https://near.ai/whiteboard_series) tem os fundadores Alex e Illia dando mergulhos mais profundos na parte técnica com os fundadores de mais de 30 outros projetos, incluindo Ethereum, Cosmos, Nervos, Celo, IOTA, e assim por diante.
+    2. Diferenças entre a abordagem da NEAR e o sharding da Ethereum 2.0 (escrito com o feedback do Vitalik)
+    3. Nossa conversa sobre sharding na Blockchain@Berkeley
+    4. Nosso trabalho com o Vlad Zamfir em uma POC (Prova de Conceito) de sharding durante o hackathon Ethereum SF

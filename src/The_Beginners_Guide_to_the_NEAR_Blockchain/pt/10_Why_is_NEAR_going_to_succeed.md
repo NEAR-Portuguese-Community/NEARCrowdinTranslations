@@ -1,26 +1,26 @@
 ## Porque a NEAR vai ter sucesso?
 
-You can take this from two perspectives — what makes the NEAR Protocol likely to actually get to market and what makes it better to developers/end-users once we get it there? Let’s explore both.
+Você pode ver isso de duas perspectivas - o que faz o protocolo NEAR provável de realmente chegar ao mercado e o que o faz ser melhor para desenvolvedores/usuários finais uma vez que conseguirmos? Iremos explorar os dois.
 
-#### Execution Matters
+#### Execução Importa
 
-What says the NEAR team is going to out-execute the competition and get into the market with the right technology on the right timeline?
+O que é que diz que o time NEAR vai superar a concorrência e entrar no mercado com a tecnologia certa e no tempo certo?
 
-For starters… [NEAR has already launched its MainNet genesis](https://near.org/blog/near-mainnet-genesis/)!  And it [handed off operation to the community](https://near.org/blog/near-mainnet-is-now-community-operated/) as planned :). But also…
+Para iniciantes… [NEAR já lançou a gênesis de sua MainNet](https://near.org/blog/near-mainnet-genesis/)!  E isso [entregou operações para a comunidade](https://near.org/blog/near-mainnet-is-now-community-operated/) conforme planejado :). Mas também…
 
-If you hop over to the NEAR project website and [you’ll see the best team in the industry](https://www.near.org/team) and, importantly, a team who has shipped sharded systems before in production settings. Having that kind of experienced team behind it already sets the NEAR Protocol apart from almost every other network out there.
+Se você acessar o site do projeto NEAR [ você verá o melhor time da industria](https://www.near.org/team) e, ainda importante, um time que já entregou sistemas fragmentados antes, e em configuração de produção. Ter esse tipo de time experiente por trás já define o protocolo NEAR aparte de quase todas as outras redes.
 
-Essa tecnologia é complicada! Technically speaking, sharding is a scaling approach that’s being seriously attempted by roughly a dozen chains, including the market-leading Ethereum… but they’ve taken years to put together their proposal and expect to take more years to implement it. So it’s non-trivial to get this started.
+Essa tecnologia é complicada! Falando tecnicamente, fragmentação é uma abordagem para escala que vem sendo seriamente tentada por várias chains, incluindo o líder do mercado Ethereum... mas eles levaram anos para elaborar sua proposta e ainda vai se esperar anos para implementá-la. Então não é trivial começar isso.
 
-To round things out, the NEAR team has the support of [the best financial and non-financial backers](https://www.near.org/backers) in the space and a cadre of informal advisors who span everything from economics and mechanism design to cryptography and blockchain design.
+Para polir as coisas, o time NEAR tem o suporte dos [ melhores apoiadores financeiros e não financeiros](https://www.near.org/backers) no espaço e um quadro de apoiadores informais que abrangem tudo, desde design de economia e sistema, até design de criptografia e blockchain.
 
-#### Killer Features for Everyone
+#### Características Destruidoras para Todos
 
-This market — and the technology — is still in the “roll up your sleeves, it’s going to be messy” phase. Every major stakeholder group has challenges:
+Este mercado — e a tecnologia — ainda está na fase de "arregace suas mangas, isso vai ficar confuso". Todos os principais interessados têm desafios:
 
-1. **For developers**, that means the tools are really hard to use and hundreds of teams are building hundreds of different things that point in all different directions, including some projects inventing their own programming languages. In short, it’s chaos and it’s painful to develop on existing systems.
+1. **Para desenvolvedores**, isso significa que as ferramentas são realmente difíceis de usar, e centenas de times estão construindo centenas de coisas diferentes nesse ponto em todas as direções diferentes, incluindo alguns projetos que estão inventando suas próprias linguagens de programação. Em suma, é caos e é doloroso desenvolver em sistemas existentes.
 
-2. **For end users**, the path to getting started with crypto projects and the new web is incredibly long. In the normal web world, you lose a huge portion of users for each step you make them go through before achieving their goal. Right now, to get a brand new user from zero to playing a crypto-based game or sending a friend money, it takes literally *dozens* of steps… and it’s incredibly slow and somewhat expensive to perform these steps. Not ideal.
+2. **Para usuários finais**, o caminho para começar com crypto e com a nova internet é incrivelmente longo. No mundo da web normal, você vai perder uma grande porção de usuários para cada passo que eles tem que dar antes que eles cheguem a seu objetivo. Agora, para um novo usuário do zero jogar um jogo baseado em crypto, ou mandar dinheiro para um amigo, isso toma literalmente *dezenas* de etapas… alem de que isso é incrivelmente lento e um pouco caro para executar essas etapas. Não é o ideal.
 
 3. **For Validators**, the people who run the nodes which actually operate the network, their options for receiving tokens from their communities are very limited by existing protocol designs so they are forced to compete with each other based entirely on price, which commoditizes their offerings and makes them less attractive to prospective delegators who might lend them tokens.
 

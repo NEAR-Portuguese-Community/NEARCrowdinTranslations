@@ -14,7 +14,7 @@ Vamos ser claros: **NEAR não é uma side chain, um token ERC20 ou uma blockchai
 
 Ok… Vamos dar um passo atrás e assumir que você ainda está pegando o ritmo do que realmente é uma blockchain pública, compartilhada, amigável ao desenvolvedor e baseada em proof-of-stake.
 
-#### From 10,000 feet…
+#### A 10.000 metros…
 
 A Colaboração NEAR está basicamente construindo a infraestrutura para uma nova Internet, que tornará mais difícil para as companhias gigantes roubarem seus dados e para os países do mal a tirarem do ar. Tem-se tentado resolver isso com tecnologias similares desde 2008, mas isso tem sido lento.
 
@@ -24,7 +24,7 @@ Alguns outros projetos, especificamente um chamado Ethereum, tentaram fazê-lo a
 
 Você pode ler mais sobre essa jornada em [A Evolução da Web Aberta](https://near.org/blog/the-evolution-of-the-open-web/).
 
-#### From 1,000 feet…
+#### A 1.000 metros…
 
 Não estamos construindo a única blockchain que resolve problemas de escala e custo, mas a NEAR tem um time que tem tudo para dar certo e que está abordando esses problemas de um jeito ligeiramente diferente.
 

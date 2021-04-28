@@ -1,4 +1,4 @@
-## Why is NEAR going to succeed?
+## Porque a NEAR vai ter sucesso?
 
 You can take this from two perspectives — what makes the NEAR Protocol likely to actually get to market and what makes it better to developers/end-users once we get it there? Let’s explore both.
 

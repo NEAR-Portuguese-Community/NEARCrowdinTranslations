@@ -14,19 +14,19 @@ Espero que este guia seja legal e direto, mas caso não seja, fique à vontade p
 
 Ok, vamos começar!
 
-**Step 1**
+**Passo 1**
 
-To get started with everything, you will want to go to [https://wallet.near.org/](https://wallet.near.org/). This is your homebase. If you have already created an account and you don’t want to connect a new Account to that existing one, then you can open up an incognito browser. If it’s your first time it will bring you to this page below:
+Para começar, você vai querer ir para [https://wallet.near.org/](https://wallet.near.org/). Esta é a sua casa. Se você já criou uma conta e não quer conectar uma nova conta à já existente, você pode abrir uma página em um navegador anónimo. Se for a sua primeira vez, ela o levará a esta página abaixo:
 
-**Step 2**
+**Passo 2**
 
-Assuming you are planning on creating an account, you will want to select the blue box on the left — ‘Create Account’. The screen below is what will pop up:
+Supondo que você está planejando criar uma conta, você vai querer selecionar a caixa azul à esquerda — "Criar conta". A página abaixo é o que aparecerá:
 
-This is where you have the opportunity to create a NEAR Account. It can be a bit tricky if you are unfamiliar with the process so bear with me.
+É aqui que você tem a oportunidade de criar uma Conta NEAR. Pode ser um pouco complicado se não se conhece muito bem o processo, então vem comigo.
 
-You pick your account name and then click ‘Create Account’. In the example below I picked the name ‘Examplesample’ but you can pick anything. And no, you cannot change your account name once you have claimed (although you can buy and sell it).
+Você escolhe o nome da sua conta e, em seguida, clique em "Criar conta". No exemplo abaixo, eu escolhi o nome "Exemplo", mas você pode escolher qualquer coisa. E não, você não pode alterar o nome da sua conta uma vez que tenha sido criada (embora você possa comprar e vendê-la).
 
-Next you need to agree to terms and conditions and privacy policy. That is two quick check marks on the left (unless you want to read it lol).
+Em seguida, você precisa concordar com os termos e condições e a política de privacidade. That is two quick check marks on the left (unless you want to read it lol).
 
 Okay, this is the next screen that pops up. You need to choose your security method. Note: This can be changed after the account is created, but you should still select the one that is going to be most secure (i.e. use a _Recovery Phrase_ or a _Ledger Nano S or X_).
 

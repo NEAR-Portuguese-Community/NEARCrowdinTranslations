@@ -1,14 +1,14 @@
-**A Starter’s Guide to the NEAR Wallet and Staking Process**
+**Um Guia para Iniciantes sobre a Carteira NEAR e o Processo de Staking**
 
-Due to popular demand, here is an all-in-one, very not-boring guide to creating a wallet and staking $NEAR on NEAR Protocol. Let’s keep this simple and easy. Here is what we are going to talk about:
+Devido à demanda popular, aqui está um guia completo. nem um pouco chato, sobre como criar uma carteira e fazer staking de $NEAR no protocolo NEAR. Vamos manter isso simples e fácil. É sobre isso que vamos falar:
 
-*   Creating an Account on NEAR.
-*   Funding It
-*   What Happens If You Don’t Fund Your Account
-*   How to Import or Add an Account
-*   How to Stake, Select a Validator, and Unstake
-*   How to Connect Your Account to a Dapp on NEAR
-*   How to track your Staking APY
+*   Criação de uma conta na NEAR.
+*   Adição de fundos à conta
+*   O que acontece se você não adicionar fundos à sua conta
+*   Como importar ou adicionar uma conta
+*   Como fazer stake, escolher um validador, e desfazer o stake
+*   Como conectar sua conta a um Dapp na NEAR
+*   Como monitorar o rendimento percentual anual (APY) do seu staking
 
 Hopefully this guide will be nice and straightforward, but if it’s not, feel free to ask further questions in the [NEAR Wallet Support Group on Telegram](https://t.me/NEARSupport).
 

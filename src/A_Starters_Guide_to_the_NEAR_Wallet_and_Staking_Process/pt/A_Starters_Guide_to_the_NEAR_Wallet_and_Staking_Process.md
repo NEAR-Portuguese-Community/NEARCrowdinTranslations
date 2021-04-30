@@ -28,9 +28,9 @@ Você escolhe o nome da sua conta e, em seguida, clique em "Criar conta". No exe
 
 Em seguida, você precisa concordar com os termos e condições e a política de privacidade. That is two quick check marks on the left (unless you want to read it lol).
 
-Okay, this is the next screen that pops up. You need to choose your security method. Note: This can be changed after the account is created, but you should still select the one that is going to be most secure (i.e. use a _Recovery Phrase_ or a _Ledger Nano S or X_).
+Ok, esta é a próxima tela que aparece. Você precisa escolher o seu método de segurança. Nota: Isto pode ser alterado depois que a conta for criada, mas você ainda deve selecionar a que estará mais segura (ou seja, use uma _frase de recuperação_ ou um _Ledger Nano S ou X_).
 
-The next screen I took off, because it is the seed phrase. It should be 12 characters long. You will want to **absolutely back up that phrase.** Backing up means, put it on 4 pieces of paper. Give one piece to your mom, another in your sock drawer, a third for your bank box and a fourth for the bottom of a file cabinet in an envelope labelled ‘boring’. Most people don’t lose funds from having their seed phrase compromised: Most lose it and never get it back.
+The next screen I took off, because it is the seed phrase. Deve ter 12 palavras de comprimento. Você vai querer **absolutamente de volta essa frase.** Querer de volta a frase significa colocá-la em 4 pedaços de papel. Dê um pedaço do papel para sua mãe, coloque o outro na gaveta de meias, um na sua caixa bancária e um quarto na parte inferior de uma pasta de arquivos num envelope com o nome de "chato". Most people don’t lose funds from having their seed phrase compromised: Most lose it and never get it back.
 
 **And as a quick side note:** Your seed phrase is your access to your wallet. Don’t share it with anyone ever. If you lose it there is no customer support to get it back so make sure you really back up those phrases.
 

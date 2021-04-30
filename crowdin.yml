@@ -2,3 +2,6 @@ files:
   - source: /src/The_Beginners_Guide_to_the_NEAR_Blockchain/en/*.md
     translation: >-
       /src/The_Beginners_Guide_to_the_NEAR_Blockchain/%two_letters_code%/%original_file_name%
+  - source: /src/A_Starters_Guide_to_the_NEAR_Wallet_and_Staking_Process/en/*.md
+    translation: >-
+      /src/A_Starters_Guide_to_the_NEAR_Wallet_and_Staking_Process/%two_letters_code%/%original_file_name%

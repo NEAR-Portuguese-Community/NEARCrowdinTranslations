@@ -1,7 +1,5 @@
 **A Starter’s Guide to the NEAR Wallet and Staking Process**
 
-![](https://miro.medium.com/max/2400/1*oGs-K7q8BxGlv5fuMFaSfQ.png)
-
 Due to popular demand, here is an all-in-one, very not-boring guide to creating a wallet and staking $NEAR on NEAR Protocol. Let’s keep this simple and easy. Here is what we are going to talk about:
 
 *   Creating an Account on NEAR.

@@ -10,9 +10,9 @@ Devido à demanda popular, aqui está um guia completo. nem um pouco chato, sobr
 *   Como conectar sua conta a um Dapp na NEAR
 *   Como monitorar o rendimento percentual anual (APY) do seu staking
 
-Hopefully this guide will be nice and straightforward, but if it’s not, feel free to ask further questions in the [NEAR Wallet Support Group on Telegram](https://t.me/NEARSupport).
+Espero que este guia seja legal e direto, mas caso não seja, fique à vontade para fazer mais perguntas no [Grupo de Suporte a Carteiras NEAR no Telegram](https://t.me/NEARSupport).
 
-Okay let’s get started!
+Ok, vamos começar!
 
 **Step 1**
 

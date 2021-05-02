@@ -16,7 +16,7 @@ Ok, vamos começar!
 
 **Passo 1**
 
-Para começar, você vai querer ir para [https://wallet.near.org/](https://wallet.near.org/). Esta é a sua casa. Se você já criou uma conta e não quer conectar uma nova conta à já existente, você pode abrir uma página em um navegador anónimo. Se for a sua primeira vez, ela o levará a esta página abaixo:
+Para começar, você vai querer ir para [https://wallet.near.org/](https://wallet.near.org/). Esta é a sua casa. Se você já criou uma conta e não quer conectar uma nova conta à já existente, você pode abrir uma página em um navegador anônimo. Se for a sua primeira vez, ela o levará a esta página abaixo:
 
 **Passo 2**
 
@@ -24,19 +24,19 @@ Supondo que você está planejando criar uma conta, você vai querer selecionar 
 
 É aqui que você tem a oportunidade de criar uma Conta NEAR. Pode ser um pouco complicado se não se conhece muito bem o processo, então vem comigo.
 
-Você escolhe o nome da sua conta e, em seguida, clique em "Criar conta". No exemplo abaixo, eu escolhi o nome "Exemplo", mas você pode escolher qualquer coisa. E não, você não pode alterar o nome da sua conta uma vez que tenha sido criada (embora você possa comprar e vendê-la).
+Você escolhe o nome da sua conta e, em seguida, clica em "Criar conta". No exemplo abaixo, eu escolhi o nome "Exemplo", mas você pode escolher qualquer coisa. E não, você não pode alterar o nome da sua conta uma vez que tenha sido criada (embora você possa comprá-la e vendê-la).
 
-Em seguida, você precisa concordar com os termos e condições e a política de privacidade. That is two quick check marks on the left (unless you want to read it lol).
+Em seguida, você precisa concordar com os termos e condições e a política de privacidade. Para concordar, ative as duas marcas de verificação à esquerda (após ler os termos, é claro).
 
-Ok, esta é a próxima tela que aparece. Você precisa escolher o seu método de segurança. Nota: Isto pode ser alterado depois que a conta for criada, mas você ainda deve selecionar a que estará mais segura (ou seja, use uma _frase de recuperação_ ou um _Ledger Nano S ou X_).
+Ok, esta é a próxima tela que aparece. Você precisa escolher o seu método de segurança. Nota: Isto pode ser alterado depois que a conta for criada, mas você ainda deve selecionar a que for mais segura (ou seja, use uma _frase de recuperação_ ou um _Ledger Nano S ou X_).
 
-The next screen I took off, because it is the seed phrase. Deve ter 12 palavras de comprimento. Você vai querer **absolutamente de volta essa frase.** Querer de volta a frase significa colocá-la em 4 pedaços de papel. Dê um pedaço do papel para sua mãe, coloque o outro na gaveta de meias, um na sua caixa bancária e um quarto na parte inferior de uma pasta de arquivos num envelope com o nome de "chato". Most people don’t lose funds from having their seed phrase compromised: Most lose it and never get it back.
+A próxima tela foi omitida por precaução, pois mostra a "frase semente". Deve ter 12 palavras de comprimento. Você vai querer **absolutamente fazer cópia(s) de segurança dessa frase.** Copiá-la significa colocá-la em 4 pedaços de papel. Dê um pedaço do papel para sua mãe, coloque o outro na gaveta de meias, um na sua caixa bancária e um quarto na parte inferior de uma pasta de arquivos num envelope com o nome de "chato". A maioria das pessoas não perde fundos por ter sua frase semente comprometida: A maioria perde-a e nunca a recupera.
 
-**And as a quick side note:** Your seed phrase is your access to your wallet. Don’t share it with anyone ever. If you lose it there is no customer support to get it back so make sure you really back up those phrases.
+**Observação:** Sua frase semente dá acesso à sua carteira. Não compartilhe-a com ninguém. Nunca. Se você perdê-la, não há um suporte ao cliente para recuperá-la, então certifique-se de realmente fazer cópia de segurança dessa frase.
 
-To make sure you have got the seed phrase correctly recorded, you will be prompted to input one of the words at random. After you do that, you will be brought to this screen:
+Para certificar-se de que registrou corretamente a semente, será solicitado que insira uma das palavras escolhida aleatoriamente. Depois de fazer isso, aparecerá esta tela:
 
-Here is where things can get a little tricky. NEAR is built around an Account model, where users have human readable ID’s. In order to get that ID though, you need to fund your account with 1 NEAR. So here is how you get the ID you selected earlier on in the process:
+Aqui é onde as coisas podem ficar um pouco complicadas. NEAR is built around an Account model, where users have human readable ID’s. In order to get that ID though, you need to fund your account with 1 NEAR. So here is how you get the ID you selected earlier on in the process:
 
 1.  You keep the window open. Under no circumstances in the process should you close the window. If your computer freezes and you have to restart, you will have to start all over again and re-input the desired account, get a new seed phrase, and so forth.
 2.  Now, in another window, you want to go to your exchange account that you bought NEAR from, and send 1 NEAR (or maybe 2–3) to this one time funding address. The key here is _in another window._ Do not close the window with the above image on it. A list of exchanges that currently offer $NEAR can be found [here](https://coinmarketcap.com/currencies/near-protocol/markets/).

@@ -1,8 +1,8 @@
-**DeFi on NEAR is Here**
+**Chegou DeFi na NEAR**
 
 ![](https://miro.medium.com/max/2800/0*5OloS0yrKHLbWTrF)
 
-DeFi, or decentralized finance, is a critical element of building a truly Open Web. The rise of DeFi over the past year has driven much of the recent success on Ethereum, supercharging experimentation with blockchain-based financial instruments and incentives. Actions that could take weeks in the traditional financial system are possible in seconds thanks to the composable primitives of DeFi, and the crypto economy has offered an alternative to unreliable local currencies and the whims of banks for many around the world.
+DeFi, ou finanças descentralizadas (decentralized finance), é um elemento crítico na construção de uma Open Web verdadeira. The rise of DeFi over the past year has driven much of the recent success on Ethereum, supercharging experimentation with blockchain-based financial instruments and incentives. Actions that could take weeks in the traditional financial system are possible in seconds thanks to the composable primitives of DeFi, and the crypto economy has offered an alternative to unreliable local currencies and the whims of banks for many around the world.
 
 Yet the same surge of interest and experimentation that has provided so many opportunities for DeFi users has also made it much harder for new potential earners to gain entry. From network congestion, to skyrocketing gas costs, to the rising prices of many popular tokens, the barrier to entry is now significantly higher for builders and creators just starting to explore the crypto space.
 

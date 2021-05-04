@@ -10,7 +10,7 @@ Agora, NEAR está tornando DeFi mais acessível para todo mundo. Com o lançamen
 
 Desde o lançamento, mais de $1 milhão de ETH, DAI, USDT e outros tokens populares tem atravessado a Ponte e estão sendo usados em aplicações nativas NEAR incluindo [Pulse](https://pulsemarket.eth.link/#!/) e [Ref](https://app.ref.finance/). Milhares de usuários já começaram a explorar esses apps NEAR, aproveitando os tempos de transação similares a Web2 (cerca de um segundo) e também baixas tachas de transação (fações de centavo).
 
-Combinado com a próxima versão do [SputnikDAO](https://sputnik.fund) v2, desenvolvedores DeFi vão ter ferramentas que possibilitam governança descentralizada, alocar seus próprios incentivos, e criar comunidades vibrantes com esforço mínimo. Desenvolvedores vão também ter a escolha entre NEAR nativa e a, lançada em breve, Aurora: a EVM em NEAR.
+Combinado com a próxima versão do [SputnikDAO](https://sputnik.fund) v2, desenvolvedores DeFi vão ter ferramentas que possibilitam governança descentralizada, alocar seus próprios incentivos, e criar comunidades vibrantes com esforço mínimo. Desenvolvedores vão também ter a escolha entre NEAR nativa e a, lançada em breve, Aurora: a EVM(Ethereum Virtual Machine) na NEAR.
 
 **O Emergente Ecossistema NEAR Nativo**
 
@@ -20,51 +20,51 @@ Ao longo das próximas semanas, ainda mais blocos centrais e componentes de DeFi
 
 **Rainbow Bridge**
 
-A [Rainbow Bridge](https://ethereum.bridgetonear.org/) já está no ar entre NEAR <> Ethereum, e a mesma infraestrutura pode ser facilmente adaptada com alterações mínimas para conectar NEAR a todas as chains compatíveis a EVM, incluindo Polygon/Matic, Binance Smart Chain, Avalanche, e eventualmente novas da L2 como Optimism e Arbitrum. Additionally, the Bridge team is planning to extend the infrastructure to support non-EVM chains including Bitcoin, the Cosmos IBC, and any other chains with valuable assets and data.
+A [Rainbow Bridge](https://ethereum.bridgetonear.org/) já está no ar entre NEAR <> Ethereum, e a mesma infraestrutura pode ser facilmente adaptada com alterações mínimas para conectar NEAR a todas as chains compatíveis a EVM, incluindo Polygon/Matic, Binance Smart Chain, Avalanche, e eventualmente novas da L2 como Optimism e Arbitrum. Adicionalmente, o time da Bridge está planejando extender a infraestrutura para chains não EVM incluindo Bitcoin, a Comos IBC, e qualquer outra chain com ativos e dados valiosos.
 
 **SputnikDAO**
 
-DAOs are an important component of nearly every protocol’s decentralized governance strategy. [SputnikDAO](https://sputnik.fund), the infrastructure for DAOs on NEAR, makes it simple for projects or individuals to launch DAOs, configure governance for their treasury management, and upgrade their protocol’s smart contracts. Projects can either set up multi-signature governance, issue and distribute governance tokens (all through Sputnik), or use a combination of the two.
+DAOs são um componente importante para todos os protocolos com estratégia descentralizada de governança. [SputnikDAO](https://sputnik.fund), a infraestrutura de DAOs na NEAR torna simples para projetos e indivíduos a lançar DAOs, configurar governança para gestão de seu tesouro, e atualizar seus contratos inteligentes do protocolo. Projetos podem tanto configurar governança de várias assinaturas, ou emitir e distribuir tokens de governança (tudo através da Sputnik), e também usar uma combinação das duas.
 
 **BoringDAO**
 
-[BoringDAO](https://boringdao.com) is a decentralized asset bridge that will connect NEAR assets to Ethereum and other blockchains, and bring PoW based assets like Bitcoin to NEAR. BoringDAO bridges assets using a DAO-operated “tunnel,” which manages the minting and burning of tokens moving across chains.
+[BoringDAO](https://boringdao.com) é uma ponte de ativos descentralizado que conecta ativos NEAR a ativos Ethereum e outras blockchains, e também trazer ativos baseados em PoW, como Bitcoin, para a NEAR. BoringDAO faz pontes de ativos usando um "túnel" operado por DAO, que gerencia o minting e burning de tokens através das chains.
 
 **DEXs/Swaps**
 
 **Ref Finance**
 
-Ref is the first DeFi platform on NEAR. The first version of Ref shares some similarities with Uniswap V2, with support for more pool types, multi-hop pools (all pools are in a single contract), configurable fees, and it is entirely community-owned. Explore the Ref beta [here](https://app.ref.finance), and join the [Discord](https://discord.gg/uKSXEMYG) or follow the team on [Twitter](https://twitter.com/finance_ref) for updates.
+Ref é a primeira plataforma de DeFi da NEAR. A primeira versão da Ref compartilha semelhanças com Uniswap V2, com suporte para mais tipos de pool, multi-hop pools (todas pools estão em um único contrato), taxas configuráveis, e é inteiramente propriedade da comunidade. Explore a versão beta [aqui](https://app.ref.finance), junte-se ao [Discord](https://discord.gg/uKSXEMYG) e siga o time no [Twitter](https://twitter.com/finance_ref) para atualizações.
 
 **Liquality**
 
-[Liquality](https://liquality.io/) is a non-custodial, multi-chain wallet with support for atomic transfers between Bitcoin, Ethereum, NEAR, and more. Using Liquality, users can custody NEAR assets alongside assets from other chains in a single wallet account.
+[Liquality](https://liquality.io/) é uma carteira multi-chain sem custódia com suporte de transferências atômicas entre Bitcoin, Ethereum, NEAR e outras. Usando Liquality, usuários podem custodias ativos NEAR juntamente com ativos de outras chains em uma única conta da carteira.
 
 **Oracles**
 
 **Flux**
 
-The Flux Protocol team is launching a new oracle aggregator that will power DeFi on NEAR. The Flux Oracle is optimized for API, arbitrary, and price feed data, secured by economic guarantees. In addition to organic data, the Flux Oracle can leverage existing oracles and price feeds (Chainlink, Band, Uniswap), to provide a safe, tailored data feed to developers. You can learn more about Flux and the Flux Token [here](https://fluxprotocol.org).
+O time do Protocolo Flux está lançando um novo agregador de oracles que vai alimentar DeFi na NEAR. O Flux Oracle está otimizado para dados de API, arbitrários e de feed de preços, assegurado por garantias econômicas. Além de dados orgânicos, o Flux Oracle pode alavancar oracles existentes e indicadores de preço (Chainlink, Band, Uniswap), para prover um feed de dados seguro e personalizado para os desenvolvedores. Você pode aprender mais sobre Flux e o Token Flux [aqui](https://fluxprotocol.org).
 
 **Band Protocol**
 
-Band brings their robust set of price and data feeds natively to the NEAR blockchain. With [Band](https://bandprotocol.com/), developers can utilize data on real-world events, sports, weather, random numbers, and more in their applications and protocols.
+Band traz seu conjunto robusto de preços e feeds de dados nativamente para a blockchain NEAR. Com [Band](https://bandprotocol.com/), desenvolvedores podem utilizar dados de eventos do mundo real, esportes, clima, números aleatórios, entre outros em suas aplicações e protocolos.
 
-**Prediction Markets**
+**Mercados de Predição**
 
 **Pulse**
 
-Pulse, a community-owned and operated application, is the first to be powered by the Flux Oracle. Using Pulse, users can forecast and submit predictions on a variety of events (including whether or not a vulnerability will be discovered in the NEAR Rainbow Bridge!). Pulse is [live](https://pulsemarket.eth.link/), and already has thousands of users and hundreds of thousands of dollars in liquidity. Follow the team on [Twitter](https://twitter.com/pulsemarkets) for updates.
+Pulse, uma aplicação operada e de propriedade da comunidade, é a primeira a ser alimentada pelo Flux Oracle. Usando Pulse, usuários podem prever e enviar previsões sobre vários eventos (incluindo se uma vulnerabilidade via ser descoberta na Rainbow Bridge da NEAR ou não!). Pulse está [ativa](https://pulsemarket.eth.link/), e já tem milhares de usuários e centenas de milhares de dólares de liquidez. Siga nosso time no [Twitter](https://twitter.com/pulsemarkets) para atualizações.
 
 **Liquid Staking**
 
 **Metapool**
 
-Staking derivatives and DAO-based staking distributions are crucial to the decentralization of Proof-of-Stake networks. Metapool is both. Users can stake their NEAR through Metapool, which will distribute NEAR to a whitelist of validators, and return $stNEAR. stNEAR is redeemable 1–1 with NEAR, and holders will receive staking rewards on their stNEAR in the form of more stNEAR. This stNEAR can be used in DeFi, supercharging yields with an additional 10% APY for staked NEAR. Try out Metapool [here](https://www.narwallets.com/dapp/testnet/meta/).
+Staking de derivativos e distrubuição de staking baseado em DAO são cruciais para a descentralização das redes baseadas em Proof-of-Stake. Metapool é ambos. Usuários podem fazer staking de seus NEARs através do Metapool, que vai distribuir NEAR para uma whitelist de validadores, e retornar $stNEAR. stNEAR é resgatável 1–1 com NEAR, e holders vão receber recompensas pelo staking por seus stNEAR em forma de mais stNEAR. Este stNEAR pode ser usado em DeFi, com bons rendimentos e com um adicional de 10% de APY por fazer o stake de NEAR. Experimente Metapool [aqui](https://www.narwallets.com/dapp/testnet/meta/).
 
 **Oysterpack**
 
-Oysterpack is building several tools to further unlock liquidity for DeFi on NEAR. Oysterpack’s first product is STAKE, a fungible token representing staked NEAR. STAKE will offer NEAR holders the opportunity to earn yield on their staked NEAR tokens by locking them in other DeFi products, to rapidly unstake their NEAR, and to pay a single staking fee, rather than a fee every epoch. Learn more about [Oysterpack](https://twitter.com/OysterPack).
+Oysterpack está construindo várias ferramentas para desbloquear liquidez para DeFi na NEAR. O primeiro produto da Oysterpack é a STAKE, um token fungível representando NEAR que está em stake. STAKE will offer NEAR holders the opportunity to earn yield on their staked NEAR tokens by locking them in other DeFi products, to rapidly unstake their NEAR, and to pay a single staking fee, rather than a fee every epoch. Learn more about [Oysterpack](https://twitter.com/OysterPack).
 
 **Synthetic Assets/Lending**
 

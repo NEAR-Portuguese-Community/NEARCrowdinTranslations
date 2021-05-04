@@ -43,13 +43,13 @@ Aqui é onde as coisas podem ficar um pouco complicadas. A NEAR é construída e
 3.  Uma segunda opção é financiar a sua conta nova com MoonPay. Sob esta opção você vai clicar no segundo botão inferior e passar pelo processo de criação e financiamento da MoonPay.
 4.  Uma terceira opção é pedir a um amigo ou alguém que tenha NEAR que envie 1 NEAR para o seu endereço alfanumérico temporário. **Lembre-se de não fechar a janela original sob nenhuma circunstância.**
 
-**But wait, what if I accidentally closed the window after it told me not to?** If you did it on a normal browser, you can go back to [https://wallet.near.org/](https://wallet.near.org/) and it will have you logged in with that as your address. You will still be able to receive NEAR from that address, it just won’t be a real NEAR Account. If this happens, you won’t be able to upgrade and you will have to start over again with a new account and seed phrase.
+**Mas espere, e se eu fechei a janela acidentalmente depois de me dizer para não fazê-lo?** Se você fez isso em um navegador normal, você pode voltar para [https://wallet.near.org/](https://wallet.near.org/) e estará registrado com esse como seu endereço. Você ainda poderá receber NEAR nesse endereço, ele só não será uma conta NEAR de verdade. Se isso acontecer, você não será capaz de atualizar e terá de começar de novo com uma conta e uma frase semente novas.
 
-Once you have finally received that 1 NEAR to the Open Window, that you will never close, the screen below is what you should see. Congratulations your account is funded and that account ID is yours forever (or until you decide to sell it).
+Uma vez que você finalmente tenha recebido aquele 1 NEAR na janela que deixou aberta, que você nunca fechará, deverá ver a tela abaixo. Parabéns, sua conta foi financiada e o ID da conta é seu para sempre (ou até que você decida vendê-lo).
 
-**Step 3**
+**Passo 3**
 
-Get setup with your account. Now that your account is funded you click ‘_Continue to Account’_ to get onto the wallet home interface.
+Configure a sua conta. Now that your account is funded you click ‘_Continue to Account’_ to get onto the wallet home interface.
 
 **Note:** Once you are on the home interface there are different options available on the top left of the bar. On the right column you can see your different security permissions. Remember at the beginning when I mentioned how you can change up security after you are all set up? Well now is the time that you can do that. You can enable Email and Phone access on top of your seed phrase for quicker access.
 
@@ -57,7 +57,7 @@ Get setup with your account. Now that your account is funded you click ‘_Conti
 
 Below that, you can look into ‘**Enabling 2 Factor Authentication**’ from your email. This is highly recommended, as it means that even if your account is compromised, no action can be taken without first confirming that action with a special code sent to your email.
 
-**Step 4: Adding or Importing an Account**
+**Passo 4: Adicionando ou Importando uma Conta**
 
 Before we get into the nitty gritty of staking, you might want to connect other existing NEAR Accounts you have set up to the wallet interface. This will allow you to navigate quickly between accounts. On the top right corner you can either click _import_ or _create new account._
 

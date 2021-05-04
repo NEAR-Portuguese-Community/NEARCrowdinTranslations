@@ -64,22 +64,22 @@ Staking de derivativos e distrubuição de staking baseado em DAO são cruciais 
 
 **Oysterpack**
 
-Oysterpack está construindo várias ferramentas para desbloquear liquidez para DeFi na NEAR. O primeiro produto da Oysterpack é a STAKE, um token fungível representando NEAR que está em stake. STAKE will offer NEAR holders the opportunity to earn yield on their staked NEAR tokens by locking them in other DeFi products, to rapidly unstake their NEAR, and to pay a single staking fee, rather than a fee every epoch. Learn more about [Oysterpack](https://twitter.com/OysterPack).
+Oysterpack está construindo várias ferramentas para desbloquear liquidez para DeFi na NEAR. O primeiro produto da Oysterpack é a STAKE, um token fungível representando NEAR que está em stake. STAKE vai oferecer aos detentores a oportunidade de ganhar renda por seus tokens NEAR em stake, bloqueando-os em outros produtos DeFi, para rapidamente tirar do stake seu NEAR, e pagar somente uma taxa de staking, ao invés de uma taxa cada vez. Aprenda mais sobre [Oysterpack](https://twitter.com/OysterPack).
 
-**Synthetic Assets/Lending**
+**Ativos/Empréstimos Sintéticos**
 
 **OIN Finance**
 
-[OIN](https://oin.finance/) is a decentralized stablecoin issuance platform. OIN enables projects to issue their own, branded stablecoins, rather than needing to apply to have their collateral whitelisted on other earlier platforms. OIN will launch a NEAR-collateralized stablecoin, which will allow NEAR holders to unlock liquidity without selling their NEAR. Additionally, OIN has plans for off-ramps and use cases such as swapping for other mainstream stablecoins, adding leverage, hedging, lending, and a plethora of ecosystem-specific utilities.
+[OIN](https://oin.finance/) é uma plataforma descentralizada de emissão de stablecoin. OIN permite projetos emitirem suas próprias stablecoins da marca, ao invés de precisar aplicar para que seus colaterais sejam incluídos na whitelist e te-las nas plataformas anteriores. OIN vai lançar uma stablecoin com colateral em NEAR, que vai possibilitar os detentores de NEAR desbloquear liquidez sem vender seu NEAR. Além disso, OIN tem planos para off-ramps e casos de uso tal como troca por outras stablecoins convencionais, adicionando alavancagem, cobertura, empréstimo, e uma infinidade de utilidades específicos ao ecossistema.
 
-**Loyalty Token**
+**Token de Fidelidade (Loyalty Token)**
 
 **Cheddar**
 
-Cheddar is a loyalty token that rewards users of dApps in the NEAR ecosystem through its partnerships/integrations with other projects. The project is under development, and will have updates on its yield farm, AMM, and DAO soon. Follow them on [Twitter](https://twitter.com/CheddarFi) to keep up with the latest news.
+Cheddar é um token de fidelidade que recompensa os usuários de dApps no ecossistema NEAR através de parcerias/integrações com outros projetos. O projeto está em desenvolvimento, e terá atualizações em seu farm de rendimento, AMM, e DAO soon. Siga eles no [Twitter](https://twitter.com/CheddarFi) para acompanhar as últimas notícias.
 
-**Build the Next Generation of DeFi on NEAR**
+**Construir a Próxima Geração de DeFi na NEAR**
 
-The projects mentioned here are just the start for NEAR DeFi: the ecosystem is full of opportunities for new protocols, applications, and experiments to explore and further decentralize.
+Os projetos mencionados aqui são apenas o começo da DeFi na NEAR: o ecossistema está cheio de oportunidades para novos protocolos, aplicações e experimentos a serem explorados e descentralizar ainda mais.
 
-If you’re interested in building on NEAR, consider applying for an equity-free [grant](https://near.org/grants) from the NEAR Foundation to help fund your DeFi project. To get involved in the NEAR community, join us on [Telegram](https://docs.google.com/spreadsheets/u/0/d/1o-0jGrXKxZEdPBDkg-ydjJ0D8RUVFVP2vUzij87xWFg/edit), [Discord](https://near.chat), [Reddit](https://www.reddit.com/r/nearprotocol/), or follow on [Twitter](https://twitter.com/NEAR_Blockchain).
+Se você está interessado em construir na NEAR, considere solicitar [fundos](https://near.org/grants) sem participação da Fundação NEAR para ajudar a financiar seu projeto DeFi. Para se envolver na comunidade NEAR, junte-se a nós no [Telegram](https://docs.google.com/spreadsheets/u/0/d/1o-0jGrXKxZEdPBDkg-ydjJ0D8RUVFVP2vUzij87xWFg/edit), [Discord](https://near.chat), [Reddit](https://www.reddit.com/r/nearprotocol/), e siga no [Twitter](https://twitter.com/NEAR_Blockchain).

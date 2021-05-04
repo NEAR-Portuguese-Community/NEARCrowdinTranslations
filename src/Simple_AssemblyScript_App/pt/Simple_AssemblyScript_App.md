@@ -1,20 +1,20 @@
-# Simple AssemblyScript App
+# App simples em AssemblyScript
 
-\*\*\*\*[**The original tutorial can be found in the official NEAR documentation here**](https://learn.figment.io/network-documentation/near/tutorials/simple-webassembly-script).
+\*\*\*\*[**O tutorial original pode ser encontrado na documentação oficial da NEAR aqui**](https://learn.figment.io/network-documentation/near/tutorials/simple-webassembly-script).
 
 ## A multiplayer "Place" game with shared world state.
 
-Multiplayer games share a single world that all players can affect. Let's build one!
+Os jogos multijogador compartilham um único mundo que todos os jogadores podem afetar. Vamos construir um!
 
-This is commonly set up using a coordinate system that represents locations within the world. Simple key-value mapping stores the state of the world at specific coordinates.
+Isso é geralmente estabelecido utilizando um sistema de coordenadas que representa locais no mundo. O mapeamento simples de valor-chave armazena o estado do mundo em coordenadas específicas.
 
 In this tutorial, we will write a very simple game with a shared world state. The world is represented as a square playing field with the only property available at each location is its "color". Some of you may recognize this as "place", which made its way around the Internet a while ago.
 
-Below is an example of a large scale version to which many people contributed.
+Abaixo está um exemplo de uma versão em grande escala para a qual muitas pessoas contribuíram.
 
 ![space shuttle against starry sky](https://docs.near.org/docs/assets/spaceship-2.png)
 
-#### Let's get started!
+#### Vamos começar!
 
 ## Step 1 - Create a new Token Contract Project in Gitpod
 
@@ -24,7 +24,7 @@ In a new browser tab or window:
 
 When this opens in GitPod, the code will generate a unique NEAR account for this project and build then deploy the template files. You can take a look at what we're starting with by viewing the launched webpage.
 
-In Gitpod terminal tab:
+Na aba terminal Gitpod:
 
 * `CMD + click` on `http://localhost:1234`
 
@@ -35,20 +35,20 @@ This sample project has a token smart contract and also some JavaScript tests th
 
 You can try running these tests right away to see the code interacting with the blockchain.
 
-To run these tests...
+Para executar estes testes...
 
-In Gitpod:
+No Gitpod:
 
-* click **Terminal** &gt;&gt; **New Terminal**
+* clique em **Terminal** &gt;&gt; **New Terminal**
 
-In the new tab that opens at the bottom of Gitpod:
+Na nova aba que abre no final do Gitpod:
 
-* type `yarn test` in the command prompt
+* digite `yarn test` no prompt de comando
 
-This will run both testing suites and log the results to your console. If you would like to run just one of the testing suites, you can type the following in your terminal.
+Isto irá executar os dois testes e registrar os resultados no seu console. Se você quiser executar apenas uma das suítes de teste, você pode digitar o seguinte no seu terminal.
 
 * `yarn asp` to run only AS-pect tests
-* `yarn jest` to run only Jest tests
+* `yarn jest` para executar apenas testes Jest
 
 Go ahead and explore the code in these tests to get a better understanding of the actions they perform.
 
@@ -71,16 +71,16 @@ Note that `test-account-tTIMESTAMP-XXXXXXX` is an automatically generated NEAR a
 We are not going to keep any of the code from this template. It's just there as a starting point.
 {% endhint %}
 
-## Step 2 - Write a smart contract
+## Passo 2 - Escrever um contrato inteligente
 
-In this simple game, we need to create only two actions:
+Neste jogo simples, precisamos criar apenas duas ações:
 
-1. View the world state: `getCoords`
-2. Make changes to the state at particular coordinates: `setCoords`
+1. Ver o estado do mundo: `getCoords`
+2. Faça mudanças no estado de coordenadas específicas: `setCoords`
 
-In the file `assembly/main.ts` :
+No arquivo `assembly/main.ts`:
 
-* Replace the **entire contents of the file** with the following code
+* Substituir **todo o conteúdo do arquivo** pelo seguinte código
 
 ```javascript
 import { storage } from "near-sdk-as";
@@ -101,11 +101,11 @@ export function getCoords(coords: string): string {
 Copy
 ```
 
-Next we'll need a `getMap` function, which returns the full state of the game \(we don't want to be making a separate call for every coordinate!\)
+Em seguida, precisaremos de uma função `getMap`, que retorna o estado completo do jogo \(não queremos fazer uma chamada separada para cada coordenada!\)
 
-In the same file `assembly/main.ts` :
+No mesmo arquivo `assembly/main.ts`:
 
-* Append the following code to the bottom
+* Acrescentar o seguinte código no final
 
 ```javascript
 export function getMap(): string[] {
@@ -132,11 +132,11 @@ export function getMap(): string[] {
 Copy
 ```
 
-* Click **File** &gt;&gt; **Save** to save your changes
+* Clique em **File** &gt;&gt; **Save** para salvar as alterações
 
-This smart contract is now ready to be re-deployed to the NEAR test network, but before we do that, let's test it locally to ensure everything behaves as expected. This is where AS-pect comes in handy!
+Este contrato inteligente está agora pronto para ser reimplantado na rede de teste NEAR, mas antes de fazer isso, vamos testá-lo localmente para garantir que tudo se comporte como esperado. This is where AS-pect comes in handy!
 
-## Step 3 - Write a couple of tests for the contract
+## Passo 3 - Escreva alguns testes para o contrato
 
 Lets test our code to make sure our smart contract works as expected by writing a JavaScript test in AS-pect.
 
@@ -163,10 +163,10 @@ import { getMap, setCoords } from "../main";
 
        setCoords("0,0", "111111")
        const viewResult = getMap();
-       //you can send a log to the console by invoking the log() method
+       //você pode enviar um log para o console invocando o método log()
        //log(viewResult[0]);
        expect(viewResult.length).toBe(100);
-       // entry 0,0 should be 111111!
+       // entrada 0,0 deve ser 111111!
        expect(viewResult[0]).toBe("111111");
     });
   });
@@ -175,17 +175,17 @@ import { getMap, setCoords } from "../main";
 Copy
 ```
 
-* Click **File** &gt;&gt; **Save** to save your changes
+* Clique em **File** &gt;&gt; **Save** para salvar as alterações
 
-The "getMap" test simply invokes the `getMap` function of the contract and returns the current state. Our "setCoords" test will modify the game state by updating a coordinate of the map based on the parameters we passed to the `setCoords` function.
+O teste "getMap" simplesmente invoca a função `getMap` do contrato e retorna o estado atual. Nosso teste "setCoords" irá modificar o estado do jogo atualizando uma coordenada do mapa com base nos parâmetros que passamos para a função `setCoords`.
 
-_**Now run your tests!**_
+_**Agora execute os seus testes!**_
 
-In your testing terminal_**:**_
+No seu terminal de teste_**:**_
 
-* type `yarn asp`
+* digite `yarn asp`
 
-Once finished, you should see passing tests that look like the following:
+Depois de terminar, você deverá ver os testes aprovados semelhantes aos seguintes:
 
 ![AS-pect tests for smart contract game](https://docs.near.org/docs/assets/token-contract-aspect-game-test.png)
 
@@ -199,9 +199,9 @@ In your terminal windows:
 
 Notice the console log right above `Server running at http://localhost:1234` that says `Done deploying to dev-159486XXXXXXX-XXXXXXX`. This is the account ID of our smart contract we just created and can also be found in `neardev/dev-account.env`. By entering this ID in the [NEAR Explorer](https://explorer.testnet.near.org/) search bar, we can see all of the account activity. If you look now, you should see confirmation of the contract being deployed as well as a transfer of 500 Ⓝ to the account. This tool will come in handy later so we can view all of the transactions we'll make.
 
-## Step 4 - Make a simple UI
+## Passo 4 - Fazer uma interface simples
 
-Congratulations! All of your blockchain work is done!
+Parabéns! Todo o seu trabalho na blockchain está feito!
 
 Now, let's make a very simple JavaScript user interface \(UI\). First, we'll need to initialize the pieces we need so we can interact with the smart contract. Then, we'll write a few functions that will allow us to paint on our canvas and save coordinate changes to the blockchain using the smart contract we wrote above.
 
@@ -417,7 +417,7 @@ Each time you click a coordinate and change the color in your canvas we are inte
 
 You can view a summary of these transactions in your [NEAR Wallet](https://wallet.testnet.near.org/) or dive deeper into the details by searching for your account ID or the smart contract account ID in [NEAR Explorer](https://explorer.testnet.near.org/).
 
-Happy coding! 🚀
+Viva a programação! 🚀
 
-If you had any difficulties following this tutorial or simply want to discuss NEAR tech with us you can [**join our community today**](https://discord.gg/fszyM7K)!
+Se você teve alguma dificuldade após este tutorial ou simplesmente quer discutir tecnicamente a NEAR conosco, você pode [**participar da nossa comunidade hoje mesmo**](https://discord.gg/fszyM7K)!
 

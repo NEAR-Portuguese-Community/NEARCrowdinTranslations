@@ -1,4 +1,4 @@
-**Chegou DeFi na NEAR**
+**DeFi Chegou na NEAR**
 
 ![](https://miro.medium.com/max/2800/0*5OloS0yrKHLbWTrF)
 
@@ -6,7 +6,7 @@ DeFi, ou finanças descentralizadas (decentralized finance), é um elemento crí
 
 No entanto, o mesmo surto de interesse e experimentação que proveu tantas oportunidades para usuários de DeFi também tem tornado muito difícil para novos potenciais rentistas entrarem. Desde o congestionamento da rede, até o custo de gas indo às alturas, ou ao preço crescente dos tokens populares, a barreira de entrada agora é significativamente maior para desenvolvedores e criadores que estão começando a explorar o mundo crypto.
 
-Agora, NEAR está tornando DeFi mais acessível para todo mundo. Com o lançamento da [Rainbow Bridge](https://near.org/blog/the-rainbow-bridge-is-live/), DeFi está oficialmente na NEAR e liberado para todos os criadores ao redor do mundo. Todos os ativos originários da Ethereum — que agora conta com dezenas de bilhões — estão totalmente usáveis em aplicações NEAR.
+Agora, a NEAR está tornando DeFi mais acessível para todo mundo. Com o lançamento da [Rainbow Bridge](https://near.org/blog/the-rainbow-bridge-is-live/), DeFi está oficialmente na NEAR e liberado para todos os criadores ao redor do mundo. Todos os ativos originários da Ethereum — que agora conta com dezenas de bilhões — estão totalmente usáveis em aplicações NEAR.
 
 Desde o lançamento, mais de $1 milhão de ETH, DAI, USDT e outros tokens populares tem atravessado a Ponte e estão sendo usados em aplicações nativas NEAR incluindo [Pulse](https://pulsemarket.eth.link/#!/) e [Ref](https://app.ref.finance/). Milhares de usuários já começaram a explorar esses apps NEAR, aproveitando os tempos de transação similares a Web2 (cerca de um segundo) e também baixas tachas de transação (fações de centavo).
 
@@ -16,7 +16,7 @@ Combinado com a próxima versão do [SputnikDAO](https://sputnik.fund) v2, desen
 
 Ao longo das próximas semanas, ainda mais blocos centrais e componentes de DeFi virão a vida na NEAR. Cada um dos projetos a seguir usa [o runtime nativo em WebAssembly](https://docs.near.org/docs/develop/contracts/overview) da NEAR.
 
-**Componentes Principais**
+**Principais Componentes**
 
 **Rainbow Bridge**
 
@@ -28,7 +28,7 @@ DAOs são um componente importante para todos os protocolos com estratégia desc
 
 **BoringDAO**
 
-[BoringDAO](https://boringdao.com) é uma ponte de ativos descentralizado que conecta ativos NEAR a ativos Ethereum e outras blockchains, e também trazer ativos baseados em PoW, como Bitcoin, para a NEAR. BoringDAO faz pontes de ativos usando um "túnel" operado por DAO, que gerencia o minting e burning de tokens através das chains.
+[BoringDAO](https://boringdao.com) é uma ponte de ativos descentralizado que conecta ativos NEAR a ativos Ethereum e outras blockchains, além de também trazer ativos baseados em PoW (Proof of Work), como Bitcoin, para a NEAR. BoringDAO faz pontes de ativos usando um "túnel" operado por DAO, que gerencia o minting e burning de tokens através das chains.
 
 **DEXs/Swaps**
 
@@ -78,7 +78,7 @@ Oysterpack está construindo várias ferramentas para desbloquear liquidez para 
 
 Cheddar é um token de fidelidade que recompensa os usuários de dApps no ecossistema NEAR através de parcerias/integrações com outros projetos. O projeto está em desenvolvimento, e terá atualizações em seu farm de rendimento, AMM, e DAO soon. Siga eles no [Twitter](https://twitter.com/CheddarFi) para acompanhar as últimas notícias.
 
-**Construir a Próxima Geração de DeFi na NEAR**
+**Construir a Próxima Geração DeFi na NEAR**
 
 Os projetos mencionados aqui são apenas o começo da DeFi na NEAR: o ecossistema está cheio de oportunidades para novos protocolos, aplicações e experimentos a serem explorados e descentralizar ainda mais.
 

@@ -40,8 +40,8 @@ Aqui é onde as coisas podem ficar um pouco complicadas. A NEAR é construída e
 
 1.  Você mantém a janela aberta. Em nenhuma circunstância você deve fechar a janela durante o processo. Se o seu computador travar e tiver que reiniciá-lo, você terá que começar tudo de novo e reinserir a conta desejada, obter uma nova frase semente, e assim por diante.
 2.  Agora, em outra janela, você deve acessar a conta de uma exchange em que tenha comprado NEAR, e enviar 1 NEAR (ou talvez 2–3) para este endereço de financiamento único. O ponto chave aqui é que isso deve ser feito _em outra janela_. Não feche a janela onde houver uma imagem como a anterior. Está disponível uma [lista de exchanges](https://coinmarketcap.com/currencies/near-protocol/markets/) que atualmente oferecem $NEAR.
-3.  Uma segunda opção é financiar a sua conta nova com Moonpay. Under this option you will click the second lower button and go through the moonpay creation and funding process.
-4.  A third option is to request from a friend or someone who has NEAR to send you 1 NEAR to your temporary alphanumeric address. **Remember, don’t close the original window under any circumstances.**
+3.  Uma segunda opção é financiar a sua conta nova com MoonPay. Sob esta opção você vai clicar no segundo botão inferior e passar pelo processo de criação e financiamento da MoonPay.
+4.  Uma terceira opção é pedir a um amigo ou alguém que tenha NEAR que envie 1 NEAR para o seu endereço alfanumérico temporário. **Lembre-se de não fechar a janela original sob nenhuma circunstância.**
 
 **But wait, what if I accidentally closed the window after it told me not to?** If you did it on a normal browser, you can go back to [https://wallet.near.org/](https://wallet.near.org/) and it will have you logged in with that as your address. You will still be able to receive NEAR from that address, it just won’t be a real NEAR Account. If this happens, you won’t be able to upgrade and you will have to start over again with a new account and seed phrase.
 

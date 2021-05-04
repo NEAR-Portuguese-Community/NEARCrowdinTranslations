@@ -2,25 +2,25 @@
 
 ![](https://miro.medium.com/max/2800/0*5OloS0yrKHLbWTrF)
 
-DeFi, ou finanças descentralizadas (decentralized finance), é um elemento crítico na construção de uma Open Web verdadeira. The rise of DeFi over the past year has driven much of the recent success on Ethereum, supercharging experimentation with blockchain-based financial instruments and incentives. Actions that could take weeks in the traditional financial system are possible in seconds thanks to the composable primitives of DeFi, and the crypto economy has offered an alternative to unreliable local currencies and the whims of banks for many around the world.
+DeFi, ou finanças descentralizadas (decentralized finance), é um elemento crítico na construção de uma Open Web verdadeira. O crescimento de DeFi durante o ano passado tem impulsionado grande parte do sucesso da Ethereum, experimentação extrema de instrumentos de financiamento e incentivo baseados em blockchain. Ações que levariam semanas no sistema financeiro tradicional são possíveis em segundos graças aos composable primitives of DeFi, e à economia crypto que tem oferecido alternativas às moedas locais não confiáveis e aos caprichos dos bancos, para muitos ao redor do mundo.
 
-Yet the same surge of interest and experimentation that has provided so many opportunities for DeFi users has also made it much harder for new potential earners to gain entry. From network congestion, to skyrocketing gas costs, to the rising prices of many popular tokens, the barrier to entry is now significantly higher for builders and creators just starting to explore the crypto space.
+No entanto, o mesmo surto de interesse e experimentação que proveu tantas oportunidades para usuários de DeFi também tem tornado muito difícil para novos potenciais rentistas entrarem. Desde o congestionamento da rede, até o custo de gas indo às alturas, ou ao preço crescente dos tokens populares, a barreira de entrada agora é significativamente maior para desenvolvedores e criadores que estão começando a explorar o mundo crypto.
 
-Now, NEAR is making DeFi more accessible to everyone. With the launch of the [Rainbow Bridge](https://near.org/blog/the-rainbow-bridge-is-live/), DeFi is officially live on NEAR and unlocked for all creators and users around the world. All assets originating in Ethereum — now counting in the tens of billions — are now fully usable in NEAR applications.
+Agora, NEAR está tornando DeFi mais acessível para todo mundo. Com o lançamento da [Rainbow Bridge](https://near.org/blog/the-rainbow-bridge-is-live/), DeFi está oficialmente na NEAR e liberado para todos os criadores ao redor do mundo. Todos os ativos originários da Ethereum — que agora conta com dezenas de bilhões — estão totalmente usáveis em aplicações NEAR.
 
-Since launch, over $1 million worth of ETH, DAI, USDT, and other popular tokens have crossed the Bridge and are being used in native NEAR applications including [Pulse](https://pulsemarket.eth.link/#!/) and [Ref](https://app.ref.finance/). Thousands of users have already started exploring these NEAR apps, enjoying the network’s Web2-like transaction times (about a second) and low transaction fees (fractions of a cent).
+Desde o lançamento, mais de $1 milhão de ETH, DAI, USDT e outros tokens populares tem atravessado a Ponte e estão sendo usados em aplicações nativas NEAR incluindo [Pulse](https://pulsemarket.eth.link/#!/) e [Ref](https://app.ref.finance/). Milhares de usuários já começaram a explorar esses apps NEAR, aproveitando os tempos de transação similares a Web2 (cerca de um segundo) e também baixas tachas de transação (fações de centavo).
 
-Combined with the upcoming release of [SputnikDAO](https://sputnik.fund) v2, DeFi developers will have the tools to enable decentralized governance, issue their own incentives, and create vibrant contributor communities with minimal effort. Developers will also have a choice between native NEAR and the soon-to-be-released Aurora: the EVM on NEAR.
+Combinado com a próxima versão do [SputnikDAO](https://sputnik.fund) v2, desenvolvedores DeFi vão ter ferramentas que possibilitam governança descentralizada, alocar seus próprios incentivos, e criar comunidades vibrantes com esforço mínimo. Desenvolvedores vão também ter a escolha entre NEAR nativa e a, lançada em breve, Aurora: a EVM em NEAR.
 
-**The Emerging Native NEAR Ecosystem**
+**O Emergente Ecossistema NEAR Nativo**
 
-Over the next several weeks, many more core building blocks and components of DeFi on NEAR will go live. Each of the following projects uses the [native WebAssembly-runtime](https://docs.near.org/docs/develop/contracts/overview) on NEAR.
+Ao longo das próximas semanas, ainda mais blocos centrais e componentes de DeFi virão a vida na NEAR. Cada um dos projetos a seguir usa [o runtime nativo em WebAssembly](https://docs.near.org/docs/develop/contracts/overview) da NEAR.
 
-**Core Components**
+**Componentes Principais**
 
 **Rainbow Bridge**
 
-The [Rainbow Bridge](https://ethereum.bridgetonear.org/) is already live between NEAR <> Ethereum, and the same infrastructure can be easily repurposed with minimal changes to connect NEAR to all EVM-compatible chains, including Polygon/Matic, Binance Smart Chain, Avalanche, and eventually new L2s like Optimism and Arbitrum. Additionally, the Bridge team is planning to extend the infrastructure to support non-EVM chains including Bitcoin, the Cosmos IBC, and any other chains with valuable assets and data.
+A [Rainbow Bridge](https://ethereum.bridgetonear.org/) já está no ar entre NEAR <> Ethereum, e a mesma infraestrutura pode ser facilmente adaptada com alterações mínimas para conectar NEAR a todas as chains compatíveis a EVM, incluindo Polygon/Matic, Binance Smart Chain, Avalanche, e eventualmente novas da L2 como Optimism e Arbitrum. Additionally, the Bridge team is planning to extend the infrastructure to support non-EVM chains including Bitcoin, the Cosmos IBC, and any other chains with valuable assets and data.
 
 **SputnikDAO**
 

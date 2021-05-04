@@ -18,7 +18,7 @@ Abaixo está um exemplo de uma versão em grande escala para a qual muitas pesso
 
 ## Step 1 - Create a new Token Contract Project in Gitpod
 
-In a new browser tab or window:
+Abra uma nova guia ou janela no navegador:
 
 * Open a new Token Contract Project in [Gitpod](https://gitpod.io/#https://github.com/near-examples/token-contract-as)
 
@@ -26,7 +26,7 @@ When this opens in GitPod, the code will generate a unique NEAR account for this
 
 Na aba terminal Gitpod:
 
-* `CMD + click` on `http://localhost:1234`
+* `CMD + clique` em `http://localhost:1234`
 
 This sample project has a token smart contract and also some JavaScript tests that invoke smart contract functions. There are two testing suites that perform these tests, AS-pect and Jest.
 
@@ -191,11 +191,11 @@ Depois de terminar, você deverá ver os testes aprovados semelhantes aos seguin
 
 Now that we know our code is executing as intended, our newly created smart contract can be deployed with confidence to the blockchain.
 
-In your terminal windows:
+Nas suas janelas do terminal:
 
-* Select the first terminal tab on the left that has localhost server running
-* Hold `CTRL + C` to stop the server and display the command prompt
-* Type `yarn dev` to rebuild and redeploy your modified contract
+* Selecione a primeira aba de terminal à esquerda que está executando o servidor localhost
+* Segure `CTRL + C` para parar o servidor e exibir o prompt de comando
+* Digite `yarn dev` para reconstruir e republicar o seu contrato modificado
 
 Notice the console log right above `Server running at http://localhost:1234` that says `Done deploying to dev-159486XXXXXXX-XXXXXXX`. This is the account ID of our smart contract we just created and can also be found in `neardev/dev-account.env`. By entering this ID in the [NEAR Explorer](https://explorer.testnet.near.org/) search bar, we can see all of the account activity. If you look now, you should see confirmation of the contract being deployed as well as a transfer of 500 Ⓝ to the account. This tool will come in handy later so we can view all of the transactions we'll make.
 
@@ -205,7 +205,7 @@ Parabéns! Todo o seu trabalho na blockchain está feito!
 
 Now, let's make a very simple JavaScript user interface \(UI\). First, we'll need to initialize the pieces we need so we can interact with the smart contract. Then, we'll write a few functions that will allow us to paint on our canvas and save coordinate changes to the blockchain using the smart contract we wrote above.
 
-In the file `src/main.js` :
+No arquivo `src/main.js`:
 
 * Replace the values of `viewMethods` and `changeMethods` \(lines 17 & 18\) with our new smart contract methods.
 
@@ -315,7 +315,7 @@ Copy
 
 Next, update the following block of code so our `loadBoardAndDraw` method gets invoked.
 
-In the same file `src/main.js` :
+No mesmo arquivo `src/main.js`:
 
 * Chain `.then(loadBoardAndDraw)` on line 43 and a half to hook into the application launch process
 
@@ -336,13 +336,13 @@ document.querySelector('#myCanvas').addEventListener('click', (event) => {
 Copy
 ```
 
-_**Almost done!**_
+_**Quase pronto!**_
 
-All we have left to do is update our HTML file to render everything as expected.
+Tudo o que falta fazer é atualizar nosso arquivo HTML para renderizar tudo conforme esperado.
 
-In the file `src/index.html` :
+No arquivo `src/index.html`:
 
-* Replace the **entire contents of the file** with the following code
+* Substitua **todo o conteúdo do arquivo** pelo seguinte código
 
 ```javascript
 <!DOCTYPE html>
@@ -392,14 +392,14 @@ Copy
 
 ```
 
-* Click **File** &gt;&gt; **Save All** to save your changes to both files
+* Clique em **File** &gt;&gt; **Save All** para salvar todas as alterações
 
-**That's it! Now let's launch our app and start drawing on the blockchain!**
+**É isso! Agora vamos lançar nosso aplicativo e começar a desenhar no blockchain!**
 
-In Gitpod**:**
+No Gitpod**:**
 
-* go to the first terminal tab that has your running server
-* `CMD + click` on `http://localhost:1234`
+* vá para a primeira aba de terminal que tem seu servidor em execução
+* `CMD + clique` em `http://localhost:1234`
 
 This is what the app should look like as soon as it launches:
 

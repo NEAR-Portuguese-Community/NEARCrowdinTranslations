@@ -49,19 +49,19 @@ Uma vez que você finalmente tenha recebido aquele 1 NEAR na janela que deixou a
 
 **Passo 3**
 
-Configure a sua conta. Now that your account is funded you click ‘_Continue to Account’_ to get onto the wallet home interface.
+Configure a sua conta. Agora que sua conta foi fundada, clique em ‘_Continuar para a Conta’_ para entrar na interface inicial da carteira.
 
-**Note:** Once you are on the home interface there are different options available on the top left of the bar. On the right column you can see your different security permissions. Remember at the beginning when I mentioned how you can change up security after you are all set up? Well now is the time that you can do that. You can enable Email and Phone access on top of your seed phrase for quicker access.
+**Nota:** Quando você estiver na interface inicial, existem diferentes opções disponíveis no canto superior esquerdo da barra. Na coluna da direita, você pode ver suas diferentes permissões de segurança. Lembra no início, quando eu mencionei que você pode mudar a segurança após estar tudo configurado? Pois bem, chegou a hora de fazer isso. Você pode habilitar o acesso por e-mail e telefone no lugar da sua frase semente para um acesso mais rápido.
 
-**Enabling other forms of access:**
+**Habilitando outras formas de acesso:**
 
-Below that, you can look into ‘**Enabling 2 Factor Authentication**’ from your email. This is highly recommended, as it means that even if your account is compromised, no action can be taken without first confirming that action with a special code sent to your email.
+Abaixo disso, você pode ver ‘**Ativando a autenticação de 2 fatores** a partir do seu e-mail. Isso é altamente recomendado, pois significa que mesmo se sua conta estiver comprometida, nenhuma ação pode ser tomada sem primeiro confirmar qual ação com um código especial enviada para o seu e-mail.
 
 **Passo 4: Adicionando ou Importando uma Conta**
 
-Before we get into the nitty gritty of staking, you might want to connect other existing NEAR Accounts you have set up to the wallet interface. This will allow you to navigate quickly between accounts. On the top right corner you can either click _import_ or _create new account._
+Antes de entrarmos no tópico de staking, você pode querer conectar outras contas NEAR que você configurou para a interface de carteira. Isso permitirá que você navegue rapidamente entre as contas. No canto superior direito você pode clicar em _importar_ ou _criar nova conta_
 
-If you want to **_Import an existing account_** you just have to click the _‘recover’_ seed phrase box and input that account’s seed phrase. Nice.
+Se você deseja **_Importar uma conta existente_** basta clicar na caixa _"recuperar"_ frase semente e inserir a frase semente dessa conta. Maneiro.
 
 Alright, if you have made it this far, well done. You are now set up with your NEAR Account and ready to stake. Just as a quick reminder: From the moment your account has been funded the sole method of receiving and sending NEAR and any token from the wallet is via your newly created Account ID. Do not ever use the temporary address again once your account has been funded.
 

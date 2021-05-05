@@ -1,6 +1,6 @@
 **Um Guia para Iniciantes sobre a Carteira NEAR e o Processo de Staking**
 
-Devido à demanda popular, aqui está um guia completo. nem um pouco chato, sobre como criar uma carteira e fazer staking de $NEAR no protocolo NEAR. Vamos manter isso simples e fácil. É sobre isso que vamos falar:
+Devido à demanda popular, aqui está um guia completo, nem um pouco chato, sobre como criar uma carteira e fazer staking de $NEAR no protocolo NEAR. Vamos manter isso simples e fácil. É sobre isso que vamos falar:
 
 *   Criação de uma conta na NEAR.
 *   Adição de fundos à conta
@@ -16,7 +16,7 @@ Ok, vamos começar!
 
 **Passo 1**
 
-Para começar, você vai querer ir para [https://wallet.near.org/](https://wallet.near.org/). Esta é a sua casa. Se você já criou uma conta e não quer conectar uma nova conta à já existente, você pode abrir uma página em um navegador anônimo. Se for a sua primeira vez, ela o levará a esta página abaixo:
+Para começar, você vai querer ir para [https://wallet.near.org/](https://wallet.near.org/). Esta é a sua base. Se você já criou uma conta e não quer conectar uma nova conta à já existente, você pode abrir uma página em um navegador anônimo. Se for a sua primeira vez, ela o levará a esta página abaixo:
 
 **Passo 2**
 
@@ -63,17 +63,17 @@ Antes de entrarmos no tópico de staking, você pode querer conectar outras cont
 
 Se você deseja **_Importar uma conta existente_** basta clicar na caixa _"recuperar"_ frase semente e inserir a frase semente dessa conta. Maneiro.
 
-Alright, if you have made it this far, well done. You are now set up with your NEAR Account and ready to stake. Just as a quick reminder: From the moment your account has been funded the sole method of receiving and sending NEAR and any token from the wallet is via your newly created Account ID. Do not ever use the temporary address again once your account has been funded.
+Muito bem! Se você continuou até aqui, parabéns. Agora você está com sua conta de NEAR configurada e pronta para staking. Apenas um lembrete rápido: A partir do momento em que sua conta foi fundada, o único método de receber e enviar NEAR e qualquer token da carteira é através do seu recém-criado ID da conta. Nunca mais use o endereço temporário novamente depois que a sua conta estiver fundada.
 
-**Staking from the NEAR Wallet**
+**Staking da carteira NEAR**
 
-This next part will go into the details on how to stake and unstake from the NEAR wallet. Like the setup, it’s pretty easy once you are familiar with the process.
+Essa próxima parte abordará os detalhes de como fazer stake e desfazer o stake da carteira NEAR. A configuração é muito fácil uma vez que você estiver familiarizado com o processo.
 
-**Step 1: Staking NEAR**
+**Passo 1: Staking NEAR**
 
-Go to the **_Staking_** tab on the top left of the screen. Click on it and you will get a screen as displayed below.
+Vá para a tab **_Staking_** no canto superior da tela. Clique nela e a tela a baixo será exibida.
 
-This is the first step in staking. You will want to click the blue button ‘Stake My Tokens’. Once you do that, you will be prompted to **Select a Validator** from the list of NEAR Validators.
+Esse é o primeiro passo para fazer stake. Então você deve clicar no botão azul ‘Stake My Tokens’. Once you do that, you will be prompted to **Select a Validator** from the list of NEAR Validators.
 
 There are a couple of things to pay attention to here:
 

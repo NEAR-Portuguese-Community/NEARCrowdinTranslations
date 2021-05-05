@@ -101,13 +101,13 @@ Então será solicitado que você selecione de qual validador você gostaria de 
 
 Depois de selecionar o validador, a tela a seguir será exibida, então você deve entrar com a quantidade de tokens que deseja retirar. Você pode então escolher retirar seus rendimentos somente, ou mais se quiser.
 
-O último passo do processo de retirada do stake é confirmar que você está pronto para fazer a retirada dessa quantidade de NEAR que você inseriu. As it explains in the interface, the tokens become available on the 4th epoch after release which is usually between 52–65 hours in time.
+O último passo do processo de retirada do stake é confirmar que você está pronto para fazer a retirada dessa quantidade de NEAR que você inseriu. Como explicado na interface, os tokens ficam disponíveis na quarta época após o lançamento, que normalmente está entre 52 e 65 horas.
 
-After hitting confirm you will then get this friendly ‘Success’ screen.
+Após clicar em confirmar você verá essa amigável tela de ‘Sucesso’.
 
-Shortly after, if you check back on the ‘staking’ tab of your wallet, you will be able to see if the tokens that you have unstaked are ‘pending release’ or available to withdraw. Once they are available to withdraw you can simply select ‘Withdraw’ to have them deposited back into your wallet.
+Pouco depois, se você checar novamente a aba ‘staking’ da sua carteira, você poderá ver se os tokens que você retirou estarão em ‘Aguardando liberação’ ou disponível para saque. Uma vez que estiverem disponíveis para saque, você pode simplesmente selecionar ‘Saque’ para então tê-los depositados novamente a sua carteira.
 
-And that is pretty much all there is to it. Very intuitive. Very easy. Minimum wait time is 4 epochs. Don’t forget that number. As Matt Lockyer explained below — it is on the 4th epoch that you can withdraw your NEAR:
+E isso é praticamente tudo. Muito intuitivo. Muito fácil. O tempo mínimo de espera é 4 épocas. Não esqueça desse número. Como Matt Lockyer explica abaixo — é na 4° época que você pode sacar seu NEAR:
 
 NEAR DevRel Lead Matt Lockyer in the [NEAR Protocol Official Chat](https://t.me/cryptonear) on unstaking process.
 

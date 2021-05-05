@@ -71,37 +71,37 @@ Essa próxima parte abordará os detalhes de como fazer stake e desfazer o stake
 
 **Passo 1: Staking NEAR**
 
-Vá para a tab **_Staking_** no canto superior da tela. Clique nela e a tela a baixo será exibida.
+Vá para a aba **_Staking_** no canto superior da tela. Clique nela e a tela a baixo será exibida.
 
-Esse é o primeiro passo para fazer stake. Então você deve clicar no botão azul ‘Stake My Tokens’. Once you do that, you will be prompted to **Select a Validator** from the list of NEAR Validators.
+Esse é o primeiro passo para fazer stake. Então você deve clicar no botão azul ‘Fazer stake dos meus tokens’. Depois de fazer isso, você será solicitado a **Selecione um validador** da lista de Validadores NEAR.
 
-There are a couple of things to pay attention to here:
+Há algumas coisas nas quais prestar atenção aqui:
 
-First of all, look at the fee set beneath the validators name. That fee is representative of the amount that the validator will take for allowing you to stake with them. So when you calculate your Annual Percent Yield (APY), subtract whatever that percentage is from your total reward.
+Primeiro de tudo, veja a taxa definida abaixo do nome dos validadores. Essa taxa representa a quantia que o validador vai levar por permitir que você faça o stake com ele. Então quando você calcular seu rendimento anual (APY), subtraia esse valor de qualquer que seja o valor total que você terá de recompensa.
 
-Second, if you already know what validator you want to use to stake with, you can search them based upon their Account ID in the top search bar. In this example case, we will use SharpDarts because Rune Bentien is a great guy who uses the funds to re-invest in projects building on NEAR (side note: highly recommend SharpDarts). A full list of validators can be found [here](https://explorer.near.org/nodes/validators).
+Em segundo lugar, se você já sabe qual validador irá gostar de fazer o stake, você pode pesquisá-lo baseado em seu ID da conta, na barra de pesquisa. Nesse exemplo, nós vamos usar o SharpDarts pois Rune Bentien é um cara ótimo que usa os fundos para reinvestir em projetos construídos em NEAR (nota lateral: SharpDarts é altamente recomendado). A lista completa de validadores pode ser encontrada [aqui](https://explorer.near.org/nodes/validators).
 
-Once you have selected your validator pool you click ‘Stake with Validator’ and then you are asked to input the amount that you would like to stake. If you want to stake everything in your wallet click ‘Use Max’. Note as explained in the photo below, there is always 0.35 NEAR reserved for Fees.
+Uma vez que você selecionou seu validador clique em ‘Efetuar stake com validador’ e então será solicitado o valor que gostaria de fazer stake. Se você quer fazer stake the todo o valor em sua carteira clique em ‘Usar O Máximo’. Note, como mostrado na foto abaixo, sempre 0.35 NEAR é reservado para Taxas.
 
-Select the amount you would like to Stake:
+Selecione o valor que você gostaria de fazer Stake:
 
-Once you have entered an amount, you must then confirm your stake as depicted in the picture below. All you have to do is click ‘Confirm’.
+Uma vez que você entrar com o valor, você deve confirmar o stake como mostrado na imagem abaixo. Tudo que que você precisa fazer é clicar em ‘Submeter Stake’.
 
-**This is what it looks like when you have successfully staked.**
+**É assim que vai ser exibido quando você tiver feito stake com sucesso.**
 
-Okay, so with that model you are now staking on NEAR Protocol. You can check in on updates and rewards from the ‘Staking’ tab of the wallet.
+Okay, então dessa forma agora você está em stake com o protocolo NEAR. Você pode verificar as atualizações e recompensas na aba ‘Staking’ da carteira.
 
-**Step 2: Withdrawing Rewards (“Unstaking”)**
+**Step 2: Retirada das Recompensas (“Unstaking”)**
 
-So now that you are all set up and staking, you may want to withdraw your rewards from time to time. This next step will show you how to do that.
+Então agora que você está com tudo configurado e em stake, você pode querer tirar suas recompensas de vez em quando. Nessa próxima etapa será demonstrado como fazer isso.
 
-To start, you go to your staking tab. You will see as depicted in the image below a notice about how earned rewards are automatically restaked. If you want to unstake you have to select the _‘Unstake’_ on the right hand side.
+Para começar, vá para a aba staking. Você verá, como mostrado na imagem abaixo, uma nota de que as recompensas são automaticamente realocadas no stake. Se você deseja desfazer o stake você deve selecionar _‘Unstake’_ ao lado direito.
 
-This will then prompt you to select which validator you would like to unstake from. Unless you are staking through multiple different validators there should only be one option.
+Então será solicitado que você selecione de qual validador você gostaria de fazer a retirada. A menos que você esteja fazendo stake com vários validadores diferentes, haverá somente uma opinião mostrada.
 
-After selecting the validator, the following screen will then prompt you to input how many tokens you wish to unstake. You can then choose to either unstake the amount of your earned rewards or more if you like.
+Depois de selecionar o validador, a tela a seguir será exibida, então você deve entrar com a quantidade de tokens que deseja retirar. Você pode então escolher retirar seus rendimentos somente, ou mais se quiser.
 
-The last step of the unstaking process is to confirm that you are ready to unstake that amount of NEAR that you have inputted. As it explains in the interface, the tokens become available on the 4th epoch after release which is usually between 52–65 hours in time.
+O último passo do processo de retirada do stake é confirmar que você está pronto para fazer a retirada dessa quantidade de NEAR que você inseriu. As it explains in the interface, the tokens become available on the 4th epoch after release which is usually between 52–65 hours in time.
 
 After hitting confirm you will then get this friendly ‘Success’ screen.
 

@@ -121,11 +121,11 @@ It will then take you to this screen in your wallet. Note that if you have multi
 
 Once you click ‘Allow’ you are good to go, and your Account will be automatically connected to the dapp going forward — Funds and all. Simple, Sleek, and Easy.
 
-**How Do I Track My Staking APY?**
+**Como monitorar o rendimento percentual anual (APY) do seu staking?**
 
-Final, final question: How can I track my staking APY? There are a ton of websites for this. Perhaps the most customizable one is: [**https://www.stakingrewards.com/earn/near-protocol**](https://www.stakingrewards.com/earn/near-protocol).
+Finalmente, pergunta final: como posso rastrear minha staking APY? Existem muitos sites para isso. Talvez o mais personalizável seja: [**https://www.stakingrewards.com/earn/near-protocol**](https://www.stakingrewards.com/earn/near-protocol).
 
-As you can see, all you have to do is input the number of tokens you have, and the amount of time you intend to lock up for. Fun fact, you can actually also simulate how your rewards will increase depending on how the price goes up or down using the _Price_ tab on the left hand side.
+Como você pode ver, tudo o que você precisa fazer é inserir o número de tokens que possui e a quantidade de tempo que pretende bloquear. Curiosidade, você também pode simular como suas recompensas irão aumentar dependendo de como o preço sobe ou desce usando a guia _Price_ no lado esquerdo.
 
 Okay, that’s all there is to it. Remember if you have questions on the wallet there is a telegram support group for you [here](https://t.me/NEARSupport). I hope this helped. Welcome to the NEAR Ecosystem!
 

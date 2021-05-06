@@ -127,6 +127,6 @@ Finalmente, pergunta final: como posso rastrear minha staking APY? Existem muito
 
 Como você pode ver, tudo o que você precisa fazer é inserir o número de tokens que possui e a quantidade de tempo que pretende bloquear. Curiosidade, você também pode simular como suas recompensas irão aumentar dependendo de como o preço sobe ou desce usando a guia _Price_ no lado esquerdo.
 
-Okay, that’s all there is to it. Remember if you have questions on the wallet there is a telegram support group for you [here](https://t.me/NEARSupport). I hope this helped. Welcome to the NEAR Ecosystem!
+Ok, isso é tudo que há para fazer. Lembre-se de que se você tiver perguntas sobre a carteira, há um grupo de suporte no telegrama para você [aqui](https://t.me/NEARSupport). Espero que tenha ajudado. Bem-vindo ao Ecossistema NEAR!
 
-_Disclaimer: None of the information discussed above should be taken as investment or taxation advice. The views expressed are descriptive in nature detailing how to use a product of NEAR Protocol._
+_Aviso: Nenhuma das informações discutidas acima deve ser considerada um conselho de investimento ou fiscal. As opiniões expressas são descritivas por natureza, detalhando como usar um produto do Protocolo NEAR._

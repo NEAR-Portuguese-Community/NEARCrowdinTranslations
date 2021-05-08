@@ -109,7 +109,7 @@ Pouco depois, se você checar novamente a aba ‘staking’ da sua carteira, voc
 
 E isso é praticamente tudo. Muito intuitivo. Muito fácil. O tempo mínimo de espera é 4 épocas. Não esqueça desse número. Como Matt Lockyer explica abaixo — é na 4° época que você pode sacar seu NEAR:
 
-NEAR DevRel Lead Matt Lockyer in the [NEAR Protocol Official Chat](https://t.me/cryptonear) on unstaking process.
+Matt Lockyer, Diretor de Relações com Desenvolvedores da NEAR, no [chat oficial do Protocolo NEAR](https://t.me/cryptonear) falando sobre o processo de unstaking.
 
 **Como conectar minha carteira NEAR a um Dapp na NEAR?**
 
@@ -119,7 +119,7 @@ Ok, esta é absolutamente a última parte deste guia. Eu sei que ele está longo
 
 Isso vai te levar a essa tela na sua carteira. Note que se você tem várias contas conectadas através da carteira, você pode decidir a qual conta gostaria de permitir o acesso do Dapp.
 
-Once you click ‘Allow’ you are good to go, and your Account will be automatically connected to the dapp going forward — Funds and all. Simple, Sleek, and Easy.
+Uma vez que você clique em "Permitir" estará tudo pronto, e sua conta será conectada automaticamente ao dapp daqui em diante - seus fundos e tudo mais. Simples, elegante e fácil.
 
 **Como monitorar o rendimento percentual anual (APY) do seu staking?**
 

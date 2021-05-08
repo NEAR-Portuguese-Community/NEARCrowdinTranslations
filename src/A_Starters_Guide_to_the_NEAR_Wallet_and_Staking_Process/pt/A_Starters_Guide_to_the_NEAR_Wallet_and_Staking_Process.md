@@ -113,11 +113,11 @@ NEAR DevRel Lead Matt Lockyer in the [NEAR Protocol Official Chat](https://t.me/
 
 **Como conectar minha carteira NEAR a um Dapp na NEAR?**
 
-Ok, esta é absolutamente a última parte deste guia. Eu sei que ele está longo. Muitas pessoas às vezes perguntam como podem usar a carteira NEAR para se conectar a dapps existentes na NEAR. É muito simples. Realmente super simples. Eis o que você precisa fazer. Você vai para um dapp NEAR. Você pode conferir os diferentes dApps no [Awesome NEAR](https://awesomenear.com/). This one happens to be [near.bet](https://near.bet/#/) — a place to buy and sell accounts (Shoutout to Alex K.). Somewhere on their interface you look for the ‘_Sign in with NEAR Wallet Option_’. Give that a click.
+Ok, esta é absolutamente a última parte deste guia. Eu sei que ele está longo. Muitas pessoas às vezes perguntam como podem usar a carteira NEAR para se conectar a dapps existentes na NEAR. É muito simples. Realmente super simples. Eis o que você precisa fazer. Você vai para um dapp NEAR. Você pode conferir os diferentes dApps no [Awesome NEAR](https://awesomenear.com/). Este acontece de ser [near.bet](https://near.bet/#/) — um lugar para comprar e vender contas (um alô para o Alex K.). Em algum lugar da interface deles você procura pela ‘_opção de iniciar a sessão com a carteira NEAR_’. Dê um clique nela.
 
 [near.bet](https://near.bet/#/)
 
-It will then take you to this screen in your wallet. Note that if you have multiple accounts connected through the wallet you can decide which account you would like to allow the Dapp to access.
+Isso vai te levar a essa tela na sua carteira. Note que se você tem várias contas conectadas através da carteira, você pode decidir a qual conta gostaria de permitir o acesso do Dapp.
 
 Once you click ‘Allow’ you are good to go, and your Account will be automatically connected to the dapp going forward — Funds and all. Simple, Sleek, and Easy.
 

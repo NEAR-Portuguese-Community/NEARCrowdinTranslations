@@ -16,7 +16,7 @@ Ok, vamos começar!
 
 **Passo 1**
 
-Para começar, você vai querer ir para [https://wallet.near.org/](https://wallet.near.org/). Esta é a sua base. Se você já criou uma conta e não quer conectar uma nova conta à já existente, você pode abrir uma página em um navegador anônimo. Se for a sua primeira vez, ela o levará a esta página abaixo:
+Para começar, você vai querer ir para [https://wallet.near.org/](https://wallet.near.org/). Esta é a sua base de operação. Se você já criou uma conta e não quer conectar uma nova conta à já existente, você pode abrir uma página em um navegador anônimo. Se for a sua primeira vez, ela o levará a esta página abaixo:
 
 **Passo 2**
 
@@ -24,7 +24,7 @@ Supondo que você está planejando criar uma conta, você vai querer selecionar 
 
 É aqui que você tem a oportunidade de criar uma Conta NEAR. Pode ser um pouco complicado se não se conhece muito bem o processo, então vem comigo.
 
-Você escolhe o nome da sua conta e, em seguida, clica em "Criar conta". No exemplo abaixo, eu escolhi o nome "Exemplo", mas você pode escolher qualquer coisa. E não, você não pode alterar o nome da sua conta uma vez que tenha sido criada (embora você possa comprá-la e vendê-la).
+Você escolhe o nome da sua conta e, em seguida, clica em "Criar conta". No exemplo abaixo, eu escolhi o nome "examplesample", mas você pode escolher qualquer coisa. E não, você não pode alterar o nome da sua conta uma vez que tenha sido criada (embora você possa comprá-la e vendê-la).
 
 Em seguida, você precisa concordar com os termos e condições e a política de privacidade. Para concordar, ative as duas marcas de verificação à esquerda (após ler os termos, é claro).
 

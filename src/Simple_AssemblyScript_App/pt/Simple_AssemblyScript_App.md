@@ -8,7 +8,7 @@ Os jogos multijogador compartilham um único mundo que todos os jogadores podem 
 
 Isso é geralmente estabelecido utilizando um sistema de coordenadas que representa locais no mundo. O mapeamento simples de valor-chave armazena o estado do mundo em coordenadas específicas.
 
-In this tutorial, we will write a very simple game with a shared world state. The world is represented as a square playing field with the only property available at each location is its "color". Some of you may recognize this as "place", which made its way around the Internet a while ago.
+Neste tutorial, escreveremos um jogo muito simples com um estado de mundo compartilhado. O mundo é representado como um campo de jogo quadrado no qual a única propriedade disponível em cada local é sua "cor". Some of you may recognize this as "place", which made its way around the Internet a while ago.
 
 Abaixo está um exemplo de uma versão em grande escala para a qual muitas pessoas contribuíram.
 
@@ -22,7 +22,7 @@ Abra uma nova guia ou janela no navegador:
 
 * Open a new Token Contract Project in [Gitpod](https://gitpod.io/#https://github.com/near-examples/token-contract-as)
 
-When this opens in GitPod, the code will generate a unique NEAR account for this project and build then deploy the template files. You can take a look at what we're starting with by viewing the launched webpage.
+When this opens in GitPod, the code will generate a unique NEAR account for this project and build then deploy the template files. Você pode ter uma ideia de qual é o nosso ponto de partida visualizando a página aberta.
 
 Na aba terminal Gitpod:
 

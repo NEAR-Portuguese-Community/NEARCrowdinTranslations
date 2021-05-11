@@ -16,19 +16,19 @@ Abaixo está um exemplo de uma versão em grande escala para a qual muitas pesso
 
 #### Vamos começar!
 
-## Step 1 - Create a new Token Contract Project in Gitpod
+## Passo 1 - Criar um novo projeto de contrato de token no Gitpod
 
 Abra uma nova guia ou janela no navegador:
 
-* Open a new Token Contract Project in [Gitpod](https://gitpod.io/#https://github.com/near-examples/token-contract-as)
+* Abrir um novo projeto de contrato de token no [Gitpod](https://gitpod.io/#https://github.com/near-examples/token-contract-as)
 
-When this opens in GitPod, the code will generate a unique NEAR account for this project and build then deploy the template files. Você pode ter uma ideia de qual é o nosso ponto de partida visualizando a página aberta.
+Quando for aberto no GitPod, o código irá gerar uma conta NEAR única para este projeto e compilar e, então, fazer deploy dos arquivos de template. Você pode ter uma ideia de qual é o nosso ponto de partida visualizando a página aberta.
 
 Na aba terminal Gitpod:
 
 * `CMD + clique` em `http://localhost:1234`
 
-This sample project has a token smart contract and also some JavaScript tests that invoke smart contract functions. There are two testing suites that perform these tests, AS-pect and Jest.
+Este exemplo de projeto tem um contrato inteligente de token e também alguns testes em JavaScript que invocam funções de contrato inteligente. There are two testing suites that perform these tests, AS-pect and Jest.
 
 * Jest allows us to perform integration tests on NEAR's testnet network.
 * AS-pect allows us to test our smart contract on a locally mocked network.

@@ -73,7 +73,7 @@ Essa próxima parte abordará os detalhes de como fazer e desfazer o stake da ca
 
 Vá para a aba **_Staking_** no canto superior da tela. Clique nela e a tela a baixo será exibida.
 
-Esse é o primeiro passo para fazer stake. Então você deve clicar no botão azul ‘Fazer stake dos meus tokens’. Depois de fazer isso, você será solicitado para **Selecionar um validador** da lista de Validadores NEAR.
+Esse é o primeiro passo para fazer stake. Então você deve clicar no botão azul ‘Fazer stake dos meus tokens’. Depois de fazer isso, você será solicitado a **Selecionar o Validador** da lista de Validadores NEAR.
 
 Há algumas coisas nas quais prestar atenção aqui:
 
@@ -105,7 +105,7 @@ O último passo do processo de retirada do stake é confirmar que você está pr
 
 Após clicar em confirmar você verá essa amigável tela de ‘Sucesso’.
 
-Pouco depois, se você verificar novamente a aba ‘staking’ da sua carteira, você poderá ver se os tokens que você retirou estarão em ‘Aguardando liberação’ ou disponível para saque. Uma vez que estiverem disponíveis para saque, você pode simplesmente selecionar ‘Saque’ para então tê-los depositados novamente na sua carteira.
+Pouco depois, se você verificar novamente a aba ‘staking’ da sua carteira, você poderá ver se os tokens que você retirou estarão em ‘Aguardando liberação’ ou disponíveis para saque. Uma vez que estiverem disponíveis para saque, você pode simplesmente selecionar ‘Saque’ para então tê-los depositados novamente na sua carteira.
 
 E isso é praticamente tudo. Muito intuitivo. Muito fácil. O tempo mínimo de espera é 4 épocas. Não esqueça desse número. Como Matt Lockyer explica abaixo — é na 4° época que você pode sacar seu NEAR:
 

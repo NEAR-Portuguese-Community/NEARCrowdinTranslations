@@ -4,7 +4,7 @@
 
 ## A multiplayer "Place" game with shared world state.
 
-Os jogos multijogador compartilham um único mundo que todos os jogadores podem afetar. Vamos construir um!
+Os jogos multiplayer compartilham um único mundo em que todos os jogadores podem afetar. Vamos construir um!
 
 Isso é geralmente estabelecido utilizando um sistema de coordenadas que representa locais no mundo. O mapeamento simples de valor-chave armazena o estado do mundo em coordenadas específicas.
 
@@ -47,7 +47,7 @@ Na nova aba que abre no final do Gitpod:
 
 Isto irá executar os dois testes e registrar os resultados no seu console. Se você quiser executar apenas uma das suítes de teste, você pode digitar o seguinte no seu terminal.
 
-* `yarn asp` to run only AS-pect tests
+* `yarn asp` para executar somente testes AS-pect
 * `yarn jest` para executar apenas testes Jest
 
 Go ahead and explore the code in these tests to get a better understanding of the actions they perform.
@@ -57,11 +57,11 @@ Go ahead and explore the code in these tests to get a better understanding of th
 
 Once the testing suites are complete, your test results should look like this:
 
-**AS-pect Test**
+**Teste AS-pect**
 
 ![Token Contract AS-pect test](https://docs.near.org/docs/assets/token-contract-aspect-test.png)
 
-**Jest Test**
+**Teste Jest**
 
 ![Default Token Contract Test ](https://docs.near.org/docs/assets/default-token-contract-test.png)
 
@@ -97,11 +97,9 @@ export function getCoords(coords: string): string {
 
   return "";
 }
-
-Copy
 ```
 
-Em seguida, precisaremos de uma função `getMap`, que retorna o estado completo do jogo \(não queremos fazer uma chamada separada para cada coordenada!\)
+Em seguida, precisaremos de uma função `getMap`, que retorna o estado completo do jogo (não queremos fazer uma chamada separada para cada coordenada!)
 
 No mesmo arquivo `assembly/main.ts`:
 
@@ -128,13 +126,11 @@ export function getMap(): string[] {
   }
   return arrResult;
 }
-
-Copy
 ```
 
 * Clique em **File** &gt;&gt; **Save** para salvar as alterações
 
-Este contrato inteligente está agora pronto para ser reimplantado na rede de teste NEAR, mas antes de fazer isso, vamos testá-lo localmente para garantir que tudo se comporte como esperado. This is where AS-pect comes in handy!
+Este contrato inteligente está agora pronto para ser reimplantado na rede de teste NEAR, mas antes de fazer isso, vamos testá-lo localmente para garantir que tudo se comporte como esperado. É aqui que AS-pect vem a calhar!
 
 ## Passo 3 - Escreva alguns testes para o contrato
 
@@ -171,8 +167,6 @@ import { getMap, setCoords } from "../main";
     });
   });
 });
-
-Copy
 ```
 
 * Clique em **File** &gt;&gt; **Save** para salvar as alterações
@@ -394,7 +388,7 @@ Copy
 
 * Clique em **File** &gt;&gt; **Save All** para salvar todas as alterações
 
-**É isso! Agora vamos lançar nosso aplicativo e começar a desenhar no blockchain!**
+**É isso! Agora vamos lançar nosso aplicativo e começar a desenhar na blockchain!**
 
 No Gitpod**:**
 

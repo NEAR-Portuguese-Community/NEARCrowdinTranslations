@@ -60,17 +60,17 @@ Pulse, uma aplicação operada e de propriedade da comunidade, é a primeira a s
 
 **Metapool**
 
-Staking de derivativos e distrubuição de staking baseado em DAO são cruciais para a descentralização das redes baseadas em Proof-of-Stake. Metapool é ambos. Usuários podem fazer staking de seus NEARs através do Metapool, que vai distribuir NEAR para uma whitelist de validadores, e retornar $stNEAR. stNEAR é resgatável 1–1 com NEAR, e holders vão receber recompensas pelo staking por seus stNEAR em forma de mais stNEAR. Este stNEAR pode ser usado em DeFi, com bons rendimentos e com um adicional de 10% de APY por fazer o stake de NEAR. Experimente Metapool [aqui](https://www.narwallets.com/dapp/testnet/meta/).
+Staking de derivativos e distrubuição de staking baseado em DAO são cruciais para a descentralização das redes baseadas em Proof-of-Stake. Metapool é ambos. Usuários podem fazer staking de seus NEARs através do Metapool, que vai distribuir NEAR para uma lista permitida de validadores, e retornar $stNEAR. stNEAR é resgatável 1–1 com NEAR, e os titulares vão receber recompensas pelo staking por seus stNEAR em forma de mais stNEAR. Este stNEAR pode ser usado no DeFi, com bons rendimentos e com um adicional de 10% de APY por fazer stake de tokens NEAR. Experimente o Metapool [aqui](https://www.narwallets.com/dapp/testnet/meta/).
 
 **Oysterpack**
 
-Oysterpack está construindo várias ferramentas para desbloquear liquidez para DeFi na NEAR. O primeiro produto da Oysterpack é a STAKE, um token fungível representando NEAR que está em stake. STAKE vai oferecer aos detentores a oportunidade de ganhar renda por seus tokens NEAR em stake, bloqueando-os em outros produtos DeFi, para rapidamente tirar do stake seu NEAR, e pagar somente uma taxa de staking, ao invés de uma taxa cada vez. Aprenda mais sobre [Oysterpack](https://twitter.com/OysterPack).
+Oysterpack está construindo várias ferramentas para desbloquear liquidez para DeFi na NEAR. O primeiro produto da Oysterpack é a STAKE, um token fungível representando tokens NEAR que estão em stake. STAKE vai oferecer aos titulares a oportunidade de ganhar renda por seus tokens NEAR em stake, bloqueando-os em outros produtos DeFi, para rapidamente tirar do stake seu NEAR, e pagar somente uma taxa de staking, ao invés de uma taxa a cada época. Aprenda mais sobre [Oysterpack](https://twitter.com/OysterPack).
 
 **Ativos/Empréstimos Sintéticos**
 
 **OIN Finance**
 
-[OIN](https://oin.finance/) é uma plataforma descentralizada de emissão de stablecoin. OIN permite projetos emitirem suas próprias stablecoins da marca, ao invés de precisar aplicar para que seus colaterais sejam incluídos na whitelist e te-las nas plataformas anteriores. OIN vai lançar uma stablecoin com colateral em NEAR, que vai possibilitar os detentores de NEAR desbloquear liquidez sem vender seu NEAR. Além disso, OIN tem planos para off-ramps e casos de uso tal como troca por outras stablecoins convencionais, adicionando alavancagem, cobertura, empréstimo, e uma infinidade de utilidades específicos ao ecossistema.
+[OIN](https://oin.finance/) é uma plataforma descentralizada de emissão de stablecoin. OIN permite projetos emitirem suas próprias stablecoins, ao invés de precisar aplicar para que seus colaterais sejam incluídos na lista permitida e te-las nas plataformas anteriores. OIN vai lançar uma stablecoin com colateral em NEAR, que vai possibilitar os detentores de tokens NEAR desbloquearem liquidez sem vender seus NEARs. Além disso, OIN tem planos para casos de uso tal como troca por outras stablecoins convencionais, adicionando alavancagem, cobertura, empréstimo, e uma infinidade de utilidades específicas ao ecossistema.
 
 **Token de Fidelidade (Loyalty Token)**
 

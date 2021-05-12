@@ -9,3 +9,5 @@ files:
     translation: /src/Simple_AssemblyScript_App/%two_letters_code%/%original_file_name%
   - source: /src/DeFi_on_NEAR_is_Here/en/*.md
     translation: /src/DeFi_on_NEAR_is_Here/%two_letters_code%/%original_file_name%
+  - source: /src/*/en/*.md
+    translation: /src/%file_name%/%two_letters_code%/%original_file_name%

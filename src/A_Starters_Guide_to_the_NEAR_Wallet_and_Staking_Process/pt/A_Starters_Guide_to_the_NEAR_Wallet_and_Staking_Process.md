@@ -32,7 +32,7 @@ Ok, esta é a próxima tela que aparece. Você precisa escolher o seu método de
 
 A próxima tela foi omitida por precaução, pois mostra a "frase semente". Deve ter 12 caracteres. Você vai querer **absolutamente fazer cópia(s) de segurança dessa frase.** Copiá-la significa colocá-la em 4 pedaços de papel. Dê um pedaço do papel para sua mãe, coloque o outro na gaveta de meias, um na sua caixa bancária e um quarto na parte inferior de uma pasta de arquivos num envelope com o nome de "chato". A maioria das pessoas não perde fundos por ter sua frase semente comprometida: A maioria perde-a e nunca a recupera.
 
-**Observação:** Sua frase semente é o acesso à sua carteira. Nunca compartilhe isso com ninguém. Se você perdê-la, não há um suporte ao cliente para recuperá-la, então certifique-se de realmente fazer cópia de segurança dessa frase.
+**Observação:** Sua frase semente é o acesso à sua carteira. Não compartilhe-a com ninguém. Nunca. Se você perdê-la, não há um suporte ao cliente para recuperá-la, então certifique-se de realmente fazer cópia de segurança dessa frase.
 
 Para certificar-se de que registrou corretamente a semente, será solicitado que insira uma das palavras escolhida aleatoriamente. Depois de fazer isso, aparecerá esta tela:
 

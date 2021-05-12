@@ -113,7 +113,7 @@ Matt Lockyer, Diretor de Relações com Desenvolvedores da NEAR, no [chat oficia
 
 **Como conectar minha carteira NEAR a um Dapp na NEAR?**
 
-Ok, esta é absolutamente a última parte deste guia. Eu sei que ele está longo. Muitas pessoas às vezes perguntam como podem usar a carteira NEAR para se conectar a dapps existentes na NEAR. É muito simples. Realmente super simples. Eis o que você precisa fazer. Você vai para um dapp NEAR. Você pode conferir os diferentes dApps no [Awesome NEAR](https://awesomenear.com/). Este acontece de ser [near.bet](https://near.bet/#/) — um lugar para comprar e vender contas (um alô para o Alex K.). Em algum lugar da interface deles você procura pela ‘_opção de iniciar a sessão com a carteira NEAR_’. Dê um clique nela.
+Ok, esta é absolutamente a última parte deste guia. Eu sei que ele está longo. Muitas pessoas às vezes perguntam como podem usar a carteira NEAR para se conectar a dapps existentes na NEAR. É muito simples. Realmente super simples. Eis o que você precisa fazer. Você vai para um DApp NEAR. Você pode conferir os diferentes dApps no [Awesome NEAR](https://awesomenear.com/). Este acontece de ser [near.bet](https://near.bet/#/) — um lugar para comprar e vender contas (um alô para o Alex K.). Em algum lugar da interface deles você procura pela ‘_opção de iniciar a sessão com a carteira NEAR_’. Dê um clique nela.
 
 [near.bet](https://near.bet/#/)
 

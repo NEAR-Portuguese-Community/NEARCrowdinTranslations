@@ -79,7 +79,7 @@ Há algumas coisas nas quais prestar atenção aqui:
 
 Primeiro de tudo, veja a taxa definida abaixo do nome dos validadores. Essa taxa representa a quantia que o validador vai receber por permitir que você faça o stake com ele. Então quando você calcular seu rendimento anual (APY), subtraia esse valor de qualquer que seja o valor total que você terá de recompensa.
 
-Em segundo lugar, se você já sabe qual validador deseja escolher para fazer o stake, você pode pesquisá-lo com o ID da conta, na barra de pesquisa. Nesse exemplo, nós vamos usar o SharpDarts pois Rune Bentien é um cara ótimo que usa os fundos para reinvestir em projetos construídos em NEAR (nota lateral: SharpDarts é altamente recomendado). A lista completa de validadores pode ser encontrada [aqui](https://explorer.near.org/nodes/validators).
+Em segundo lugar, se você já sabe qual validador deseja escolher para fazer o stake, você pode pesquisá-lo com o ID da conta, na barra de pesquisa. Nesse exemplo nós vamos usar o validador Figment. A lista completa de validadores pode ser encontrada [aqui](https://explorer.near.org/nodes/validators).
 
 Uma vez que você selecionou seu validador clique em ‘Efetuar stake com validador’ e então será solicitado o valor que gostaria de fazer stake. Se você quer fazer stake the todo o valor em sua carteira clique em ‘Usar O Máximo’. Note, como mostrado na foto abaixo, sempre 0.35 NEAR é reservado para Taxas.
 

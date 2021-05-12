@@ -24,7 +24,7 @@ Supondo que você está planejando criar uma conta, você vai querer selecionar 
 
 É aqui que você tem a oportunidade de criar uma Conta NEAR. Pode ser um pouco complicado se não se conhece muito bem o processo, então vem comigo.
 
-Você escolhe o nome da sua conta e, em seguida, clica em "Criar conta". No exemplo abaixo, eu escolhi o nome "examplesample", mas você pode escolher qualquer coisa. E não, você não pode alterar o nome da sua conta uma vez que tenha sido criada (embora você possa comprá-la e vendê-la).
+Você escolhe o nome da sua conta e, em seguida, clica em "Criar conta". No exemplo abaixo, eu escolhi o nome "exemplo", mas você pode escolher qualquer coisa. E não, você não pode alterar o nome da sua conta uma vez que tenha sido criada (embora você possa comprá-la e vendê-la).
 
 Em seguida, você precisa concordar com os termos e condições e a política de privacidade. Para concordar, ative as duas marcas de verificação à esquerda (após ler os termos, é claro).
 
@@ -49,37 +49,37 @@ Uma vez que você finalmente tenha recebido aquele 1 NEAR na janela que deixou a
 
 **Passo 3**
 
-Configure a sua conta. Agora que sua conta foi fundada, clique em ‘_Continuar para a Conta’_ para entrar na interface inicial da carteira.
+Configure a sua conta. Agora que sua conta recebeu fundos, clique em ‘_Continuar para a Conta’_ para entrar na interface inicial da carteira.
 
 **Nota:** Quando você estiver na interface inicial, existem diferentes opções disponíveis no canto superior esquerdo da barra. Na coluna da direita, você pode ver suas diferentes permissões de segurança. Lembra no início, quando eu mencionei que você pode mudar a segurança após estar tudo configurado? Pois bem, chegou a hora de fazer isso. Você pode habilitar o acesso por e-mail e telefone no lugar da sua frase semente para um acesso mais rápido.
 
 **Habilitando outras formas de acesso:**
 
-Abaixo disso, você pode ver ‘**Ativando a autenticação de 2 fatores** a partir do seu e-mail. Isso é altamente recomendado, pois significa que mesmo se sua conta estiver comprometida, nenhuma ação pode ser tomada sem primeiro confirmar qual ação com um código especial enviada para o seu e-mail.
+Abaixo disso, você pode ver ‘**Ativando a autenticação de 2 fatores (2FA)** a partir do seu e-mail. Isso é altamente recomendado, pois significa que mesmo se sua conta estiver comprometida, nenhuma ação pode ser tomada sem primeiro confirmar a ação com um código especial enviado para o seu e-mail.
 
 **Passo 4: Adicionando ou Importando uma Conta**
 
 Antes de entrarmos no tópico de staking, você pode querer conectar outras contas NEAR que você configurou para a interface de carteira. Isso permitirá que você navegue rapidamente entre as contas. No canto superior direito você pode clicar em _importar_ ou _criar nova conta_
 
-Se você deseja **_Importar uma conta existente_** basta clicar na caixa _"recuperar"_ frase semente e inserir a frase semente dessa conta. Maneiro.
+Se você deseja **_Importar uma conta existente_** basta clicar na caixa _‘recuperar‘_ frase semente e inserir a frase semente dessa conta. Maneiro.
 
-Muito bem! Se você continuou até aqui, parabéns. Agora você está com sua conta de NEAR configurada e pronta para staking. Apenas um lembrete rápido: A partir do momento em que sua conta foi fundada, o único método de receber e enviar NEAR e qualquer token da carteira é através do seu recém-criado ID da conta. Nunca mais use o endereço temporário novamente depois que a sua conta estiver fundada.
+Muito bem! Se você continuou até aqui, parabéns. Agora você está com sua conta NEAR configurada e pronta para staking. Apenas um lembrete rápido: A partir do momento em que sua conta recebeu fundos, o único método de receber e enviar NEAR e qualquer token da carteira é através do seu recém-criado ID da conta. Nunca mais use o endereço temporário novamente depois que a sua conta receber fundos.
 
 **Staking da carteira NEAR**
 
-Essa próxima parte abordará os detalhes de como fazer stake e desfazer o stake da carteira NEAR. A configuração é muito fácil uma vez que você estiver familiarizado com o processo.
+Essa próxima parte abordará os detalhes de como fazer e desfazer o stake da carteira NEAR. A configuração é muito fácil uma vez que você estiver familiarizado com o processo.
 
 **Passo 1: Staking NEAR**
 
 Vá para a aba **_Staking_** no canto superior da tela. Clique nela e a tela a baixo será exibida.
 
-Esse é o primeiro passo para fazer stake. Então você deve clicar no botão azul ‘Fazer stake dos meus tokens’. Depois de fazer isso, você será solicitado a **Selecione um validador** da lista de Validadores NEAR.
+Esse é o primeiro passo para fazer stake. Então você deve clicar no botão azul ‘Fazer stake dos meus tokens’. Depois de fazer isso, você será solicitado para **Selecionar um validador** da lista de Validadores NEAR.
 
 Há algumas coisas nas quais prestar atenção aqui:
 
-Primeiro de tudo, veja a taxa definida abaixo do nome dos validadores. Essa taxa representa a quantia que o validador vai levar por permitir que você faça o stake com ele. Então quando você calcular seu rendimento anual (APY), subtraia esse valor de qualquer que seja o valor total que você terá de recompensa.
+Primeiro de tudo, veja a taxa definida abaixo do nome dos validadores. Essa taxa representa a quantia que o validador vai receber por permitir que você faça o stake com ele. Então quando você calcular seu rendimento anual (APY), subtraia esse valor de qualquer que seja o valor total que você terá de recompensa.
 
-Em segundo lugar, se você já sabe qual validador irá gostar de fazer o stake, você pode pesquisá-lo baseado em seu ID da conta, na barra de pesquisa. Nesse exemplo, nós vamos usar o SharpDarts pois Rune Bentien é um cara ótimo que usa os fundos para reinvestir em projetos construídos em NEAR (nota lateral: SharpDarts é altamente recomendado). A lista completa de validadores pode ser encontrada [aqui](https://explorer.near.org/nodes/validators).
+Em segundo lugar, se você já sabe qual validador deseja escolher para fazer o stake, você pode pesquisá-lo com o ID da conta, na barra de pesquisa. Nesse exemplo, nós vamos usar o SharpDarts pois Rune Bentien é um cara ótimo que usa os fundos para reinvestir em projetos construídos em NEAR (nota lateral: SharpDarts é altamente recomendado). A lista completa de validadores pode ser encontrada [aqui](https://explorer.near.org/nodes/validators).
 
 Uma vez que você selecionou seu validador clique em ‘Efetuar stake com validador’ e então será solicitado o valor que gostaria de fazer stake. Se você quer fazer stake the todo o valor em sua carteira clique em ‘Usar O Máximo’. Note, como mostrado na foto abaixo, sempre 0.35 NEAR é reservado para Taxas.
 

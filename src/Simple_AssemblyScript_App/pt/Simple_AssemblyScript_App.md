@@ -24,16 +24,16 @@ Abra uma nova guia ou janela no navegador:
 
 Quando for aberto no GitPod, o código irá gerar uma conta NEAR única para este projeto e compilar e, então, fazer deploy dos arquivos de template. Você pode ter uma ideia de qual é o nosso ponto de partida visualizando a página aberta.
 
-Na aba terminal Gitpod:
+Na aba do terminal no Gitpod:
 
 * `CMD + clique` em `http://localhost:1234`
 
-Este exemplo de projeto tem um contrato inteligente de token e também alguns testes em JavaScript que invocam funções de contrato inteligente. There are two testing suites that perform these tests, AS-pect and Jest.
+Este exemplo de projeto tem um contrato inteligente de token e também alguns testes em JavaScript que invocam funções de contrato inteligente. Existem dois conjuntos de testes que executam esses testes, AS-pect e Jest.
 
-* Jest allows us to perform integration tests on NEAR's testnet network.
-* AS-pect allows us to test our smart contract on a locally mocked network.
+* Jest nos permite realizar testes de integração na rede testnet da NEAR.
+* AS-pect nos permite testar nosso contrato inteligente em uma rede simulada localmente.
 
-You can try running these tests right away to see the code interacting with the blockchain.
+Você pode tentar rodar esses testes imediatamente para ver o código interagindo com a blockchain.
 
 Para executar estes testes...
 

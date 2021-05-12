@@ -81,7 +81,7 @@ Primeiro de tudo, veja a taxa definida abaixo do nome dos validadores. Essa taxa
 
 Em segundo lugar, se você já sabe qual validador deseja escolher para fazer o stake, você pode pesquisá-lo com o ID da conta, na barra de pesquisa. Nesse exemplo nós vamos usar o validador Figment. A lista completa de validadores pode ser encontrada [aqui](https://explorer.near.org/nodes/validators).
 
-Uma vez que você selecionou seu validador clique em ‘Efetuar stake com validador’ e então será solicitado o valor que gostaria de fazer stake. Se você quer fazer stake the todo o valor em sua carteira clique em ‘Usar O Máximo’. Note, como mostrado na foto abaixo, sempre 0.35 NEAR é reservado para Taxas.
+Uma vez que você selecionou seu validador clique em ‘Efetuar stake com validador’ e então será solicitado o valor que gostaria de fazer stake. Se você quiser fazer stake com todo o valor em sua carteira clique em ‘Usar o Máximo’. Note, como mostrado na foto abaixo, sempre 0.35 NEAR é reservado para Taxas.
 
 Selecione o valor que você gostaria de fazer Stake:
 
@@ -89,41 +89,41 @@ Uma vez que você entrar com o valor, você deve confirmar o stake como mostrado
 
 **É assim que vai ser exibido quando você tiver feito stake com sucesso.**
 
-Okay, então dessa forma agora você está em stake com o protocolo NEAR. Você pode verificar as atualizações e recompensas na aba ‘Staking’ da carteira.
+Okay, então dessa forma agora você está fazendo stake no protocolo NEAR. Você pode verificar as atualizações e recompensas na aba ‘Staking’ da carteira.
 
 **Step 2: Retirada das Recompensas (“Unstaking”)**
 
-Então agora que você está com tudo configurado e em stake, você pode querer tirar suas recompensas de vez em quando. Nessa próxima etapa será demonstrado como fazer isso.
+Então agora que você está com tudo configurado e fazendo stake, você pode querer tirar suas recompensas de vez em quando. Nessa próxima etapa será demonstrado como fazer isso.
 
-Para começar, vá para a aba staking. Você verá, como mostrado na imagem abaixo, uma nota de que as recompensas são automaticamente realocadas no stake. Se você deseja desfazer o stake você deve selecionar _‘Unstake’_ ao lado direito.
+Para começar, vá para a aba staking. Você verá, como mostrado na imagem abaixo, uma nota de que as recompensas são automaticamente colocadas em stake. Se você deseja desfazer o stake você deve selecionar _‘Unstake’_ ao lado direito.
 
-Então será solicitado que você selecione de qual validador você gostaria de fazer a retirada. A menos que você esteja fazendo stake com vários validadores diferentes, haverá somente uma opinião mostrada.
+Então será solicitado que você selecione qual validador você gostaria de fazer a retirada. A menos que você esteja fazendo stake com vários validadores diferentes, mostrará somente uma opção.
 
-Depois de selecionar o validador, a tela a seguir será exibida, então você deve entrar com a quantidade de tokens que deseja retirar. Você pode então escolher retirar seus rendimentos somente, ou mais se quiser.
+Depois de selecionar o validador, a tela a seguir será exibida, então você deve informar a quantidade de tokens que deseja retirar. Você pode então escolher retirar seus rendimentos ganhos, ou mais, se desejar.
 
-O último passo do processo de retirada do stake é confirmar que você está pronto para fazer a retirada dessa quantidade de NEAR que você inseriu. Como explicado na interface, os tokens ficam disponíveis na quarta época após o lançamento, que normalmente está entre 52 e 65 horas.
+O último passo do processo de retirada do stake é confirmar que você está pronto para fazer a retirada da quantidade de NEAR que você inseriu. Como explicado na interface, os tokens ficam disponíveis na quarta época após o lançamento, que normalmente ocorre entre 52 a 65 horas.
 
 Após clicar em confirmar você verá essa amigável tela de ‘Sucesso’.
 
-Pouco depois, se você checar novamente a aba ‘staking’ da sua carteira, você poderá ver se os tokens que você retirou estarão em ‘Aguardando liberação’ ou disponível para saque. Uma vez que estiverem disponíveis para saque, você pode simplesmente selecionar ‘Saque’ para então tê-los depositados novamente a sua carteira.
+Pouco depois, se você verificar novamente a aba ‘staking’ da sua carteira, você poderá ver se os tokens que você retirou estarão em ‘Aguardando liberação’ ou disponível para saque. Uma vez que estiverem disponíveis para saque, você pode simplesmente selecionar ‘Saque’ para então tê-los depositados novamente na sua carteira.
 
 E isso é praticamente tudo. Muito intuitivo. Muito fácil. O tempo mínimo de espera é 4 épocas. Não esqueça desse número. Como Matt Lockyer explica abaixo — é na 4° época que você pode sacar seu NEAR:
 
-Matt Lockyer, Diretor de Relações com Desenvolvedores da NEAR, no [chat oficial do Protocolo NEAR](https://t.me/cryptonear) falando sobre o processo de unstaking.
+Matt Lockyer, Diretor de Relações com Desenvolvedores da NEAR, no [chat oficial do Protocolo NEAR](https://t.me/cryptonear), falando sobre o processo de unstaking.
 
 **Como conectar minha carteira NEAR a um Dapp na NEAR?**
 
-Ok, esta é absolutamente a última parte deste guia. Eu sei que ele está longo. Muitas pessoas às vezes perguntam como podem usar a carteira NEAR para se conectar a dapps existentes na NEAR. É muito simples. Realmente super simples. Eis o que você precisa fazer. Você vai para um DApp NEAR. Você pode conferir os diferentes dApps no [Awesome NEAR](https://awesomenear.com/). Este acontece de ser [near.bet](https://near.bet/#/) — um lugar para comprar e vender contas (um alô para o Alex K.). Em algum lugar da interface deles você procura pela ‘_opção de iniciar a sessão com a carteira NEAR_’. Dê um clique nela.
+Ok, esta é absolutamente a última parte deste guia. Eu sei que ele está longo. Muitas pessoas às vezes perguntam como podem usar a carteira NEAR para se conectar a Dapps existentes na NEAR. É muito simples. Realmente super simples. Eis o que você precisa fazer. Você vai para um Dapp NEAR. Você pode conferir os diferentes Dapps no [Awesome NEAR](https://awesomenear.com/). Este acontece de ser [near.bet](https://near.bet/#/) — um lugar para comprar e vender contas (um alô para o Alex K.). Em algum lugar da interface deles você procura pela ‘_opção de iniciar a sessão com a carteira NEAR_’. Dê um clique nela.
 
 [near.bet](https://near.bet/#/)
 
 Isso vai te levar a essa tela na sua carteira. Note que se você tem várias contas conectadas através da carteira, você pode decidir a qual conta gostaria de permitir o acesso do Dapp.
 
-Uma vez que você clique em "Permitir" estará tudo pronto, e sua conta será conectada automaticamente ao dapp daqui em diante - seus fundos e tudo mais. Simples, elegante e fácil.
+Uma vez que você clique em "Permitir" estará tudo pronto, e sua conta será conectada automaticamente ao Dapp daqui em diante - seus fundos e tudo mais. Simples, elegante e fácil.
 
 **Como monitorar o rendimento percentual anual (APY) do seu staking?**
 
-Finalmente, pergunta final: como posso rastrear minha staking APY? Existem muitos sites para isso. Talvez o mais personalizável seja: [**https://www.stakingrewards.com/earn/near-protocol**](https://www.stakingrewards.com/earn/near-protocol).
+Finalmente, pergunta final: como posso rastrear meu staking APY? Existem muitos sites para isso. Talvez o mais personalizável seja: [**https://www.stakingrewards.com/earn/near-protocol**](https://www.stakingrewards.com/earn/near-protocol).
 
 Como você pode ver, tudo o que você precisa fazer é inserir o número de tokens que possui e a quantidade de tempo que pretende bloquear. Curiosidade, você também pode simular como suas recompensas irão aumentar dependendo de como o preço sobe ou desce usando a guia _Price_ no lado esquerdo.
 

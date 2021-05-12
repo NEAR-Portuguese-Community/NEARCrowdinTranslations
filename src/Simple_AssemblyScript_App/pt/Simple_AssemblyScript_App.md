@@ -2,13 +2,13 @@
 
 \*\*\*\*[**O tutorial original pode ser encontrado na documentação oficial da NEAR aqui**](https://learn.figment.io/network-documentation/near/tutorials/simple-webassembly-script).
 
-## A multiplayer "Place" game with shared world state.
+## Um jogo multiplayer com estado mundial compartilhado.
 
 Os jogos multiplayer compartilham um único mundo em que todos os jogadores podem afetar. Vamos construir um!
 
 Isso é geralmente estabelecido utilizando um sistema de coordenadas que representa locais no mundo. O mapeamento simples de valor-chave armazena o estado do mundo em coordenadas específicas.
 
-Neste tutorial, escreveremos um jogo muito simples com um estado de mundo compartilhado. O mundo é representado como um campo de jogo quadrado no qual a única propriedade disponível em cada local é sua "cor". Some of you may recognize this as "place", which made its way around the Internet a while ago.
+Neste tutorial, escreveremos um jogo muito simples com um estado de mundo compartilhado. O mundo é representado como um campo de jogo quadrado no qual a única propriedade disponível em cada local é sua "cor". Alguns de vocês podem reconhecer isto como "place", o qual se espalhou pela Internet há algum tempo atrás.
 
 Abaixo está um exemplo de uma versão em grande escala para a qual muitas pessoas contribuíram.
 
@@ -50,12 +50,12 @@ Isto irá executar os dois testes e registrar os resultados no seu console. Se v
 * `yarn asp` para executar somente testes AS-pect
 * `yarn jest` para executar apenas testes Jest
 
-Go ahead and explore the code in these tests to get a better understanding of the actions they perform.
+Vá em frente e explore o código nestes testes para obter uma melhor compreensão das ações que realizam.
 
-* AS-pect test files are located in `assembly/__tests__/example.spec.ts` & `token.spec.ts`
-* The Jest test file is located in `src/test.js`
+* Arquivos de teste AS-pect estão localizados em `assembly/__tests__/example.spec.ts` & `token.spec.ts`
+* O arquivo de teste Jest está localizado em `src/test.js`
 
-Once the testing suites are complete, your test results should look like this:
+Depois que os testes estiverem concluídos, seus resultados devem ficar assim:
 
 **Teste AS-pect**
 
@@ -65,10 +65,10 @@ Once the testing suites are complete, your test results should look like this:
 
 ![Default Token Contract Test ](https://docs.near.org/docs/assets/default-token-contract-test.png)
 
-Note that `test-account-tTIMESTAMP-XXXXXXX` is an automatically generated NEAR account for this particular project. Try not to be distracted by these details, but compare the developer log output with the statements in the file `src/test.js`.
+Observe que `test-account-tTIMESTAMP-XXXXXXX` é uma conta NEAR gerada automaticamente para este projeto em particular. Tente não se distrair por esses detalhes, mas compare a saída do log do desenvolvedor com as instruções no arquivo `src/test.js`.
 
 {% hint style="info" %}
-We are not going to keep any of the code from this template. It's just there as a starting point.
+Não vamos querer nenhum código deste exemplo. Está lá apenas como um ponto de partida.
 {% endhint %}
 
 ## Passo 2 - Escrever um contrato inteligente
@@ -134,16 +134,16 @@ Este contrato inteligente está agora pronto para ser reimplantado na rede de te
 
 ## Passo 3 - Escreva alguns testes para o contrato
 
-Lets test our code to make sure our smart contract works as expected by writing a JavaScript test in AS-pect.
+Vamos testar nosso código para garantir que nosso contrato inteligente funcione conforme esperado, escrevendo um teste em JavaScript com AS-pect.
 
-First lets delete one of the old test files that will no longer work with our new smart contract.
+Primeiro vamos deletar um dos antigos arquivos de teste que não funcionarão mais com nosso novo contrato inteligente.
 
-In Gitpod's explorer:
+No explorador do Gitpod:
 
-* navigate to `assembly/__tests__/` and expand the folder
-* right click on `token.spec.ts` and click **Delete**
-* now click on `example.spec.ts`
-* Replace the **entire contents of the file** with the following code
+* navegue para `assembly/__tests__/` e expanda a pasta
+* clique com o botão direito no `token.spec.ts` e clique em **Delete**
+* agora clique em `example.spec.ts`
+* Substitua **todo o conteúdo do arquivo** pelo seguinte código
 
 ```javascript
 import { getMap, setCoords } from "../main";
@@ -183,7 +183,7 @@ Depois de terminar, você deverá ver os testes aprovados semelhantes aos seguin
 
 ![AS-pect tests for smart contract game](https://docs.near.org/docs/assets/token-contract-aspect-game-test.png)
 
-Now that we know our code is executing as intended, our newly created smart contract can be deployed with confidence to the blockchain.
+Agora que sabemos que nosso código está sendo executado como queremos, podemos fazer deploy do nosso contrato inteligente recém criado na blockchain.
 
 Nas suas janelas do terminal:
 
@@ -191,39 +191,38 @@ Nas suas janelas do terminal:
 * Segure `CTRL + C` para parar o servidor e exibir o prompt de comando
 * Digite `yarn dev` para reconstruir e republicar o seu contrato modificado
 
-Notice the console log right above `Server running at http://localhost:1234` that says `Done deploying to dev-159486XXXXXXX-XXXXXXX`. This is the account ID of our smart contract we just created and can also be found in `neardev/dev-account.env`. By entering this ID in the [NEAR Explorer](https://explorer.testnet.near.org/) search bar, we can see all of the account activity. If you look now, you should see confirmation of the contract being deployed as well as a transfer of 500 Ⓝ to the account. This tool will come in handy later so we can view all of the transactions we'll make.
+Observe o log do console logo acima `simpleshttp://localhost:1234` que diz `Done deploying to dev-159486XXXXXXX-XXXXXXX`. Esta é a identificação da conta do nosso contrato inteligente que acabamos de criar e também pode ser encontrada em `neardev/dev-account.env`. Ao inserir esse ID na barra de pesquisa do [NEAR Explorer](https://explorer.testnet.near.org/), podemos ver toda a atividade da conta. Se você olhar agora, deve ver a confirmação do contrato que fizemos deploy, bem como uma transferência de 500N para a conta. Essa ferramenta será útil mais tarde, para que possamos ver todas as transações que faremos.
 
 ## Passo 4 - Fazer uma interface simples
 
 Parabéns! Todo o seu trabalho na blockchain está feito!
 
-Now, let's make a very simple JavaScript user interface \(UI\). First, we'll need to initialize the pieces we need so we can interact with the smart contract. Then, we'll write a few functions that will allow us to paint on our canvas and save coordinate changes to the blockchain using the smart contract we wrote above.
+Agora, vamos fazer uma interface de usuário simples em JavaScript (UI). Primeiro, precisaremos inicializar as peças que precisamos para que possamos interagir com o contrato inteligente. Então, vamos escrever algumas funções que nos permitirão pintar em nossa tela e salvar as mudanças das coordenadas na blockchain usando o contrato inteligente que escrevemos acima.
 
 No arquivo `src/main.js`:
 
-* Replace the values of `viewMethods` and `changeMethods` \(lines 17 & 18\) with our new smart contract methods.
+* Substitua os valores de `viewMethods` e `changeMethods` \(linhas 17 & 18\) por nossos novos métodos do contrato inteligente.
 
 ```javascript
 window.contract = await near.loadContract(nearConfig.contractName, {
-  viewMethods: ["getMap"],        // <-- find this line and change it to match
-  changeMethods: ["setCoords"],   // <-- find this line and change it to match
+  viewMethods: ["getMap"],        // <-- encontre esta linha e altere-a para corresponder
+  changeMethods: ["setCoords"],   // <-- encontre esta linha e altere-a para corresponder
   sender: window.walletAccount.getAccountId()
 });
-Copy
 ```
 
-Now lets write the "NEAR Place" application code.
+Agora vamos escrever o código do aplicativo "NEAR Place".
 
-In the same file `src/main.js` :
+No mesmo arquivo `src/main.js`:
 
-* Append the following code to the bottom of the file
-* Review the code and comments to help you understand what's taking place
+* Acrescente o seguinte código no final do arquivo
+* Revise o código e os comentários para ajudá-lo a entender o que está acontecendo
 
 ```javascript
-// NEAR Place application Code
+// Código do aplicativo NEAR Place
 
 /**
- * initialize the board with empty colors
+ * inicialize o quadro com cores vazias
  */
 function loadBoardAndDraw() {
   const board = getBoard().then(fullMap => {
@@ -242,8 +241,8 @@ function loadBoardAndDraw() {
 }
 
 /**
- * handle a mouse click event on the canvas element
- * @param event the event raised by mouse click on the canvas
+ * manipular um evento de clique do mouse no elemento de tela
+ * @param event - o evento gerado pelo clique do mouse na tela
  */
 function handleCanvasClick(event) {
   const canvas = document.getElementById("myCanvas");
@@ -257,7 +256,7 @@ function handleCanvasClick(event) {
   ctx.fillStyle = "#" + rgb;
   ctx.fillRect(x * 10, y * 10, 10, 10);
 
-  console.log(`The point (${coords}) was set to color #${rgb}`);
+  console.log(`O ponto (${coords}) foi marcado com #${rgb}`);
   let args = {
     coords,
     value: rgb
@@ -266,9 +265,9 @@ function handleCanvasClick(event) {
 }
 
 /**
- * capture the mouse position
- * @param canvas the canvas element on the page
- * @param event the event raised by mouse click on the canvas (see handleCanvasClick)
+ * captura a posição do mouse
+ * @param canvas - o elemento da tela na página
+ * @param event - o evento gerado pelo clique do mouse na tela (veja handleCanvasClick)
  */
 function getMousePosition(canvas, event) {
   const rect = canvas.getBoundingClientRect();
@@ -279,7 +278,7 @@ function getMousePosition(canvas, event) {
 }
 
 /**
- * get the map from the blockchain
+ * pegue o mapa da blockchain
  */
 async function getBoard() {
   const result = await window.contract.getMap();
@@ -289,12 +288,12 @@ async function getBoard() {
 }
 
 /**
- * helper function to render the board to the developer console
+ * função auxiliar para renderizar a placa para o console do desenvolvedor
  */
 function renderBoard(board){
 
-  console.log("\n\nThe NEAR Place board is currently stored on the blockchain as ...");
-  console.table(array_chunks(board, 10)); // assuming rows are 10 wide
+  console.log("\n\nA placa NEAR Place está atualmente armazenada na blockchain como...");
+  console.table(array_chunks(board, 10)); // assumindo 10 linhas
 
   // src: https://stackoverflow.com/questions/8495687/split-array-into-chunks#comment84212474_8495740
   function array_chunks(array, chunk_size){
@@ -303,31 +302,28 @@ function renderBoard(board){
               .map(begin => array.slice(begin, begin + chunk_size))
   }
 }
-
-Copy
 ```
 
-Next, update the following block of code so our `loadBoardAndDraw` method gets invoked.
+Em seguida, atualize o seguinte bloco de código para que nosso método `loadBoardAndDraw` seja invocado.
 
 No mesmo arquivo `src/main.js`:
 
-* Chain `.then(loadBoardAndDraw)` on line 43 and a half to hook into the application launch process
+* Acrescente `.then(loadBoardAndDraw)` na linha 43 para ligar ao processo de inicialização do aplicativo
 
 ```javascript
 window.nearInitPromise = connect()
   .then(updateUI)
-  .then(loadBoardAndDraw)         // <-- insert this line in this location
+  .then(loadBoardAndDraw)         // <-- insira esta linha neste local
   .catch(console.error);
 Copy
 ```
 
-Finally, we will need to add an event listener that will call our `handleCanvasClick` function when we interact with the canvas. Copy the code below and insert it right after the other two `document.querySelector` code blocks \(line 41 and a half\).
+Finalmente, precisaremos adicionar um ouvinte de eventos que chamará nossa função `handleCanvasClick` quando interagirmos com a tela. Copie o código abaixo e insira-o logo após os outros dois blocos de código `document.querySelector` (linha 41).
 
 ```javascript
 document.querySelector('#myCanvas').addEventListener('click', (event) => {
   handleCanvasClick(event);
 });
-Copy
 ```
 
 _**Quase pronto!**_
@@ -351,11 +347,11 @@ No arquivo `src/index.html`:
   <div class="container">
     <div class="jumbotron">
       <h1>NEAR PLACE</h1>
-      <p>Imagine your drawing living <b>forever</b> on the blockchain.</p>
+      <p>Imagine seu desenho vivendo <b>para sempre</b> na blockchain.</p>
     </div>
     <div class="sign-in" style="display: none;">
-      <p>You'll need to sign in to call contract methods</p>
-      <button class="btn btn-primary">Sign In</button>
+      <p>Você precisa entrar para poder chamar métodos do contrato</p>
+      <button class="btn btn-primary">Entrar</button>
     </div>
     <div class="after-sign-in" style="display: none;">
       <div align="center">
@@ -368,11 +364,11 @@ No arquivo `src/index.html`:
       </div>
       <div align="center">
         <input class="jscolor" id="picker" value="ab2567"/><br>
-        <label>Select Color &uarr;<label>
+        <label>Selecionar cor &uarr;<label>
       </div>
     </div>
     <div class="after-sign-in sign-out" style="display: none;">
-      <button class="btn btn-primary">Sign Out</button>
+      <button class="btn btn-primary">Sair</button>
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/gh/nearprotocol/near-api-js/dist/near-api-js.js"></script>
@@ -381,8 +377,6 @@ No arquivo `src/index.html`:
   <script src="./main.js"></script>
 </body>
 </html>
-
-Copy
 
 ```
 
@@ -395,21 +389,21 @@ No Gitpod**:**
 * vá para a primeira aba de terminal que tem seu servidor em execução
 * `CMD + clique` em `http://localhost:1234`
 
-This is what the app should look like as soon as it launches:
+É assim que o aplicativo deve se parecer ao iniciá-lo:
 
 ![NEAR Place webpage on launch](https://docs.near.org/docs/assets/near-place-webpage-on-launch.png)
 
-**Note:** If you open your JavaScript developer console \(open before the page loads, or refresh the page afterwards\) you should see a table that looks like this:
+**Nota:** Se você abrir seu console de desenvolvedor JavaScript (Ctrl + Shift + I), abra antes do carregamento da página, ou abra e atualize a página, você deve ver uma tabela que se parece com isso:
 
 ![NEAR Place JavaScript developer console on launch](https://docs.near.org/docs/assets/near-place-console-on-launch.png)
 
-Go ahead and click **Sign In** to connect this app to your NEAR Wallet. After you log in, you will be redirected back to your app and a small black canvas should appear. Select a color and start creating art on the blockchain!
+Vá em frente e clique em **Entrar** para conectar este app à sua carteira NEAR. Depois de entrar, você será redirecionado de volta para o seu aplicativo e uma pequena tela preta deverá aparecer. Selecione uma cor e comece a criar arte na blockchain!
 
 ![NEAR Place drawing after sign in](https://docs.near.org/docs/assets/near-place-painting.png)
 
-Each time you click a coordinate and change the color in your canvas we are interacting with the blockchain. The smart contract we wrote earlier gets called, executes the transaction \(recording and storing it in-state\), and logs our signature. Not only will your painting live forever on the network, but so will every brushstroke of its creation!
+Cada vez que você clicar em uma coordenada e mudar a cor da sua arte, estamos interagindo com a blockchain. O contrato inteligente que escrevemos anteriormente é chamado, executa a transação (gravando e armazenando em estado), e registra nossa assinatura. Não só sua pintura irá viver para sempre na rede, mas o mesmo acontecerá com cada pincelada de sua criação!
 
-You can view a summary of these transactions in your [NEAR Wallet](https://wallet.testnet.near.org/) or dive deeper into the details by searching for your account ID or the smart contract account ID in [NEAR Explorer](https://explorer.testnet.near.org/).
+Você pode ver um resumo dessas transações na sua [NEAR Wallet](https://wallet.testnet.near.org/) ou mergulhar mais nos detalhes procurando o ID da sua conta ou o ID da conta do contrato inteligente no [NEAR Explorer](https://explorer.testnet.near.org/).
 
 Viva a programação! 🚀
 

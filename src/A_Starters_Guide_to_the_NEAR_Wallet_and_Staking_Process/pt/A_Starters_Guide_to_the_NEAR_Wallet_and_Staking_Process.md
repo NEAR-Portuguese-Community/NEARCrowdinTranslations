@@ -81,7 +81,7 @@ Primeiro de tudo, veja a taxa definida abaixo do nome dos validadores. Essa taxa
 
 Em segundo lugar, se você já sabe qual validador deseja escolher para fazer o stake, você pode pesquisá-lo com o ID da conta, na barra de pesquisa. Nesse exemplo nós vamos usar o validador Figment. A lista completa de validadores pode ser encontrada [aqui](https://explorer.near.org/nodes/validators).
 
-Uma vez que você selecionou seu validador clique em ‘Efetuar stake com validador’ e então será solicitado o valor que gostaria de fazer stake. Se você quiser fazer stake com todo o valor em sua carteira clique em ‘Usar o Máximo’. Note, como mostrado na foto abaixo, sempre 0.35 NEAR é reservado para Taxas.
+Uma vez que você selecionou seu validador clique em ‘Efetuar stake com validador’ e então será solicitado o valor que gostaria de fazer stake. Se você quiser fazer stake com todo o valor em sua carteira clique em ‘Usar o Máximo’. Note, como mostrado na foto abaixo, sempre é reservado 0.35 NEAR para taxas.
 
 Selecione o valor que você gostaria de fazer Stake:
 
@@ -95,11 +95,11 @@ Okay, então dessa forma agora você está fazendo stake no protocolo NEAR. Voc�
 
 Então agora que você está com tudo configurado e fazendo stake, você pode querer tirar suas recompensas de vez em quando. Nessa próxima etapa será demonstrado como fazer isso.
 
-Para começar, vá para a aba staking. Você verá, como mostrado na imagem abaixo, uma nota de que as recompensas são automaticamente colocadas em stake. Se você deseja desfazer o stake você deve selecionar _‘Unstake’_ ao lado direito.
+Para começar, vá para a aba staking. Você verá, como mostrado na imagem abaixo, uma nota de que as recompensas são automaticamente realocadas no stake. Se você deseja desfazer o stake você deve selecionar _‘Unstake’_ ao lado direito.
 
-Então será solicitado que você selecione qual validador você gostaria de fazer a retirada. A menos que você esteja fazendo stake com vários validadores diferentes, mostrará somente uma opção.
+Então será solicitado que você selecione de qual validador você gostaria de fazer a retirada. A menos que você esteja fazendo stake com vários validadores diferentes, mostrará somente uma opção.
 
-Depois de selecionar o validador, a tela a seguir será exibida, então você deve informar a quantidade de tokens que deseja retirar. Você pode então escolher retirar seus rendimentos ganhos, ou mais, se desejar.
+Depois de selecionar o validador, a tela a seguir será exibida, então você deve informar a quantidade de tokens que deseja retirar. Você pode então escolher retirar seus rendimentos somente, ou mais se quiser.
 
 O último passo do processo de retirada do stake é confirmar que você está pronto para fazer a retirada da quantidade de NEAR que você inseriu. Como explicado na interface, os tokens ficam disponíveis na quarta época após o lançamento, que normalmente ocorre entre 52 a 65 horas.
 

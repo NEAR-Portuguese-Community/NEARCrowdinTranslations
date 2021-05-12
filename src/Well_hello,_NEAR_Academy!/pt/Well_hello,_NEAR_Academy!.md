@@ -1,4 +1,4 @@
-# Well hello, NEAR Academy!
+# Olá, NEAR Academy!
 
 We’re proud to announce the launch of [near.academy](https://near.academy/), a keystone of our educational onramp at NEAR Protocol.
 

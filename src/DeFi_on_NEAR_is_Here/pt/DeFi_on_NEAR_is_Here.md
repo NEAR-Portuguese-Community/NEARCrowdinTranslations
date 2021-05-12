@@ -70,16 +70,16 @@ Oysterpack está construindo várias ferramentas para desbloquear liquidez para 
 
 **OIN Finance**
 
-[OIN](https://oin.finance/) é uma plataforma descentralizada de emissão de stablecoin. OIN permite projetos emitirem suas próprias stablecoins, ao invés de precisar aplicar para que seus colaterais sejam incluídos na lista permitida e te-las nas plataformas anteriores. OIN vai lançar uma stablecoin com colateral em NEAR, que vai possibilitar os detentores de tokens NEAR desbloquearem liquidez sem vender seus NEARs. Além disso, OIN tem planos para casos de uso tal como troca por outras stablecoins convencionais, adicionando alavancagem, cobertura, empréstimo, e uma infinidade de utilidades específicas ao ecossistema.
+[OIN](https://oin.finance/) é uma plataforma descentralizada de emissão de stablecoin. OIN permite projetos emitirem suas próprias stablecoins, ao invés de precisar aplicar para que seus colaterais sejam incluídos na lista permitida e te-las nas plataformas anteriores. OIN vai lançar uma stablecoin com colateral em NEAR, que vai possibilitar que os detentores de tokens NEAR desbloqueiem liquidez sem vender seus NEARs. Além disso, OIN tem planos para casos de uso tal como troca por outras stablecoins convencionais, adicionando alavancagem, cobertura, empréstimo, e uma infinidade de utilidades específicas ao ecossistema.
 
 **Token de Fidelidade (Loyalty Token)**
 
 **Cheddar**
 
-Cheddar é um token de fidelidade que recompensa os usuários de dApps no ecossistema NEAR através de parcerias/integrações com outros projetos. O projeto está em desenvolvimento, e terá atualizações em seu farm de rendimento, AMM, e DAO soon. Siga eles no [Twitter](https://twitter.com/CheddarFi) para acompanhar as últimas notícias.
+Cheddar é um token de fidelidade que recompensa os usuários de dApps no ecossistema NEAR através de parcerias/integrações com outros projetos. O projeto está em desenvolvimento, e terá atualizações em sua yield farm (fazenda de rendimento), AMM e DAO soon. Siga eles no [Twitter](https://twitter.com/CheddarFi) para acompanhar as últimas notícias.
 
-**Construir a Próxima Geração DeFi na NEAR**
+**Construir a Próxima Geração de DeFi na NEAR**
 
-Os projetos mencionados aqui são apenas o começo da DeFi na NEAR: o ecossistema está cheio de oportunidades para novos protocolos, aplicações e experimentos a serem explorados e descentralizados ainda mais.
+Os projetos mencionados aqui são apenas o começo da DeFi na NEAR: o ecossistema está cheio de oportunidades para que novos protocolos, aplicações e experimentos explorem e descentralizem ainda mais.
 
 Se você está interessado em construir na NEAR, considere solicitar [fundos](https://near.org/grants) sem participação da Fundação NEAR para ajudar a financiar seu projeto DeFi. Para se envolver na comunidade NEAR, junte-se a nós no [Telegram](https://docs.google.com/spreadsheets/u/0/d/1o-0jGrXKxZEdPBDkg-ydjJ0D8RUVFVP2vUzij87xWFg/edit), [Discord](https://near.chat), [Reddit](https://www.reddit.com/r/nearprotocol/), e siga no [Twitter](https://twitter.com/NEAR_Blockchain).

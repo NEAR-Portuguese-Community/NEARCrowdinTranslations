@@ -2,7 +2,7 @@
 
 ![](https://miro.medium.com/max/2800/0*5OloS0yrKHLbWTrF)
 
-DeFi, ou finanças descentralizadas (decentralized finance), é um elemento crítico na construção de uma Open Web verdadeira. O crescimento da DeFi durante o ano passado tem impulsionado grande parte do sucesso da Ethereum, experimentação extrema de instrumentos de financiamento e incentivos baseados em blockchain. Ações que levariam semanas no sistema financeiro tradicional são possíveis em segundos graças aos composable primitives of DeFi, e à economia crypto que tem oferecido alternativas às moedas locais não confiáveis e aos caprichos dos bancos, para muitos ao redor do mundo.
+DeFi, ou finanças descentralizadas (decentralized finance), é um elemento crítico na construção de uma Open Web verdadeira. O crescimento da DeFi durante o ano passado tem impulsionado grande parte do sucesso da Ethereum, experimentação extrema de instrumentos de financiamento e incentivos baseados em blockchain. Ações que levariam semanas no sistema financeiro tradicional são possíveis em segundos graças aos benefícios da DeFi, e à economia crypto, que tem oferecido alternativas às moedas locais não confiáveis e aos caprichos dos bancos, para muitos ao redor do mundo.
 
 No entanto, o mesmo surto de interesse e experimentação que proveu tantas oportunidades para usuários de DeFi também tem tornado muito difícil para novos potenciais rentistas entrarem. Desde o congestionamento da rede, até o custo de gás indo às alturas, ou ao preço crescente dos tokens populares, a barreira de entrada agora é significativamente maior para desenvolvedores e criadores que estão começando a explorar o mundo crypto.
 

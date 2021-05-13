@@ -197,7 +197,7 @@ Observe o log do console logo acima `simpleshttp://localhost:1234` que diz `Done
 
 Parabéns! Todo o seu trabalho na blockchain está feito!
 
-Agora, vamos fazer uma interface de usuário (UI) simples em JavaScript. Primeiro, precisaremos inicializar as peças que precisamos para que possamos interagir com o contrato inteligente. Então, vamos escrever algumas funções que nos permitirão pintar em nossa tela e salvar as mudanças das coordenadas na blockchain usando o contrato inteligente que escrevemos acima.
+Agora, vamos fazer uma interface de usuário (UI) simples em JavaScript. Primeiro, precisaremos inicializar as peças de que precisamos para poder interagir com o contrato inteligente. Então, vamos escrever algumas funções que nos permitirão pintar em nossa tela e salvar as mudanças das coordenadas na blockchain usando o contrato inteligente que escrevemos acima.
 
 No arquivo `src/main.js`:
 

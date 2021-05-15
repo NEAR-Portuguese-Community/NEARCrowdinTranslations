@@ -191,7 +191,7 @@ Nas suas janelas do terminal:
 * Segure `CTRL + C` para parar o servidor e exibir o prompt de comando
 * Digite `yarn dev` para reconstruir e republicar o seu contrato modificado
 
-Observe o log do console logo acima `simpleshttp://localhost:1234` que diz `Done deploying to dev-159486XXXXXXX-XXXXXXX`. Esta é a identificação da conta do nosso contrato inteligente que acabamos de criar e também pode ser encontrada em `neardev/dev-account.env`. Ao inserir esse ID na barra de pesquisa do [NEAR Explorer](https://explorer.testnet.near.org/), podemos ver toda a atividade da conta. Se você olhar agora, deve ver a confirmação do contrato do qual estamos fazendo deploy, bem como uma transferência de 500N para a conta. Essa ferramenta será útil mais tarde, para que possamos ver todas as transações que faremos.
+Observe o log do console logo acima de `Server running at http://localhost:1234` que diz `Done deploying to dev-159486XXXXXXX-XXXXXXX`. Esta é a identificação da conta do nosso contrato inteligente que acabamos de criar e também pode ser encontrada em `neardev/dev-account.env`. Ao inserir esse ID na barra de pesquisa do [NEAR Explorer](https://explorer.testnet.near.org/), podemos ver toda a atividade da conta. Se você olhar agora, deve ver a confirmação do contrato do qual estamos fazendo deploy, bem como uma transferência de 500N para a conta. Essa ferramenta será útil mais tarde, para que possamos ver todas as transações que faremos.
 
 ## Passo 4 - Fazer uma interface simples
 
@@ -393,7 +393,7 @@ No Gitpod**:**
 
 ![NEAR Place webpage on launch](https://docs.near.org/docs/assets/near-place-webpage-on-launch.png)
 
-**Nota:** Se você abrir seu console de desenvolvedor JavaScript (Ctrl + Shift + I), abra antes do carregamento da página, ou abra e atualize a página, você deve ver uma tabela que se parece com isso:
+**Nota:** Se você abrir seu console de desenvolvedor JavaScript (abra antes do carregamento da página, ou abra e atualize a página), você deve ver uma tabela que se parece com isso:
 
 ![NEAR Place JavaScript developer console on launch](https://docs.near.org/docs/assets/near-place-console-on-launch.png)
 

@@ -401,7 +401,7 @@ Vá em frente e clique em **Entrar** para conectar este app à sua carteira NEAR
 
 ![NEAR Place drawing after sign in](https://docs.near.org/docs/assets/near-place-painting.png)
 
-Cada vez que você clicar em uma coordenada e mudar a cor da sua arte, estamos interagindo com a blockchain. O contrato inteligente que escrevemos anteriormente é chamado, executa a transação (gravando e armazenando em estado), e registra nossa assinatura. Não só sua pintura irá viver para sempre na rede, mas o mesmo acontecerá com cada pincelada de sua criação!
+Cada vez que você clicar em uma coordenada e mudar a cor da sua arte, estamos interagindo com a blockchain. O contrato inteligente que escrevemos anteriormente é chamado, executa a transação (gravando-a e armazenando-a em estado), e registra nossa assinatura. Não só sua pintura irá viver para sempre na rede, mas o mesmo acontecerá com cada pincelada de sua criação!
 
 Você pode ver um resumo dessas transações na sua [NEAR Wallet](https://wallet.testnet.near.org/) ou mergulhar mais nos detalhes procurando o ID da sua conta ou o ID da conta do contrato inteligente no [NEAR Explorer](https://explorer.testnet.near.org/).
 

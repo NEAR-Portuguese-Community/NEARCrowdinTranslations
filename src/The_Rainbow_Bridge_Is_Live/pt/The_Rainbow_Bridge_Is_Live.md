@@ -1,12 +1,12 @@
-# A Rainbow Bridge está no ar
+# A Rainbow Bridge Está no Ar
 
-A equipe NEAR está animada com o anúncio (feito em abril) de que a Rainbow Bridge está ativa e os tokens ERC-20 [agora podem fazer uma ponte](https://ethereum.bridgetonear.org/) (bridge) entre as blockchains da NEAR e da Ethereum.
+A equipe NEAR está animada com o anúncio (feito em abril) de que a Rainbow Bridge está ativa e os tokens ERC-20 [agora podem atravessar a ponte](https://ethereum.bridgetonear.org/) (bridge) entre as blockchains da NEAR e da Ethereum.
 
 No cenário blockchain de hoje, muitos protocolos e aplicações estão cada vez mais fazendo uso de várias blockchains. Isso permite que desenvolvedores e usuários tirem proveito dos ativos, composição e comunidade de Ethereum, bem como a taxa de transferência mais alta, taxas mais baixas e tempos de confirmação mais curtos das blockchains de próxima geração, como o Protocolo NEAR.
 
-Usando a Rainbow Bridge hoje, os desenvolvedores podem utilizar ativos da Ethereum na NEAR e ativos da NEAR na Ethereum. Em breve, eles serão capazes de acessar qualquer estado do aplicativo de qualquer blockchain e, eventualmente, qualquer blockchain. Os usuários que fazem pontes de tokens fungíveis para a NEAR podem tirar proveito dos tempos de transação de um a dois segundos, taxas de transação baixas geralmente abaixo de um centavo e taxas de transferência de ponte relativamente baixas.
+Usando a Rainbow Bridge hoje, os desenvolvedores podem utilizar ativos da Ethereum na NEAR e ativos da NEAR na Ethereum. Em breve, eles serão capazes de acessar qualquer aplicação dessas blockchains e, eventualmente, de qualquer blockchain. Os usuários que fazem pontes de tokens fungíveis para a NEAR podem tirar proveito dos tempos de transação de um a dois segundos, taxas de transação baixas geralmente abaixo de um centavo e taxas de transferência de ponte relativamente baixas.
 
-Innovation across the decentralized finance (DeFi) and non-fungible token (NFT) spaces has increased demand on the Ethereum network and escalated transaction fees to record-high levels. The Rainbow Bridge allows users to seamlessly migrate assets to NEAR’s developer-friendly and low-cost platform, circumventing high gas fees without compromising on speed.
+As inovações através do ambiente de finanças descentralizadas (DeFi) e tokens não fungíveis (NFT) tem aumentado a demanda da rede Ethereum, e elevado as taxas de transação até as máximas históricas. The Rainbow Bridge allows users to seamlessly migrate assets to NEAR’s developer-friendly and low-cost platform, circumventing high gas fees without compromising on speed.
 
 Current Ethereum users without a NEAR account can easily onboard to NEAR using the [NEAR Faucet for Ethereum users](https://faucet.paras.id/), hosted by Paras, and MetaMask. Simply by logging into MetaMask and proving that their account has a balance higher than 0.05 ETH, anyone can claim a NEAR account and start using the Rainbow Bridge right away.
 

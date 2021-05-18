@@ -2,7 +2,7 @@
 
 A equipe NEAR está animada com o anúncio (feito em abril) de que a Rainbow Bridge está ativa e os tokens ERC-20 [agora podem fazer uma ponte](https://ethereum.bridgetonear.org/) (bridge) entre as blockchains da NEAR e da Ethereum.
 
-No cenário blockchain de hoje, muitos protocolos e aplicações estão cada vez mais fazendo uso de várias blockchains. This allows developers and users to take advantage of the assets, composability, and community of Ethereum, as well as the higher throughput, lower fees, and shorter confirmation times of next-gen chains like NEAR Protocol.
+No cenário blockchain de hoje, muitos protocolos e aplicações estão cada vez mais fazendo uso de várias blockchains. Isso permite que desenvolvedores e usuários tirem proveito dos ativos, composição e comunidade de Ethereum, bem como a taxa de transferência mais alta, taxas mais baixas e tempos de confirmação mais curtos das blockchains de próxima geração, como o Protocolo NEAR.
 
 Using the Rainbow Bridge today, developers can utilize Ethereum assets on NEAR, and NEAR assets on Ethereum. Soon, they will be able to access any application state from either chain, and eventually, any chain. Users bridging fungible tokens to NEAR can take advantage of NEAR’s one-to-two second transaction times, low transaction fees usually under one cent, and comparably low bridge transfer fees.
 

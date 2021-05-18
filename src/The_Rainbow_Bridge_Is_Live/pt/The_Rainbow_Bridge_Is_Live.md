@@ -4,7 +4,7 @@ A equipe NEAR está animada com o anúncio (feito em abril) de que a Rainbow Bri
 
 No cenário blockchain de hoje, muitos protocolos e aplicações estão cada vez mais fazendo uso de várias blockchains. Isso permite que desenvolvedores e usuários tirem proveito dos ativos, composição e comunidade de Ethereum, bem como a taxa de transferência mais alta, taxas mais baixas e tempos de confirmação mais curtos das blockchains de próxima geração, como o Protocolo NEAR.
 
-Using the Rainbow Bridge today, developers can utilize Ethereum assets on NEAR, and NEAR assets on Ethereum. Soon, they will be able to access any application state from either chain, and eventually, any chain. Users bridging fungible tokens to NEAR can take advantage of NEAR’s one-to-two second transaction times, low transaction fees usually under one cent, and comparably low bridge transfer fees.
+Usando a Rainbow Bridge hoje, os desenvolvedores podem utilizar ativos da Ethereum na NEAR e ativos da NEAR na Ethereum. Em breve, eles serão capazes de acessar qualquer estado do aplicativo de qualquer blockchain e, eventualmente, qualquer blockchain. Os usuários que fazem pontes de tokens fungíveis para a NEAR podem tirar proveito dos tempos de transação de um a dois segundos, taxas de transação baixas geralmente abaixo de um centavo e taxas de transferência de ponte relativamente baixas.
 
 Innovation across the decentralized finance (DeFi) and non-fungible token (NFT) spaces has increased demand on the Ethereum network and escalated transaction fees to record-high levels. The Rainbow Bridge allows users to seamlessly migrate assets to NEAR’s developer-friendly and low-cost platform, circumventing high gas fees without compromising on speed.
 

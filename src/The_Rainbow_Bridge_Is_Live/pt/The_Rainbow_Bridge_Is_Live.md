@@ -6,27 +6,27 @@ No cenário blockchain de hoje, muitos protocolos e aplicações estão cada vez
 
 Usando a Rainbow Bridge hoje, os desenvolvedores podem utilizar ativos da Ethereum na NEAR e ativos da NEAR na Ethereum. Em breve, eles serão capazes de acessar qualquer aplicação dessas blockchains e, eventualmente, de qualquer blockchain. Os usuários que fazem pontes de tokens fungíveis para a NEAR podem tirar proveito dos tempos de transação de um a dois segundos, taxas de transação baixas geralmente abaixo de um centavo e taxas de transferência de ponte relativamente baixas.
 
-As inovações através do ambiente de finanças descentralizadas (DeFi) e tokens não fungíveis (NFT) tem aumentado a demanda da rede Ethereum, e elevado as taxas de transação até as máximas históricas. The Rainbow Bridge allows users to seamlessly migrate assets to NEAR’s developer-friendly and low-cost platform, circumventing high gas fees without compromising on speed.
+As inovações através do ambiente de finanças descentralizadas (DeFi) e tokens não fungíveis (NFT) tem aumentado a demanda da rede Ethereum, e elevado as taxas de transação até as máximas históricas. A Rainbow Bridge possibilita aos usuários, perfeitamente, migrar seus ativos para a plataforma amigável ao desenvolvedor e baixo custo da NEAR, contornando taxas de gás elevadas sem comprometer a velocidade.
 
-Current Ethereum users without a NEAR account can easily onboard to NEAR using the [NEAR Faucet for Ethereum users](https://faucet.paras.id/), hosted by Paras, and MetaMask. Simply by logging into MetaMask and proving that their account has a balance higher than 0.05 ETH, anyone can claim a NEAR account and start using the Rainbow Bridge right away.
+Os usuários atuais da Ethereum, que ainda não tem conta NEAR, podem facilmente dar entrada na NEAR usando a [NEAR Faucet ("Torneira") para usuários Ethereum](https://faucet.paras.id/), hospedado na Paras, e na MetaMask. Simplesmente logando na MetaMask e provando que sua conta tem um saldo maior que 0.05 ETH, qualquer um pode requisitar uma conta NEAR e começar a usar a Rainbow Bridge na mesma hora.
 
-## The industry’s biggest tokens are now on NEAR
+## Os Maiores Tokens da Indústria Agora Estão na NEAR
 
-The first phase of the Rainbow Bridge opens the gates for assets to flow freely between NEAR and Ethereum blockchains while enabling users to bridge any ERC-20 token now. The following popular tokens with common ERC-20 functionality will now be able to interoperate with NEAR, including but not limited to:
+A primeira fase da Rainbow Bridge abre os portões para que os ativos fluam livremente entre as blockchains NEAR e Ethereum, de forma que permite que agora os usuários atravessem a ponte com qualquer token ERC-20. Os seguintes tokens com funcionalidades comum de ERC-20 vão agora estar disponíveis para interoperar com NEAR, incluindo, mas não limitado a:
 
-* Stablecoins like USDT (Tether), DAI, and TUSD
-* Wrapped assets like WBTC and WETH
-* DEX tokens like UNI and 1INCH
-* Lending tokens like AAVE and COMP
-* Service company tokens like HT (Huobi) and CRO (Crypto.com)
+* Stablecoins como USDT (Tether), DAI, e TUSD
+* Ativos wrapped como WBTC e WETH
+* Tokens de DEX como UNI e 1INCH
+* Tokens de empréstimo como AAVE e COMP
+* Tokens de empresas de serviço como HT (Huobi) e CRO (Crypto.com)
 
-Users can send these ERC-20 assets directly from MetaMask or other Web3 wallets to NEAR wallets and apps, and vice versa.
+Usuários podem enviar esses ativos ERC-20 diretamente da MetaMask ou outras carteiras Web3 para carteiras e apps NEAR, e vice versa.
 
-[Check out the dashboard](https://duneanalytics.com/zavodil/rainbow-bridge) with bridged assets in almost real time powered by Dune Analytics.
+[Confira o painel](https://duneanalytics.com/zavodil/rainbow-bridge), em quase tempo real, com os ativos que atravessam a ponte, oferecido por Dune Analytics.
 
-## Inside the Rainbow Bridge
+## Dentro da Rainbow Bridge
 
-The Rainbow Bridge is a trustless, permissionless, and generic protocol for connecting blockchains. The bridge protocol removes the need to trust anyone except the security of the connected chains. Anyone can deploy a new bridge, use an existing bridge, or join the maintenance of an existing bridge without getting approval from anyone else.
+A Rainbow Bridge é um protocolo que não necessita de confiança, nem de permissões, e genérico para conectar as blockchains. The bridge protocol removes the need to trust anyone except the security of the connected chains. Anyone can deploy a new bridge, use an existing bridge, or join the maintenance of an existing bridge without getting approval from anyone else.
 
 The Rainbow Bridge is also generic in that it allows any information that is cryptographically provable on NEAR to be usable in Ethereum contracts and vice versa – including the ability to read the state and schedule calls with callbacks on the other chain. This means, for example, that a user can vote with their ETH balance in a NEAR DAO without sending a transaction on Ethereum.
 

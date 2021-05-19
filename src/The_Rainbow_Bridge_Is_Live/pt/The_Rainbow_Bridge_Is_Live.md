@@ -1,6 +1,6 @@
-# A Rainbow Bridge Está no Ar
+# A Rainbow Bridge está no ar
 
-A equipe NEAR está animada com o anúncio (feito em abril) de que a Rainbow Bridge está ativa e os tokens ERC-20 [agora podem atravessar a ponte](https://ethereum.bridgetonear.org/) (bridge) entre as blockchains da NEAR e da Ethereum.
+A equipe NEAR está animada com o anúncio (feito em abril) de que a Rainbow Bridge está ativa e os tokens ERC-20 [agora podem fazer uma ponte](https://ethereum.bridgetonear.org/) (bridge) entre as blockchains da NEAR e da Ethereum.
 
 No cenário blockchain de hoje, muitos protocolos e aplicações estão cada vez mais fazendo uso de várias blockchains. Isso permite que desenvolvedores e usuários tirem proveito dos ativos, composição e comunidade de Ethereum, bem como a taxa de transferência mais alta, taxas mais baixas e tempos de confirmação mais curtos das blockchains de próxima geração, como o Protocolo NEAR.
 

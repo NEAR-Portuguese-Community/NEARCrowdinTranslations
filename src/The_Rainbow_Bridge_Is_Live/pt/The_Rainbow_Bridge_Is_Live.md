@@ -8,25 +8,25 @@ Usando a Rainbow Bridge hoje, os desenvolvedores podem utilizar ativos da Ethere
 
 As inovações relacionadas a finanças descentralizadas (DeFi) e tokens não fungíveis (NFT) tem aumentado a demanda da rede Ethereum, fazendo com que as taxas de transação se elevam até as máximas históricas. A Rainbow Bridge possibilita aos usuários migrar seus ativos para a plataforma amigável e de baixo custo da NEAR, assim contornando taxas de gás elevadas sem comprometer a velocidade.
 
-Os usuários atuais da Ethereum, que ainda não tem conta NEAR, podem facilmente dar entrada na NEAR usando a [NEAR Faucet ("Torneira") para usuários Ethereum](https://faucet.paras.id/), hospedado na Paras, e na MetaMask. Simplesmente logando na MetaMask e provando que sua conta tem um saldo maior que 0.05 ETH, qualquer um pode requisitar uma conta NEAR e começar a usar a Rainbow Bridge na mesma hora.
+Os usuários atuais da rede Ethereum que ainda não possuem uma conta NEAR podem facilmente dar entrada na NEAR usando a [NEAR Faucet para usuários Ethereum](https://faucet.paras.id/), hospedado na Paras e na MetaMask. Esse processo é realizado ao acessando sua conta MetaMask e provando que sua carteira tem um saldo maior que 0.05 ETH. Cumprindo esse requisito, qualquer um pode solicitar uma conta NEAR e começar a usar a Rainbow Bridge na mesma hora.
 
-## Os Maiores Tokens da Indústria Agora Estão na NEAR
+## Os maiores tokens do mercado agora estão na NEAR
 
-A primeira fase da Rainbow Bridge abre os portões para que os ativos fluam livremente entre as blockchains NEAR e Ethereum, de forma que permite que agora os usuários atravessem a ponte com qualquer token ERC-20. Os seguintes tokens com funcionalidades comum de ERC-20 vão agora estar disponíveis para interoperar com NEAR, incluindo, mas não limitado a:
+A primeira fase da Rainbow Bridge possibilita que os ativos fluam livremente entre as blockchains NEAR e Ethereum, de forma a permitir que usuários trafeguem quaisquer tokens ERC-20. Exemplos de tokens ERC-20 populares com funcionalidades em comum que agora estarão disponíveis para interoperar com a NEAR, incluindo mas não limitado a:
 
-* Stablecoins como USDT (Tether), DAI, e TUSD
+* Moedas estáveis como USDT (Tether), DAI, e TUSD
 * Ativos wrapped como WBTC e WETH
-* Tokens de DEX como UNI e 1INCH
+* Tokens DEX como UNI e 1INCH
 * Tokens de empréstimo como AAVE e COMP
 * Tokens de empresas de serviço como HT (Huobi) e CRO (Crypto.com)
 
 Usuários podem enviar esses ativos ERC-20 diretamente da MetaMask ou outras carteiras Web3 para carteiras e apps NEAR, e vice versa.
 
-[Confira o painel](https://duneanalytics.com/zavodil/rainbow-bridge), em quase tempo real, com os ativos que atravessam a ponte, oferecido por Dune Analytics.
+[Confira o painel](https://duneanalytics.com/zavodil/rainbow-bridge), oferecido por Dune Analytics, quase em tempo real ativos transitando entre redes.
 
-## Dentro da Rainbow Bridge
+## Por dentro da Rainbow Bridge
 
-A Rainbow Bridge é um protocolo que não necessita de confiança, nem de permissões, e genérico para conectar as blockchains. O protocolo da ponte remove a necessidade de confiar em qualquer um, exceto na segurança das chains conectadas. Qualquer um pode implantar uma nova ponte, usar uma ponte existente, ou se juntar a manutenção de uma ponte existente, sem precisar da aprovação de ninguém.
+A Rainbow Bridge é um protocolo genérico, que não necessita de confiança, nem de permissões para conectar blockchains. O protocolo da ponte remove a necessidade de confiar em qualquer um, exceto na segurança das chains conectadas. Qualquer um pode implantar uma nova ponte, usar uma ponte existente, ou se juntar a manutenção de uma ponte existente, sem precisar da aprovação de ninguém.
 
 A Rainbow Bridge é também genérica no quesito em que ela permite qualquer informação, que é criptograficamente provável na NEAR, ser usada em contratos Ethereum, e vice-versa - incluindo a capacidade de ler o estado e agendar chamadas com callbacks na outra chain. Isso possibilita, por exemplo, que o usuário possa votar com seu saldo ETH em uma DAO da NEAR, sem mandar transações da Ethereum.
 

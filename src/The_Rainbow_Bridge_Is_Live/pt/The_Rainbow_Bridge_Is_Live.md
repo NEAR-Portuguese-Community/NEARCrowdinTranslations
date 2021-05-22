@@ -46,6 +46,6 @@ O próximo grande passo no roteiro da interoperabilidade da NEAR será a Máquin
 
 Usuários que usam a ponte para NEAR podem usar Pulse, plataforma de mercado de previsão denominada por uma stablecoin oferecido pelo protocolo Flux; Paras, uma plataforma de trading de NFT para cartas digitais; e Ref.Finance, um AMM experimental construído pela comunidade que possibilita trocas entre qualquer token que faça parte da ponte.
 
-A Rainbow Bridge está disponível para qualquer um e não requer permissões especiais para desenvolver, manter, ou usar. Para iniciar transferências de tokens ERC-20 e experimentar as vantagens da alta velocidade e baixo custo da NEAR agora...
+A Rainbow Bridge está disponível para qualquer um e não requer permissões especiais para desenvolver, manter, ou usar. Para iniciar transferências de tokens ERC-20 e experimentar as vantagens da alta velocidade e baixo custo da NEAR agora…
 
 **[EXPERIMENTE A RAINBOW BRIDGE](https://ethereum.bridgetonear.org/)**

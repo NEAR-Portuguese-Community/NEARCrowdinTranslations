@@ -8,7 +8,7 @@ Usando a Rainbow Bridge hoje, os desenvolvedores podem utilizar ativos da Ethere
 
 As inovações relacionadas a finanças descentralizadas (DeFi) e tokens não fungíveis (NFT) tem aumentado a demanda da rede Ethereum, fazendo com que as taxas de transação se elevam até as máximas históricas. A Rainbow Bridge possibilita aos usuários migrar seus ativos para a plataforma amigável e de baixo custo da NEAR, assim contornando taxas de gás elevadas sem comprometer a velocidade.
 
-Os usuários atuais da rede Ethereum que ainda não possuem uma conta NEAR podem facilmente dar entrada na NEAR usando a [NEAR Faucet para usuários Ethereum](https://faucet.paras.id/), hospedado na Paras e na MetaMask. Esse processo é realizado ao acessando sua conta MetaMask e provando que sua carteira tem um saldo maior que 0.05 ETH. Cumprindo esse requisito, qualquer um pode solicitar uma conta NEAR e começar a usar a Rainbow Bridge na mesma hora.
+Os atuais usuários da rede Ethereum que ainda não possuem uma conta NEAR podem facilmente dar entrada na rede usando a [NEAR Faucet para usuários Ethereum](https://faucet.paras.id/), hospedado na Paras e na MetaMask. Esse processo é realizado ao acessando sua conta MetaMask e provando que sua carteira tem um saldo maior que 0.05 ETH. Cumprindo esse requisito, qualquer um pode solicitar uma conta NEAR e começar a usar a Rainbow Bridge na mesma hora.
 
 ## Os maiores tokens do mercado agora estão na NEAR
 

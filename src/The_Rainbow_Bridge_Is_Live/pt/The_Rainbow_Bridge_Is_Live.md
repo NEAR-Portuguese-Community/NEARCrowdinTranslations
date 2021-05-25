@@ -8,7 +8,7 @@ Usando a Rainbow Bridge hoje, os desenvolvedores podem utilizar ativos da Ethere
 
 As inovações relacionadas a finanças descentralizadas (DeFi) e tokens não fungíveis (NFT) tem aumentado a demanda da rede Ethereum, fazendo com que as taxas de transação se elevam até as máximas históricas. A Rainbow Bridge possibilita aos usuários migrar seus ativos para a plataforma amigável e de baixo custo da NEAR, assim contornando taxas de gás elevadas sem comprometer a velocidade.
 
-Os atuais usuários da rede Ethereum que ainda não possuem uma conta NEAR podem facilmente dar entrada na rede usando a [NEAR Faucet para usuários Ethereum](https://faucet.paras.id/), hospedado na Paras e na MetaMask. Esse processo é realizado ao acessando sua conta MetaMask e provando que sua carteira tem um saldo maior que 0.05 ETH. Cumprindo esse requisito, qualquer um pode solicitar uma conta NEAR e começar a usar a Rainbow Bridge na mesma hora.
+Os atuais usuários da rede Ethereum que ainda não possuem uma conta NEAR podem facilmente dar entrada na rede usando a [NEAR Faucet para usuários Ethereum](https://faucet.paras.id/), hospedado na Paras e na MetaMask. Esse processo é realizado acessando sua conta MetaMask e provando que sua carteira tem um saldo maior que 0.05 ETH. Cumprindo esse requisito, qualquer um pode solicitar uma conta NEAR e começar a usar a Rainbow Bridge na mesma hora.
 
 ## Os maiores tokens do mercado agora estão na NEAR
 
@@ -28,7 +28,7 @@ Usuários podem enviar esses ativos ERC-20 diretamente da MetaMask ou outras car
 
 A Rainbow Bridge é um protocolo genérico, que não necessita de confiança, nem de permissões para conectar blockchains. O protocolo da ponte remove a necessidade de confiar em qualquer um, exceto na segurança das chains conectadas. Qualquer um pode implantar uma nova ponte, usar uma ponte existente, ou se juntar a manutenção de uma ponte existente, sem precisar da aprovação de ninguém.
 
-A Rainbow Bridge é também genérica no quesito em que ela permite qualquer informação, que é criptograficamente provável na NEAR, ser usada em contratos Ethereum, e vice-versa - incluindo a capacidade de ler o estado e agendar chamadas com callbacks na outra chain. Isso possibilita, por exemplo, que o usuário possa votar com seu saldo ETH em uma DAO da NEAR, sem mandar transações da Ethereum.
+A Rainbow Bridge é também genérica no quesito em que ela permite qualquer informação, que é criptograficamente provável na NEAR, ser usada em contratos Ethereum, e vice-versa - incluindo a capacidade de ler o estado e agendar chamadas com callbacks na outra chain. Isso possibilita, por exemplo, que o usuário possa votar com seu saldo ETH em uma DAO da NEAR, sem mandar transações para a rede Ethereum.
 
 A natureza da Rainbow Bridge permanece completamente descentralizada e adaptável a qualquer mudança futura de qualquer um dos lados. Para mais detalhes sobre a arquitetura da Rainbow Bridge, leia o aprofundamento técnico [aqui](https://near.org/blog/eth-near-rainbow-bridge/).
 
@@ -38,13 +38,13 @@ Como o resto da experiência de desenvolvimento na plataforma NEAR, a ponte é c
 
 Uma vez na NEAR, as transações irão se confirmar em 1-2 segundos e custar menos de um centavo de dollar na maioria das vezes. Uma vez que a ponte necessita de transações da Ethereum para NEAR <> Ethereum, os seguintes custos são esperados. Enviar ativos da Ethereum para NEAR leva aproximadamente 6 minutos (20 blocos) e para ERC-20 custa em média U$10. Mandar ativos da NEAR de volta para Ethereum, atualmente, leva um máximo de 16 horas (devido aos tempos de finalização da Ethereum) e custa aproximadamente U$60 (devido ao custo de gás da ETH e ao preço atual de ETH). Esses custos e velocidades vão melhorar num futuro próximo.
 
-O lançamento da Rainbow Bridge marca um importante primeiro passo no roteiro da interoperabilidade da NEAR. Pela Rainbow Bridge ser um protocolo genérico de comunicação entre chains de contratos inteligentes, ela pode ser adaptada para trabalhar com outras chains e abre novas possibilidades de combinações. Uma vez que NEAR oferece transações mais rápidas e baratas, isso pode ser favorável a usuários de outras chains para interagir com ativos Ethereum na NEAR, ao invés de atravessar a ponte diretamente para Ethereum.
+O lançamento da Rainbow Bridge marca um importante primeiro passo no roadmap de interoperabilidade da NEAR. Pela Rainbow Bridge ser um protocolo genérico de comunicação entre chains de contratos inteligentes, ela pode ser adaptada para trabalhar com outras chains e abre novas possibilidades de combinações. Uma vez que NEAR oferece transações mais rápidas e baratas, isso pode ser favorável a usuários de outras chains para interagir com ativos Ethereum na NEAR, ao invés de atravessar a ponte diretamente para Ethereum.
 
-O próximo grande passo no roteiro da interoperabilidade da NEAR será a Máquina Virtual Ethereum (EVM), que será lançada no segundo trimestre de 2021. O suporte a EVM fornecerá um ambiente completamente compatível para desenvolvedores lançar seu código existente em Ethereum na NEAR.
+O próximo grande passo no roteiro da interoperabilidade da NEAR será a Máquina Virtual Ethereum (EVM), que será lançada no segundo trimestre de 2021. O suporte a EVM fornecerá um ambiente completamente compatível para desenvolvedores lançarem seus códigos existentes em Ethereum na NEAR.
 
 ## Experimente a Rainbow Bridge Hoje
 
-Usuários que usam a ponte para NEAR podem usar Pulse, plataforma de mercado de previsão denominada por uma stablecoin oferecido pelo protocolo Flux; Paras, uma plataforma de trading de NFT para cartas digitais; e Ref.Finance, um AMM experimental construído pela comunidade que possibilita trocas entre qualquer token que faça parte da ponte.
+Usuários que usam a ponte para NEAR podem usar a Pulse, uma plataforma de mercado de predição denominada por uma stablecoin oferecida pelo protocolo Flux; Paras, uma plataforma de trading de NFT para cartas digitais; e Ref.Finance, um AMM experimental construído pela comunidade que possibilita trocas entre qualquer token que faça parte da ponte.
 
 A Rainbow Bridge está disponível para qualquer um e não requer permissões especiais para desenvolver, manter, ou usar. Para iniciar transferências de tokens ERC-20 e experimentar as vantagens da alta velocidade e baixo custo da NEAR agora…
 

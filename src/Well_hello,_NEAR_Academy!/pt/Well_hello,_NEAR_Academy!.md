@@ -2,19 +2,19 @@
 
 É um orgulho anunciar o lançamento da [near.academy](https://near.academy/), uma peça fundamental do desenvolvimento educacional no protocolo NEAR.
 
-Desenvolvida pela mesma equipa e tecnologia responsável pela Ocean Academy e Tezos Academy, a NEAR Academy é especialmente concebida para desenvolvedores da web 2 que procurem uma introdução prática a conceitos e código de blockchain.
+Desenvolvida pela mesma equipe e tecnologia responsável pela Ocean Academy e Tezos Academy, a NEAR Academy é projetada para desenvolvedores da web 2 que procurem uma introdução prática a conceitos e código de blockchain.
 
 O 101Labs fez um trabalho incrível ao criar uma narrativa acessível e surpreendente: O Meme Museum (Museu do Meme).
 
-> O ano é 2029. A nova Internet está a funcionar em cima de blockchains públicas interoperáveis. Parece uma loucura pensar em como a percepção destas tecnologias mudou drasticamente. A Internet do Valor é mais tangível do que nunca. Saber como funciona a blockchain não é considerado uma vantagem competitiva nos dias de hoje. É um imperativo. A nova Internet está a funcionar em cima de blockchains públicas interoperáveis. Parece uma loucura pensar em como a percepção destas tecnologias mudou drasticamente. A Internet do Valor é mais tangível do que nunca. Saber como funciona a blockchain não é considerado uma vantagem competitiva nos dias de hoje. É um imperativo.
+> O ano é 2029. A nova Internet está funcionando em cima de blockchains públicas interoperáveis. Parece uma loucura pensar em como a percepção destas tecnologias mudou drasticamente. A Internet de Valor é mais tangível do que nunca. Saber como funciona a blockchain não é considerado uma vantagem competitiva nos dias de hoje. É uma necessidade.
 
 Por detrás da fachada acolhedora do Meme Museum estão múltiplos contratos inteligentes escritos especificamente para esta experiência de aprendizagem. Estes incluem um contrato personalizado de token NFT e um gerador de NFT’s. Estes contratos trabalham em conjunto para criar uma experiência imersiva para os desenvolvedores aprendendo sobre o Protocolo NEAR, onde qualquer pessoa pode entrar e todos saem com um NFT.
 
-A plataforma de aprendizagem é amigável e reactiva, facilitando aos desenvolvedores avançar ao seu próprio ritmo pelos materiais de aprendizagem. Ao longo do caminho, os desenvolvedores devem confirmar a sua compreensão do material utilizando uma interface lúdica e convidativa.
+A plataforma de aprendizagem é amigável e responsiva, facilitando aos desenvolvedores avançar ao seu próprio ritmo pelos materiais de aprendizagem. Ao longo do caminho, os desenvolvedores devem confirmar a sua compreensão do material utilizando uma interface lúdica e convidativa.
 
-Os desenvolvedores que completarem este curso compreenderão o básico da web 3, uma visão geral de alto nível de como funciona o Protocolo NEAR, bem como uma introdução à escrita de contratos inteligentes para o NEAR. A experiência de aprendizagem inclui diagramas, amostras de código e links com materiais para continuação do estudo. É emitido um certificado de conclusão para todos os que concluirem o curso.
+Os desenvolvedores que completarem este curso compreenderão o básico da web 3, uma visão geral de alto nível de como funciona o Protocolo NEAR, bem como uma introdução à escrita de contratos inteligentes para o blockchain NEAR. A experiência de aprendizagem inclui diagramas, amostras de código e links com materiais para continuação do estudo. É emitido um certificado de conclusão para todos os que concluirem o curso.
 
-Este é apenas o primeiro de muitos módulos que esperamos lançar com o 101Labs este ano e agradecemos o vosso feedback. A nossa única missão é educar o mundo sobre as tecnologias da web 3 usando o Protocolo NEAR.
+Este é apenas o **primeiro de muitos módulos** que esperamos lançar com o 101Labs este ano e agradecemos o seu feedback. A nossa única missão é educar o mundo sobre as tecnologias da web 3 usando o Protocolo NEAR.
 
 Visite hoje near.academy para um vislumbre do futuro.
 

@@ -1,6 +1,6 @@
 # Olá, NEAR Academy!
 
-É um orgulho anunciar o lançamento da near.academy, um peça fundamental do desenvolvimento educacional no protocolo NEAR.
+É um orgulho anunciar o lançamento da [near.academy](https://near.academy/), uma peça fundamental do desenvolvimento educacional no protocolo NEAR.
 
 Desenvolvida pela mesma equipa e tecnologia responsável pela Ocean Academy e Tezos Academy, a NEAR Academy é especialmente concebida para desenvolvedores da web 2 que procurem uma introdução prática a conceitos e código de blockchain.
 

@@ -308,7 +308,7 @@ Em seguida, atualize o seguinte bloco de código para que nosso método `loadBoa
 
 No mesmo arquivo `src/main.js`:
 
-* Acrescente `.then(loadBoardAndDraw)` na linha 43 para ligar ao processo de inicialização do aplicativo
+* Acrescente `.then(loadBoardAndDraw)` entre as linhas 43 e 44, para ligar ao processo de inicialização do aplicativo
 
 ```javascript
 window.nearInitPromise = connect()

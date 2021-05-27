@@ -8,7 +8,7 @@ Os jogos multiplayer compartilham um único mundo em que todos os jogadores pode
 
 Isso é geralmente estabelecido utilizando um sistema de coordenadas que representa locais no mundo. O mapeamento simples de valor-chave armazena o estado do mundo em coordenadas específicas.
 
-Neste tutorial, escreveremos um jogo muito simples com um estado de mundo compartilhado. O mundo é representado como um campo de jogo quadrado no qual a única propriedade disponível em cada local é sua "cor". Alguns de vocês podem reconhecer isto como "place", o qual se espalhou pela Internet há algum tempo atrás.
+Neste tutorial, escreveremos um jogo muito simples com um estado de mundo compartilhado. O mundo é representado como um campo de jogo quadrado no qual a única propriedade disponível em cada local é sua "cor". Alguns de vocês podem reconhecer isto como "place", o qual se espalhou pela Internet algum tempo atrás.
 
 Abaixo está um exemplo de uma versão em grande escala para a qual muitas pessoas contribuíram.
 
@@ -30,7 +30,7 @@ Na aba do terminal no Gitpod:
 
 Este exemplo de projeto tem um contrato inteligente de token e também alguns testes em JavaScript que invocam funções de contrato inteligente. Existem dois conjuntos de testes que executam esses testes, AS-pect e Jest.
 
-* Jest nos permite realizar testes de integração na rede testnet da NEAR.
+* Jest nos permite realizar testes de integração na rede de testes (testnet) da NEAR.
 * AS-pect nos permite testar nosso contrato inteligente em uma rede simulada localmente.
 
 Você pode tentar rodar esses testes imediatamente para ver o código interagindo com a blockchain.
@@ -201,7 +201,7 @@ Agora, vamos fazer uma interface de usuário (UI) simples em JavaScript. Primeir
 
 No arquivo `src/main.js`:
 
-* Substitua os valores de `viewMethods` e `changeMethods` \(linhas 17 & 18\) por nossos novos métodos do contrato inteligente.
+* Substitua os valores de `viewMethods` e `changeMethods` (linhas 17 & 18) por nossos novos métodos do contrato inteligente.
 
 ```javascript
 window.contract = await near.loadContract(nearConfig.contractName, {
@@ -222,7 +222,7 @@ No mesmo arquivo `src/main.js`:
 // Código do aplicativo NEAR Place
 
 /**
- * inicialize o quadro com cores vazias
+ * inicializar o quadro com cores vazias
  */
 function loadBoardAndDraw() {
   const board = getBoard().then(fullMap => {
@@ -242,7 +242,7 @@ function loadBoardAndDraw() {
 
 /**
  * manipular um evento de clique do mouse no elemento de tela
- * @param event - o evento gerado pelo clique do mouse na tela
+ * @param event o evento gerado pelo clique do mouse na tela
  */
 function handleCanvasClick(event) {
   const canvas = document.getElementById("myCanvas");
@@ -265,9 +265,9 @@ function handleCanvasClick(event) {
 }
 
 /**
- * captura a posição do mouse
- * @param canvas - o elemento da tela na página
- * @param event - o evento gerado pelo clique do mouse na tela (veja handleCanvasClick)
+ * capturar a posição do mouse
+ * @param canvas o elemento da tela na página
+ * @param event o evento gerado pelo clique do mouse na tela (veja handleCanvasClick)
  */
 function getMousePosition(canvas, event) {
   const rect = canvas.getBoundingClientRect();
@@ -278,7 +278,7 @@ function getMousePosition(canvas, event) {
 }
 
 /**
- * pegue o mapa da blockchain
+ * obter o mapa da blockchain
  */
 async function getBoard() {
   const result = await window.contract.getMap();
@@ -293,7 +293,7 @@ async function getBoard() {
 function renderBoard(board){
 
   console.log("\n\nA placa NEAR Place está atualmente armazenada na blockchain como...");
-  console.table(array_chunks(board, 10)); // assumindo 10 linhas
+  console.table(array_chunks(board, 10)); // assumindo que a largura das linhas é 10
 
   // src: https://stackoverflow.com/questions/8495687/split-array-into-chunks#comment84212474_8495740
   function array_chunks(array, chunk_size){
@@ -315,7 +315,6 @@ window.nearInitPromise = connect()
   .then(updateUI)
   .then(loadBoardAndDraw)         // <-- insira esta linha neste local
   .catch(console.error);
-Copy
 ```
 
 Finalmente, precisaremos adicionar um ouvinte de eventos que chamará nossa função `handleCanvasClick` quando interagirmos com a tela. Copie o código abaixo e insira-o logo após os outros dois blocos de código `document.querySelector` (linha 41).

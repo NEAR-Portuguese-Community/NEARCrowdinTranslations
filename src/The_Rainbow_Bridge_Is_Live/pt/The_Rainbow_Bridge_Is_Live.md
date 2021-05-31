@@ -28,7 +28,7 @@ Usuários podem enviar esses ativos ERC-20 diretamente da MetaMask ou outras car
 
 A Rainbow Bridge é um protocolo genérico, que não necessita de confiança, nem de permissões para conectar blockchains. O protocolo da ponte remove a necessidade de confiar em qualquer um, exceto na segurança das chains conectadas. Qualquer um pode implantar uma nova ponte, usar uma ponte existente, ou se juntar a manutenção de uma ponte existente, sem precisar da aprovação de ninguém.
 
-A Rainbow Bridge é também genérica no quesito em que ela permite qualquer informação, que é criptograficamente provável na NEAR, ser usada em contratos Ethereum, e vice-versa - incluindo a capacidade de ler o estado e agendar chamadas com callbacks na outra chain. Isso possibilita, por exemplo, que o usuário possa votar com seu saldo ETH em uma DAO da NEAR, sem mandar transações para a rede Ethereum.
+A Rainbow Bridge é também genérica dado que ela permite qualquer informação que é criptograficamente provável na NEAR ser usada em contratos Ethereum e vice-versa - incluindo a capacidade de ler o estado e agendar chamadas com callbacks na outra chain. Isso possibilita, por exemplo, que o usuário possa votar com seu saldo ETH em uma DAO da NEAR, sem mandar transações para a rede Ethereum.
 
 A natureza da Rainbow Bridge permanece completamente descentralizada e adaptável a qualquer mudança futura de qualquer um dos lados. Para mais detalhes sobre a arquitetura da Rainbow Bridge, leia o aprofundamento técnico [aqui](https://near.org/blog/eth-near-rainbow-bridge/).
 

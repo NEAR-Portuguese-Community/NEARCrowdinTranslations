@@ -12,7 +12,7 @@ Os atuais usuários da rede Ethereum que ainda não possuem uma conta NEAR podem
 
 ## Os maiores tokens do mercado agora estão na NEAR
 
-A primeira fase da Rainbow Bridge possibilita que os ativos fluam livremente entre as blockchains NEAR e Ethereum, de forma a permitir que usuários trafeguem quaisquer tokens ERC-20. Exemplos de tokens ERC-20 populares com funcionalidades em comum que agora estarão disponíveis para interoperar com a NEAR, incluindo mas não limitado a:
+A primeira fase da Rainbow Bridge possibilita que os ativos fluam livremente entre as blockchains NEAR e Ethereum, de forma a permitir que usuários trafeguem quaisquer tokens ERC-20. Exemplos de tokens ERC-20 populares com funcionalidades comuns que agora estarão disponíveis para interoperar com a NEAR, incluindo mas não limitado a:
 
 * Moedas estáveis como USDT (Tether), DAI, e TUSD
 * Ativos wrapped como WBTC e WETH
@@ -26,7 +26,7 @@ Usuários podem enviar esses ativos ERC-20 diretamente da MetaMask ou outras car
 
 ## Por dentro da Rainbow Bridge
 
-A Rainbow Bridge é um protocolo genérico, que não necessita de confiança, nem de permissões para conectar blockchains. O protocolo da ponte remove a necessidade de confiar em qualquer um, exceto na segurança das chains conectadas. Qualquer um pode implantar uma nova ponte, usar uma ponte existente, ou se juntar a manutenção de uma ponte existente, sem precisar da aprovação de ninguém.
+A Rainbow Bridge é um protocolo genérico, que não necessita de confiança, nem de permissões para conectar blockchains. O protocolo da ponte remove a necessidade de confiar em alguém além da segurança das chains conectadas. Qualquer um pode implantar uma nova ponte, usar uma ponte existente, ou se juntar a manutenção de uma ponte existente, sem precisar da aprovação de ninguém.
 
 A Rainbow Bridge é também genérica dado que ela permite qualquer informação que é criptograficamente provável na NEAR ser usada em contratos Ethereum e vice-versa - incluindo a capacidade de ler o estado e agendar chamadas com callbacks na outra chain. Isso possibilita, por exemplo, que o usuário possa votar com seu saldo ETH em uma DAO da NEAR, sem mandar transações para a rede Ethereum.
 

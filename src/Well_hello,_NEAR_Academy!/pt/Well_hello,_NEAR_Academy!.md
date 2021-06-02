@@ -20,6 +20,6 @@ Visite hoje near.academy para um vislumbre do futuro.
 
 A missão da NEAR é permitir que a inovação impulsionada pela comunidade beneficie as pessoas em todo o mundo. A plataforma NEAR fornece uma plataforma de aplicação descentralizada que é suficientemente segura para gerir activos de alto valor como dinheiro ou identidade e suficientemente eficiente para os tornar úteis para as pessoas comuns, colocando nas suas mãos o poder do Open Finance e da Open Web.
 
-A plataforma NEAR, o Protocolo NEAR e os instrumentos associados estão a ser construídos pelo NEAR Collective, uma colecção dos melhores engenheiros do mundo e que trabalham em equipas, empresas e países semelhantes a outros projectos de fonte aberta de grande escala.
+A plataforma NEAR, o Protocolo NEAR e os instrumentos associados estão sendo construídos pelo NEAR Collective, uma coleção dos melhores engenheiros do mundo que trabalham em equipes, empresas e países semelhantes a outros projetos de código aberto de grande escala.
 
-*Se é um desenvolvedor que quer ver como é construir na NEAR, consulte a documentação da NEAR para começar. Se quiser fazer parte da comunidade NEAR, junte-se aos nossos canais Discord ou Telegram ou siga a NEAR no Twitter.*
+*Se você é um desenvolvedor que quer ver como é construir na NEAR, consulte a documentação da NEAR para começar. Se quiser fazer parte da comunidade NEAR, junte-se aos nossos canais Discord ou Telegram ou siga a NEAR no Twitter.*

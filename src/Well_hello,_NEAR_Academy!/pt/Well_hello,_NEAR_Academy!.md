@@ -6,7 +6,7 @@ Desenvolvida pela mesma equipe e tecnologia responsável pela Ocean Academy e Te
 
 O 101Labs fez um trabalho incrível ao criar uma narrativa acessível e surpreendente: O Meme Museum (Museu do Meme).
 
-> O ano é 2029. A nova Internet está funcionando em cima de blockchains públicas interoperáveis. Parece uma loucura pensar em como a percepção destas tecnologias mudou drasticamente. A Internet de Valor é mais tangível do que nunca. Saber como funciona a blockchain não é considerado uma vantagem competitiva nos dias de hoje. É uma necessidade.
+> O ano é 2029. A nova Internet está funcionando em cima de blockchains públicas interoperáveis. Parece uma loucura pensar em como a percepção destas tecnologias mudou drasticamente. A Internet do Valor é mais tangível do que nunca. Saber como funciona a blockchain não é considerado uma vantagem competitiva nos dias de hoje. É uma necessidade.
 
 Por detrás da fachada acolhedora do Meme Museum estão múltiplos contratos inteligentes escritos especificamente para esta experiência de aprendizagem. Estes incluem um contrato personalizado de token NFT e um gerador de NFT’s. Estes contratos trabalham em conjunto para criar uma experiência imersiva para os desenvolvedores aprendendo sobre o Protocolo NEAR, onde qualquer pessoa pode entrar e todos saem com um NFT.
 

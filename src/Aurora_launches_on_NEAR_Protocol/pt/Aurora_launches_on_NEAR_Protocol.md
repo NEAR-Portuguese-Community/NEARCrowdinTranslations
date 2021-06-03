@@ -35,13 +35,13 @@ No caso de necessidade de pré-compilação adicional, será proposta uma atuali
 
 De acordo com o resultado [das discussões](https://gov.near.org/t/evm-runtime-base-token/340/38) sobre o token base da Aurora, o runtime EVM vai manter os saldos nativos em Ether (ETH). Isto significa que um usuário deve mover seu ETH através da Aurora Bridge antes de enviar quaisquer outras transações.
 
-Para não confundir os usuários, o time decidiu que o contrato da Aurora irá implementar uma interface de token fungível, que representará o saldo ETH do usuário, tanto no runtime NEAR quanto no runtime Aurora. Usuários devem ser capazes de retirar e depositar de ETH para NEAR, e isso vai ser implementado como uma interface [conectora da ponte](https://github.com/aurora-is-near/eth-connector), que embaixo falará com [os contratos principais da ponte](https://github.com/aurora-is-near/rainbow-bridge). This became possible due to the extensible and permissionless nature of the Rainbow Bridge protocol (see more on the bridge architecture [here](https://near.org/blog/eth-near-rainbow-bridge/)).
+Para não confundir os usuários, o time decidiu que o contrato da Aurora irá implementar uma interface de token fungível, que representará o saldo ETH do usuário, tanto no runtime NEAR quanto no runtime Aurora. Usuários devem ser capazes de retirar e depositar de ETH para NEAR, e isso vai ser implementado como uma interface [conectora da ponte](https://github.com/aurora-is-near/eth-connector), que embaixo falará com [os contratos principais da ponte](https://github.com/aurora-is-near/rainbow-bridge). Isso tornou-se possível devido a natureza extensível do protocolo da Rainbow Bridge (veja mais sobre a arquitetura [aqui](https://near.org/blog/eth-near-rainbow-bridge/)).
 
-The code for the Aurora contract and adjacent tools can be found in [the Aurora organisation on Github](https://github.com/aurora-is-near).
+Os códigos do contrato inteligente da Aurora e das ferramentas adjacentes podem ser encontrados na [organização Aurora no Github](https://github.com/aurora-is-near).
 
-## Using ETH to pay for gas fees on Aurora
+## Usando ETH para pagar taxas de gás na Aurora
 
-One of the most notable design decisions is the use of ETH as the base currency within Aurora, for the payment of transaction fees. While a lot of the Ethereum layer 2s require users and developers to acquire the L2’s native tokens, Aurora wants to offer a straightforward, seamless experience for users and developers from the Ethereum community.
+Uma das decisões mais notáveis de design é o uso de ETH como moeda base dentro da Aurora, para o pagamento das taxas de transação. While a lot of the Ethereum layer 2s require users and developers to acquire the L2’s native tokens, Aurora wants to offer a straightforward, seamless experience for users and developers from the Ethereum community.
 
 The approach is the following:
 

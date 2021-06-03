@@ -19,23 +19,23 @@ Aurora fornece um número de melhorias para desenvolvedores:
 
 **Aurora é implementada como um contrato inteligente** na blockchain NEAR. O que isso significa?
 
-1. Aurora can benefit from all current and future advantages of NEAR blockchain
-2. Simplification of the early-stage maintenance, upgrade, and governance of Aurora, enabling rapid response times in case of emergency such as the discovery of security vulnerabilities.
-3. Soon after launch, the plan is to make use of SputnikDAO version 2, a customizable DAO-based governance framework on NEAR, to launch AuroraDAO for ecosystem governance.
+1. Aurora pode se beneficiar de todas as vantagens da blockchain NEAR, atuais e futuras
+2. Simplificação da manutenção em fase inicial, atualização, e governança da Aurora, permitindo tempo de resposta rápido em caso de de emergência, tal como descoberta de vulnerabilidades.
+3. Logo após o lançamento, o plano é fazer uso da versão 2 do SputnikDAO, um framework NEAR customizável de governança baseado em DAO, para lançar a AuroraDAO para governança do ecossistema.
 
-The current architecture of Aurora looks as follows:
+A arquitetura atual da Aurora é a seguinte:
 
-The Aurora smart contract implements two main interfaces: Execution and Token. The Execution interface allows users to send ordinary Ethereum transactions (for example, created with MetaMask, [ethers.js](https://docs.ethers.io/v5/) or [web3.py](https://web3py.readthedocs.io/en/stable/)). Underneath, these transactions get decoded (RLP), verified (secp256k1), and executed in the EVM runtime ([Sputnik VM](https://github.com/rust-blockchain/evm)).
+O contrato inteligente da Aurora implementa duas principais interfaces: Execução e Token. A interface de Execução permite aos usuários enviar transações comuns da Ethereum (por exemplo, criadas com MetaMask, [ethers.js](https://docs.ethers.io/v5/) ou [web3.py](https://web3py.readthedocs.io/en/stable/)). Por baixo, essas transações são decodificadas (RLP), verificadas (secp256k1), e executadas na runtime EVM ([SputnikVM](https://github.com/rust-blockchain/evm)).
 
-Some operations allowed in the EVM runtime may be moved to the NEAR Protocol level (and thus become precompiles) in case a smart contract does not deliver the target performance. For example, there is currently a scheduled NEAR Protocol upgrade, which will include an [extended Math API](https://github.com/near/nearcore/pull/3954).
+Algumas operações permitidas na runtime EVM podem ser movidas para o nível do Protocolo NEAR (tornando-se pré-compilações) no caso de um contrato inteligente não entregar o desempenho pretendido. Por exemplo, existe atualmente uma atualização programada do protocolo NEAR, que incluirá uma [API estendida de Matemática](https://github.com/near/nearcore/pull/3954).
 
-Aurora also allows for permissionless token bridging. It uses the Rainbow Bridge technology for transfers from Ethereum and internal NEAR token transfers to allow for NEAR-native assets to be transferred to Aurora. Thus Aurora becomes a point of connection for Ethereum and NEAR economies.
+Aurora também permite tokens atravessarem a ponte, em ambiente sem autoridade. Ela usa a tecnologia da Rainbow Bridge para transferência de Ethereum e transferência interna de token NEAR para possibilitar ativos nativos NEAR serem transferidos para Aurora. Assim, Aurora torna-se um ponto de conexão para as economias Ethereum e NEAR.
 
-In case of the need for additional precompiles, a protocol upgrade will be proposed to NEAR validators. The information on the required precompiles will be collected once sufficient load testing has been performed.
+No caso de necessidade de pré-compilação adicional, será proposta uma atualização do protocolo aos validadores NEAR. As informações necessárias das pré-compilações serão coletadas assim que forem realizados testes de carga suficientes.
 
-As per the outcome of [the discussion](https://gov.near.org/t/evm-runtime-base-token/340/38) on the Aurora base token, the EVM runtime will maintain native balances in Ether (ETH). This means that a user should move their ETH over the Aurora Bridge before sending any other transactions.
+De acordo com o resultado [das discussões](https://gov.near.org/t/evm-runtime-base-token/340/38) sobre o token base da Aurora, o runtime EVM vai manter os saldos nativos em Ether (ETH). Isto significa que um usuário deve mover seu ETH através da Aurora Bridge antes de enviar quaisquer outras transações.
 
-In order not to confuse users, the team decided that the Aurora contract will implement a fungible token interface, which will represent the user’s ETH balance in both the NEAR base runtime and the Aurora runtime. Users should be able to withdraw and deposit ETH to NEAR, and this will be implemented as [a separate bridge connector](https://github.com/aurora-is-near/eth-connector) interface, which underneath will speak to [the core bridge contracts](https://github.com/aurora-is-near/rainbow-bridge). This became possible due to the extensible and permissionless nature of the Rainbow Bridge protocol (see more on the bridge architecture [here](https://near.org/blog/eth-near-rainbow-bridge/)).
+Para não confundir os usuários, o time decidiu que o contrato da Aurora irá implementar uma interface de token fungível, que representará o saldo ETH do usuário, tanto no runtime NEAR quanto no runtime Aurora. Usuários devem ser capazes de retirar e depositar de ETH para NEAR, e isso vai ser implementado como uma interface [conectora da ponte](https://github.com/aurora-is-near/eth-connector), que embaixo falará com [os contratos principais da ponte](https://github.com/aurora-is-near/rainbow-bridge). This became possible due to the extensible and permissionless nature of the Rainbow Bridge protocol (see more on the bridge architecture [here](https://near.org/blog/eth-near-rainbow-bridge/)).
 
 The code for the Aurora contract and adjacent tools can be found in [the Aurora organisation on Github](https://github.com/aurora-is-near).
 

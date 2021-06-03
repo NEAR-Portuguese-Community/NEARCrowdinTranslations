@@ -13,11 +13,11 @@ Aurora fornece um número de melhorias para desenvolvedores:
 3. A "finality"(quantia de blocos necessários para validar uma transação) da Aurora herdada do Protocolo NEAR, i.e. dois blocos NEAR, ou aproximadamente dois segundos - substancialmente menor até mesmo que o tempo de confirmação um único bloco de 13 segundos na Ethereum (que não é suficiente para confirmar a transação). Além disso, o "finality" rápido da blockchain NEAR reduz significantemente o risco de ataques frontrunning.
 4. Ecosystem growth on Aurora is future-proof: the sharding approach of the underlying NEAR Protocol provides for horizontal EVM scaling, with asynchronous communication between multiple Aurora shards.
 5. A Aurora oferece uma opção mais verde para usuários Ethereum; total compatibilidade não comprometedora com Ethereum em cima do descentralizado, climaticamente neutro, baseado em Proof-of-Stake, e L1 Protocolo NEAR.
-6. Aurora solves the current and future computational challenges of the Ethereum ecosystem, while preserving the existing engineering investment in both smart contracts and front-end code.
+6. Aurora resolve problemas computacionais atuais e futuros do ecossistema Ethereum, preservando o investimento de engenharia tanto nos contratos inteligentes como no front-end.
 
-## Aurora architecture
+## Arquitetura Aurora
 
-**Aurora is implemented as a smart contract** on the NEAR blockchain. What does this mean?
+**Aurora é implementada como um contrato inteligente** na blockchain NEAR. O que isso significa?
 
 1. Aurora can benefit from all current and future advantages of NEAR blockchain
 2. Simplification of the early-stage maintenance, upgrade, and governance of Aurora, enabling rapid response times in case of emergency such as the discovery of security vulnerabilities.

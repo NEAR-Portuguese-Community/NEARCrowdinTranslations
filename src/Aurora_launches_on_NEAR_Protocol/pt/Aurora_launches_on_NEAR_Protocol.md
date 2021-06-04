@@ -41,16 +41,16 @@ Os códigos do contrato inteligente da Aurora e das ferramentas adjacentes podem
 
 ## Usando ETH para pagar taxas de gás na Aurora
 
-Uma das decisões mais notáveis de design é o uso de ETH como moeda base dentro da Aurora, para o pagamento das taxas de transação. While a lot of the Ethereum layer 2s require users and developers to acquire the L2’s native tokens, Aurora wants to offer a straightforward, seamless experience for users and developers from the Ethereum community.
+Uma das decisões mais notáveis de design é o uso de ETH como moeda base dentro da Aurora, para o pagamento das taxas de transação. Ao contrario de grande parte da layer 2 da Ethereum que exige que seus usuários e desenvolvedores adquiram os tokens nativos da L2, Aurora quer oferecer uma experiência direta e ininterrupta para usuários e desenvolvedores da comunidade Ethereum.
 
-The approach is the following:
+A abordagem é a seguinte:
 
-1. To understand the ETH gas price in the Aurora runtime, a standard JSON-RPC endpoint `eth_gasPrice` is used. The returned value will be used for the future ETH payment to the RPC node (see step 6).
-2. A user signs an ordinary Ethereum transaction with their familiar tools (MetaMask, Wallet Connect compatible wallet, CLI, JS libraries, etc.) and sends it to the RPC.
-3. The RPC wraps the Ethereum transaction into a NEAR transaction and sends it to the Aurora contract.
-4. On the protocol level, the RPC signature is verified and the initial Ethereum transaction is passed to the Aurora Engine contract.
-5. The Aurora Engine contract parses the Ethereum transaction and executes it, calculating the EVM gas usage on the way. By the end of the Ethereum transaction execution, some NEAR gas is already burned (according to the rules of NEAR Protocol), while ETH gas is just a calculated number in the Aurora contract.
-6. In order to pay for the NEAR gas fee, ETH is used: the Aurora contract calculates the transaction fee and transfers it from the user account to the RPC account.
+1. Para pegar o preço de gas ETH no runtime Aurora, um endpoint JSON-RPC padrão é usado, o `eth_gasPrice`. O valor retornado será usado no futuro pagamento de ETH para o nó RPC (veja o passo 6).
+2. O usuário assina uma transação comum da Ethereum usando uma de suas ferramentas familiares (MetaMask, carteiras compatíveis com Wallet Connect, CLI, JS libraries, etc.) e a manda para o RPC.
+3. O RPC converte a transação em uma transação NEAR e a manda para o contrato da Aurora.
+4. A nível de protocolo, a assinatura RPC é verificada e a transação Ethereum inicial é passada para o contrato Aurora Engine.
+5. O contrato Aurora Engine analisa a transação Ethereum e a executa, calculando o uso de gás da EVM no caminho. No final da execução da transação Ethereum, algum gás NEAR já foi queimado (de acordo com as regras do Protocolo NEAR), enquanto o gás ETH é somente um número calculado no contrato Aurora.
+6. Para pagar a taxa de gás NEAR, ETH é usado: o contrato Aurora calcula a taxa de transação e a transfere da conta do usuário para a conta do RPC.
 
 This approach is viewed from the user side as just paying ETH to the protocol, while in fact it is the $NEAR token which is used for the fees, and RPC nodes acting as proxies/relayers between the user and the NEAR blockchain.
 

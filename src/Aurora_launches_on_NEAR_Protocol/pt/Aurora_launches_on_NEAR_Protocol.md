@@ -52,17 +52,17 @@ A abordagem é a seguinte:
 5. O contrato Aurora Engine analisa a transação Ethereum e a executa, calculando o uso de gás da EVM no caminho. No final da execução da transação Ethereum, algum gás NEAR já foi queimado (de acordo com as regras do Protocolo NEAR), enquanto o gás ETH é somente um número calculado no contrato Aurora.
 6. Para pagar a taxa de gás NEAR, ETH é usado: o contrato Aurora calcula a taxa de transação e a transfere da conta do usuário para a conta do RPC.
 
-This approach is viewed from the user side as just paying ETH to the protocol, while in fact it is the $NEAR token which is used for the fees, and RPC nodes acting as proxies/relayers between the user and the NEAR blockchain.
+Esta abordagem é vista do lado do usuário como somente pagar ETH para o protocolo, enquanto, na verdade o token $NEAR é usado para pagamento das taxas, e os nós RPC atuam como proxies/retransmissão entre o usuário e a blockchain NEAR.
 
-As the first step, the RPC would be able to provide the ETH gas price that will be sufficient for paying for the relaying service. Moreover, based on the responses from the multiple RPC nodes, users would be able to decide which one to use. In the future, relaying services may be structured similarly to [OpenGSN](https://opengsn.org/).
+Como primeiro passo, o RPC deve fornecer o preço em gás ETH que será suficiente para o pagamento do serviço de transmissão. Além disso, baseado nas respostas de vários nós RPC, usuários seriam capazes de decidir qual usar. No futuro, serviços de retransmissão podem ser estruturados de forma semelhante ao [OpenGSN](https://opengsn.org/).
 
-Find more information on ETH as the base token in [this governance forum discussion](https://gov.near.org/t/evm-runtime-base-token/340/38).
+Encontre mais informações sobre ETH como token base [nessa discussão do fórum de governança](https://gov.near.org/t/evm-runtime-base-token/340/38).
 
-## Aurora Roadmap
+## Roteiro da Aurora
 
-Besides hotfixing Aurora after its release, the team has the following major milestones in mind:
+Além dos consertos rápidos na Aurora depois do lançamento, o time tem os seguintes marcos importantes em mente:
 
-* Summer 2021:
+* Verão de 2021:
   * **Uncompromising Ethereum compatibility.** At the moment there are several minor updates to the NEAR Protocol that are going to be included in the next protocol upgrade, so as to enable Aurora to achieve 100% compatibility with Ethereum 1.0.
   * **DAO formation.** We believe that the only way forward with projects like Aurora is to implement a truly decentralised governance and upgradability approach. Accordingly, we’re going to establish a DAO to govern Aurora.
   * **[Potential] token inception.** Once the DAO forms, there will be a decision regarding the creation of an Aurora token. Discussions will happen over the summer.

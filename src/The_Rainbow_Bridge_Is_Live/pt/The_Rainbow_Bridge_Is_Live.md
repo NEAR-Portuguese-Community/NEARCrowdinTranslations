@@ -15,7 +15,7 @@ Os atuais usuários da rede Ethereum que ainda não possuem uma conta NEAR podem
 A primeira fase da Rainbow Bridge possibilita que os ativos fluam livremente entre as blockchains NEAR e Ethereum, de forma a permitir que usuários trafeguem quaisquer tokens ERC-20. Exemplos de tokens ERC-20 populares com funcionalidades em comum que agora estarão disponíveis para interoperar com a NEAR, incluindo mas não limitado a:
 
 * Moedas estáveis como USDT (Tether), DAI, e TUSD
-* Ativos do tipo "wrapped" como WBTC e WETH
+* Ativos atrelados (wrapped) como WBTC e WETH
 * Tokens DEX como UNI e 1INCH
 * Tokens de empréstimo como AAVE e COMP
 * Tokens de empresas de serviço como HT (Huobi) e CRO (Crypto.com)

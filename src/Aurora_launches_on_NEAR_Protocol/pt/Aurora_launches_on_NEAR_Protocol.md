@@ -1,4 +1,4 @@
-# Aurora lançada no Protocolo NEAR
+# Aurora é lançada no Protocolo NEAR
 
 ## A Aurora fornece uma experiência de camada 2 da Ethereum
 

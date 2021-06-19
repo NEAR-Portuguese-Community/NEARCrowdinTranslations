@@ -63,10 +63,10 @@ Encontre mais informações sobre ETH como token base [nessa discussão do fóru
 Além dos consertos rápidos na Aurora depois do lançamento, o time tem os seguintes marcos importantes em mente:
 
 * Verão de 2021:
-  * **Uncompromising Ethereum compatibility.** At the moment there are several minor updates to the NEAR Protocol that are going to be included in the next protocol upgrade, so as to enable Aurora to achieve 100% compatibility with Ethereum 1.0.
-  * **DAO formation.** We believe that the only way forward with projects like Aurora is to implement a truly decentralised governance and upgradability approach. Accordingly, we’re going to establish a DAO to govern Aurora.
-  * **[Potential] token inception.** Once the DAO forms, there will be a decision regarding the creation of an Aurora token. Discussions will happen over the summer.
-* Autumn 2021:
+  * **Descomprometendo a compatibilidade com Ethereum.** No momento há várias atualizações menores no protocolo NEAR que serão incluídas na próxima atualização do protocolo de modo a permitir que a Aurora alcance 100% de compatibilidade com a rede Ethereum 1.0.
+  * **Formação da DAO.** Acreditamos que o único caminho a seguir em projetos como o Aurora é implementar uma abordagem de governança e atualização verdadeiramente descentralizada. Assim, estabeleceremos uma DAO para governar a Aurora.
+  * **[Potential] Criação de token.** Uma vez que a DAO se forme, haverá uma decisão sobre a criação de um token Aurora. As discussões vão ocorrer durante o verão.
+* Outono de 2021:
   * **Fast token transfers.** Because of the limitations of the Ethereum blockchain (high transaction fees, slow finality of transactions, and the absence of [EIP-665](https://eips.ethereum.org/EIPS/eip-665)), transfers over the Rainbow Bridge in the direction of Ethereum are currently slow: it can take up to 16 hours for a transfer from NEAR to Ethereum. We are going to solve this problem for fungible token transfers.
   * **Simplified “Hide the Blockchain” Experience.** The advanced account model of NEAR Protocol enables seamless interaction with the blockchain even for users who aren’t familiar with crypto UX elements like  wallets and additional software. In fact, there’s a way to completely hide the blockchain details from the end user. We plan to introduce a similar logic to Aurora.
   * **Gas fee denominated in ERC-20s.** The way the Aurora RPC works gives us an ability to naturally propose to the user to pay the transaction fee with any ERC-20 token. In other words, users could pay their transaction fee in USDT or DAI.

@@ -67,22 +67,22 @@ Além dos consertos rápidos na Aurora depois do lançamento, o time tem os segu
   * **Formação da DAO.** Acreditamos que o único caminho a seguir em projetos como o Aurora é implementar uma abordagem de governança e atualização verdadeiramente descentralizada. Assim, estabeleceremos uma DAO para governar a Aurora.
   * **[Potential] Criação de token.** Uma vez que a DAO se forme, haverá uma decisão sobre a criação de um token Aurora. As discussões vão ocorrer durante o verão.
 * Outono de 2021:
-  * **Fast token transfers.** Because of the limitations of the Ethereum blockchain (high transaction fees, slow finality of transactions, and the absence of [EIP-665](https://eips.ethereum.org/EIPS/eip-665)), transfers over the Rainbow Bridge in the direction of Ethereum are currently slow: it can take up to 16 hours for a transfer from NEAR to Ethereum. We are going to solve this problem for fungible token transfers.
-  * **Simplified “Hide the Blockchain” Experience.** The advanced account model of NEAR Protocol enables seamless interaction with the blockchain even for users who aren’t familiar with crypto UX elements like  wallets and additional software. In fact, there’s a way to completely hide the blockchain details from the end user. We plan to introduce a similar logic to Aurora.
-  * **Gas fee denominated in ERC-20s.** The way the Aurora RPC works gives us an ability to naturally propose to the user to pay the transaction fee with any ERC-20 token. In other words, users could pay their transaction fee in USDT or DAI.
+  * **Transferências rápidas de tokens.** Devido às limitações da blockchain Ethereum (taxas de transação elevadas, finalização lenta das transações e a ausência de [EIP-665](https://eips.ethereum.org/EIPS/eip-665)), atualmente as transferências através da Rainbow Bridge na direção da Ethereum são lentas: uma transferência da NEAR para a Ethereum pode levar até 16 horas. Vamos resolver este problema para as transferências de tokens fungíveis.
+  * **Experiência simplificada "Escondendo a Blockchain".** O modelo avançado de conta do protocolo NEAR permite uma interação perfeita com a blockchain, mesmo para usuários que não estejam familiarizados com elementos da cripto UX, como carteiras e software adicional. Na verdade, há uma maneira de esconder completamente do usuário final os detalhes relacionados à blockchain. Pretendemos introduzir à Aurora uma lógica semelhante.
+  * **Taxa de gás denominada em ERC-20s.** A forma de funcionamento da Aurora RPC nos dá a habilidade de propor naturalmente ao usuário o pagamento da taxa de transação com qualquer token ERC-20. Em outras palavras, os usuários poderiam pagar suas taxas de transação em USDT ou DAI.
 * 2022:
-  * **Horizontal scaling.** The major feature of the NEAR Protocol is sharding and the ability to dynamically scale the blockchain. Our end goal is to deliver this functionality to the Ethereum ecosystem through enabling sharding for Aurora.
+  * **Escalonamento horizontal.** A principal característica do protocolo NEAR é o sharding e a capacidade de escalar dinamicamente a blockchain. Nosso objetivo final é oferecer esta funcionalidade ao ecossistema Ethereum habilitando o sharding na Aurora.
 
-## Try Aurora Today
+## Experimente Hoje a Aurora
 
-With low costs, best-in-class transaction finality, and scalability, Aurora redefines what is possible in the Ethereum ecosystem while also expanding NEAR’s ecosystem to welcome and accommodate EVM-based applications.
+Com custos baixos, a melhor finalização de transações e escalabilidade, a Aurora redefine o que é possível no ecossistema Ethereum, enquanto também expande o ecossistema NEAR para dar boas-vindas e acomodar aplicações baseadas na EVM.
 
-With Aurora, Ethereum users can work with familiar applications while benefiting from the efficiency of NEAR; as the transaction cost is several orders of magnitude cheaper than that of Ethereum, Aurora removes a steep financial barrier to entry for users and developers––especially newcomers to the ecosystem. Our goal is to create an interoperable future where the gaps between blockchains, developers, and users are bridged. Aurora does just that by allowing for a seamless user experience and allowing assets to pass uninterrupted between the Ethereum and NEAR blockchains. Merging crypto-economies can facilitate the development of creator communities that will bring this technology to the mainstream.
+Com a Aurora, os usuários da Ethereum podem trabalhar com aplicativos familiares, beneficiando-se da eficiência da NEAR; como o custo de transação é várias ordens de magnitude mais barato do que o da Ethereum, a Aurora remove uma grande barreira financeira à entrada dos utilizadores e dos desenvolvedores, especialmente os recém-chegados ao ecossistema. Nosso objetivo é criar um futuro interoperável onde haja pontes nas lacunas entre blockchains, desenvolvedores e usuários. A Aurora faz exatamente isso ao possibilitar uma experiência de usuário perfeita e permitir que os ativos passem ininterruptos entre as blockchains Ethereum e NEAR. A fusão das economias criptográficas pode facilitar o desenvolvimento de comunidades criadoras que popularizarão essa tecnologia.
 
-Aurora is fully compatible with Ethereum 1.0, including base fees paid in ETH and out-of-the-box operability with all existing wallets and other tools. To start using Aurora, please visit https://aurora.dev.
+Aurora é totalmente compatível com a Ethereum 1.0, incluindo as taxas de base pagas em ETH e a operabilidade pronta para o uso com todas as carteiras existentes e outras ferramentas. Para começar a usar a Aurora, visite https://aurora.dev.
 
 —
 
-Join the Aurora community via official [Telegram](https://t.me/auroraisnear) group, [Developer Telegram](https://t.me/auroraisnearsupport) group, [Support Telegram](https://t.me/auroraisnearsupport) group, and follow on [Twitter](https://twitter.com/auroraisnear).
+Junte-se à comunidade Aurora através do grupo oficial do [Telegram](https://t.me/auroraisnear), do grupo do [Telegram para desenvolvedores](https://t.me/auroraisnearsupport), do grupo do [Telegram para ajuda](https://t.me/auroraisnearsupport) e siga o [Twitter](https://twitter.com/auroraisnear).
 
-*Disclaimer: This article is provided for informational purposes only. It is not intended to be used as legal, tax, investment, financial, or other advice.*
+*Aviso: Este artigo é fornecido apenas para fins informativos. Ele não se destina a ser utilizado como aconselhamento jurídico, fiscal, financeiro ou de qualquer outro tipo.*

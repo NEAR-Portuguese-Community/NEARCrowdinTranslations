@@ -2,9 +2,9 @@
 
 ## A Aurora fornece uma experiência de camada 2 da Ethereum
 
-O crescimento explosivo da DeFi e de NFTs frequentemente causa aumentos nos preços de gas da Ethereum - um problema que limita economicamente a participação de muitos usuários, e impede desenvolvedores de dApp escalarem seus negócios até seu potencial máximo. Para enfrentar esses desafios, estamos orgulhosos de anunciar o lançamento na mainnet da **Aurora**, uma solução transformadora para desenvolvedores que buscam extender seus dApps e acessar novos mercados.
+O crescimento explosivo da DeFi e de NFTs frequentemente causa aumentos nos preços de gás da Ethereum - um problema que limita economicamente a participação de muitos usuários, e impede desenvolvedores de dApp escalarem seus negócios até seu potencial máximo. Para enfrentar esses desafios, estamos orgulhosos de anunciar o lançamento na mainnet da **Aurora**, uma solução transformadora para desenvolvedores que buscam extender seus dApps e acessar novos mercados.
 
-Aurora roda no [Protocolo NEAR](https://near.org/) e aproveita dos muitos recursos exclusivos, incluindo fragmentação e remuneração de gas a desenvolvedores. Aurora consiste de dois componentes principais: o runtime **Aurora Engine** (Maquina Aurora), que possibilita deploy de contratos inteligentes escritos em Solidity e Vyper, e a **Aurora Bridge** (baseado na tecnologia da [Rainbow Bridge](https://near.org/bridge)), fornecendo transferência não permicionada de tokens e dados entre Ethereum e Aurora.
+Aurora roda no [Protocolo NEAR](https://near.org/) e aproveita dos muitos recursos exclusivos, incluindo fragmentação e remuneração de gás a desenvolvedores. Aurora consiste de dois componentes principais: o runtime **Aurora Engine** (Máquina Aurora), que possibilita deploy de contratos inteligentes escritos em Solidity e Vyper, e a **Aurora Bridge** (baseado na tecnologia da [Rainbow Bridge](https://near.org/bridge)), fornecendo transferência não permissionada de tokens e dados entre Ethereum e Aurora.
 
 Aurora fornece um número de melhorias para os desenvolvedores:
 
@@ -25,7 +25,7 @@ Aurora fornece um número de melhorias para os desenvolvedores:
 
 A arquitetura atual da Aurora é a seguinte:
 
-O contrato inteligente da Aurora implementa duas principais interfaces: Execução e Token. A interface de Execução permite aos usuários enviar transações comuns da Ethereum (por exemplo, criadas com MetaMask, [ethers.js](https://docs.ethers.io/v5/) ou [web3.py](https://web3py.readthedocs.io/en/stable/)). Por baixo, essas transações são decodificadas (RLP), verificadas (secp256k1), e executadas na runtime EVM ([SputnikVM](https://github.com/rust-blockchain/evm)).
+O contrato inteligente da Aurora implementa duas principais interfaces: Execução e Token. A interface de Execução permite aos usuários enviar transações comuns da Ethereum (por exemplo, criadas com MetaMask, [ethers.js](https://docs.ethers.io/v5/) ou [web3.py](https://web3py.readthedocs.io/en/stable/)). Por baixo, essas transações são decodificadas (RLP), verificadas (secp256k1), e executadas no ambiente em tempo de execução da EVM ([SputnikVM](https://github.com/rust-blockchain/evm)).
 
 Algumas operações permitidas na runtime EVM podem ser movidas para o nível do Protocolo NEAR (tornando-se pré-compilações) no caso de um contrato inteligente não entregar o desempenho pretendido. Por exemplo, está programada uma atualização no protocolo NEAR, que incluirá uma [API estendida de Matemática](https://github.com/near/nearcore/pull/3954).
 
@@ -45,7 +45,7 @@ Uma das decisões mais notáveis de design é o uso de ETH como moeda base dentr
 
 A abordagem é a seguinte:
 
-1. Para pegar o preço de gas ETH no runtime Aurora, um endpoint JSON-RPC padrão é usado, o `eth_gasPrice`. O valor retornado será usado no futuro pagamento de ETH para o nó RPC (veja o passo 6).
+1. Para pegar o preço de gás ETH no runtime Aurora, um endpoint JSON-RPC padrão é usado, o `eth_gasPrice`. O valor retornado será usado no futuro pagamento de ETH para o nó RPC (veja o passo 6).
 2. O usuário assina uma transação comum da Ethereum usando uma de suas ferramentas familiares (MetaMask, carteiras compatíveis com Wallet Connect, CLI, JS libraries, etc.) e a manda para o RPC.
 3. O RPC converte a transação em uma transação NEAR e a manda para o contrato da Aurora.
 4. A nível de protocolo, a assinatura RPC é verificada e a transação Ethereum inicial é passada para o contrato Aurora Engine.
@@ -62,7 +62,7 @@ Encontre mais informações sobre ETH como token base [nessa discussão do fóru
 
 Além dos consertos rápidos na Aurora depois do lançamento, o time tem os seguintes marcos importantes em mente:
 
-* Verão de 2021:
+* Verão de 2021 (no hemisfério norte):
   * **Descomprometendo a compatibilidade com Ethereum.** No momento há várias atualizações menores no protocolo NEAR que serão incluídas na próxima atualização do protocolo de modo a permitir que a Aurora alcance 100% de compatibilidade com a rede Ethereum 1.0.
   * **Formação da DAO.** Acreditamos que o único caminho a seguir em projetos como o Aurora é implementar uma abordagem de governança e atualização verdadeiramente descentralizada. Assim, estabeleceremos uma DAO para governar a Aurora.
   * **[Potential] Criação de token.** Uma vez que a DAO se forme, haverá uma decisão sobre a criação de um token Aurora. As discussões vão ocorrer durante o verão.

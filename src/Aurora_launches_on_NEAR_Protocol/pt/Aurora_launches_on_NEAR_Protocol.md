@@ -10,7 +10,7 @@ Aurora fornece um número de melhorias para os desenvolvedores:
 
 1. As taxas são 1000x inferiores às da Ethereum. Pro exemplo, transferência de um token ERC-20 custa menos de $0.01, enquanto na Ethereum (em 50 Gwei e com preço de ETH a $3000), é aproximadamente $5.40.
 2. Aurora é capaz de suportar milhares de transações por segundo, representando um aumento de 50x comparado a Ethereum 1.0.
-3. A "finality"(quantia de blocos necessários para validar uma transação) da Aurora herdada do Protocolo NEAR, dois blocos no protocolo NEAR, ou aproximadamente dois segundos - substancialmente menor até mesmo que o tempo de confirmação de um único bloco de 13 segundos na rede Ethereum (que não é suficiente para confirmar a transação). Além disso, o "finality" rápido da blockchain NEAR reduz significantemente o risco de ataques frontrunning.
+3. A "finality"(quantia de blocos necessários para validar uma transação) da Aurora herdada do Protocolo NEAR, dois blocos no protocolo NEAR, ou aproximadamente dois segundos - substancialmente menor até mesmo que o tempo de confirmação de um único bloco de 13 segundos na rede Ethereum (que não é suficiente para confirmar a transação). Além disso, o "finality" rápido da blockchain NEAR reduz significantemente o risco de ataques frontais.
 4. O crescimento do ecossistema na Aurora tem visão de futuro: a abordagem nativamente fragmentada do protocolo NEAR provê escala horizontal da EVM, com comunicação assíncrona entre vários fragmentos da Aurora.
 5. A Aurora oferece uma opção mais verde para usuários Ethereum: total compatibilidade não comprometedora com Ethereum em cima de um protocolo de primeira camada (L1) descentralizado, neutro para o clima e baseado em Proof-of-Stake, o Protocolo NEAR.
 6. Aurora resolve problemas computacionais atuais e futuros do ecossistema Ethereum, preservando o investimento de engenharia tanto nos contratos inteligentes como no front-end.
@@ -27,7 +27,7 @@ A arquitetura atual da Aurora é a seguinte:
 
 O contrato inteligente da Aurora implementa duas principais interfaces: Execução e Token. A interface de Execução permite aos usuários enviar transações comuns da Ethereum (por exemplo, criadas com MetaMask, [ethers.js](https://docs.ethers.io/v5/) ou [web3.py](https://web3py.readthedocs.io/en/stable/)). Por baixo, essas transações são decodificadas (RLP), verificadas (secp256k1), e executadas no ambiente em tempo de execução da EVM ([SputnikVM](https://github.com/rust-blockchain/evm)).
 
-Algumas operações permitidas na runtime EVM podem ser movidas para o nível do Protocolo NEAR (tornando-se pré-compilações) no caso de um contrato inteligente não entregar o desempenho pretendido. Por exemplo, está programada uma atualização no protocolo NEAR, que incluirá uma [API estendida de Matemática](https://github.com/near/nearcore/pull/3954).
+Algumas operações permitidas em tempo de execução da EVM podem ser movidas para o nível do Protocolo NEAR (tornando-se pré-compilações) no caso de um contrato inteligente não entregar o desempenho pretendido. Por exemplo, está programada uma atualização no protocolo NEAR, que incluirá uma [API estendida de Matemática](https://github.com/near/nearcore/pull/3954).
 
 Aurora também permite tokens não permicionados atravessarem a ponte. Ela usa a tecnologia da Rainbow Bridge para transferência de Ethereum e transferência interna de token NEAR para possibilitar ativos nativos NEAR serem transferidos para Aurora. Assim, Aurora torna-se um ponto de conexão para as economias Ethereum e NEAR.
 

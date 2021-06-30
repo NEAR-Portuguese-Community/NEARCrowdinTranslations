@@ -1,21 +1,21 @@
-# Aurora lançada no Protocolo NEAR
+# Aurora é lançada no Protocolo NEAR
 
 ## A Aurora fornece uma experiência de camada 2 da Ethereum
 
-O crescimento explosivo da DeFi e de NFTs frequentemente causa aumentos nos preços de gas da Ethereum - um problema que limita economicamente a participação de muitos usuários, e impede desenvolvedores de dApp escalarem seus negócios até seu potencial máximo. Para enfrentar esses desafios, estamos orgulhosos de anunciar o lançamento na mainnet da **Aurora**, uma solução transformadora para desenvolvedores que buscam extender seus dApps e acessar novos mercados.
+O crescimento explosivo da DeFi e de NFTs frequentemente causa aumentos nos preços de gás da Ethereum - um problema que limita economicamente a participação de muitos usuários, e impede desenvolvedores de dApp escalarem seus negócios até seu potencial máximo. Para enfrentar esses desafios, estamos orgulhosos de anunciar o lançamento na mainnet da **Aurora**, uma solução transformadora para desenvolvedores que buscam extender seus dApps e acessar novos mercados.
 
-Aurora roda no [Protocolo NEAR](https://near.org/) e aproveita dos muitos recursos exclusivos, incluindo fragmentação e remuneração de gas a desenvolvedores. Aurora consiste de dois componentes principais: o runtime **Aurora Engine** (Maquina Aurora), que possibilita deploy de contratos inteligentes escritos em Solidity e Vyper, e a **Aurora Bridge** (baseado na tecnologia da [Rainbow Bridge](https://near.org/bridge)), fornecendo transferência de tokens e dados entre Ethereum e Aurora, sem autoridade.
+Aurora roda no [Protocolo NEAR](https://near.org/) e aproveita dos muitos recursos exclusivos, incluindo fragmentação e remuneração de gás a desenvolvedores. Aurora consiste de dois componentes principais: o runtime **Aurora Engine** (Máquina Aurora), que possibilita deploy de contratos inteligentes escritos em Solidity e Vyper, e a **Aurora Bridge** (baseado na tecnologia da [Rainbow Bridge](https://near.org/bridge)), fornecendo transferência não permissionada de tokens e dados entre Ethereum e Aurora.
 
 Aurora fornece um número de melhorias para os desenvolvedores:
 
-1. As tarifas são 1000x inferiores às da Ethereum. Pro exemplo, transferência de um token ERC-20 custa menos de $0.01, enquanto na Ethereum (em 50 Gwei e com preço de ETH a $3000), é aproximadamente $5.40.
+1. As taxas são 1000x inferiores às da Ethereum. Pro exemplo, transferência de um token ERC-20 custa menos de $0.01, enquanto na Ethereum (em 50 Gwei e com preço de ETH a $3000), é aproximadamente $5.40.
 2. Aurora é capaz de suportar milhares de transações por segundo, representando um aumento de 50x comparado a Ethereum 1.0.
-3. A "finality"(quantia de blocos necessários para validar uma transação) da Aurora herdada do Protocolo NEAR, i.e. dois blocos NEAR, ou aproximadamente dois segundos - substancialmente menor até mesmo que o tempo de confirmação um único bloco de 13 segundos na Ethereum (que não é suficiente para confirmar a transação). Além disso, o "finality" rápido da blockchain NEAR reduz significantemente o risco de ataques frontrunning.
+3. A "finality"(quantia de blocos necessários para validar uma transação) da Aurora herdada do Protocolo NEAR, dois blocos no protocolo NEAR, ou aproximadamente dois segundos - substancialmente menor até mesmo que o tempo de confirmação de um único bloco de 13 segundos na rede Ethereum (que não é suficiente para confirmar a transação). Além disso, o "finality" rápido da blockchain NEAR reduz significantemente o risco de ataques frontais.
 4. O crescimento do ecossistema na Aurora tem visão de futuro: a abordagem nativamente fragmentada do protocolo NEAR provê escala horizontal da EVM, com comunicação assíncrona entre vários fragmentos da Aurora.
-5. A Aurora oferece uma opção mais verde para usuários Ethereum; total compatibilidade não comprometedora com Ethereum em cima do descentralizado, climaticamente neutro, baseado em Proof-of-Stake, e L1 Protocolo NEAR.
+5. A Aurora oferece uma opção mais verde para usuários Ethereum: total compatibilidade não comprometedora com Ethereum em cima de um protocolo de primeira camada (L1) descentralizado, neutro para o clima e baseado em Proof-of-Stake, o Protocolo NEAR.
 6. Aurora resolve problemas computacionais atuais e futuros do ecossistema Ethereum, preservando o investimento de engenharia tanto nos contratos inteligentes como no front-end.
 
-## Arquitetura Aurora
+## Arquitetura da Aurora
 
 **Aurora é implementada como um contrato inteligente** na blockchain NEAR. O que isso significa?
 
@@ -25,17 +25,17 @@ Aurora fornece um número de melhorias para os desenvolvedores:
 
 A arquitetura atual da Aurora é a seguinte:
 
-O contrato inteligente da Aurora implementa duas principais interfaces: Execução e Token. A interface de Execução permite aos usuários enviar transações comuns da Ethereum (por exemplo, criadas com MetaMask, [ethers.js](https://docs.ethers.io/v5/) ou [web3.py](https://web3py.readthedocs.io/en/stable/)). Por baixo, essas transações são decodificadas (RLP), verificadas (secp256k1), e executadas na runtime EVM ([SputnikVM](https://github.com/rust-blockchain/evm)).
+O contrato inteligente da Aurora implementa duas principais interfaces: Execução e Token. A interface de Execução permite aos usuários enviar transações comuns da Ethereum (por exemplo, criadas com MetaMask, [ethers.js](https://docs.ethers.io/v5/) ou [web3.py](https://web3py.readthedocs.io/en/stable/)). Por baixo, essas transações são decodificadas (RLP), verificadas (secp256k1), e executadas no ambiente em tempo de execução da EVM ([SputnikVM](https://github.com/rust-blockchain/evm)).
 
-Algumas operações permitidas na runtime EVM podem ser movidas para o nível do Protocolo NEAR (tornando-se pré-compilações) no caso de um contrato inteligente não entregar o desempenho pretendido. Por exemplo, existe atualmente uma atualização programada do protocolo NEAR, que incluirá uma [API estendida de Matemática](https://github.com/near/nearcore/pull/3954).
+Algumas operações permitidas em tempo de execução da EVM podem ser movidas para o nível do Protocolo NEAR (tornando-se pré-compilações) no caso de um contrato inteligente não entregar o desempenho pretendido. Por exemplo, está programada uma atualização no protocolo NEAR, que incluirá uma [API estendida de Matemática](https://github.com/near/nearcore/pull/3954).
 
-Aurora também permite tokens atravessarem a ponte, em ambiente sem autoridade. Ela usa a tecnologia da Rainbow Bridge para transferência de Ethereum e transferência interna de token NEAR para possibilitar ativos nativos NEAR serem transferidos para Aurora. Assim, Aurora torna-se um ponto de conexão para as economias Ethereum e NEAR.
+Aurora também permite tokens não permicionados atravessarem a ponte. Ela usa a tecnologia da Rainbow Bridge para transferência de Ethereum e transferência interna de token NEAR para possibilitar ativos nativos NEAR serem transferidos para Aurora. Assim, Aurora torna-se um ponto de conexão para as economias Ethereum e NEAR.
 
 No caso de necessidade de pré-compilação adicional, será proposta uma atualização do protocolo aos validadores NEAR. As informações necessárias das pré-compilações serão coletadas assim que forem realizados testes de carga suficientes.
 
-De acordo com o resultado [das discussões](https://gov.near.org/t/evm-runtime-base-token/340/38) sobre o token base da Aurora, o runtime EVM vai manter os saldos nativos em Ether (ETH). Isto significa que um usuário deve mover seu ETH através da Aurora Bridge antes de enviar quaisquer outras transações.
+De acordo com o resultado [das discussões](https://gov.near.org/t/evm-runtime-base-token/340/38) sobre o token base da Aurora, a EVM vai manter, em tempo de execução, os saldos nativos em Ether (ETH). Isto significa que um usuário deve mover seu ETH através da Aurora Bridge antes de enviar quaisquer outras transações.
 
-Para não confundir os usuários, o time decidiu que o contrato da Aurora irá implementar uma interface de token fungível, que representará o saldo ETH do usuário, tanto no runtime NEAR quanto no runtime Aurora. Usuários devem ser capazes de retirar e depositar de ETH para NEAR, e isso vai ser implementado como uma interface [conectora da ponte](https://github.com/aurora-is-near/eth-connector), que embaixo falará com [os contratos principais da ponte](https://github.com/aurora-is-near/rainbow-bridge). Isso tornou-se possível devido a natureza extensível do protocolo da Rainbow Bridge (veja mais sobre a arquitetura [aqui](https://near.org/blog/eth-near-rainbow-bridge/)).
+Para não confundir os usuários, o time decidiu que o contrato da Aurora irá implementar uma interface de token fungível, que representará o saldo ETH do usuário, tanto em tempo de execução da NEAR quanto da Aurora. Usuários devem ser capazes de retirar e depositar de ETH para NEAR, e isso vai ser implementado como uma interface [conectora da ponte](https://github.com/aurora-is-near/eth-connector), que embaixo falará com [os contratos principais da ponte](https://github.com/aurora-is-near/rainbow-bridge). Isso tornou-se possível devido a natureza extensível do protocolo da Rainbow Bridge (veja mais sobre a arquitetura [aqui](https://near.org/blog/eth-near-rainbow-bridge/)).
 
 Os códigos do contrato inteligente da Aurora e das ferramentas adjacentes podem ser encontrados na [organização Aurora no Github](https://github.com/aurora-is-near).
 
@@ -45,7 +45,7 @@ Uma das decisões mais notáveis de design é o uso de ETH como moeda base dentr
 
 A abordagem é a seguinte:
 
-1. Para pegar o preço de gas ETH no runtime Aurora, um endpoint JSON-RPC padrão é usado, o `eth_gasPrice`. O valor retornado será usado no futuro pagamento de ETH para o nó RPC (veja o passo 6).
+1. Para pegar o preço de gás ETH no runtime Aurora, um endpoint JSON-RPC padrão é usado, o `eth_gasPrice`. O valor retornado será usado no futuro pagamento de ETH para o nó RPC (veja o passo 6).
 2. O usuário assina uma transação comum da Ethereum usando uma de suas ferramentas familiares (MetaMask, carteiras compatíveis com Wallet Connect, CLI, JS libraries, etc.) e a manda para o RPC.
 3. O RPC converte a transação em uma transação NEAR e a manda para o contrato da Aurora.
 4. A nível de protocolo, a assinatura RPC é verificada e a transação Ethereum inicial é passada para o contrato Aurora Engine.
@@ -62,27 +62,27 @@ Encontre mais informações sobre ETH como token base [nessa discussão do fóru
 
 Além dos consertos rápidos na Aurora depois do lançamento, o time tem os seguintes marcos importantes em mente:
 
-* Verão de 2021:
-  * **Uncompromising Ethereum compatibility.** At the moment there are several minor updates to the NEAR Protocol that are going to be included in the next protocol upgrade, so as to enable Aurora to achieve 100% compatibility with Ethereum 1.0.
-  * **DAO formation.** We believe that the only way forward with projects like Aurora is to implement a truly decentralised governance and upgradability approach. Accordingly, we’re going to establish a DAO to govern Aurora.
-  * **[Potential] token inception.** Once the DAO forms, there will be a decision regarding the creation of an Aurora token. Discussions will happen over the summer.
-* Autumn 2021:
-  * **Fast token transfers.** Because of the limitations of the Ethereum blockchain (high transaction fees, slow finality of transactions, and the absence of [EIP-665](https://eips.ethereum.org/EIPS/eip-665)), transfers over the Rainbow Bridge in the direction of Ethereum are currently slow: it can take up to 16 hours for a transfer from NEAR to Ethereum. We are going to solve this problem for fungible token transfers.
-  * **Simplified “Hide the Blockchain” Experience.** The advanced account model of NEAR Protocol enables seamless interaction with the blockchain even for users who aren’t familiar with crypto UX elements like  wallets and additional software. In fact, there’s a way to completely hide the blockchain details from the end user. We plan to introduce a similar logic to Aurora.
-  * **Gas fee denominated in ERC-20s.** The way the Aurora RPC works gives us an ability to naturally propose to the user to pay the transaction fee with any ERC-20 token. In other words, users could pay their transaction fee in USDT or DAI.
+* Verão de 2021 (no hemisfério norte):
+  * **Descomprometendo a compatibilidade com Ethereum.** No momento há várias atualizações menores no protocolo NEAR que serão incluídas na próxima atualização do protocolo de modo a permitir que a Aurora alcance 100% de compatibilidade com a rede Ethereum 1.0.
+  * **Formação da DAO.** Acreditamos que o único caminho a seguir em projetos como o Aurora é implementar uma abordagem de governança e atualização verdadeiramente descentralizada. Assim, estabeleceremos uma DAO para governar a Aurora.
+  * **[Potential] Criação de token.** Uma vez que a DAO se forme, haverá uma decisão sobre a criação de um token Aurora. As discussões vão ocorrer durante o verão.
+* Outono de 2021 (no hemisfério norte):
+  * **Transferências rápidas de tokens.** Devido às limitações da blockchain Ethereum (taxas de transação elevadas, finalização lenta das transações e a ausência de [EIP-665](https://eips.ethereum.org/EIPS/eip-665)), atualmente as transferências através da Rainbow Bridge na direção da Ethereum são lentas: uma transferência da NEAR para a Ethereum pode levar até 16 horas. Vamos resolver este problema para as transferências de tokens fungíveis.
+  * **Experiência simplificada "Escondendo a Blockchain".** O modelo avançado de conta do protocolo NEAR permite uma interação perfeita com a blockchain, mesmo para usuários que não estejam familiarizados com elementos da cripto UX, como carteiras e software adicional. Na verdade, há uma maneira de esconder completamente do usuário final os detalhes relacionados à blockchain. Pretendemos introduzir à Aurora uma lógica semelhante.
+  * **Taxa de gás denominada em ERC-20s.** A forma de funcionamento da Aurora RPC nos dá a habilidade de propor naturalmente ao usuário o pagamento da taxa de transação com qualquer token ERC-20. Em outras palavras, os usuários poderiam pagar suas taxas de transação em USDT ou DAI.
 * 2022:
-  * **Horizontal scaling.** The major feature of the NEAR Protocol is sharding and the ability to dynamically scale the blockchain. Our end goal is to deliver this functionality to the Ethereum ecosystem through enabling sharding for Aurora.
+  * **Escalonamento horizontal.** A principal característica do protocolo NEAR é o sharding e a capacidade de escalar dinamicamente a blockchain. Nosso objetivo final é oferecer esta funcionalidade ao ecossistema Ethereum habilitando o sharding na Aurora.
 
-## Try Aurora Today
+## Experimente Hoje a Aurora
 
-With low costs, best-in-class transaction finality, and scalability, Aurora redefines what is possible in the Ethereum ecosystem while also expanding NEAR’s ecosystem to welcome and accommodate EVM-based applications.
+Com custos baixos, a melhor finalização de transações e escalabilidade, a Aurora redefine o que é possível no ecossistema Ethereum, enquanto também expande o ecossistema NEAR para dar boas-vindas e acomodar aplicações baseadas na EVM.
 
-With Aurora, Ethereum users can work with familiar applications while benefiting from the efficiency of NEAR; as the transaction cost is several orders of magnitude cheaper than that of Ethereum, Aurora removes a steep financial barrier to entry for users and developers––especially newcomers to the ecosystem. Our goal is to create an interoperable future where the gaps between blockchains, developers, and users are bridged. Aurora does just that by allowing for a seamless user experience and allowing assets to pass uninterrupted between the Ethereum and NEAR blockchains. Merging crypto-economies can facilitate the development of creator communities that will bring this technology to the mainstream.
+Com a Aurora, os usuários da Ethereum podem trabalhar com aplicativos familiares, beneficiando-se da eficiência da NEAR; como o custo de transação é várias ordens de magnitude mais barato do que o da Ethereum, a Aurora remove uma grande barreira financeira à entrada dos utilizadores e dos desenvolvedores, especialmente os recém-chegados ao ecossistema. Nosso objetivo é criar um futuro interoperável onde haja pontes nas lacunas entre blockchains, desenvolvedores e usuários. A Aurora faz exatamente isso ao possibilitar uma experiência de usuário perfeita e permitir que os ativos passem ininterruptos entre as blockchains Ethereum e NEAR. A fusão das economias criptográficas pode facilitar o desenvolvimento de comunidades criadoras que popularizarão essa tecnologia.
 
-Aurora is fully compatible with Ethereum 1.0, including base fees paid in ETH and out-of-the-box operability with all existing wallets and other tools. To start using Aurora, please visit https://aurora.dev.
+Aurora é totalmente compatível com a Ethereum 1.0, incluindo as taxas de base pagas em ETH e a operabilidade pronta para o uso com todas as carteiras existentes e outras ferramentas. Para começar a usar a Aurora, visite https://aurora.dev.
 
 —
 
-Join the Aurora community via official [Telegram](https://t.me/auroraisnear) group, [Developer Telegram](https://t.me/auroraisnearsupport) group, [Support Telegram](https://t.me/auroraisnearsupport) group, and follow on [Twitter](https://twitter.com/auroraisnear).
+Junte-se à comunidade Aurora através do grupo oficial do [Telegram](https://t.me/auroraisnear), do grupo do [Telegram para desenvolvedores](https://t.me/auroraisnearsupport), do grupo do [Telegram para ajuda](https://t.me/auroraisnearsupport) e siga o [Twitter](https://twitter.com/auroraisnear).
 
-*Disclaimer: This article is provided for informational purposes only. It is not intended to be used as legal, tax, investment, financial, or other advice.*
+*Aviso: Este artigo é fornecido apenas para fins informativos. Ele não se destina a ser utilizado como aconselhamento jurídico, fiscal, financeiro ou de qualquer outro tipo.*

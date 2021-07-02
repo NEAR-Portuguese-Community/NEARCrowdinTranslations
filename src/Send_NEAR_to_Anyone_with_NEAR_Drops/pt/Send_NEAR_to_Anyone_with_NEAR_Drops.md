@@ -1,4 +1,4 @@
-# Send NEAR to Anyone with NEAR Drops
+# Envie NEAR para qualquer pessoa com NEAR Drops
 
 As important as scalability is (just take a look at ETH Gas Station to see how important), there is more to a quality user experience than transactions-per-second.
 

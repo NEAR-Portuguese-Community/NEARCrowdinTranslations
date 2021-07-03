@@ -6,7 +6,7 @@ Nós queremos que a rede NEAR seja fácil de usar tanto para desenvolvedores qua
 
 E agora, os usuários e aplicativos podem enviar NEAR para qualquer pessoa, quer ela tenha uma conta NEAR ou não.
 
-# Um Jeito Melhor de Incluir Usuários
+# Melhorando a Integração de Novos Usuários
 
 Apresentando o NEAR Drops: uma ferramenta que faz a introdução de usuários ser muito mais simples na rede NEAR.
 

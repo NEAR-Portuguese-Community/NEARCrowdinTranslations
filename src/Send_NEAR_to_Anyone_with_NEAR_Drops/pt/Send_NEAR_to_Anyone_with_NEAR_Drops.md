@@ -40,4 +40,4 @@ Após o login:
 3. Autorize a transação
 4. Copie o link e envie para um amigo! (Ou abra você mesmo)
 
-If you want to dive even deeper into the technical details, the code for NEAR drops is publicly available in the near-linkdrop repository (from line 48).We believe that NEAR drops significantly reduces the barriers of entry to the NEAR platform and are excited to see our community start using it!
+Se você quiser se aprofundar ainda mais nos detalhes técnicos, o código para o NEAR Drops está disponível publicamente no repositório `near-linkdrop` (a partir da linha 48). Nósacreditamos que o NEAR Drops diminui significativamente as barreiras de entrada na plataforma NEAR e estamos animados para ver a nossa comunidade começar a usá-la!

@@ -30,14 +30,16 @@ Please also note that BetaNet will be reset every Tuesday at 6pm, to deploy the 
 To become a validator, you need a node running on your machine or cloud provider with the following minimum spec:
 
 ```bash
-At least 2 CPUs At least 4GB RAM At least 50 GB free disk
+At least 2 CPUs
+At least 4GB RAM
+At least 50 GB free disk
 ```
 
 ## Setting up your environment
 
 **IMPORTANT: Make sure you have the latest version of NEAR Shell and Node Version; 12.x**
 
-If this is not the case, follow the setps below to set up your environment; don't worry this won't take long. To stake, make sure that you have To stake, make sure that you have
+If this is not the case, follow the setps below to set up your environment; don't worry this won't take long. To stake, make sure that you have
 
 * an account with tokens on **BetaNet**. If you have not set up an account yet, please navigate to the following page, set it up and come right back: [Create Account](../local-setup/create-account.md). Remember to use the [BetaNet wallet](https://wallet.betanet.near.org)!
 * `near-shell`, our CLI tool, which which will require [node.js](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm). You can check whether you have node.js and npm already installed by

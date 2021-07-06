@@ -34,7 +34,7 @@ A natureza da Rainbow Bridge permanece completamente descentralizada e adaptáve
 
 ## Como a Rainbow Bridge Funciona
 
-Como o resto da experiência de desenvolvimento na plataforma NEAR, a ponte é construída para ser acessível e fácil para todos os usuários, graças ao design intuitivo e a ETH Faucet por dar entrada diretamente da MetaMask. (Veja o vídeo [de demonstração](https://near.ai/rainbow_bridge) para assistir a Rainbow Bridge em ação.) O custo e a velocidade de usar a Raibow Bridge é dependente principalmente do custo e da velocidade de usar a rede Ethereum por si só.
+Como o resto da experiência de desenvolvimento na plataforma NEAR, a ponte é construída para ser acessível e fácil para todos os usuários, graças ao design intuitivo e a ETH Faucet por dar entrada diretamente da MetaMask. (Veja o [vídeo de demonstração](https://near.ai/rainbow_bridge) para assistir a Rainbow Bridge em ação.) O custo e a velocidade de usar a Raibow Bridge é dependente principalmente do custo e da velocidade de usar a rede Ethereum por si só.
 
 Uma vez na NEAR, as transações irão se confirmar em 1-2 segundos e custar menos de um centavo de dólar na maioria das vezes. Uma vez que a ponte necessita de transações na Ethereum para NEAR <> Ethereum, os seguintes custos são esperados. Enviar ativos da Ethereum para NEAR leva aproximadamente 6 minutos (20 blocos) e para ERC-20 custa em média U$10. Mandar ativos da NEAR de volta para Ethereum, atualmente, leva um máximo de 16 horas (devido aos tempos de finalização da Ethereum) e custa aproximadamente U$60 (devido ao custo de gás da ETH e ao preço atual de ETH). Esses custos e velocidades vão melhorar num futuro próximo.
 
@@ -44,7 +44,7 @@ O próximo grande passo no roteiro da interoperabilidade da NEAR será a Máquin
 
 ## Experimente a Rainbow Bridge Hoje
 
-Usuários que usam a ponte para NEAR podem usar a Pulse, uma plataforma de mercado de predição denominada por uma stablecoin oferecida pelo protocolo Flux; Paras, uma plataforma de trading de NFT para cartas digitais; e Ref.Finance, um AMM experimental construído pela comunidade que possibilita trocas entre qualquer token que faça parte da ponte.
+Usuários que usam a ponte para NEAR podem usar a Pulse, uma plataforma de mercado de predição denominada por uma stablecoin oferecida pelo protocolo Flux; Paras, uma plataforma de trading de NFT para cartas digitais; e Ref. Finance, um AMM experimental construído pela comunidade que possibilita trocas entre qualquer token que faça parte da ponte.
 
 A Rainbow Bridge está disponível para qualquer um e não requer permissões especiais para desenvolver, manter, ou usar. Para iniciar transferências de tokens ERC-20 e experimentar as vantagens da alta velocidade e baixo custo da NEAR agora…
 

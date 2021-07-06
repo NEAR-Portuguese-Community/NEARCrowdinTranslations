@@ -6,7 +6,7 @@ Você pode ver isso de duas perspectivas - o que faz o protocolo NEAR provável 
 
 O que diz que o time da NEAR vai superar a concorrência e entrar no mercado com a tecnologia certa e no tempo certo?
 
-For starters… Para iniciantes… [NEAR já lançou a gênesis de sua MainNet](https://near.org/blog/near-mainnet-genesis/)!  E isso [entregou operações para a comunidade](https://near.org/blog/near-mainnet-is-now-community-operated/) conforme planejado :). Mas também…
+Para iniciantes… [NEAR já lançou a gênesis de sua MainNet](https://near.org/blog/near-mainnet-genesis/)!  E isso [entregou operações para a comunidade](https://near.org/blog/near-mainnet-is-now-community-operated/) conforme planejado :). Mas também…
 
 Se você acessar o site do projeto NEAR [ você verá o melhor time da industria](https://www.near.org/team) e, ainda importante, um time que já entregou sistemas fragmentados antes, e em configuração de produção. Ter esse tipo de time experiente por trás já define o protocolo NEAR aparte de quase todas as outras redes.
 

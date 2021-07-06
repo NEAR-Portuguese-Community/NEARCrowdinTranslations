@@ -7,26 +7,26 @@ Repository with the NEAR Crowdin translations. You can find the Crowdin project 
 ## Documentation
 
 | Title | Original |
---- | --- | ---
-|Running a Validator Node|[Link](https://docs.near.org/docs/validator/staking)|
+| ----- | -------- |
+| Running a Validator Node | [Link](https://docs.near.org/docs/validator/staking) |
 
 ## Blogposts
 
 | Title | Original |
---- | --- | ---
-|Aurora launches on NEAR Protocol|[Link](https://near.org/blog/aurora-launches-near/)|
-|DeFi on NEAR is Here|[Link](https://medium.com/nearprotocol/defi-on-near-is-here-80955fb76ef)|
-|Send NEAR to Anyone with NEAR Drops|[Link](https://near.org/blog/send-near-to-anyone-with-near-drops/)|
-|The Beginner’s Guide to the NEAR Blockchain|[Link](https://near.org/blog/the-beginners-guide-to-the-near-blockchain/)|
-|The Rainbow Bridge Is Live|[Link](https://near.org/blog/the-rainbow-bridge-is-live/)|
-|Well hello, NEAR Academy!|[Link](https://near.org/blog/well-hello-near-academy/)|
+| ----- | -------- |
+| Aurora launches on NEAR Protocol | [Link](https://near.org/blog/aurora-launches-near/) |
+| DeFi on NEAR is Here | [Link](https://medium.com/nearprotocol/defi-on-near-is-here-80955fb76ef) |
+| Send NEAR to Anyone with NEAR Drops | [Link](https://near.org/blog/send-near-to-anyone-with-near-drops/) |
+| The Beginner’s Guide to the NEAR Blockchain | [Link](https://near.org/blog/the-beginners-guide-to-the-near-blockchain/) |
+| The Rainbow Bridge Is Live | [Link](https://near.org/blog/the-rainbow-bridge-is-live/) |
+| Well hello, NEAR Academy! | [Link](https://near.org/blog/well-hello-near-academy/) |
 
 ## Tutorials
 
 | Title | Original |
---- | --- | ---
-|A Starter’s Guide to the NEAR Wallet and Staking Process|[Link](https://medium.com/nearprotocol/a-starters-guide-to-the-near-wallet-and-staking-process-d2c8f3b61f43)|
-|Simple AssemblyScript App|[Link](https://learn.figment.io/network-documentation/near/tutorials/simple-webassembly-script)|
+| ----- | -------- |
+| A Starter’s Guide to the NEAR Wallet and Staking Process | [Link](https://medium.com/nearprotocol/a-starters-guide-to-the-near-wallet-and-staking-process-d2c8f3b61f43) |
+| Simple AssemblyScript App | [Link](https://learn.figment.io/network-documentation/near/tutorials/simple-webassembly-script) |
 
 ---
 

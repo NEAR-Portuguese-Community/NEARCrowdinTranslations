@@ -63,7 +63,7 @@ Antes de entrarmos no tópico de staking, você pode querer conectar outras cont
 
 Se você deseja **_Importar uma conta existente_** basta clicar na caixa _‘recuperar‘_ frase semente e inserir a frase semente dessa conta. Maneiro.
 
-Alright, if you have made it this far, well done. Agora você está com sua conta NEAR configurada e pronta para staking. Apenas um lembrete rápido: A partir do momento em que sua conta recebeu fundos, o único método de receber e enviar NEAR e qualquer token da carteira é através do seu recém-criado ID da conta. Nunca mais use o endereço temporário novamente depois que a sua conta receber fundos.
+Muito bem! Se você continuou até aqui, parabéns. Agora você está com sua conta NEAR configurada e pronta para staking. Apenas um lembrete rápido: A partir do momento em que sua conta recebeu fundos, o único método de receber e enviar NEAR e qualquer token da carteira é através do seu recém-criado ID da conta. Nunca mais use o endereço temporário novamente depois que a sua conta receber fundos.
 
 **Staking da carteira NEAR**
 

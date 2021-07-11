@@ -1,20 +1,20 @@
 ---
 id: staking
-title: Running a Validator Node
-sidebar_label: Running the Node
+title: Executando um Nó de Validação
+sidebar_label: Executando o Nó
 ---
 
-## Staking on official BetaNet
+## Staking na BetaNet oficial
 
-### _READ THIS PART BEFORE YOU START_
+### _LEIA ESTA PARTE ANTES DE COMEÇAR_
 
-Wait until your node is fully synced before you send a staking transaction. An out of sync node cannot produce or validate blocks, so if you're chosen as a validator, you're at risk of being kicked out of the validator pool and losing your rewards if your node doesn't maintain the appropriate uptime \(i.e. validate / produce the number of assigned blocks for that epoch\).
+Aguarde até que o seu nó esteja totalmente sincronizado antes de enviar uma transação de staking. Um nó fora de sincronização não pode produzir ou validar blocos, então se você for escolhido como validador, você está correndo o risco de ser expulso da coleção de validadores e perder suas recompensas se o seu nó não mantém o tempo de uptime apropriado (ou seja, validar/produzir o número de blocos necessários para esse período).
 
-Staking is disabled on *TestNet*, so we will be working on *BetaNet*. Therefore, you will have to set your NEAR Shell to BetaNet with two steps.
-1. For this current session: run the command `export NODE_ENV=betanet`
-2. Add this same line (`export NODE_ENV=betanet`) to the end of the file `~/.bashrc` to ensure this environment variable persists if the machine restarts.
+Staking está desabilitado na *TestNet*, então vamos trabalhar na *BetaNet*. Portanto, você terá que configurar o seu NEAR Shell para BetaNet em duas etapas.
+1. Para esta sessão atual: execute o comando `export NODE_ENV=betanet`
+2. Adicione esta mesma linha (`export NODE_ENV=betanet`) ao final do arquivo `~/.bashrc` para garantir que esta variável de ambiente persista se a máquina reiniciar.
 
-You may now use the BetaNet online services below:
+Agora você pode usar os serviços online da BetaNet abaixo:
 
 |            ⛔️ TestNet             |             ✅ BetaNet             |
 |:---------------------------------:|:---------------------------------:|

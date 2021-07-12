@@ -6,7 +6,7 @@ sidebar_label: Executando o Nó
 
 ## Staking na BetaNet oficial
 
-### Translations
+### Traduções
 
 - [Coreano](/docs/validator/staking-kr)
 - Adicione seu idioma também através do [Github pull request](https://github.com/near/docs/pull/385)
@@ -15,12 +15,12 @@ sidebar_label: Executando o Nó
 
 Aguarde até que o seu nó esteja totalmente sincronizado antes de enviar uma transação de staking. Um nó fora de sincronização não pode produzir ou validar blocos, então se você for escolhido como validador, você está correndo o risco de ser expulso da coleção de validadores e perder suas recompensas se o seu nó não mantém o tempo de uptime apropriado (ou seja, validar/produzir o número de blocos necessários para esse período).
 
-You can test your validator infrastructure on NEAR _TestNet_. You can generate an account with a few tokens from the [NEAR wallet](https://wallet.testnet.near.org), and use it to deploy your staking pool. Then, contact NEAR Core-dev on [Discord](https://near.chat) to request sufficient stake to become validator on TestNet.
+Você pode testar sua infraestrutura de validador na NEAR _TestNet_. Você pode gerar uma conta com alguns tokens na [carteira NEAR](https://wallet.testnet.near.org)e usá-la para fazer deploy do seu staking pool. Em seguida, entre em contato com o NEAR Core-dev no [Discord](https://near.chat) para solicitar stake suficiente para se tornar um validador na TestNet.
 
 1. Para esta sessão atual: execute o comando `export NODE_ENV=betanet`
 2. Adicione esta mesma linha (`export NODE_ENV=betanet`) ao final do arquivo `~/.bashrc` para garantir que esta variável de ambiente persista se a máquina reiniciar.
 
-TestNet is running on separate URLs for the explorer, the wallet and the Json RPC:
+TestNet está sendo executado em URLs separadas para o explorador, a carteira e o Json RPC:
 
 |            ⛔️ TestNet             |             ✅ BetaNet             |
 |:---------------------------------:|:---------------------------------:|
@@ -28,11 +28,11 @@ TestNet is running on separate URLs for the explorer, the wallet and the Json RP
 |  https://wallet.testnet.near.org  |  https://wallet.betanet.near.org  |
 |   https://rpc.testnet.near.org    |   https://rpc.betanet.near.org    |
 
-Every new TestNet account receives automatically a few hundred tokens to deploy smart contracts and test your APIs.
+Cada nova conta TestNet recebe automaticamente algumas centenas de tokens para fazer deploy de contratos inteligentes e testar as suas APIs.
 
-You can use [nearup](https://github.com/near/nearup) to easily deploy your TestNet node on a VPS. If you plan to deploy on MainNet, **you can't use nearup**, and we suggest to follow the guidelines [here](/docs/develop/node/validator/deploy-on-mainnet). Join NEAR validator channels [on Discord](https://near.chat) to receive technical support by NEAR team and the rest of the community.
+Você pode usar o [nearup](https://github.com/near/nearup) para facilmente fazer deploy do seu nó na TestNet em um VPS. Se você planeja fazer deploy na MainNet, **você não pode usar o nearup**, e sugerimos seguir as diretrizes [aqui](/docs/develop/node/validator/deploy-on-mainnet). Junte-se aos canais de validadores da NEAR [no Discord](https://near.chat) para receber suporte técnico da equipe NEAR e do resto da comunidade.
 
-NEAR Validators should:
+Validadores NEAR devem:
 
 - Know how to compile, deploy and configure NEAR Validator nodes
 - Understand the difference between `account_key`, `node_key`and `validator_key` (see the [keys on NEAR Platform](/docs/develop/node/intro/keys) doc)

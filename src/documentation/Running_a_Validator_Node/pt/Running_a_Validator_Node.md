@@ -8,10 +8,10 @@ sidebar_label: Executando o Nó
 
 ### Translations
 
-- [Korean](/docs/validator/staking-kr)
-- Add your language too via [Github pull request](https://github.com/near/docs/pull/385)
+- [Coreano](/docs/validator/staking-kr)
+- Adicione seu idioma também através do [Github pull request](https://github.com/near/docs/pull/385)
 
-### _READ THIS PART BEFORE YOU START_
+### _LEIA ESTA PARTE ANTES DE COMEÇAR_
 
 Aguarde até que o seu nó esteja totalmente sincronizado antes de enviar uma transação de staking. Um nó fora de sincronização não pode produzir ou validar blocos, então se você for escolhido como validador, você está correndo o risco de ser expulso da coleção de validadores e perder suas recompensas se o seu nó não mantém o tempo de uptime apropriado (ou seja, validar/produzir o número de blocos necessários para esse período).
 
@@ -61,11 +61,11 @@ More information is on the [Hardware Requirements](/docs/develop/node/validator/
 You can instal and upgrade Near CLI by using npm:
 
 ```bash
-# Download Near CLI with npm:
+# Download Near CLI com npm:
 npm i -g near-cli
 ```
 
-**Note:** The default network for `near-cli` is `testnet`. If you would like to change this to `mainnet` or `betanet`, please see [`near-cli` network selection](/docs/tools/near-cli#network-selection) for instructions.
+**Nota:** A rede padrão para `near-cli` é a `testnet`. If you would like to change this to `mainnet` or `betanet`, please see [`near-cli` network selection](/docs/tools/near-cli#network-selection) for instructions.
 
 Once Near CLI is installed, go ahead and run your node.
 
@@ -98,7 +98,7 @@ Oct 16 14:02:34.727  INFO near: Use key ed25519:4msyQstQ3Z7Gq1qrwE78HPTRYdLFtCmJ
 Oct 16 14:02:34.727  INFO near: Downloading config file from: https://s3-us-west-1.amazonaws.com/build.nearprotocol.com/nearcore-deploy/testnet/genesis.json ...
 ```
 
-While the sync is in progres, you **have to retrieve your validator key from** `~/.near/testnet/validator_key.json`:
+Enquanto a sincronização estiver em andamento, você **tem que recuperar sua chave de validador em ** `~/.near/testnet/validator_key.json`:
 
 ```
 {
@@ -211,13 +211,13 @@ Once the staking pool is deployed, manually edit the file `~/.near/testnet/valid
 }
 ```
 
-Once done, you can stop and restart nearup, with the command: `nearup stop`
+Uma vez feito, você pode parar e reiniciar o nearup com o comando: `nearup stop`
 
-followed by: `nearup run testnet`
+seguido por: `nearup run testnet`
 
 <blockquote class="warning">
-    <strong>Heads Up!</strong><br><br>
-    Be sure that your node downloaded entirely the genesis.json file before giving the stop command to nearup.
+    <strong>Atenção!</strong><br><br>
+    Certifique-se de que o seu nó baixou inteiramente o arquivo genesis.json antes de dar o comando de parar o nearup.
 </blockquote>
 
 ## Becoming a Validator in the _active set_
@@ -232,13 +232,13 @@ Legend: # 7153 | BlockHeight V/1 | 'V' (validator) or '—' (regular node)
 
 The 0/0/40 shows the total validators: connected peers / up to date peers / my peers. This number may change over time.
 
-To learn more about how validators are chosen, take a look at the [Staking FAQ](../validator/staking-faq.md).
+Para saber mais sobre como os validadores são escolhidos, dê uma olhada no [Staking FAQ](../validator/staking-faq.md).
 
-## See the list of current and future validators
+## Veja a lista de validadores atuais e futuros
 
-You can use `near-cli` to review the validator set in the next three epochs:
+Você pode usar `near-cli` para rever o validador definido nos próximos três períodos:
 
-| Command                   | Meaning                                                                                               |
+| Comandos                  | Significado                                                                                           |
 | ------------------------- | ----------------------------------------------------------------------------------------------------- |
 | `near proposals`          | All validators that sent a staking transaction (`Proposal(Accepted)`), or are re-elected (`Rollover`) |
 | `near validators next`    | All validators that will produce blocks in the next epoch. Can be `New`, `Rewarded` or `Kicked out`   |
@@ -255,11 +255,11 @@ You can use `near-cli` to review the validator set in the next three epochs:
 
 NEAR Protocol automatically re-stake all inflationary rewards, unless you decide to manually unstake some of the funds.
 
-## Additional links
+## Links Adicionais
 
 - [Lockup contracts explained](../tokens/lockup)
 - [NEAR Core Contracts on Github](https://github.com/near/core-contracts)
 - [NEAR Stake Wars](https://github.com/nearprotocol/stakewars)
-> Got a question?
+> Tem alguma dúvida?
 <a href="https://stackoverflow.com/questions/tagged/nearprotocol">
   <h8>Ask it on StackOverflow!</h8></a>

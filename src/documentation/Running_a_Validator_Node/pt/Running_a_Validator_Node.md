@@ -34,47 +34,47 @@ Você pode usar o [nearup](https://github.com/near/nearup) para facilmente fazer
 
 Validadores NEAR devem:
 
-- Know how to compile, deploy and configure NEAR Validator nodes
-- Understand the difference between `account_key`, `node_key`and `validator_key` (see the [keys on NEAR Platform](/docs/develop/node/intro/keys) doc)
-- Understand how to deploy a NEAR contract, and the difference betweek `view` and `call` methods. Know how to leverage them via `near-cli` and `near RPC`
-- Have a monitoring platform in place, to measure the generated and missed blocks, peers and connectivity, current node version, along with the typical cpu, memory, storage and networking performance
-- Understand the state of a validator: `proposals`, `next` and `current`
-- Use the information above to control if the validator is falling outside of the active set, and what needs to be done to fix the issue
-- Know where to find information about upcoming [nearcore releases](https://github.com/near/nearcore/releases) and other tooling upgrades
+- Saber como compilar, fazer deploy e configurar os nós de Validadores NEAR
+- Entender a diferença entre `account_key`, `node_key`e `validator_key` (consulte as [chaves no documento](/docs/develop/node/intro/keys) da Plataforma NEAR)
+- Entender como fazer deploy de um contrato NEAR e a diferença entre métodos `view` e `call`. Saber como alavancá-los através do `near-cli` e `near RPC`
+- Ter uma plataforma de monitoramento para medir os blocos gerados e perdidos, pares e conectividade, versão atual do nó, além de cpu, memória, armazenamento e desempenho de rede
+- Entender o estado de um validador: `proposals`, `next` e `current`
+- Usar as informações acima para controlar se o validador está caindo fora do conjunto de validadores ativos, e o que precisa ser feito para corrigir o problema
+- Saber onde encontrar informações sobre os próximos [lançamentos do nearcore](https://github.com/near/nearcore/releases) e outras melhorias de ferramentas
 
-## Node hardware requirements
+## Requisitos de hardware
 
-The minimum requirements to run a validator node on NEAR are:
+Os requisitos mínimos para executar um nó de validador na NEAR são:
 
 ```bash
-At least 4 CPU cores
-At least 16GB RAM
-At least 100GB SSD (Note: HDD will not work)
+Pelo menos 4 núcleos de CPU
+Pelo menos 16GB RAM
+Com pelo menos 100GB SSD (Nota: HDD não funcionará)
 ```
 
-More information is on the [Hardware Requirements](/docs/develop/node/validator/hardware) docs.
+Mais informações estão na documentação de [Requisitos de Hardware](/docs/develop/node/validator/hardware).
 
 ## Configurando seu ambiente
 
-**IMPORTANT: Make sure you have the latest version of [NEAR CLI](https://github.com/near/near-cli) and Node Version 12.x**
+**IMPORTANTE: Certifique-se de que você tem a versão mais recente do [MEAR CLI](https://github.com/near/near-cli) e da versão 12.x do Node**
 
-You can instal and upgrade Near CLI by using npm:
+Você pode instalar e atualizar o Near CLI usando npm:
 
 ```bash
 # Download Near CLI com npm:
 npm i -g near-cli
 ```
 
-**Nota:** A rede padrão para `near-cli` é a `testnet`. If you would like to change this to `mainnet` or `betanet`, please see [`near-cli` network selection](/docs/tools/near-cli#network-selection) for instructions.
+**Nota:** A rede padrão para `near-cli` é a `testnet`. Se você quiser mudar para a `mainnet` ou `betanet`, por favor veja intruções de seleção de redes usando [`near-cli`](/docs/tools/near-cli#network-selection).
 
-Once Near CLI is installed, go ahead and run your node.
+Uma vez que o Near CLI estiver instalado, vá em frente e execute seu nó.
 
 <blockquote class="info">
-    <strong>Pro Tip</strong><br><br>
-    You don't have to run near-cli on your validator node: all staking commands are issued to the staking pool, which is a normal smart contract.
+    <strong>Dica Profissional</strong><br><br>
+    Você não precisa rodar o near-cli no seu nó validador: todos os comandos de staking são emitidos para o pool de stking, que é um contrato inteligente normal.
 </blockquote>
 
-## Run the Node
+## Executando o Nó
 
 Please follow [Nearup documentation](https://github.com/near/nearup) to start your TestNet node. Remeber that `nearup` doesn't support MainNet, so you will have to build your startup scripts and follow the [mainnet deployment guide](/docs/develop/node/validator/deploy-on-mainnet).
 

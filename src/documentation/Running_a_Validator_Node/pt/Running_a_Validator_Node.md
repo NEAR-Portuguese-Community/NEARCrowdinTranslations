@@ -76,9 +76,9 @@ Uma vez que o Near CLI estiver instalado, vá em frente e execute seu nó.
 
 ## Executando o Nó
 
-Please follow [Nearup documentation](https://github.com/near/nearup) to start your TestNet node. Remeber that `nearup` doesn't support MainNet, so you will have to build your startup scripts and follow the [mainnet deployment guide](/docs/develop/node/validator/deploy-on-mainnet).
+Por favor, siga a [Documentação do Nearup](https://github.com/near/nearup) para iniciar o seu nó na TestNet. Lembre-se que `Nearup` não suporta a MainNet, então você terá que construir seus scripts de inicialização e seguir o [guia de implantação na MainNet](/docs/develop/node/validator/deploy-on-mainnet).
 
-At the first start, nearup will ask your validator account ID. Put a placeholder, like `coming_soon`, to let the node sync with the network while you deploy the staking pool:
+Na primeira inicialização, o nearup pedirá o ID da sua conta de validador. Coloque um texto de exemplo, como `coming_soon`, para deixar o node sincronizar com a rede enquanto você faz coloca a staking pool no ar:
 
 ```
 $ nearup run testnet --account-id coming_soon
@@ -108,14 +108,14 @@ Enquanto a sincronização estiver em andamento, você **tem que recuperar sua c
 }
 ```
 
-This key will be needed to do the _pairing_ between your validator node and its staking pool.
+Esta chave será necessária para _emparelhar_ o seu nó validador e sua staking pool.
 
-## Authorize `near-cli` to your TestNet account
+## Autorize o acesso do `near-cli` à sua conta TestNet
 
-1. Configure `near-cli` to use TestNet, issuing the command `export NODE_ENV=testnet`
-2. Authenticate `near-cli` with your NEAR Wallet account, by running the command `near login`
+1. Configure o `near-cli` para usar a TestNet, executando o comando `export NODE_ENV=testnet`
+2. Autentique-se no `near-cli` com sua conta da NEAR Wallet, executando o comando `near login`
 
-You will be asked to navigate to a url to authenticate your staking account. You can expect a resul similar to the one below:
+Será solicitado que navegue até uma URL para autenticar sua conta de staking. Você pode esperar um resultado semelhante ao seguinte:
 
 ```bash
 $ near login
@@ -131,7 +131,7 @@ Enter it here (if not redirected automatically):
 
 ```
 
-Be careful to specify the same TestNet account ID in the browser and `near-cli`:
+Tome o cuidado de especificar o mesmo ID de conta da TestNet no navegador e no `near-cli`:
 
 ```bash
 Which account did you authorize for use with NEAR CLI?
@@ -139,7 +139,7 @@ Enter it here (if not redirected automatically):
 
 ```
 
-Once you completed the login in the browser and put the account id in the input field above, you should expect a message like the one below:
+Depois de concluir a autenticação no navegador e colocar o ID da conta no campo de entrada acima você deve esperar uma mensagem como a abaixo:
 
 ```
 nearkat.testnet
@@ -147,11 +147,11 @@ Logged in as [ nearkat.testnet ] with public key [ ed25519:7xuBXj... ] successfu
 ```
 
 <blockquote class="warning">
-    <strong>Heads Up!</strong><br><br>
-    If you get an <i>ERR_CONNECTION_REFUSED</i> error, double-check that your browser is not trying to open the address http://127.0.0.1:5000. This is a wrong redirect of near-cli running on a remote instance, and can be ignored.
+    <strong>Atenção!</strong><br><br>
+    Se você receber um erro <i>ERR_CONNECTION_REFUSED</i>, verifique se seu navegador não está tentando abrir o endereço http://127.0.0.1:5000. Este é um redirecionamento incorreto do near-cli executando em uma instância remota, e pode ser ignorado.
 </blockquote>
 
-To test if your `near-cli` is capable to control your `testnet` account, issue the command: `$ near send nearkat.testnet testnet 0.1`, where `nearkat.testnet` is the sender, and `testnet` the recipient of `0.1` NEAR tokens. You can expect a result similar to this one:
+Para testar se seu `near-cli` é capaz de controlar sua conta `testnet`, execute o comando: `$ near send nearkat.testnet testnet 0.1`, em que `nearkat.testnet` é o remetente, e `testnet` o destinatário de `0.1` tokens NEAR. Você pode esperar um resultado semelhante ao seguinte:
 
 ```
 $ near send quato.testnet testnet 0.1
@@ -161,21 +161,21 @@ To see the transaction in the transaction explorer, please open this url in your
 https://explorer.testnet.near.org/transactions/Hm6hRz8NS9sXV6yPzeyYJZwqTSUTYcifws3iu3VcbkyW
 ```
 
-## Deploy the staking pool
+## Coloque a staking pool no ar
 
-NEAR Protocol provides a staking pool smart contract from the [initial contracts](https://github.com/near/initial-contracts) Github repository.
+O NEAR Protocol fornece um contrato inteligente de staking pool no repositório [initial-contracts](https://github.com/near/initial-contracts) (contratos iniciais) do Github.
 
-Deploy your staking pool by sending the call method below to the [staking pool factory](https://github.com/near/core-contracts/tree/master/staking-pool-factory):
+Coloque no ar a sua staking pool enviando o método de chamada abaixo para a [fábrica de staking pools](https://github.com/near/core-contracts/tree/master/staking-pool-factory):
 
 ```
 near call pool.f863973.m0 create_staking_pool '{"staking_pool_id":"<POOL_ID>", "owner_id":"<OWNER_ID>", "stake_public_key":"<VALIDATOR_KEY>", "reward_fee_fraction": {"numerator": <X>, "denominator": <Y>}}' --account_id <OWNER_ID> --amount 50 --gas 300000000000000
 ```
 
-Where:
+Em que:
 
-- `pool.f863973.m0` is the staking pool factory mentioned above
-- `<POOL_ID>` is the name of the staking pool contract. If you pass the parameter `heyheyhey` the result will be `heyheyhey.pool.f863973.m0`
-- `<OWNER_ID>` is the account authorized to send the _owner methods_ to the pool, such as the validator key or the fees
+- `pool.f863973.m0` é a fábrica de staking pools mencionada acima
+- `<POOL_ID>` é o nome do contrato da staking pool. Se você passar o parâmetro `heyheyhey` o resultado será `heyheyhey.pool.f863973.m0`
+- `<OWNER_ID>` é a conta autorizada a enviar os _métodos do proprietário_ para a pool, como a chave de validador ou as taxas
 - `<VALIDATOR_KEY>` is the public key stored at `~/.near/testnet/validator_key.json` on your validator node (see [staking#run-the-node](staking#run-the-node) step above)
 - `{"numerator": <X>, "denominator": <Y>}` set the validator fees. 10% of fees requires `x=10` and `y=100`
 - `--amount 50` attaches 50 \$NEAR to the transaction, as a reserve to pay the contract storage

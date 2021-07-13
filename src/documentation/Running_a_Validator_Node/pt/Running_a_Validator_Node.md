@@ -245,20 +245,20 @@ Você pode usar `near-cli` para rever o validador definido nos próximos três p
 | `near validators current` | All Validators that are producing blocks in the current epoch, and the number of block they produced  |
 
 <blockquote class="warning">
-    <strong>Heads Up!</strong><br><br>
-    You have to wait at least 2 epochs (43,200 blocks each) before your
+    <strong>Atenção!</strong><br><br>
+    Você tem que esperar pelo menos 2 épocas (43.200 blocos cada) antes do seu
 </blockquote>
 
-**Note:** The default network for `near-cli` is `testnet`. If you would like to change this to `mainnet` or `betanet`, please see [`near-cli` network selection](/docs/tools/near-cli#network-selection) for instructions.
+**Nota:** A rede padrão para o `near-cli` é a `testnet`. Se você quiser mudar para a `mainnet` ou `betanet`, por favor veja intruções de seleção de redes usando [`near-cli`](/docs/tools/near-cli#network-selection).
 
-## Automatically re-staking
+## Re-staking automático
 
-NEAR Protocol automatically re-stake all inflationary rewards, unless you decide to manually unstake some of the funds.
+O Protocolo NEAR reposiciona todas as recompensas inflacionárias automaticamente, a menos que você decida deixar de investir manualmente alguns dos fundos.
 
 ## Links Adicionais
 
-- [Lockup contracts explained](../tokens/lockup)
-- [NEAR Core Contracts on Github](https://github.com/near/core-contracts)
+- [Contratos de bloqueio explicados](../tokens/lockup)
+- [NEAR Core Contracts no Github](https://github.com/near/core-contracts)
 - [NEAR Stake Wars](https://github.com/nearprotocol/stakewars)
 > Tem alguma dúvida?
 <a href="https://stackoverflow.com/questions/tagged/nearprotocol">

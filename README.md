@@ -8,7 +8,13 @@ Repository with the NEAR Crowdin translations. You can find the Crowdin project 
 
 | Title | Original |
 | ----- | -------- |
+| Staking Orientation | [Link](https://docs.near.org/docs/validator/staking-overview) |
+| Token Custody Options | [Link](https://docs.near.org/docs/tokens/token-custody) |
+| Lockups Explained | [Link](https://docs.near.org/docs/tokens/lockup) |
+| Token Delegation | [Link](https://docs.near.org/docs/validator/delegation) |
 | Running a Validator Node | [Link](https://docs.near.org/docs/validator/staking) |
+| The Economics of a Validator | [Link](https://docs.near.org/docs/validator/economics) |
+| Staking FAQ | [Link](https://docs.near.org/docs/validator/staking-faq) |
 
 ## Blogposts
 

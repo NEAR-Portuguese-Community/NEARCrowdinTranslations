@@ -181,7 +181,7 @@ Em que:
 - `--amount 50` attaches 50 \$NEAR to the transaction, as a reserve to pay the contract storage
 - `--gas 300000000000000` specifies the gas for the transaction (optional)
 
-You can expect a result similar to this one:
+Você pode esperar um resultado semelhante ao seguinte:
 
 ```bash
 $ near call pool.f863973.m0 create_staking_pool '{"staking_pool_id":"quato", "owner_id":"quato.testnet", "stake_public_key":"ed25519:4msyQstQ3Z7Gq1qrwE78HPTRYdLFtCmJ9dydrrbUtrer", "reward_fee_fraction": {"numerator": 5, "denominator": 100}}' --account_id quato.testnet --amount 50 --gas 300000000000000
@@ -230,7 +230,7 @@ NEAR TestNet and MainNet require at least 24 hours bonding period to accept your
 
 Legend: # 7153 | BlockHeight V/1 | 'V' (validator) or '—' (regular node)
 
-The 0/0/40 shows the total validators: connected peers / up to date peers / my peers. This number may change over time.
+The 0/0/40 shows the total validators: connected peers / up to date peers / my peers. Este número pode mudar ao longo do tempo.
 
 Para saber mais sobre como os validadores são escolhidos, dê uma olhada no [Staking FAQ](../validator/staking-faq.md).
 

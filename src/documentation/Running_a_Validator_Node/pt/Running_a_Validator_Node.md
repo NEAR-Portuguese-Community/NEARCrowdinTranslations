@@ -4,7 +4,7 @@ title: Executando um Nó de Validação
 sidebar_label: Executando o Nó
 ---
 
-## Staking na BetaNet oficial
+## Staking na BetaNet Oficial
 
 ### Traduções
 
@@ -35,7 +35,7 @@ Você pode usar o [nearup](https://github.com/near/nearup) para facilmente fazer
 Validadores NEAR devem:
 
 - Saber como compilar, fazer deploy e configurar os nós de Validadores NEAR
-- Entender a diferença entre `account_key`, `node_key`e `validator_key` (consulte as [chaves no documento](/docs/develop/node/intro/keys) da Plataforma NEAR)
+- Entender a diferença entre `account_key`, `node_key` e `validator_key` (consulte as [chaves no documento](/docs/develop/node/intro/keys) da Plataforma NEAR)
 - Entender como fazer deploy de um contrato NEAR e a diferença entre métodos `view` e `call`. Saber como alavancá-los através do `near-cli` e `near RPC`
 - Ter uma plataforma de monitoramento para medir os blocos gerados e perdidos, pares e conectividade, versão atual do nó, além de cpu, memória, armazenamento e desempenho de rede
 - Entender o estado de um validador: `proposals`, `next` e `current`
@@ -201,7 +201,7 @@ A expressão `true` na última linha e o link para o explorer, são a prova de q
 
 ## Configurar seu nó `validator_key.json` e reiniciar o nearup
 
-Once the staking pool is deployed, manually edit the file `~/.near/testnet/validator_key.json` on your validator node and replace `coming_soon` with your staking pool account name:
+Uma vez que o deploy da pool de staking esteja executado, manualmente edite o arquivo `~/.near/testnet/validator_key.json` em seu nó validador e substitua `coming_soon` com o nome da conta de sua pool de staking:
 
 ```
 {
@@ -220,17 +220,17 @@ seguido por: `nearup run testnet`
     Certifique-se de que o seu nó baixou inteiramente o arquivo genesis.json antes de dar o comando de parar o nearup.
 </blockquote>
 
-## Becoming a Validator in the _active set_
+## Se Tornando um Validador no _Conjunto Ativo_
 
-Once the staking pool is deployed, you can _stake_ tokens using any of the methods offered in the [delegation docs](delegation). Make sure that you are using a tool that supports TestNet and not only MainNet.
+Uma vez que a pool está executando, você pode fazer _stake_ de seus tokens usando qualquer um dos métodos oferecidos na [delegation docs](delegation). Certifique-se que você está usando a ferramenta que suporta a TestNet, e não somente a MainNet.
 
-NEAR TestNet and MainNet require at least 24 hours bonding period to accept your staking pool bid. You can verify if you are a validator when in the logs of the node you see "V/" - where V means this node is currently a validator:
+A TestNet e a MainNet da NEAR necessitam ao mínimo 24 horas de período de ativação para aceitar sua oferta de pool. Você pode verificar se você é um validador quando, nos logs do nó, você ver "V/" - onde V significa que esse nó é validador:
 
 ![](assets/validators%20%281%29.png)
 
 Legend: # 7153 | BlockHeight V/1 | 'V' (validator) or '—' (regular node)
 
-The 0/0/40 shows the total validators: connected peers / up to date peers / my peers. Este número pode mudar ao longo do tempo.
+O valor 0/0/40 mostra o total de validadores: pares conectados / pares atualizados / meus pares. Este número pode mudar ao longo do tempo.
 
 Para saber mais sobre como os validadores são escolhidos, dê uma olhada no [Staking FAQ](../validator/staking-faq.md).
 
@@ -238,11 +238,11 @@ Para saber mais sobre como os validadores são escolhidos, dê uma olhada no [St
 
 Você pode usar `near-cli` para rever o validador definido nos próximos três períodos:
 
-| Comandos                  | Significado                                                                                           |
-| ------------------------- | ----------------------------------------------------------------------------------------------------- |
-| `near proposals`          | All validators that sent a staking transaction (`Proposal(Accepted)`), or are re-elected (`Rollover`) |
-| `near validators next`    | All validators that will produce blocks in the next epoch. Can be `New`, `Rewarded` or `Kicked out`   |
-| `near validators current` | All Validators that are producing blocks in the current epoch, and the number of block they produced  |
+| Comandos                  | Significado                                                                                                                                          |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `near proposals`          | Todos os validadores que mandaram transações de staking (`Proposal(Accepted)`), ou que foram reeleitos (`Rollover`)                                  |
+| `near validators next`    | Todos os validadores que vão produzir blocos na próxima época (epoch). Pode ser `New` (Criado), `Rewarded` (Recompensado) ou `Kicked out` (Excluído) |
+| `near validators current` | Todos os validadores que estão produzindo blocos na época corrente, e o número total de blocos que eles produziram                                   |
 
 <blockquote class="warning">
     <strong>Atenção!</strong><br><br>

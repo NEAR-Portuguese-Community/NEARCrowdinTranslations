@@ -176,10 +176,10 @@ Em que:
 - `pool.f863973.m0` é a fábrica de staking pools mencionada acima
 - `<POOL_ID>` é o nome do contrato da staking pool. Se você passar o parâmetro `heyheyhey` o resultado será `heyheyhey.pool.f863973.m0`
 - `<OWNER_ID>` é a conta autorizada a enviar os _métodos do proprietário_ para a pool, como a chave de validador ou as taxas
-- `<VALIDATOR_KEY>` is the public key stored at `~/.near/testnet/validator_key.json` on your validator node (see [staking#run-the-node](staking#run-the-node) step above)
-- `{"numerator": <X>, "denominator": <Y>}` set the validator fees. 10% of fees requires `x=10` and `y=100`
-- `--amount 50` attaches 50 \$NEAR to the transaction, as a reserve to pay the contract storage
-- `--gas 300000000000000` specifies the gas for the transaction (optional)
+- `<VALIDATOR_KEY>` é a chave pública salva em `~/.near/testnet/validator_key.json` em seu nó validador (veja o paço [staking#run-the-node](staking#run-the-node) acima)
+- `{"numerator": <X>, "denominator": <Y>}` configura as taxas do validador. 10% das taxas solicitam `x=10` e `y=100`
+- `--amount 50` atribui 50 \$NEAR a transação, como uma reserva para pagar o armazenamento do contrato
+- `--gas 300000000000000` especifica o gás para a transação (optional)
 
 Você pode esperar um resultado semelhante ao seguinte:
 
@@ -197,9 +197,9 @@ true
 
 ```
 
-The `true` statement in the last line and the explorer link provide proof that the staking pool is deployed and ready to receive the stake
+A expressão `true` na última linha e o link para o explorer, são a prova de que a pool de staking está rodando e pronta para receber stake.
 
-## Configure your node's `validator_key.json` and restart nearup
+## Configurar seu nó `validator_key.json` e reiniciar o nearup
 
 Once the staking pool is deployed, manually edit the file `~/.near/testnet/validator_key.json` on your validator node and replace `coming_soon` with your staking pool account name:
 

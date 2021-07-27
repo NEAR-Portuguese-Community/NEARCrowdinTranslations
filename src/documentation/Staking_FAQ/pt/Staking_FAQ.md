@@ -18,22 +18,22 @@ A coleção de transações para o fragmento é chamada de um pedaço (chunk). U
 
 ### Como posso me tornar um validador?
 
-Você precisa de uma conta com valor suficiente de fundos. Follow the docs [here](/docs/validator/staking) to understand how to become a validator, and [here](/docs/develop/node/validator/running-a-node) to run a node.
+Você precisa de uma conta com valor suficiente de fundos. Siga a documentação [aqui](/docs/validator/staking) para entender como se tornar um validador, e [aqui](/docs/develop/node/validator/running-a-node) para executar um nó.
 
-More specific steps:
-1. Create a new key pair that will be used for staking for given account, and load it with the funds you want to put at stake
-2. Start a node with the new key pair stored in `validator_key.json`
-3. Send a staking transaction using your wallet / CLI with your account including amount and public key from newly generated key pair.
-4. Wait until the node becomes a validator
+Passos mais específicos:
+1. Criar um novo par de chaves que será usado para staking para determinada conta, e carregá-lo com os fundos que você deseja colocar em stake
+2. Iniciar um nó com o novo par de chaves armazenado em `validator_key.json`
+3. Enviar uma transação de staking usando sua carteira / CLI com sua conta, incluindo o valor e a chave pública do par de chaves recém-geradas.
+4. Aguarde até que o nó se torne um validador
 
 <blockquote class="warning">
-<strong>heads up</strong><br><br>
+<strong>Atenção</strong><br><br>
 
-External validators can't join MainNet or TestNet, they can only test their nodes on BetaNet. More info below
+Os validadores externos não podem se juntar à MainNet nem à TestNet, só podem testar seus nós na BetaNet. Mais informações abaixo
 
 </blockquote>
 
-### What is 'staking'?
+### O que é 'staking'?
 
 We call staking a process of sending `StakeTransaction` that informs the network that a given account wants to become a validator in upcoming epochs. This particular type of transaction must provide a public key and staking amount. After the transaction is sent, a node that has a private key associated with the public key in the staking transaction must wait until two epochs to become a validator. **important**: a node can become a validator only if the amount in the staking transaction is above the seat price defined by the protocol.
 

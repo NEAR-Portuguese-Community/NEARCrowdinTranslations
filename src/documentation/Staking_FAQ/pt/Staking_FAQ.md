@@ -12,13 +12,13 @@ Usamos o termo validador para se referir a um nó que esteja engajado na constru
 2. Produtor de pedaço de bloco
 3. Pescadores são validadores
 
-O produtor de bloco é responsável pela criação e transmissão do bloco que contém todos os pedaços atuais (blocos de fragmentos). In comparison, the chunk producer collects transactions for the given shard.
+O produtor de bloco é responsável pela criação e transmissão do bloco que contém todos os pedaços atuais (blocos de fragmentos). Em comparação, o produtor de pedaços de blocos coleta transações para o fragmento dado.
 
-The collection of transactions for the shard is called a chunk. Once a chunk and a block is created, the information has to be communicated to other chunk producers, fisherman and other validator nodes on the network. Fisherman and other validator nodes provide security by verifying the validity of state transitions in different blocks.
+A coleção de transações para o fragmento é chamada de um pedaço (chunk). Uma vez criado um pedaço e um bloco, a informação têm de ser comunicada a outros produtores de pedaços, pescadores e outros nós validadores na rede. Os pescadores e outros nós validadores fornecem segurança verificando a validade das transições de estado em blocos diferentes.
 
-### How do I become a validator?
+### Como posso me tornar um validador?
 
-You need an account with sufficient amount of funds. Follow the docs [here](/docs/validator/staking) to understand how to become a validator, and [here](/docs/develop/node/validator/running-a-node) to run a node.
+Você precisa de uma conta com valor suficiente de fundos. Follow the docs [here](/docs/validator/staking) to understand how to become a validator, and [here](/docs/develop/node/validator/running-a-node) to run a node.
 
 More specific steps:
 1. Create a new key pair that will be used for staking for given account, and load it with the funds you want to put at stake

@@ -37,7 +37,7 @@ Os validadores externos não podem se juntar à MainNet nem à TestNet, só pode
 
 We call staking a process of sending `StakeTransaction` that informs the network that a given account wants to become a validator in upcoming epochs. This particular type of transaction must provide a public key and staking amount. After the transaction is sent, a node that has a private key associated with the public key in the staking transaction must wait until two epochs to become a validator. **important**: a node can become a validator only if the amount in the staking transaction is above the seat price defined by the protocol.
 
-### What is an Epoch?
+### O que é uma época?
 
 An epoch is the interval of time that consists of several consensus rounds. Note that there is no guarantee of the exact number of consensus rounds. Currently, one epoch lasts for about the duration of half a day and is used to
 - Measure the performance and uptime of validators
@@ -45,7 +45,7 @@ An epoch is the interval of time that consists of several consensus rounds. Note
 
 For one epoch, validators are randomly assigned into shards. After the epoch is over, validators are reshuffled and assigned to different shards. Validators participate in several validation rounds within the epoch. For each round, one of the validators in each shard is chosen to be the chunk producer and one validator is chosen of the entire set of validators to be the block producer.
 
-### What is a minimum amount to stake as a validator?
+### Qual é a quantia mínima que deve ser colocada em stake como um validador?
 
 On the MainNet, the minimum amount is dynamic, and is defined by the amount of NEAR tokens put at stake by other validators.
 

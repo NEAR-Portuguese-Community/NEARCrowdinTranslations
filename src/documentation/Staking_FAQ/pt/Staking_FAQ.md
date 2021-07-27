@@ -4,15 +4,15 @@ title: Staking FAQ
 sidebar_label: Staking FAQ
 ---
 
-### What is a validator?
+### O que é um validador?
 
-We use validator as the name for nodes that are engaged in building and maintaining the network. There are three different roles validators are automatically selected to do:
+Usamos o termo validador para se referir a um nó que esteja engajado na construção e manutenção da rede. Existem três papéis para os quais os validadores são automaticamente selecionados:
 
-1. Block producer
-2. Chunk-Block producer
-3. Fishermen are validators
+1. Produtor de bloco
+2. Produtor de pedaço de bloco
+3. Pescadores são validadores
 
-The block producer is responsible for creating and broadcasting the block that contains all the current chunks (shard blocks). In comparison, the chunk producer collects transactions for the given shard.
+O produtor de bloco é responsável pela criação e transmissão do bloco que contém todos os pedaços atuais (blocos de fragmentos). In comparison, the chunk producer collects transactions for the given shard.
 
 The collection of transactions for the shard is called a chunk. Once a chunk and a block is created, the information has to be communicated to other chunk producers, fisherman and other validator nodes on the network. Fisherman and other validator nodes provide security by verifying the validity of state transitions in different blocks.
 

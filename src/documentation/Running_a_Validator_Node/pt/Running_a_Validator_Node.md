@@ -236,7 +236,7 @@ Para saber mais sobre como os validadores são escolhidos, dê uma olhada no [St
 
 ## Veja a lista de validadores atuais e futuros
 
-Você pode usar `near-cli` para rever o validador definido nos próximos três períodos:
+Você pode usar `near-cli` para rever o conjunto de validadores nos próximos três períodos:
 
 | Comandos                  | Significado                                                                                                                                          |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -249,7 +249,7 @@ Você pode usar `near-cli` para rever o validador definido nos próximos três p
     Você tem que esperar pelo menos 2 épocas (43.200 blocos cada) antes do seu
 </blockquote>
 
-**Nota:** A rede padrão para o `near-cli` é a `testnet`. Se você quiser mudar para a `mainnet` ou `betanet`, por favor veja intruções de seleção de redes usando [`near-cli`](/docs/tools/near-cli#network-selection).
+**Nota:** A rede padrão para o `near-cli` é a `testnet`. Se você quiser mudar para a `mainnet` ou `betanet`, por favor veja instruções de [seleção de redes usando `near-cli`](/docs/tools/near-cli#network-selection).
 
 ## Re-staking automático
 
@@ -262,4 +262,4 @@ O Protocolo NEAR reposiciona todas as recompensas inflacionárias automaticament
 - [NEAR Stake Wars](https://github.com/nearprotocol/stakewars)
 > Tem alguma dúvida?
 <a href="https://stackoverflow.com/questions/tagged/nearprotocol">
-  <h8>Ask it on StackOverflow!</h8></a>
+  <h8>Pergunte no StackOverflow!</h8></a>

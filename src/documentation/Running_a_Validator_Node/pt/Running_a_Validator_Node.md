@@ -201,7 +201,7 @@ A expressão `true` na última linha e o link para o explorer, são a prova de q
 
 ## Configurar seu nó `validator_key.json` e reiniciar o nearup
 
-Uma vez que o deploy da pool de staking esteja executado, manualmente edite o arquivo `~/.near/testnet/validator_key.json` em seu nó validador e substitua `coming_soon` com o nome da conta de sua pool de staking:
+Uma vez que o deploy da pool de staking esteja executado, edite manualmente o arquivo `~/.near/testnet/validator_key.json` em seu nó validador e substitua `coming_soon` com o nome da conta de sua pool de staking:
 
 ```
 {

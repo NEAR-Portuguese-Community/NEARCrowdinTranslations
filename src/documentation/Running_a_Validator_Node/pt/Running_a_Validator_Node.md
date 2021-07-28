@@ -42,43 +42,43 @@ Validadores NEAR devem:
 - Usar as informações acima para controlar se o validador está caindo fora do conjunto de validadores ativos, e o que precisa ser feito para corrigir o problema
 - Saber onde encontrar informações sobre os próximos [lançamentos do nearcore](https://github.com/near/nearcore/releases) e outras melhorias de ferramentas
 
-## Requisitos de hardware
+## Requisitos de hardware para o nó
 
 Os requisitos mínimos para executar um nó de validador na NEAR são:
 
 ```bash
 Pelo menos 4 núcleos de CPU
 Pelo menos 16GB RAM
-Com pelo menos 100GB SSD (Nota: HDD não funcionará)
+Pelo menos 100GB de SSD (Nota: HDD não funcionará)
 ```
 
 Mais informações estão na documentação de [Requisitos de Hardware](/docs/develop/node/validator/hardware).
 
 ## Configurando seu ambiente
 
-**IMPORTANTE: Certifique-se de que você tem a versão mais recente do [MEAR CLI](https://github.com/near/near-cli) e da versão 12.x do Node**
+**IMPORTANTE: Certifique-se de que você tem a versão mais recente do [NEAR CLI](https://github.com/near/near-cli) e uma versão 12.x do Node**
 
 Você pode instalar e atualizar o Near CLI usando npm:
 
 ```bash
-# Download Near CLI com npm:
+# Baixar Near CLI com npm:
 npm i -g near-cli
 ```
 
-**Nota:** A rede padrão para `near-cli` é a `testnet`. Se você quiser mudar para a `mainnet` ou `betanet`, por favor veja intruções de seleção de redes usando [`near-cli`](/docs/tools/near-cli#network-selection).
+**Nota:** A rede padrão para a `near-cli` é a `testnet`. Se você quiser mudar para a `mainnet` ou `betanet`, por favor veja instruções de [seleção de redes usando `near-cli`](/docs/tools/near-cli#network-selection).
 
 Uma vez que o Near CLI estiver instalado, vá em frente e execute seu nó.
 
 <blockquote class="info">
     <strong>Dica Profissional</strong><br><br>
-    Você não precisa rodar o near-cli no seu nó validador: todos os comandos de staking são emitidos para o pool de stking, que é um contrato inteligente normal.
+    Você não precisa rodar o near-cli no seu nó validador: todos os comandos de staking são emitidos para o pool de staking, que é um contrato inteligente normal.
 </blockquote>
 
 ## Executando o Nó
 
 Por favor, siga a [Documentação do Nearup](https://github.com/near/nearup) para iniciar o seu nó na TestNet. Lembre-se que `Nearup` não suporta a MainNet, então você terá que construir seus scripts de inicialização e seguir o [guia de implantação na MainNet](/docs/develop/node/validator/deploy-on-mainnet).
 
-Na primeira inicialização, o nearup pedirá o ID da sua conta de validador. Coloque um texto de exemplo, como `coming_soon`, para deixar o node sincronizar com a rede enquanto você faz coloca a staking pool no ar:
+Na primeira inicialização, o nearup pedirá o ID da sua conta de validador. Coloque um texto de exemplo, como `coming_soon`, para deixar o node sincronizar com a rede enquanto você coloca a staking pool no ar:
 
 ```
 $ nearup run testnet --account-id coming_soon
@@ -176,9 +176,9 @@ Em que:
 - `pool.f863973.m0` é a fábrica de staking pools mencionada acima
 - `<POOL_ID>` é o nome do contrato da staking pool. Se você passar o parâmetro `heyheyhey` o resultado será `heyheyhey.pool.f863973.m0`
 - `<OWNER_ID>` é a conta autorizada a enviar os _métodos do proprietário_ para a pool, como a chave de validador ou as taxas
-- `<VALIDATOR_KEY>` é a chave pública salva em `~/.near/testnet/validator_key.json` em seu nó validador (veja o paço [staking#run-the-node](staking#run-the-node) acima)
-- `{"numerator": <X>, "denominator": <Y>}` configura as taxas do validador. 10% das taxas solicitam `x=10` e `y=100`
-- `--amount 50` atribui 50 \$NEAR a transação, como uma reserva para pagar o armazenamento do contrato
+- `<VALIDATOR_KEY>` é a chave pública salva em `~/.near/testnet/validator_key.json` em seu nó validador (veja o passo [staking#run-the-node](staking#run-the-node) acima)
+- `{"numerator": <X>, "denominator": <Y>}` configura as taxas do validador. Para um taxa de 10% é preciso usar `x=10` e `y=100`
+- `--amount 50` atribui 50 \$NEAR à transação, como uma reserva para pagar o armazenamento do contrato
 - `--gas 300000000000000` especifica o gás para a transação (optional)
 
 Você pode esperar um resultado semelhante ao seguinte:
@@ -217,7 +217,7 @@ seguido por: `nearup run testnet`
 
 <blockquote class="warning">
     <strong>Atenção!</strong><br><br>
-    Certifique-se de que o seu nó baixou inteiramente o arquivo genesis.json antes de dar o comando de parar o nearup.
+    Certifique-se de que o seu nó baixou inteiramente o arquivo genesis.json antes de executar o comando de parar o nearup.
 </blockquote>
 
 ## Se Tornando um Validador no _Conjunto Ativo_

@@ -222,17 +222,17 @@ seguido por: `nearup run testnet`
 
 ## Se Tornando um Validador no _Conjunto Ativo_
 
-Uma vez que a pool está executando, você pode fazer _stake_ de seus tokens usando qualquer um dos métodos oferecidos na [delegation docs](delegation). Certifique-se que você está usando a ferramenta que suporta a TestNet, e não somente a MainNet.
+Uma vez que a pool esteja no ar, você pode fazer _stake_ de seus tokens usando qualquer um dos métodos oferecidos na [documentação sobre delegação](delegation). Certifique-se que você está usando a ferramenta que suporta a TestNet, e não somente a MainNet.
 
-A TestNet e a MainNet da NEAR necessitam ao mínimo 24 horas de período de ativação para aceitar sua oferta de pool. Você pode verificar se você é um validador quando, nos logs do nó, você ver "V/" - onde V significa que esse nó é validador:
+A TestNet e a MainNet da NEAR exigem um período de no mínimo 24 horas de ativação para aceitar sua oferta de pool. Você pode verificar se você é um validador quando, nos logs do nó, você ver "V/" - onde V significa que esse nó é validador:
 
 ![](assets/validators%20%281%29.png)
 
-Legend: # 7153 | BlockHeight V/1 | 'V' (validator) or '—' (regular node)
+Legenda: # 7153 | Altura do bloco V/1 | 'V' (validador) ou '—' (nó regular)
 
 O valor 0/0/40 mostra o total de validadores: pares conectados / pares atualizados / meus pares. Este número pode mudar ao longo do tempo.
 
-Para saber mais sobre como os validadores são escolhidos, dê uma olhada no [Staking FAQ](../validator/staking-faq.md).
+Para saber mais sobre como os validadores são escolhidos, dê uma olhada nas [Perguntas Frequentes Sobre Staking](../validator/staking-faq.md).
 
 ## Veja a lista de validadores atuais e futuros
 

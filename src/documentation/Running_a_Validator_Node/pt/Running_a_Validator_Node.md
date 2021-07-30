@@ -1,6 +1,6 @@
 ---
 id: staking
-title: Executando um Nó de Validação
+title: Executando um Nó Validador
 sidebar_label: Executando o Nó
 ---
 

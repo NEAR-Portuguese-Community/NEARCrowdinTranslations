@@ -177,7 +177,7 @@ Em que:
 - `<POOL_ID>` é o nome do contrato da staking pool. Se você passar o parâmetro `heyheyhey` o resultado será `heyheyhey.pool.f863973.m0`
 - `<OWNER_ID>` é a conta autorizada a enviar os _métodos do proprietário_ para a pool, como a chave de validador ou as taxas
 - `<VALIDATOR_KEY>` é a chave pública salva em `~/.near/testnet/validator_key.json` em seu nó validador (veja o passo [staking#run-the-node](staking#run-the-node) acima)
-- `{"numerator": <X>, "denominator": <Y>}` configura as taxas do validador. Para um taxa de 10% é preciso usar `x=10` e `y=100`
+- `{"numerator": <X>, "denominator": <Y>}` configura as taxas do validador. Para uma taxa de 10% é preciso usar `x=10` e `y=100`
 - `--amount 50` atribui 50 \$NEAR à transação, como uma reserva para pagar o armazenamento do contrato
 - `--gas 300000000000000` especifica o gás para a transação (optional)
 

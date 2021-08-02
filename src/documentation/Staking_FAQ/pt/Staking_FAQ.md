@@ -35,12 +35,12 @@ Os validadores externos não podem se juntar à MainNet nem à TestNet, só pode
 
 ### O que é 'staking'?
 
-We call staking a process of sending `StakeTransaction` that informs the network that a given account wants to become a validator in upcoming epochs. This particular type of transaction must provide a public key and staking amount. After the transaction is sent, a node that has a private key associated with the public key in the staking transaction must wait until two epochs to become a validator. **important**: a node can become a validator only if the amount in the staking transaction is above the seat price defined by the protocol.
+Chamamos de staking um processo de envio de `StakeTransaction` que informa a rede que uma determinada conta deseja se tornar um validador nas próximas épocas. Este tipo específico de transação deve fornecer uma chave pública e um valor de staking. Depois que a transação for enviada, um nó que tenha uma chave privada associada com a chave pública da transação de staking deve esperar até duas épocas para se tornar um validador. **importante**: um nó pode se tornar um validador somente se o valor na transação de staking estiver acima do preço do lugar definido pelo protocolo.
 
 ### O que é uma época?
 
-An epoch is the interval of time that consists of several consensus rounds. Note that there is no guarantee of the exact number of consensus rounds. Currently, one epoch lasts for about the duration of half a day and is used to
-- Measure the performance and uptime of validators
+Uma época é o intervalo de tempo que consiste de várias rodadas de consenso. Note-se que não há garantia do número exato de rodadas de consenso. Atualmente, uma época dura cerca de metade de um dia e é usada para
+- Medir o desempenho e uptime dos validadores
 - Collect the bids from new validators
 
 For one epoch, validators are randomly assigned into shards. After the epoch is over, validators are reshuffled and assigned to different shards. Validators participate in several validation rounds within the epoch. For each round, one of the validators in each shard is chosen to be the chunk producer and one validator is chosen of the entire set of validators to be the block producer.

@@ -63,11 +63,11 @@ Em linhas gerais, os validadores devem executar o nó e geralmente estar online.
 
 ### Posso fazer stake em um shard diferente?
 
-There's no way for a validator to decide the shard. The protocol randomly assigns validators to shards at the beginning of each epoch. The node has one epoch to download its state. NEAR nodes have an automatic 'garbage collection' routine that deletes the state of previous shards after five epochs, to free up unused storage. Large validators will have to generate blocks signing across multiple shards, therefore it's important to size server and networking accordingly.
+Não há como um validador escolher o shard. O protocolo atribui aleatoriamente validadores a shards no início de cada época. O nó possui uma época para baixar seu estado. Os nós NEAR têm uma rotina automática de 'coleta de lixo' que deleta o estado de shards anteriores após cinco épocas, para liberar armazenamento não utilizado. Grandes validadores terão que gerar blocos assinando em vários shards, portanto é importante dimensionar o servidor e a rede adequadamente.
 
 ### Como eu executo um nó?
 
-Follow [this tutorial.](/docs/develop/node/validator/running-a-node)
+Siga [este tutorial.](/docs/develop/node/validator/running-a-node)
 
 ### Do validators receive incentives for testing the protocol?
 

@@ -69,9 +69,9 @@ Não há como um validador escolher o shard. O protocolo atribui aleatoriamente 
 
 Siga [este tutorial.](/docs/develop/node/validator/running-a-node)
 
-### Do validators receive incentives for testing the protocol?
+### Os validadores recebem incentivos para testar o protocolo?
 
-We don’t offer rewards to validators at this point in time. However, we may offer bounties for reporting critical bugs or valuable contributions to the codebase on [GitHub](https://github.com/near/nearcore). Just keep an eye for all the “good first issue” posts. In the meantime, join the channel `#community-validator-announcement` on our [Official Slack](https://near.chat) to be constantly updated, and be the first to know if we plan to offer incentives in the future.
+Não oferecemos recompensas aos validadores neste momento. No entanto, podemos oferecer recompensas por relatar bugs críticos ou contribuições valiosas para a base de código no [GitHub](https://github.com/near/nearcore). Just keep an eye for all the “good first issue” posts. In the meantime, join the channel `#community-validator-announcement` on our [Official Slack](https://near.chat) to be constantly updated, and be the first to know if we plan to offer incentives in the future.
 
 ### Como funciona a delegação de staking?
 

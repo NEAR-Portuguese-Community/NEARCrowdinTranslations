@@ -71,46 +71,46 @@ Siga [este tutorial.](/docs/develop/node/validator/running-a-node)
 
 ### Os validadores recebem incentivos para testar o protocolo?
 
-Não oferecemos recompensas aos validadores neste momento. No entanto, podemos oferecer recompensas por relatar bugs críticos ou contribuições valiosas para a base de código no [GitHub](https://github.com/near/nearcore). Just keep an eye for all the “good first issue” posts. In the meantime, join the channel `#community-validator-announcement` on our [Official Slack](https://near.chat) to be constantly updated, and be the first to know if we plan to offer incentives in the future.
+Não oferecemos recompensas aos validadores neste momento. No entanto, podemos oferecer recompensas por relatar bugs críticos ou contribuições valiosas para a base de código no [GitHub](https://github.com/near/nearcore). Fique de olho nos itens marcados como "good first issue" (bom problema para começar). Enquanto isso, junte-se ao canal `#community-validator-announcement` em nosso [Slack oficial](https://near.chat) para ser atualizado constantemente, e ser o primeiro a saber se tencionarmos oferecer incentivos no futuro.
 
 ### Como funciona a delegação de staking?
 
-NEAR doesn’t implement delegation on the protocol level. Instead NEAR allows smart contracts to stake, because in NEAR contracts and accounts are the same.
+A NEAR não implementa delegação no nível do protocolo. Em vez disso, a NEAR permite que contratos inteligentes façam stake, porque na NEAR contas e contratos são a mesma coisa.
 
-Thus, if validators want to accept delegated stake, they must deploy a contract with specific rules of how delegation and reward splitting works and advertise that contract as destination to delegate.  See the [delegation docs](/docs/validator/delegation) for more.
+Assim, se os validadores quiserem aceitar stake delegado, eles têm de implementar um contrato com regras específicas sobre como funciona a delegação e a distribuição de recompensas e anunciar tal contrato como destino para delegar.  Veja a [documentação sobre delegação](/docs/validator/delegation) para mais detalhes.
 
 ### Onde posso encontrar a pasta neardev/?
 *Ultima atualização: ???*
 
-Once you run 'near login', a folder, called 'neardev', will be created in the directory in which you ran 'near login'.
+Uma vez que você executar 'near login', uma pasta, chamada 'neardev', será criada no diretório no qual você executou 'login near'.
 
 ### Posso ser um validador na rede TestNet?
 *Ultima atualização: ???*
 
-Not at this time. MainNet and TestNet networks are run only by a set of permissioned validators. If you want to test your setup, you can configure your node to run on BetaNet, by following the tutorial on [Github](https://github.com/nearprotocol/stakewars) and requesting some BetaNet tokens via [this form](https://forms.gle/kZk2Gv79TB9qm3KP7).
+Atualmente não. As redes MainNet e TestNet são executadas apenas por um conjunto de validadores permissionados. Se você quiser testar a sua configuração, você pode configurar o seu nó para executar na BetaNet, seguindo o tutorial no [Github](https://github.com/nearprotocol/stakewars) e solicitando alguns tokens da BetaNet através [deste formulário](https://forms.gle/kZk2Gv79TB9qm3KP7).
 
-### Why did my node get kicked-out of the validation process on BetaNet?
+### Por que meu nó foi expulso do processo de validação na BetaNet?
 *Ultima atualização: ???*
 
-Considering that you are running betanet, you might be kicked out because your node is not producing enough blocks. Please try again or open an issue on [GitHub](https://github.com/nearprotocol/stakewars) if you are experiencing reoccurring issues.
+Considerando que você esteja executando na betanet, você pode ser expulso por seu nó não estar produzindo blocos suficientes. Tente novamente ou relate um problema no [GitHub](https://github.com/nearprotocol/stakewars) se você estiver passando por problemas recorrentes.
 
-Please note that sometimes we had to reset the BetaNet, and nodes might need to be reinstalled to work properly. We normally announce these updates in our official join the channel `#community-validator-announcement` on our [Official Slack](https://near.chat) and Stake Wars repo on [Github](https://github.com/nearprotocol/stakewars).
+Por favor, note que às vezes tivemos que reiniciar a BetaNet, e os nós podem precisar ser reinstalados para funcionar corretamente. Normalmente anunciamos essas atualizações em nosso canal oficial `#community-validator-announcement` no nosso [Slack oficial](https://near.chat) e no repositório Stake Wars no [Github](https://github.com/nearprotocol/stakewars).
 
-### After logging in using NEAR CLI with 'near login', I always receive an error message “Exceeded 10 status check attempts.” How should I solve this?
+### Após fazer login usando o NEAR CLI com 'near login', eu sempre recebo uma mensagem de erro “Exceeded 10 status check attempts.” Como posso resolver isso?
 *Ultima atualização: ???*
 
-This means that something is broken in the wallet, please reach out to us on Slack for troubleshooting.
+Isso significa que algo está quebrado na carteira, por favor nos contate no Slack para investigar o problema.
 
-### Could someone permissionlessly delegate to me as a validator?
+### Alguém poderia me delegar como validador sem permissão?
 *Ultima atualização: 20200501*
 
-It is important to remember that delegation is not implemented on the protocol level, which means each validator can have their own contract that they use to attract delegators. Delegation is supposed to be permissionless, but of course the validators can write their own staking contract to be permissioned if they would like. Also they get to decide commission fees and how reward distribution works.
+É importante recordar que a delegação não é implementada no nível do protocolo, o que significa que cada validador pode ter seu próprio contrato que ele usa para atrair delegadores. É esperado que a delegação não exija permissão, mas é claro que os validadores podem escrever seus próprios contratos de staking para que tenham permissão, se quiserem. Além disso, eles também decidem taxas de comissão e como a distribuição de recompensas funciona.
 
 
-### My stake has been delegated but rewards aren't showing up. How do I see them?
+### Meu stake foi delegado mas as recompensas não estão aparecendo. Como posso vê-las?
 *Ultima atualização: 20201022*
 
-If a staking pool hasn't had an action applied to it recently (like someone delegating or undelegating), it will show an old balance on all staked accounts (which may show up on your wallet account).  To see an updated balance, you can "ping" the pool. See the [delegation docs](/docs/validator/delegation) and search for `ping` for how to do this.
+Se uma piscina de staking não teve uma ação aplicada a ela recentemente (como alguém delegando ou deixando de delegar), ela mostrará um saldo antigo em todas as contas com stake (o que pode aparecer na sua conta da carteira).  Para ver um saldo atualizado, você pode "pingar" a piscina. Veja a [documentação sobre delegação](/docs/validator/delegation) e procure por `ping` para saber como fazer isso.
 
 Tem alguma dúvida?
 <a href="https://stackoverflow.com/questions/tagged/nearprotocol">

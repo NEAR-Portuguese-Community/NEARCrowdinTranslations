@@ -8,6 +8,7 @@ Repository with the NEAR Crowdin translations. You can find the Crowdin project 
 
 | Title | Original |
 | ----- | -------- |
+| **TOKENS/STAKING** ||
 | Staking Orientation | [Link](https://docs.near.org/docs/validator/staking-overview) |
 | Token Custody Options | [Link](https://docs.near.org/docs/tokens/token-custody) |
 | Lockups Explained | [Link](https://docs.near.org/docs/tokens/lockup) |
@@ -15,6 +16,15 @@ Repository with the NEAR Crowdin translations. You can find the Crowdin project 
 | Running a Validator Node | [Link](https://docs.near.org/docs/validator/staking) |
 | The Economics of a Validator | [Link](https://docs.near.org/docs/validator/economics) |
 | Staking FAQ | [Link](https://docs.near.org/docs/validator/staking-faq) |
+| **CONCEPTS -> BASICS** ||
+| Account | [Link](https://docs.near.org/docs/concepts/account) |
+| Data Collection | [Link](https://github.com/near/docs/blob/master/docs/concepts/data-collections.md) |
+| Storage Staking | [Link](https://docs.near.org/docs/concepts/storage-staking) |
+| Epoch | [Link](https://docs.near.org/docs/concepts/epoch) |
+| Gas | [Link](https://docs.near.org/docs/concepts/gas) |
+| Indexer | [Link](https://docs.near.org/docs/concepts/indexer) |
+| Networks | [Link](https://docs.near.org/docs/concepts/networks) |
+| Transaction | [Link](https://docs.near.org/docs/concepts/transaction) |
 
 ## Blogposts
 

@@ -4,18 +4,18 @@ title: Account
 sidebar_label: Account
 ---
 
-NEAR uses human readable account IDs instead of a public key hash. For a 20-minute video explanation, see [this Lunch and Learn](https://www.youtube.com/watch?time_continue=18&v=2_Ekz7w6Eo4&feature=emb_logo) on YouTube.
+NEAR usa identificadores de conta legíveis por humanos ao invés hash de chaves publicas. Para um vídeo de 20 minutos de explicação, veja [esse "Lunch and Learn"](https://www.youtube.com/watch?time_continue=18&v=2_Ekz7w6Eo4&feature=emb_logo) no Youtube.
 
-## Account ID Rules
+## Regras para ID de Conta
 
-- minimum length is 2
-- maximum length is 64
-- `Account ID` consists of `Account ID parts` separated by `.`
-- `Account ID part` consists of lowercase alphanumeric symbols separated by either `_` or `-`.
+- tamanho mínimo 2
+- tamanho máximo 64
+- `ID da Conta` consiste nas `partes do ID da Conta` separados por `.`
+- `Uma parte do ID da Conta` consiste em símbolos alfanuméricos separados por tanto `_` ou `-`.
 
-Account names are similar to a domain names. Anyone can create a top-level account (TLA) without separators, e.g. `near`. Only `near` can create `alice.near`. And only `alice.near` can create `app.alice.near` and so on. Note, `near` can NOT create `app.alice.near` directly.
+Nome de contas são similares a nomes de domínio. Qualquer um pode criar uma conta top-level (TLA) sem separadores, e.g. `near`. Somente `near` pode criar `alice.near`. E somente `alice.near` pode criar `app.alice.near` e assim por diante. Note, `near` NÃO pode criar `app.alice.near` diretamente.
 
-Regex for a full account ID, without checking for length: `^(([a-z\d]+[\-_])*[a-z\d]+\.)*([a-z\d]+[\-_])*[a-z\d]+$`
+Esse é o regex de um ID de conta, sem checar pelo tamanho: `^(([a-z\d]+[\-_])*[a-z\d]+\.)*([a-z\d]+[\-_])*[a-z\d]+$`
 
 ---
 

@@ -75,7 +75,7 @@ code ~/.near-credentials/default/[dev-account-id].json
 
 - Delete the folder `/neardev` and run `near dev-deploy [wasmFile default="/out/main.wasm"]` and you'll see a new dev account was created in `neardev` and credentials are also stored for you.
 
-### Ok I have a dev account, so what?
+### Ok, eu tenho uma conta de desenvolvimento, e agora?
 
 - These accounts and associated keypairs found in the json file are super useful for automating your testing.
 
@@ -83,11 +83,11 @@ code ~/.near-credentials/default/[dev-account-id].json
 
 ---
 
-## Access Keys
+## Chaves de Acesso
 
 NEAR uses human readable account IDs instead of a public key hash as the account identifier and many keys ([public/private key pairs](https://en.wikipedia.org/wiki/Public-key_cryptography)) can be created for each account that we call "Access Keys". Currently, there are two types of access keys; `FullAccess` & `FunctionCall`.
 
-### Full Access Keys
+### Chaves de Acesso Completo
 
 As the name suggests, `FullAccess` keys have full control of an account similar to having administrator privileges on your operating system. With this key you have the ability to perform any of the eight action types on NEAR without any limitations.
 
@@ -95,7 +95,7 @@ As the name suggests, `FullAccess` keys have full control of an account similar 
 
 See our [action specifications](https://nomicon.io/RuntimeSpec/Actions.html) section for more details.
 
-### Function Call Keys
+### Chaves Para Chamar Funções
 
 A `FunctionCall` key is unique as it only has permission to call a smart contract's method(s) that _do not_ attach Ⓝ as a deposit (i.e. payable functions). These keys have the following three attributes:
 
@@ -110,7 +110,7 @@ Another way to create a `FunctionAccess` key is to use `near-cli`'s [`add-key`](
 
 ---
 
-## Compared to Ethereum
+## Comparação com o Ethereum
 
 If you're familiar with development on Ethereum, it's worth making a quick note about how accounts are different. The image below summarizes some key differences.
 
@@ -120,7 +120,7 @@ _image source: medium.com/@clinder_
 
 ---
 
-## Accounts and Contracts
+## Contas e Contratos
 
 Each NEAR account can only hold 1 smart contract. For applications where users should be able to organize multiple contracts you can create "subaccounts" whose "master account" is the user account. The format of a subaccount would include a dot in the name like `contract1.user-A-account`, `contract2.user-A-account`, etc. NEAR restricts the creation of accounts with a dot in the name such that these accounts can only by created by `user-A-account`, as if the user account is a top-level domain like `your-company.com` if you're familiar with this model.
 

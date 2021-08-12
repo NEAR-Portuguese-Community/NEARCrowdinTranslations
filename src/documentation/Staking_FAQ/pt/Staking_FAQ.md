@@ -21,9 +21,9 @@ A coleção de transações para o fragmento é chamada de um pedaço (chunk). U
 Você precisa de uma conta com valor suficiente de fundos. Siga a documentação [aqui](/docs/validator/staking) para entender como se tornar um validador, e [aqui](/docs/develop/node/validator/running-a-node) para executar um nó.
 
 Passos mais específicos:
-1. Criar um novo par de chaves que será usado para staking para determinada conta, e carregá-lo com os fundos que você deseja colocar em stake
-2. Iniciar um nó com o novo par de chaves armazenado em `validator_key.json`
-3. Enviar uma transação de staking usando sua carteira / CLI com sua conta, incluindo o valor e a chave pública do par de chaves recém-geradas.
+1. Crie um novo par de chaves que será usado para staking, para determinada conta, e carregá-lo com os fundos que você deseja colocar em stake
+2. Inicie um nó com o novo par de chaves armazenado em `validator_key.json`
+3. Envie uma transação de staking usando sua carteira / CLI com sua conta, incluindo o valor e a chave pública do par de chaves recém-geradas.
 4. Aguarde até que o nó se torne um validador
 
 <blockquote class="warning">
@@ -35,7 +35,7 @@ Os validadores externos não podem se juntar à MainNet nem à TestNet, só pode
 
 ### O que é 'staking'?
 
-Chamamos de staking um processo de envio de `StakeTransaction` que informa a rede que uma determinada conta deseja se tornar um validador nas próximas épocas. Este tipo específico de transação deve fornecer uma chave pública e um valor de staking. Depois que a transação for enviada, um nó que tenha uma chave privada associada com a chave pública da transação de staking deve esperar até duas épocas para se tornar um validador. **importante**: um nó pode se tornar um validador somente se o valor na transação de staking estiver acima do preço do lugar definido pelo protocolo.
+Chamamos de staking um processo de envio de `StakeTransaction` que informa a rede que uma determinada conta deseja se tornar um validador nas próximas épocas. Este tipo específico de transação deve fornecer uma chave pública e um valor de staking. Depois que a transação for enviada, um nó que tenha uma chave privada associada com a chave pública da transação de staking deve esperar até duas épocas para se tornar um validador. **importante**: um nó pode se tornar um validador somente se o valor na transação de staking estiver acima do preço do assento definido pelo protocolo.
 
 ### O que é uma época?
 
@@ -43,7 +43,7 @@ Uma época é o intervalo de tempo que consiste de várias rodadas de consenso. 
 - Medir o desempenho e uptime dos validadores
 - Coletar as ofertas dos novos validadores
 
-Para uma época, os validadores são atribuídos aleatoriamente em shards. Depois que a época acabou, os validadores são reorganizados e atribuídos a shards diferentes. Os validadores participam de várias rodadas de validação no decorrer da época. Para cada rodada, um dos validadores em cada shard é escolhido como produtor de chunks e um validador é escolhido de todo o conjunto de validadores para ser o produtor de blocos.
+Para uma época, os validadores são atribuídos aleatoriamente em shards. Depois que a época acabar, os validadores são reorganizados e atribuídos a shards diferentes. Os validadores participam de várias rodadas de validação no decorrer da época. Para cada rodada, um dos validadores em cada shard é escolhido como produtor de chunks e um validador é escolhido de todo o conjunto de validadores para ser o produtor de blocos.
 
 ### Qual é a quantia mínima que deve ser colocada em stake como um validador?
 
@@ -92,7 +92,7 @@ Atualmente não. As redes MainNet e TestNet são executadas apenas por um conjun
 ### Por que meu nó foi expulso do processo de validação na BetaNet?
 *Ultima atualização: ???*
 
-Considerando que você esteja executando na betanet, você pode ser expulso por seu nó não estar produzindo blocos suficientes. Tente novamente ou relate um problema no [GitHub](https://github.com/nearprotocol/stakewars) se você estiver passando por problemas recorrentes.
+Considerando que você esteja executando na betanet, você pode ser expulso pois seu nó não esta produzindo blocos suficientes. Tente novamente ou relate um problema no [GitHub](https://github.com/nearprotocol/stakewars) se você estiver passando por problemas recorrentes.
 
 Por favor, note que às vezes tivemos que reiniciar a BetaNet, e os nós podem precisar ser reinstalados para funcionar corretamente. Normalmente anunciamos essas atualizações em nosso canal oficial `#community-validator-announcement` no nosso [Slack oficial](https://near.chat) e no repositório Stake Wars no [Github](https://github.com/nearprotocol/stakewars).
 

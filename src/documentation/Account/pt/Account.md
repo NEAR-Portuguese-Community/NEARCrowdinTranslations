@@ -31,7 +31,7 @@ Currently all `mainnet` accounts use a `near` top-level account name (ex `exampl
 
 ---
 
-## Subaccounts
+## Subcontas
 
 As stated before, account names on NEAR follow a similar naming pattern to that of website domains with similar rules. Accounts can create as many subaccounts as they wish, and only the parent account can create a subaccount. For example, `example.near` can create `subaccount1.example.near` and `subaccount2.example.near` but CAN NOT create `sub.subaccount.example.near`. Only `subaccount.example.near` can create `sub.subaccount.example.near` in the same way `test.near` can NOT create `subaccount.example.near`. Only the direct parent account has permission to create a subaccount.
 
@@ -39,7 +39,7 @@ Try it out using our [`near-cli`](/docs/tools/near-cli) command, [`near create-a
 
 ---
 
-## Implicit-Accounts
+## Contas Implícitas
 
 Implicit accounts work similarly to Bitcoin/Ethereum accounts. They allow you to reserve an account ID before it's created by generating a ED25519 key-pair locally. This key-pair has a public key that maps to 64 character hex representation which becomes the account ID.
 
@@ -51,13 +51,13 @@ Implicit accounts work similarly to Bitcoin/Ethereum accounts. They allow you to
 
 ---
 
-## Dev Accounts
+## Contas de Desenvolvedor
 
 Dev accounts are special accounts made automatically by tools like near-cli and the wallet to help you automate testing and deploying of contracts. Since every account can have a contract, but re-deploying contracts DOES NOT create new state, you often want to deploy to a completely different account when testing.
 
 > **Note:** When deploying multiple test examples and creating new dev accounts, you will need to "Sign Out" of the NEAR Wallet on any `localhost` examples and "Sign In" again! Signing in adds an access key to your account and saves the private key in localStorage so the app can call contract methods without asking for approval again. BUT! There's a chance you're now trying to interact with a contract that is deployed on a completely different dev account.
 
-### How to create a dev account
+### Como criar uma conta de desenvolvedor
 
 - When you run the command `dev-deploy` from near-cli, it looks for a file here `/neardev/dev-account` with the dev account ID to deploy to.
 
@@ -71,7 +71,7 @@ code ~/.near-credentials/default/[dev-account-id].json
 
 - Replace dev-account-id with the account ID here `/neardev/dev-account` and open the json file up in your editor of choice (code for VS Code).
 
-### How do I get another one
+### Como obter mais uma conta
 
 - Delete the folder `/neardev` and run `near dev-deploy [wasmFile default="/out/main.wasm"]` and you'll see a new dev account was created in `neardev` and credentials are also stored for you.
 

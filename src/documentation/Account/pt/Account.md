@@ -25,35 +25,35 @@ Nomes de conta Top-level (TLAs) são altamente valiosas, pois fornecem uma raiz 
 
 Especificamente, apenas a conta `REGISTRAR_ACCOUNT_ID` pode criar novas contas de nível superior que sejam menores que `MIN_ALLOWED_TOP_LEVEL_ACCOUNT_LENGTH` caracteres. `REGISTRAR_ACCOUNT_ID` implementa uma interface padrão de `Account Naming` (nome da conta) que lhe permite criar novas contas.
 
-We are not going to deploy the `registrar` auction at launch. Instead we will allow it to be deployed by the Near Foundation at some point in the future.
+Não implementaremos o leilão de `registrar` no lançamento. Em vez disso, vamos permitir que ele venha a ser utilizado pela Near Foundation em algum momento futuro.
 
-Currently all `mainnet` accounts use a `near` top-level account name (ex `example.near`) and all `testnet` accounts use a `testnet` top-level account (ex. `example.testnet`).
+Atualmente, todas as contas da `mainnet` usam um nome de conta de nível superior `near` (como `exemplo.near`) e todas as contas da `testnet` usam um nomes de conta de nível superior `testnet` (como `exemplo.testnet`).
 
 ---
 
 ## Subcontas
 
-As stated before, account names on NEAR follow a similar naming pattern to that of website domains with similar rules. Accounts can create as many subaccounts as they wish, and only the parent account can create a subaccount. For example, `example.near` can create `subaccount1.example.near` and `subaccount2.example.near` but CAN NOT create `sub.subaccount.example.near`. Only `subaccount.example.near` can create `sub.subaccount.example.near` in the same way `test.near` can NOT create `subaccount.example.near`. Only the direct parent account has permission to create a subaccount.
+Como mencionado anteriormente, os nomes de conta na NEAR seguem um padrão de nomenclatura semelhante ao de domínios de sites com regras similares. Contas podem criar quantas subcontas quiserem, e apenas a conta pai pode criar uma subconta. Por exemplo, `exemplo.near` pode criar `subconta1.exemplo.near` e `subconta2.exemplo.near` mas NÃO PODE criar `sub.subconta.exemplo.near`. Apenas `subconta.exemplo.near` pode criar `sub.subconta.exemplo.near`, da mesma forma que `teste.near` NÃO PODE criar `subconta.exemplo.near`. Apenas a conta pai direta tem permissão para criar uma subconta.
 
-Try it out using our [`near-cli`](/docs/tools/near-cli) command, [`near create-account`](/docs/tools/near-cli#near-create-account), in your terminal.
+Experimente usando o nosso comando [`near-cli`](/docs/tools/near-cli), [`near create-account`](/docs/tools/near-cli#near-create-account), no seu terminal.
 
 ---
 
 ## Contas Implícitas
 
-Implicit accounts work similarly to Bitcoin/Ethereum accounts. They allow you to reserve an account ID before it's created by generating a ED25519 key-pair locally. This key-pair has a public key that maps to 64 character hex representation which becomes the account ID.
+Contas implícitas funcionam de forma semelhante às contas do Bitcoin/Ethereum. Elas permitem que você reserve um ID de conta antes que ele seja criado, gerando um par de chaves ED25519 localmente. Este par de chaves tem uma chave pública que mapeia para uma representação hexadecimal de 64 caracteres, que se torna o ID da conta.
 
-***Example:***
-- Public key in base58: `BGCCDDHfysuuVnaNVtEhhqeT4k9Muyem3Kpgq2U1m9HX`
-- Implicit Account: `98793cd91a3f870fb126f66285808c7e094afcfc4eda8a970f6648cdf0dbd6de`
+***Exemplo:***
+- Chave pública na base58: `BGCCDDHfysuuVnaNVtEhhqeT4k9Muyem3Kpgq2U1m9HX`
+- Conta implícita: `98793cd91a3f870fb126f66285808c7e094afcfc4eda8a970f6648cdf0dbd6de`
 
-[ [Click here](/docs/roles/integrator/implicit-accounts) ] for more information as well as a guide on implicit account creation.
+[ [Clique aqui](/docs/roles/integrator/implicit-accounts) ] para obter mais informações, bem como um guia sobre a criação de contas implícitas.
 
 ---
 
 ## Contas de Desenvolvedor
 
-Dev accounts are special accounts made automatically by tools like near-cli and the wallet to help you automate testing and deploying of contracts. Since every account can have a contract, but re-deploying contracts DOES NOT create new state, you often want to deploy to a completely different account when testing.
+As contas de desenvolvedor são contas especiais feitas automaticamente por ferramentas como near-cli e a carteira para ajudá-lo a automatizar os testes e a implantação de contratos. Como todas as contas podem ter um contrato, mas a reimplantação de contratos NÃO cria um novo estado, frequentemente você quer implantar em uma conta completamente diferente durante os testes.
 
 > **Note:** When deploying multiple test examples and creating new dev accounts, you will need to "Sign Out" of the NEAR Wallet on any `localhost` examples and "Sign In" again! Signing in adds an access key to your account and saves the private key in localStorage so the app can call contract methods without asking for approval again. BUT! There's a chance you're now trying to interact with a contract that is deployed on a completely different dev account.
 

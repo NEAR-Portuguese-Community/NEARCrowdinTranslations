@@ -21,9 +21,9 @@ Esse é o regex de um ID de conta, sem checar pelo tamanho: `^(([a-z\d]+[\-_])*[
 
 ## Contas Top-level
 
-Nomes de conta Top-level (TLAs) são altamente valiosas, pois fornecem uma raiz de segurança e indexação para instituições, aplicações e usuários. To allow for fair access to them, the top-level account names that are shorter than `MIN_ALLOWED_TOP_LEVEL_ACCOUNT_LENGTH` characters (32 at time of writing) will be auctioned off.
+Nomes de conta Top-level (TLAs) são altamente valiosas, pois fornecem uma raiz de segurança e indexação para instituições, aplicações e usuários. Para permitir acesso justo a eles, os nomes de conta de nível superior que são menores que `MIN_ALLOWED_TOP_LEVEL_ACCOUNT_LENGTH` caracteres (32 quando este texto foi escrito) serão leiloados.
 
-Specifically, only `REGISTRAR_ACCOUNT_ID` account can create new top-level accounts that are shorter than `MIN_ALLOWED_TOP_LEVEL_ACCOUNT_LENGTH` characters. `REGISTRAR_ACCOUNT_ID` implements a standard `Account Naming` interface which allow it to create new accounts.
+Especificamente, apenas a conta `REGISTRAR_ACCOUNT_ID` pode criar novas contas de nível superior que sejam menores que `MIN_ALLOWED_TOP_LEVEL_ACCOUNT_LENGTH` caracteres. `REGISTRAR_ACCOUNT_ID` implementa uma interface padrão de `Account Naming` (nome da conta) que lhe permite criar novas contas.
 
 We are not going to deploy the `registrar` auction at launch. Instead we will allow it to be deployed by the Near Foundation at some point in the future.
 

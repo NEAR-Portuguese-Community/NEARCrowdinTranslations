@@ -4,7 +4,7 @@ title: NEAR Networks
 sidebar_label: Networks
 ---
 
-NEAR Protocol operates on several networks each operating with their own independent validators and unique state. These networks are as follows:
+O Protocolo NEAR opera em várias redes cada uma operando com seus próprios validadores independentes e estado único. Estas redes são as seguintes:
 
 * [`mainnet`](/docs/concepts/networks#mainnet)
 * [`testnet`](/docs/concepts/networks#testnet)

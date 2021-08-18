@@ -4,11 +4,11 @@ title: Gas
 sidebar_label: Gas
 ---
 
-When you make calls to the NEAR blockchain to update or change data, the people running the infrastructure of the blockchain incur some cost. At the end of the day, some computers somewhere process your request, and the [validators](/docs/validator/staking-overview) running these computers spend significant capital to keep these computers running.
+Quando você faz chamadas para a blockchain NEAR para atualizar ou alterar dados, isso gera algum custo para as pessoas que administram a infraestrutura da blockchain. No final do dia, alguns computadores em algum lugar processam sua solicitação e os [validadores](/docs/validator/staking-overview) que executam esses computadores gastam capital significativo para manter esses computadores funcionando.
 
-Like other programmable blockchains, NEAR compensates these people by charging _transaction fees_, also called _gas fees_.
+Como outras blockchains programáveis, NEAR compensa essas pessoas cobrando _taxas de transação_, também chamado de _taxas de gás_.
 
-If you're familiar with web2 cloud service providers (Amazon Web Services, Google Cloud, etc), a big difference with blockchains is that _users_ get charged immediately when they make a call to an app, rather than developers fronting the cost of using all that infrastructure. This creates new possibilities, such as apps that have no long-term risk of going away due to developer/company funds running out. However, it also comes with some usability speed bumps. To help with this, NEAR also provides the ability for developers to [cover gas costs for users](#what-about-prepaid-gas), to create a more familiar experience to those coming from web2.
+Se você estiver familiarizado com provedores de serviços de nuvem na web2 (Amazon Web Services, Google Cloud, etc), uma grande diferença com blockchains é que _usuários_ são cobrados imediatamente quando fazem uma chamada para um aplicativo, em vez de desenvolvedores enfrentando o custo de usar toda essa infraestrutura. Isso cria novas possibilidades, como apps que não têm o risco de sumir a longo prazo devido à falta de fundos do desenvolvedor/empresa. No entanto, isso também surge com escaladas na velocidade de utilização. To help with this, NEAR also provides the ability for developers to [cover gas costs for users](#what-about-prepaid-gas), to create a more familiar experience to those coming from web2.
 
 When thinking about gas, keep two concepts in mind:
 

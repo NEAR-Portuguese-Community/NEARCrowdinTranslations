@@ -6,45 +6,45 @@ sidebar_label: Gas
 
 Quando você faz chamadas para a blockchain NEAR para atualizar ou alterar dados, isso gera algum custo para as pessoas que administram a infraestrutura da blockchain. No final do dia, alguns computadores em algum lugar processam sua solicitação e os [validadores](/docs/validator/staking-overview) que executam esses computadores gastam capital significativo para manter esses computadores funcionando.
 
-Como outras blockchains programáveis, NEAR compensa essas pessoas cobrando _taxas de transação_, também chamado de _taxas de gás_.
+Como outras blockchains programáveis, a NEAR compensa essas pessoas cobrando _taxas de transação_, também chamado de _taxas de gás_.
 
-Se você estiver familiarizado com provedores de serviços de nuvem na web2 (Amazon Web Services, Google Cloud, etc), uma grande diferença com blockchains é que _usuários_ são cobrados imediatamente quando fazem uma chamada para um aplicativo, em vez de desenvolvedores enfrentando o custo de usar toda essa infraestrutura. Isso cria novas possibilidades, como apps que não têm o risco de sumir a longo prazo devido à falta de fundos do desenvolvedor/empresa. No entanto, isso também surge com escaladas na velocidade de utilização. To help with this, NEAR also provides the ability for developers to [cover gas costs for users](#what-about-prepaid-gas), to create a more familiar experience to those coming from web2.
+Se você estiver familiarizado com provedores de serviços de nuvem na web2 (Amazon Web Services, Google Cloud, etc), uma grande diferença com blockchains é que _usuários_ são cobrados imediatamente quando fazem uma chamada para um aplicativo, em vez de desenvolvedores enfrentando o custo de usar toda essa infraestrutura. Isso cria novas possibilidades, como apps que não têm o risco de sumir a longo prazo devido à falta de fundos do desenvolvedor/empresa. No entanto, isso também surge com escaladas na velocidade de utilização. Para ajudar com isso, a NEAR também fornece a capacidade de desenvolvedores [cobrir os custos de gás para usuários](#what-about-prepaid-gas), para criar uma experiência mais familiar para aqueles que vêm da web 2.
 
-When thinking about gas, keep two concepts in mind:
+Quando estiver pensando em gás, tenha em mente dois conceitos:
 
-- **Gas units**: internally, transaction fees are not calculated directly in NEAR tokens, but instead go through an in-between phase of "gas units". The benefit of gas units is that they are deterministic – the same transaction will always cost the same number of gas units.
-- **Gas price**: gas units are then multiplied by a _gas price_ to determine how much to charge users. This price is automatically recalculated each block depending on network demand (if previous block is more than half full the price goes up, otherwise it goes down, and it won't change by more than 1% each block), and bottoms out at a price that's configured by the network, currently 100 million [yocto][metric prefixes]NEAR.
+- **Unidades de gás**: internamente, as taxas de transação não são calculadas diretamente nos tokens NEAR, mas em vez disso passam por uma fase intermédia de "unidades de gás". O benefício das unidades de gás é que são deterministas – a mesma transação custará sempre o mesmo valor de unidades de gás.
+- **Preço do gás**: as unidades de gás são depois multiplicadas pelo _preço do gás_ para determinar quanto cobrar aos usuários. Este preço é recalculado automaticamente em cada bloco dependendo da demanda de rede (se o bloco anterior for mais do que a metade completa o preço sobe, caso contrário ele desce, e isto não muda mais do que 1% para cada bloco), e desce até o valor mais baixo configurado pela rede, atualmente 100 milhões <a href="https://www. nanotech-now. com/metric-prefix-table. htm" f-or umid="metric prefixes" sb="2" lbb="2" fo="1">yocto</a>NEAR.
 
-Note that the gas price can differ between NEAR's mainnet & testnet. [Check the gas price](#whats-the-price-of-gas-right-now) before relying on the numbers below.
+Observe que o preço do gás pode ser diferente entre a rede principal da NEAR & testnet. [Verifique o preço do gás](#whats-the-price-of-gas-right-now) antes de confiar nos números abaixo.
 
-## Thinking in gas
+## Pensando em gás
 
-NEAR has a more-or-less one second block time, accomplished by limiting the amount of gas per block. You can query this value by using the [`protocol_config`](/docs/api/rpc#protocol-config) RPC endpoint and search for `max_gas_burnt` under `limit_config`. The gas units have been carefully calculated to work out to some easy-to-think-in numbers:
+Cada bloco de tempo na NEAR, tem mais ou menos um segundo, concluído por limitação na quantidade de gás por bloco. Você pode consultar este valor usando o [`protocol_config`](/docs/api/rpc#protocol-config) RPC endpoint e procurando por `max_gas_burnt` sob `limit_config`. As unidades de gás foram cuidadosamente calculadas para funcionar com alguns números fáceis de pensar:
 
-- 10¹² gas units, or **1 TGas** (_[Tera][metric prefixes]Gas_)...
-- ≈ **1 millisecond** of "compute" time
-- ...which, at a minimum gas price of 100 million yoctoNEAR, equals a **0.1 milliNEAR** charge
+- 10¹² unidades de gás, ou **1 TGas** (_[Tera][metric prefixes]Gás_)...
+- ≈ **1 milissegundo** de tempo de "computação"
+- ...que, por um preço mínimo de gás de 100 milhões de yoctoNEAR, é igual a **0,1 milliNEAR ** de carga
 
-This `1ms` is a rough but useful approximation, and is the current goal of how gas units are set within NEAR. Gas units encapsulate not only compute/CPU time but also bandwidth/network time and storage/IO time. Via a governance mechanism, system parameters can be tweaked, shifting the mapping between TGas and milliseconds in the future, but the above is still a good starting point for thinking about what gas units mean and where they come from.
+Este `1ms` é uma aproximação grosseira, mas útil, e é o objetivo atual de como as unidades de gás são estabelecidas dentro da blockchain NEAR. Unidades de gás encapsulam não apenas tempo de computação/CPU, mas também tempo de banda larga/rede e armazenamento/IO. Através de um mecanismo de governança, os parâmetros do sistema podem ser ajustados, mudando o mapeamento entre TGas e milissegundos no futuro, mas o conteúdo acima ainda é um bom ponto de partida para pensar sobre o que as unidades de gás significam e de onde vêm.
 
-## The cost of common actions
+## O custo de ações comuns
 
-To give you a starting point for what to expect for costs on NEAR, the table below lists some common actions and how much TGas they currently require, and what the fee would be, in milliNEAR, at the minimum gas price of 100 million yN.
+Para te dar um ponto de partida sobre o que esperar por custos em NEAR, a tabela abaixo lista algumas ações comuns, quantos TGas elas atualmente precisam, e qual seria a taxa em miliNEAR, ao preço mínimo de gás de 100 milhões de yN.
 
-| Operation           | TGas | fee (mN) | fee (Ⓝ)  |
-| ------------------- | ---- | -------- | -------- |
-| Create Account      | 0.42 | 0.042    | 4.2⨉10⁻⁵ |
-| Send Funds          | 0.45 | 0.045    | 4.5⨉10⁻⁵ |
-| Stake               | 0.50 | 0.050    | 5.0⨉10⁻⁵ |
-| Add Full Access Key | 0.42 | 0.042    | 4.2⨉10⁻⁵ |
-| Delete Key          | 0.41 | 0.041    | 4.1⨉10⁻⁵ |
+| Operação                  | TGas | Taxa (mN) | Taxa (Ⓝ) |
+| ------------------------- | ---- | --------- | -------- |
+| Criar Conta               | 0.42 | 0.042     | 4.2⨉10⁻⁵ |
+| Enviar Fundos             | 0.45 | 0.045     | 4.5⨉10⁻⁵ |
+| Stake                     | 0.50 | 0.050     | 5.0⨉10⁻⁵ |
+| Chaves de Acesso Completo | 0.42 | 0.042     | 4.2⨉10⁻⁵ |
+| Excluir Chave             | 0.41 | 0.041     | 4.1⨉10⁻⁵ |
 
 <blockquote class="info">
-<strong>Dig Deeper</strong><br><br>
+<strong> Olhando mais a fundo</strong><br><br>
 
-Where do these numbers come from?
+De onde vêm esses números?
 
-NEAR is [configured](https://github.com/near/nearcore/blob/master/nearcore/res/genesis_config.json#L57-L119) with base costs. An example:
+NEAR é [configured](https://github.com/near/nearcore/blob/master/nearcore/res/genesis_config.json#L57-L119) com custos base. Um exemplo:
 
     create_account_cost: {
       send_sir:     99607375000,
@@ -52,9 +52,9 @@ NEAR is [configured](https://github.com/near/nearcore/blob/master/nearcore/res/g
       execution:    99607375000
     }
 
-The "sir" here stands for "sender is receiver". Yes, these are all identical, but that could change in the future.
+O "sir" aqui significa "remetente é destinatário" ("sender is receiver"). Sim, todos eles são idênticos, mas isso pode mudar no futuro.
 
-When you make a request to create a new account, NEAR immediately deducts the appropriate `send` amount from your account. Then it creates a _receipt_, an internal book-keeping mechanism to facilitate NEAR's asynchronous, sharded design (if you're coming from Ethereum, forget what you know about Ethereum's receipts, as they're completely different). Creating a receipt has its own associated costs:
+Quando você faz um pedido para criar uma nova conta, NEAR imediatamente deduz o valor apropriado a `enviar` da sua conta. Então cria um _receipt_, um mecanismo interno de contabilidade para facilitar o design fragmentado e assíncrono da NEAR (se você for da Ethereum, esqueça o que sabe sobre os recibos da Ethereum, já que são completamente diferentes). Criar um recibo tem seus próprios custos associados:
 
     action_receipt_creation_config: {
       send_sir:     108059500000,
@@ -62,11 +62,11 @@ When you make a request to create a new account, NEAR immediately deducts the ap
       execution:    108059500000
     }
 
-You can query this value by using the [`protocol_config`](/docs/api/rpc#protocol-config) RPC endpoint and search for `action_receipt_creation_config`.
+Você pode consultar esse valor usando o [`protocol_config`](/docs/api/rpc#protocol-config) RPC endpoint e procurar por `action_receipt_creation_config`.
 
-The appropriate `send` amount for creating this receipt is also immediately deducted from your account.
+O valor apropriado a `enviar` para criar este recibo também é imediatamente deduzido da sua conta.
 
-The "create account" action won't be finalized until the next block. At this point, the `execution` amount for each of these actions will be deducted from your account (something subtle: the gas units on this next block could be multiplied by a gas price that's up to 1% different, since gas price is recalculated on each block). Adding it all up to find the total transaction fee:
+A ação "criar conta" não será finalizada até o próximo bloco. At this point, the `execution` amount for each of these actions will be deducted from your account (something subtle: the gas units on this next block could be multiplied by a gas price that's up to 1% different, since gas price is recalculated on each block). Adding it all up to find the total transaction fee:
 
     (create_account_cost.send_sir  + action_receipt_creation_config.send_sir ) * gas_price_at_block_1 +
     (create_account_cost.execution + action_receipt_creation_config.execution) * gas_price_at_block_2
@@ -267,8 +267,6 @@ To dig deeper into how and why gas works the way it does on NEAR, check out the 
 > Got a question?
    <a href="https://stackoverflow.com/questions/tagged/nearprotocol">
 > <h8>Ask it on StackOverflow!</h8></a>
-  [metric prefixes]: https://www.nanotech-now.com/metric-prefix-table.htm
-
   [metric prefixes]: https://www.nanotech-now.com/metric-prefix-table.htm
 
 [fungible token]: https://github.com/near-examples/FT/pull/42

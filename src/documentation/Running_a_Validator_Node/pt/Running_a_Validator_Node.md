@@ -1,20 +1,26 @@
 ---
 id: staking
-title: Running a Validator Node
-sidebar_label: Running the Node
+title: Executando um Nó Validador
+sidebar_label: Executando o Nó
 ---
 
-## Staking on official BetaNet
+## Staking na BetaNet Oficial
 
-### _READ THIS PART BEFORE YOU START_
+### Traduções
 
-Wait until your node is fully synced before you send a staking transaction. An out of sync node cannot produce or validate blocks, so if you're chosen as a validator, you're at risk of being kicked out of the validator pool and losing your rewards if your node doesn't maintain the appropriate uptime \(i.e. validate / produce the number of assigned blocks for that epoch\).
+- [Coreano](/docs/validator/staking-kr)
+- Adicione seu idioma também através do [Github pull request](https://github.com/near/docs/pull/385)
 
-Staking is disabled on *TestNet*, so we will be working on *BetaNet*. Therefore, you will have to set your NEAR Shell to BetaNet with two steps.
-1. For this current session: run the command `export NODE_ENV=betanet`
-2. Add this same line (`export NODE_ENV=betanet`) to the end of the file `~/.bashrc` to ensure this environment variable persists if the machine restarts.
+### _LEIA ESTA PARTE ANTES DE COMEÇAR_
 
-You may now use the BetaNet online services below:
+Aguarde até que o seu nó esteja totalmente sincronizado antes de enviar uma transação de staking. Um nó fora de sincronização não pode produzir ou validar blocos, então se você for escolhido como validador, você está correndo o risco de ser expulso da coleção de validadores e perder suas recompensas se o seu nó não mantém o tempo de uptime apropriado (ou seja, validar/produzir o número de blocos necessários para esse período).
+
+Você pode testar sua infraestrutura de validador na NEAR _TestNet_. Você pode gerar uma conta com alguns tokens na [carteira NEAR](https://wallet.testnet.near.org)e usá-la para fazer deploy do seu staking pool. Em seguida, entre em contato com o NEAR Core-dev no [Discord](https://near.chat) para solicitar stake suficiente para se tornar um validador na TestNet.
+
+1. Para esta sessão atual: execute o comando `export NODE_ENV=betanet`
+2. Adicione esta mesma linha (`export NODE_ENV=betanet`) ao final do arquivo `~/.bashrc` para garantir que esta variável de ambiente persista se a máquina reiniciar.
+
+TestNet está sendo executado em URLs separadas para o explorador, a carteira e o Json RPC:
 
 |            ⛔️ TestNet             |             ✅ BetaNet             |
 |:---------------------------------:|:---------------------------------:|
@@ -22,136 +28,238 @@ You may now use the BetaNet online services below:
 |  https://wallet.testnet.near.org  |  https://wallet.betanet.near.org  |
 |   https://rpc.testnet.near.org    |   https://rpc.betanet.near.org    |
 
-Please also note that BetaNet will be reset every Tuesday at 6pm, to deploy the weekly release. You will have to restart your node (stop and start the service) to trigger the automatic update by `nearup` and avoid to lose your status of validator. Join NEAR Protocol [validator channel on Telegram](https://t.me/near_validators) or [Discord](https://discord.gg/ZMPr3VB) to know when the new node release is deployed, and you can safely restart your node.
+Cada nova conta TestNet recebe automaticamente algumas centenas de tokens para fazer deploy de contratos inteligentes e testar as suas APIs.
 
+Você pode usar o [nearup](https://github.com/near/nearup) para facilmente fazer deploy do seu nó na TestNet em um VPS. Se você planeja fazer deploy na MainNet, **você não pode usar o nearup**, e sugerimos seguir as diretrizes [aqui](/docs/develop/node/validator/deploy-on-mainnet). Junte-se aos canais de validadores da NEAR [no Discord](https://near.chat) para receber suporte técnico da equipe NEAR e do resto da comunidade.
 
-## Node requirements
+Validadores NEAR devem:
 
-To become a validator, you need a node running on your machine or cloud provider with the following minimum spec:
+- Saber como compilar, fazer deploy e configurar os nós de Validadores NEAR
+- Entender a diferença entre `account_key`, `node_key` e `validator_key` (consulte as [chaves no documento](/docs/develop/node/intro/keys) da Plataforma NEAR)
+- Entender como fazer deploy de um contrato NEAR e a diferença entre métodos `view` e `call`. Saber como alavancá-los através do `near-cli` e `near RPC`
+- Ter uma plataforma de monitoramento para medir os blocos gerados e perdidos, pares e conectividade, versão atual do nó, além de cpu, memória, armazenamento e desempenho de rede
+- Entender o estado de um validador: `proposals`, `next` e `current`
+- Usar as informações acima para controlar se o validador está caindo fora do conjunto de validadores ativos, e o que precisa ser feito para corrigir o problema
+- Saber onde encontrar informações sobre os próximos [lançamentos do nearcore](https://github.com/near/nearcore/releases) e outras melhorias de ferramentas
 
-```bash
-At least 2 CPUs
-At least 4GB RAM
-At least 50 GB free disk
-```
+## Requisitos de hardware para o nó
 
-## Setting up your environment
-
-**IMPORTANT: Make sure you have the latest version of NEAR Shell and Node Version; 12.x**
-
-If this is not the case, follow the setps below to set up your environment; don't worry this won't take long. To stake, make sure that you have
-
-* an account with tokens on **BetaNet**. If you have not set up an account yet, please navigate to the following page, set it up and come right back: [Create Account](../local-setup/create-account.md). Remember to use the [BetaNet wallet](https://wallet.betanet.near.org)!
-* `near-shell`, our CLI tool, which which will require [node.js](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm). You can check whether you have node.js and npm already installed by
-
-  1. Open your command line;
-  2. Type in
-    ```bash
-    node -v
-    ```
-    This should display your node version in the command line.
-    ```bash
-    npm -v
-    ```
-    This should display your npm version in the command line.
-
-    Otherwise, go ahead and install it with the following links [node.js](https://nodejs.org/en/download/). Note that node usually installs npm automatically. However, if you miss npm, please install it [from here](https://www.npmjs.com/get-npm).
-
-Once node and npm are installed, go ahead and download the Near Shell; type the following in your terminal:
+Os requisitos mínimos para executar um nó de validador na NEAR são:
 
 ```bash
-# Download Near Shell with npm:
-npm i -g near-shell
+Pelo menos 4 núcleos de CPU
+Pelo menos 16GB RAM
+Pelo menos 100GB de SSD (Nota: HDD não funcionará)
 ```
-Once Near Shell is installed, go ahead and run your node.
 
-### Run a Node
+Mais informações estão na documentação de [Requisitos de Hardware](/docs/develop/node/validator/hardware).
 
-Now that you have the Near Shell, we can set-up your node. Please follow [Nearup documentation](https://github.com/near/nearup).
+## Configurando seu ambiente
 
-**IMPORTANT you will need your account ID here, which is your username from the account that you created in the previous step.**
+**IMPORTANTE: Certifique-se de que você tem a versão mais recente do [NEAR CLI](https://github.com/near/near-cli) e uma versão 12.x do Node**
 
-Please come back to this screen, once you have completed the previous steps.
-
-When asked for the account ID, enter the username of the account you want to stake with. You will be returned a public key used for staking; this will look similar to:
+Você pode instalar e atualizar o Near CLI usando npm:
 
 ```bash
-Stake for user 'thefutureisnear.test' with 'ed25519:97JLghrxUQMaX2pcerVB5FNFu4qk8rx8J3fnWRyoEB7M'
+# Baixar Near CLI com npm:
+npm i -g near-cli
 ```
 
-Make sure you copy this validator\_key as you will need it for the next step. You can also find this public key at the following path in your near files `~/.near/betanet/validator_key.json`
+**Nota:** A rede padrão para a `near-cli` é a `testnet`. Se você quiser mudar para a `mainnet` ou `betanet`, por favor veja instruções de [seleção de redes usando `near-cli`](/docs/tools/near-cli#network-selection).
 
-## Send a staking transaction
+Uma vez que o Near CLI estiver instalado, vá em frente e execute seu nó.
 
-Awesome! Once you completed the previous steps, you are all set for staking.
-
-First let's authenticate near shell by running the command `near login`
-
-You will be asked to navigate to a url to authenticate your staking account.
-
-```bash
-Please navigate to this url and follow the instructions to log in:
-https://wallet.betanet.near.org/login/?title=NEAR+Shell&public_key=FSgxX7YwuCveCeYqsSAB3sD8dgdy3XBWztCQcEjimpaN
-```
-Once done, enter that account ID in the shell:
-
-```bash
-Please enter the accountId that you logged in with:
-```
-
-When you have entered your account ID, it will display the following message:
-
-`Missing public key for <asdfasdf> in default` `Logged in with masternode24`
-
-This message is not an error, it just means that it will create a public key for you.
-
-Now you're ready to send a staking transaction.
-
-```bash
-near stake <accountId> <staking public key> <amount to stake>
-```
-
-Staking 50,000 NEAR should be enough on BetaNet.
-
-You should see a success message that looks something like:
-
-```text
-Staking 50000 on thefutureisnear with public key = A4inyaard6yzt1HQL8u5BYdWhWQgCB87RbRRHKPepfrn.
-```
-
-<blockquote class="warning">
-    <strong>heads up</strong><br><br>
-    NEAR Protocol provides contract-based delegation. Take some time to learn more, reading the Stake Wars Ep.II <a href="https://near.org/blog/stake-wars-episode-ii/" target="_blank">blog post</a>.
+<blockquote class="info">
+    <strong>Dica Profissional</strong><br><br>
+    Você não precisa rodar o near-cli no seu nó validador: todos os comandos de staking são emitidos para o pool de staking, que é um contrato inteligente normal.
 </blockquote>
 
-## Being chosen to become a validator
+## Executando o Nó
 
-After this, you will need to wait the ~6 hours bonding period on BetaNet to see if you have staked enough to become a validator. You can see you are a validator when in the logs of the node you see "V/" - where V means this node is currently a validator.
+Por favor, siga a [Documentação do Nearup](https://github.com/near/nearup) para iniciar o seu nó na TestNet. Lembre-se que `Nearup` não suporta a MainNet, então você terá que construir seus scripts de inicialização e seguir o [guia de implantação na MainNet](/docs/develop/node/validator/deploy-on-mainnet).
 
-![](assets/validators%20%281%29.png)
+Na primeira inicialização, o nearup pedirá o ID da sua conta de validador. Coloque um texto de exemplo, como `coming_soon`, para deixar o node sincronizar com a rede enquanto você coloca a staking pool no ar:
 
-Legend: # 7153 | BlockHeight V/1 | 'V' (validator) or '—' (regular node)
+```
+$ nearup run testnet --account-id coming_soon
+2020-10-16 14:02:29.190 INFO nearup - run: Home directory is /home/nearkat/.near/testnet...
+2020-10-16 14:02:29.191 INFO nodelib - setup_and_run: Using officially compiled binary
+2020-10-16 14:02:30.027 INFO util - download_binaries: Downloading latest deployed version for testnet
+2020-10-16 14:02:30.028 INFO util - download_binaries: Downloading near to /home/nearkat/.nearup/near/testnet/near from nearcore/Linux/1.16.0/974d93dc657f620d98de6589a2b5bc97be1db816/near...
+2020-10-16 14:02:33.755 INFO util - download_binaries: Downloaded near to /home/nearkat/.nearup/near/testnet/near...
+2020-10-16 14:02:33.758 INFO util - download_binaries: Making the near executable...
+2020-10-16 14:02:33.758 INFO util - download_binaries: Downloading genesis-csv-to-json to /home/nearkat/.nearup/near/testnet/genesis-csv-to-json from nearcore/Linux/1.16.0/974d93dc657f620d98de6589a2b5bc97be1db816/genesis-csv-to-json...
+2020-10-16 14:02:34.710 INFO util - download_binaries: Downloaded genesis-csv-to-json to /home/nearkat/.nearup/near/testnet/genesis-csv-to-json...
+2020-10-16 14:02:34.710 INFO util - download_binaries: Making the genesis-csv-to-json executable...
+2020-10-16 14:02:34.712 INFO nodelib - check_and_setup: Setting up network configuration.
+2020-10-16 14:02:34.712 INFO nodelib - init_near: Initializing the node configuration using near binary...
+Oct 16 14:02:34.726  INFO near: Version: 1.16.0-rc.1, Build: 974d93dc-modified, Latest Protocol: 39
+Oct 16 14:02:34.727  INFO near: Use key ed25519:4msyQstQ3Z7Gq1qrwE78HPTRYdLFtCmJ9dydrrbUtrer for coming_soon to stake.
+Oct 16 14:02:34.727  INFO near: Downloading config file from: https://s3-us-west-1.amazonaws.com/build.nearprotocol.com/nearcore-deploy/testnet/genesis.json ...
+```
 
-The 0/0/40 shows the total validators: connected peers / up to date peers / my peers. This number may change over time.
+Enquanto a sincronização estiver em andamento, você **tem que recuperar sua chave de validador em ** `~/.near/testnet/validator_key.json`:
 
-To learn more about how validators are chosen, take a look at the [Validator FAQ](../validator/validator-faq.md).
-
-## See current list of Validators and stake amounts
-
-To see the current list of validators, you can take a look here: [http://rpc.betanet.near.org/status](http://rpc.betanet.near.org/status)
-
-If you would like to see how much a validator is staking, you can run the command `near state <account name>`in Near Shell.
-
-```bash
+```
 {
-  amount: '100011163887239132720351',
-  code_hash: '11111111111111111111111111111111',
-  locked: '97985903901882082761',
-  storage_paid_at: 25,
-  storage_usage: 182
+  "account_id": "coming_soon",
+  "public_key": "ed25519:4msyQstQ3Z7Gq1qrwE78HPTRYdLFtCmJ9dydrrbUtrer",
+  "secret_key": "ed25519:<PRIVATE_KEY>"
 }
 ```
 
-## Automatically re-staking
+Esta chave será necessária para _emparelhar_ o seu nó validador e sua staking pool.
 
-NEAR Protocol automatically re-stake your rewards, unless you decide to unlock the funds. Issue the command `near stake` again, with a lower value, and your funds will be unlocked within three epochs (~9 hours on BetaNet, ~36 hours on TestNet).
+## Autorize o acesso do `near-cli` à sua conta TestNet
+
+1. Configure o `near-cli` para usar a TestNet, executando o comando `export NODE_ENV=testnet`
+2. Autentique-se no `near-cli` com sua conta da NEAR Wallet, executando o comando `near login`
+
+Será solicitado que navegue até uma URL para autenticar sua conta de staking. Você pode esperar um resultado semelhante ao seguinte:
+
+```bash
+$ near login
+
+Please authorize NEAR CLI on at least one of your accounts.
+
+If your browser doesn't automatically open, please visit this URL
+https://wallet.testnet.near.org/login/?title=NEAR+CLI&public_key=ed25519%3A7xuBXjTabXM1yZ8WQB1Ezj95BjDnqX63cKj6RBgYa3it&success_url=http%3A%2F%2F127.0.0.1%3A5000
+Please authorize at least one account at the URL above.
+
+Which account did you authorize for use with NEAR CLI?
+Enter it here (if not redirected automatically):
+
+```
+
+Tome o cuidado de especificar o mesmo ID de conta da TestNet no navegador e no `near-cli`:
+
+```bash
+Which account did you authorize for use with NEAR CLI?
+Enter it here (if not redirected automatically):
+
+```
+
+Depois de concluir a autenticação no navegador e colocar o ID da conta no campo de entrada acima você deve esperar uma mensagem como a abaixo:
+
+```
+nearkat.testnet
+Logged in as [ nearkat.testnet ] with public key [ ed25519:7xuBXj... ] successfully
+```
+
+<blockquote class="warning">
+    <strong>Atenção!</strong><br><br>
+    Se você receber um erro <i>ERR_CONNECTION_REFUSED</i>, verifique se seu navegador não está tentando abrir o endereço http://127.0.0.1:5000. Este é um redirecionamento incorreto do near-cli executando em uma instância remota, e pode ser ignorado.
+</blockquote>
+
+Para testar se seu `near-cli` é capaz de controlar sua conta `testnet`, execute o comando: `$ near send nearkat.testnet testnet 0.1`, em que `nearkat.testnet` é o remetente, e `testnet` o destinatário de `0.1` tokens NEAR. Você pode esperar um resultado semelhante ao seguinte:
+
+```
+$ near send quato.testnet testnet 0.1
+Sending 0.1 NEAR to testnet from quato.testnet
+Transaction Id Hm6hRz8NS9sXV6yPzeyYJZwqTSUTYcifws3iu3VcbkyW
+To see the transaction in the transaction explorer, please open this url in your browser
+https://explorer.testnet.near.org/transactions/Hm6hRz8NS9sXV6yPzeyYJZwqTSUTYcifws3iu3VcbkyW
+```
+
+## Coloque a staking pool no ar
+
+O NEAR Protocol fornece um contrato inteligente de staking pool no repositório [initial-contracts](https://github.com/near/initial-contracts) (contratos iniciais) do Github.
+
+Coloque no ar a sua staking pool enviando o método de chamada abaixo para a [fábrica de staking pools](https://github.com/near/core-contracts/tree/master/staking-pool-factory):
+
+```
+near call pool.f863973.m0 create_staking_pool '{"staking_pool_id":"<POOL_ID>", "owner_id":"<OWNER_ID>", "stake_public_key":"<VALIDATOR_KEY>", "reward_fee_fraction": {"numerator": <X>, "denominator": <Y>}}' --account_id <OWNER_ID> --amount 50 --gas 300000000000000
+```
+
+Em que:
+
+- `pool.f863973.m0` é a fábrica de staking pools mencionada acima
+- `<POOL_ID>` é o nome do contrato da staking pool. Se você passar o parâmetro `heyheyhey` o resultado será `heyheyhey.pool.f863973.m0`
+- `<OWNER_ID>` é a conta autorizada a enviar os _métodos do proprietário_ para a pool, como a chave de validador ou as taxas
+- `<VALIDATOR_KEY>` é a chave pública salva em `~/.near/testnet/validator_key.json` em seu nó validador (veja o passo [staking#run-the-node](staking#run-the-node) acima)
+- `{"numerator": <X>, "denominator": <Y>}` configura as taxas do validador. Para uma taxa de 10% é preciso usar `x=10` e `y=100`
+- `--amount 50` atribui 50 \$NEAR à transação, como uma reserva para pagar o armazenamento do contrato
+- `--gas 300000000000000` especifica o gás para a transação (optional)
+
+Você pode esperar um resultado semelhante ao seguinte:
+
+```bash
+$ near call pool.f863973.m0 create_staking_pool '{"staking_pool_id":"quato", "owner_id":"quato.testnet", "stake_public_key":"ed25519:4msyQstQ3Z7Gq1qrwE78HPTRYdLFtCmJ9dydrrbUtrer", "reward_fee_fraction": {"numerator": 5, "denominator": 100}}' --account_id quato.testnet --amount 50 --gas 300000000000000
+Scheduling a call: pool.f863973.m0.create_staking_pool({"staking_pool_id":"quato", "owner_id":"quato.testnet", "stake_public_key":"ed25519:4msyQstQ3Z7Gq1qrwE78HPTRYdLFtCmJ9dydrrbUtrer", "reward_fee_fraction": {"numerator": 5, "denominator": 100}}) with attached 50 NEAR
+Receipt: ByuKqFBuQY4oBu7GypRWEwUjAvxHacTJLGLfwUNjRunV
+  Failure [pool.f863973.m0]: Error: {"index":0}
+Receipts: 3Y8yjPkd894WSTaapyURe1moMtY8Yvbrjwmz3Pv3N2RZ, EeCy4HyRs8cuxsraxcaiW53gmvWL55xzTqDjfUaPcoXM
+  Log [pool.f863973.m0]: The staking pool @quato.pool.f863973.m0 was successfully created. Whitelisting...
+Transaction Id BYAffkmrssiErMDbmDrF2AoHKDLCQrcCe1Vk1CGEnBZB
+To see the transaction in the transaction explorer, please open this url in your browser
+https://explorer.testnet.near.org/transactions/BYAffkmrssiErMDbmDrF2AoHKDLCQrcCe1Vk1CGEnBZB
+true
+
+```
+
+A expressão `true` na última linha e o link para o explorer, são a prova de que a pool de staking está rodando e pronta para receber stake.
+
+## Configurar seu nó `validator_key.json` e reiniciar o nearup
+
+Uma vez que o deploy da pool de staking esteja executado, edite manualmente o arquivo `~/.near/testnet/validator_key.json` em seu nó validador e substitua `coming_soon` com o nome da conta de sua pool de staking:
+
+```
+{
+  "account_id": "quato.pool.f863973.m0",
+  "public_key": "ed25519:4msyQstQ3Z7Gq1qrwE78HPTRYdLFtCmJ9dydrrbUtrer",
+  "secret_key": "ed25519:<PRIVATE_KEY>"
+}
+```
+
+Uma vez feito, você pode parar e reiniciar o nearup com o comando: `nearup stop`
+
+seguido por: `nearup run testnet`
+
+<blockquote class="warning">
+    <strong>Atenção!</strong><br><br>
+    Certifique-se de que o seu nó baixou inteiramente o arquivo genesis.json antes de executar o comando de parar o nearup.
+</blockquote>
+
+## Se Tornando um Validador no _Conjunto Ativo_
+
+Uma vez que a pool esteja no ar, você pode fazer _stake_ de seus tokens usando qualquer um dos métodos oferecidos na [documentação sobre delegação](delegation). Certifique-se que você está usando a ferramenta que suporta a TestNet, e não somente a MainNet.
+
+A TestNet e a MainNet da NEAR exigem um período de no mínimo 24 horas de ativação para aceitar sua oferta de pool. Você pode verificar se você é um validador quando, nos logs do nó, você ver "V/" - onde V significa que esse nó é validador:
+
+![](assets/validators%20%281%29.png)
+
+Legenda: # 7153 | Altura do bloco V/1 | 'V' (validador) ou '—' (nó regular)
+
+O valor 0/0/40 mostra o total de validadores: pares conectados / pares atualizados / meus pares. Este número pode mudar ao longo do tempo.
+
+Para saber mais sobre como os validadores são escolhidos, dê uma olhada nas [Perguntas Frequentes Sobre Staking](../validator/staking-faq.md).
+
+## Veja a lista de validadores atuais e futuros
+
+Você pode usar `near-cli` para rever o conjunto de validadores nos próximos três períodos:
+
+| Comandos                  | Significado                                                                                                                                          |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `near proposals`          | Todos os validadores que mandaram transações de staking (`Proposal(Accepted)`), ou que foram reeleitos (`Rollover`)                                  |
+| `near validators next`    | Todos os validadores que vão produzir blocos na próxima época (epoch). Pode ser `New` (Criado), `Rewarded` (Recompensado) ou `Kicked out` (Excluído) |
+| `near validators current` | Todos os validadores que estão produzindo blocos na época corrente, e o número total de blocos que eles produziram                                   |
+
+<blockquote class="warning">
+    <strong>Atenção!</strong><br><br>
+    Você tem que esperar pelo menos 2 épocas (43.200 blocos cada) antes do seu
+</blockquote>
+
+**Nota:** A rede padrão para o `near-cli` é a `testnet`. Se você quiser mudar para a `mainnet` ou `betanet`, por favor veja instruções de [seleção de redes usando `near-cli`](/docs/tools/near-cli#network-selection).
+
+## Re-staking automático
+
+O Protocolo NEAR reposiciona todas as recompensas inflacionárias automaticamente, a menos que você decida deixar de investir manualmente alguns dos fundos.
+
+## Links Adicionais
+
+- [Contratos de bloqueio explicados](../tokens/lockup)
+- [NEAR Core Contracts no Github](https://github.com/near/core-contracts)
+- [NEAR Stake Wars](https://github.com/nearprotocol/stakewars)
+> Tem alguma dúvida?
+<a href="https://stackoverflow.com/questions/tagged/nearprotocol">
+  <h8>Pergunte no StackOverflow!</h8></a>

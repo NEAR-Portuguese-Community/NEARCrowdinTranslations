@@ -12,13 +12,13 @@ A Visão da NF
 
 Embora compartilhe uma missão com toda a NEAR Collective, o papel da Fundação nisso é realizar uma visão mais específica:
 
-…a self-sufficient ecosystem of creators, developers, entrepreneurs, community members and tokenholders whose collaborative efforts make the NEAR ecosystem the best place to build massively impactful projects in the Open Web.
+…ter um ecossistema auto-suficiente de criadores, desenvolvedores, empreendedores, membros da comunidade e detentores de tokens cujos esforços colaborativos façam do novo ecossistema o melhor lugar para construir projetos de impacto massivo na Open Web.
 
-This vision requires that NEAR become the best ecosystem in the world on several fronts:
+Esta visão requer que NEAR se torne o melhor ecossistema do mundo em várias frentes:
 
-NEAR needs to have the best ecosystem-level clarity.  This means that all participants in the ecosystem have a clear understanding of what the platform is good for, what’s going on in the ecosystem and how to access resources.  Large-scale decisions that affect the community, for example large resource allocations or technical governance, are done with proper community input.
+A NEAR precisa ter a melhor clareza a nível de ecossistema.  Isso significa que todos os participantes do ecossistema têm um entendimento claro para o que a plataforma é boa, o que está acontecendo no ecossistema e como acessar os recursos.  As decisões em grande escala que afetam a comunidade, por exemplo, grandes alocações de recursos ou governança técnica, são feitas com a contribuição adequada da comunidade.
 
-NEAR needs to have the best onboarding. Within seconds of first hearing about NEAR, a prospective builder understands what they can build with NEAR and how it’s different from other options. Within the first minute, they are connected with a real human being who can help “sherpa” them through available resources. Within a few more, they are embedded in whatever communities can best support their journey by answering questions, testing products and driving early adoption.
+NEAR precisa ter a melhor integração. Within seconds of first hearing about NEAR, a prospective builder understands what they can build with NEAR and how it’s different from other options. Within the first minute, they are connected with a real human being who can help “sherpa” them through available resources. Within a few more, they are embedded in whatever communities can best support their journey by answering questions, testing products and driving early adoption.
 
 NEAR needs to have the best founder experience. When building their organization, they have easy access to the information they need to make good decisions about hiring, incorporation, compensation, legal and regulatory matters.  They have easy access to a clear menu of financing options and support as they navigate them. They have access to an informed, engaged and highly competent pool of human resources for all the roles they need to hire for.
 

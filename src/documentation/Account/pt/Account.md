@@ -13,7 +13,7 @@ NEAR usa identificadores de conta legíveis por humanos ao invés hash de chaves
 - `ID da Conta` consiste nas `partes do ID da Conta` separados por `.`
 - `Uma parte do ID da Conta` consiste em símbolos alfanuméricos separados por tanto `_` ou `-`.
 
-Nome de contas são similares a nomes de domínio. Qualquer um pode criar uma conta top-level (TLA) sem separadores, e.g. `near`. Somente `near` pode criar `alice.near`. E somente `alice.near` pode criar `app.alice.near` e assim por diante. Note, `near` NÃO pode criar `app.alice.near` diretamente.
+Nome de contas são similares a nomes de domínio. Qualquer um pode criar uma conta top-level (TLA) sem separadores, como por exemplo `near`. Somente `near` pode criar `alice.near`. E somente `alice.near` pode criar `app.alice.near` e assim por diante. Note, `near` NÃO pode criar `app.alice.near` diretamente.
 
 Esse é o regex de um ID de conta, sem checar pelo tamanho: `^(([a-z\d]+[\-_])*[a-z\d]+\.)*([a-z\d]+[\-_])*[a-z\d]+$`
 

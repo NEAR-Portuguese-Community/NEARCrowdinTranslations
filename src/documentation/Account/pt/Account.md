@@ -1,27 +1,27 @@
 ---
 id: account
-title: Account
-sidebar_label: Account
+title: Conta
+sidebar_label: Conta
 ---
 
 NEAR usa identificadores de conta legíveis por humanos ao invés hash de chaves publicas. Para um vídeo de 20 minutos de explicação, veja [esse "Lunch and Learn"](https://www.youtube.com/watch?time_continue=18&v=2_Ekz7w6Eo4&feature=emb_logo) no Youtube.
 
 ## Regras para ID de Conta
 
-- tamanho mínimo 2
-- tamanho máximo 64
-- `ID da Conta` consiste nas `partes do ID da Conta` separados por `.`
-- `Uma parte do ID da Conta` consiste em símbolos alfanuméricos separados por tanto `_` ou `-`.
+- tamanho mínimo de 2 caracteres
+- tamanho máximo de 64 caracteres
+- `ID da Conta` consiste nas `partes da ID da Conta` separados por `.`
+- `Uma parte da ID da Conta` consiste em símbolos alfanuméricos separados por `_` ou `-`.
 
 Nome de contas são similares a nomes de domínio. Qualquer um pode criar uma conta top-level (TLA) sem separadores, como por exemplo `near`. Somente `near` pode criar `alice.near`. E somente `alice.near` pode criar `app.alice.near` e assim por diante. Note, `near` NÃO pode criar `app.alice.near` diretamente.
 
-Esse é o regex de um ID de conta, sem checar pelo tamanho: `^(([a-z\d]+[\-_])*[a-z\d]+\.)*([a-z\d]+[\-_])*[a-z\d]+$`
+Esse é o regex de um ID de conta, sem verificar o tamanho: `^(([a-z\d]+[\-_])*[a-z\d]+\.)*([a-z\d]+[\-_])*[a-z\d]+$`
 
 ---
 
 ## Contas Top-level
 
-Nomes de conta Top-level (TLAs) são altamente valiosas, pois fornecem uma raiz de segurança e indexação para instituições, aplicações e usuários. Para permitir acesso justo a eles, os nomes de conta de nível superior que são menores que `MIN_ALLOWED_TOP_LEVEL_ACCOUNT_LENGTH` caracteres (32 quando este texto foi escrito) serão leiloados.
+Nomes de conta Top-level (TLAs) são altamente valiosas, pois fornecem uma raiz de segurança e indexação para instituições, aplicações e usuários. Para permitir acesso justo a eles, os nomes de contas top-level que são menores que `MIN_ALLOWED_TOP_LEVEL_ACCOUNT_LENGTH` caracteres (32 caracteres quando este texto foi escrito) serão leiloados.
 
 Especificamente, apenas a conta `REGISTRAR_ACCOUNT_ID` pode criar novas contas de nível superior que sejam menores que `MIN_ALLOWED_TOP_LEVEL_ACCOUNT_LENGTH` caracteres. `REGISTRAR_ACCOUNT_ID` implementa uma interface padrão de `Account Naming` (nome da conta) que lhe permite criar novas contas.
 

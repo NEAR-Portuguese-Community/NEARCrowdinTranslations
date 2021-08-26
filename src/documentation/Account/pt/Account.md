@@ -61,15 +61,15 @@ As contas de desenvolvedor são contas especiais feitas automaticamente por ferr
 
 - Quando você executa o comando `dev-deploy` da near-cli, ele procura por um arquivo em `/neardev/dev-account` com a ID da conta de desenvolvimento em que a implantação será realizada.
 
-- If it doesn't find one, it creates a dev-account (using our cloud helper service for creating test accounts) and then creates the folder for you with the `dev-account` file.
+- Se não encontrar uma, ele cria uma conta dev-account (usando nosso serviço de ajuda na nuvem para a criação de contas de teste) e então cria a pasta para você com o arquivo `dev-account`.
 
-- It will also create the associated credentials, a public and private keypair here: `~/.near-credentials/default/[dev-account-id].json`. Go ahead and try it:
+- Ele também criará as credenciais associadas, um par de chaves pública e privada aqui: `~/.near-credentials/default/[dev-account-id].json`. Vá em frente e faça o teste:
 
 ```
 code ~/.near-credentials/default/[dev-account-id].json
 ```
 
-- Replace dev-account-id with the account ID here `/neardev/dev-account` and open the json file up in your editor of choice (code for VS Code).
+- Substitua dev-account-id pelo ID da conta em `/neardev/dev-account` e abra o arquivo json no seu editor de escolha (code para VS Code).
 
 ### Como obter mais uma conta
 

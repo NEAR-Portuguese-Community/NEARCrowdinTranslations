@@ -73,27 +73,27 @@ code ~/.near-credentials/default/[dev-account-id].json
 
 ### Como obter mais uma conta
 
-- Delete the folder `/neardev` and run `near dev-deploy [wasmFile default="/out/main.wasm"]` and you'll see a new dev account was created in `neardev` and credentials are also stored for you.
+- Apague a pasta `/neardev` e execute `near dev-deploy [wasmFile default="/out/main.wasm"]` e você verá que uma nova conta de desenvolvedor foi criada em `neardev` e que as credenciais também são armazenadas para você.
 
 ### Ok, eu tenho uma conta de desenvolvimento, e agora?
 
-- These accounts and associated keypairs found in the json file are super useful for automating your testing.
+- Essas contas e pares de chaves associadas encontradas no arquivo json são super úteis para automatizar seus testes.
 
-- Many examples in the NEAR ecosystem use some sort of `yarn dev:deploy` script that deploys contracts and maybe even run some tests. It's important to know how these accounts are created, where their credentials are stored and how you can use them yourself.
+- Muitos exemplos no ecossistema NEAR usam algum tipo de script `yarn dev:deploy` que implementa contratos e talvez até execute alguns testes. É importante saber como essas contas são criadas, onde suas credenciais são armazenadas e como você mesmo pode usá-las.
 
 ---
 
 ## Chaves de Acesso
 
-NEAR uses human readable account IDs instead of a public key hash as the account identifier and many keys ([public/private key pairs](https://en.wikipedia.org/wiki/Public-key_cryptography)) can be created for each account that we call "Access Keys". Currently, there are two types of access keys; `FullAccess` & `FunctionCall`.
+A NEAR usa IDs de contas legíveis em vez de um hash de chave pública como o identificador da conta e muitas chaves ([pares de chaves públicas/privadas](https://en.wikipedia.org/wiki/Public-key_cryptography)) podem ser criadas para cada conta, as quais chamamos de "chaves de acesso". Atualmente, existem dois tipos de chaves de acesso; `FullAccess` & `FunctionCall`.
 
 ### Chaves de Acesso Completo
 
-As the name suggests, `FullAccess` keys have full control of an account similar to having administrator privileges on your operating system. With this key you have the ability to perform any of the eight action types on NEAR without any limitations.
+Como o nome sugere, chaves `FullAccess` têm controle total de uma conta semelhante a ter privilégios de administrador em seu sistema operacional. Com tais chaves você tem a capacidade de executar qualquer um dos oito tipos de ação na NEAR sem quaisquer limitações.
 
-1) Create Account 2) Delete Account 3) Add Key 4) Delete Key 5) Deploy Contract 6) Function Call 7) Transfer Ⓝ 8) Stake Ⓝ _(for validators)_
+1) Criar conta 2) Excluir conta 3) Adicionar chave 4) Excluir chave 5) Implantar contrato 6) Chamada de função 7) Transferir Ⓝ 8) Colocar Ⓝ em stake _(para validadores)_
 
-See our [action specifications](https://nomicon.io/RuntimeSpec/Actions.html) section for more details.
+Veja nossa seção de [especificações de ações](https://nomicon.io/RuntimeSpec/Actions.html) para mais detalhes.
 
 ### Chaves Para Chamar Funções
 

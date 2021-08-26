@@ -55,11 +55,11 @@ Contas implícitas funcionam de forma semelhante às contas do Bitcoin/Ethereum.
 
 As contas de desenvolvedor são contas especiais feitas automaticamente por ferramentas como near-cli e a carteira para ajudá-lo a automatizar os testes e a implantação de contratos. Como todas as contas podem ter um contrato, mas a reimplantação de contratos NÃO cria um novo estado, frequentemente você quer implantar em uma conta completamente diferente durante os testes.
 
-> **Note:** When deploying multiple test examples and creating new dev accounts, you will need to "Sign Out" of the NEAR Wallet on any `localhost` examples and "Sign In" again! Signing in adds an access key to your account and saves the private key in localStorage so the app can call contract methods without asking for approval again. BUT! There's a chance you're now trying to interact with a contract that is deployed on a completely different dev account.
+> **Nota:** Ao implantar vários exemplos de teste e criar novas contas de desenvolvimento, você precisará "Sair" da carteira NEAR em quaisquer exemplos no `localhost` e "Entrar" novamente! Ao entrar, uma chave de acesso é adicionada à sua conta e a chave privada é salva no localStorage para que o aplicativo possa chamar métodos de contrato sem pedir aprovação novamente. MAS! Existe a chance de que agora você esteja tentando interagir com um contrato que foi implantado em uma conta de desenvolvimento completamente diferente.
 
 ### Como criar uma conta de desenvolvedor
 
-- When you run the command `dev-deploy` from near-cli, it looks for a file here `/neardev/dev-account` with the dev account ID to deploy to.
+- Quando você executa o comando `dev-deploy` da near-cli, ele procura por um arquivo em `/neardev/dev-account` com a ID da conta de desenvolvimento em que a implantação será realizada.
 
 - If it doesn't find one, it creates a dev-account (using our cloud helper service for creating test accounts) and then creates the folder for you with the `dev-account` file.
 

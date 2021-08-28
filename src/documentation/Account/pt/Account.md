@@ -99,10 +99,10 @@ Veja nossa seção de [especificações de ações](https://nomicon.io/RuntimeSp
 
 Uma chave `FunctionCall` é única, já que tem apenas permissão para chamar método(s) de um contrato inteligente que _não_ anexam Ⓝ como um depósito (ou seja, funções pagáveis). Estas chaves têm os seguintes três atributos:
 
-1) `allowance` - a quantidade de Ⓝ que a chave está autorizada a gastar em taxas de gás _(opcional - padrão: `null`)_ 2) `receiver_id` - o contrato cujos métodos a chave pode chamar _(obrigatório)_ 3) `method_names` - métodos do contrato que a chave tem permissão para chamar _(opcional)_ **Nota:** Se `allowance` for omitida o padrão será `null` e a chave só poderá chamar métodos de visualização. Allowance can not be added after key is created.
-> **Note:** If no specific method names are specified, all methods may be called.
+1) `allowance` - a quantidade de Ⓝ que a chave está autorizada a gastar em taxas de gás _(opcional - padrão: `null`)_ 2) `receiver_id` - o contrato cujos métodos a chave pode chamar _(obrigatório)_ 3) `method_names` - métodos do contrato que a chave tem permissão para chamar _(opcional)_ **Nota:** Se `allowance` for omitida o padrão será `null` e a chave só poderá chamar métodos de visualização. A permissão não pode ser adicionada após a criação da chave.
+> **Nota:** Se nenhum nome de método específico for especificado, todos os métodos poderão ser chamados.
 
-The easiest way to create a `FunctionCall` key with your dApp is to prompt users to sign in using [NEAR Wallet](https://wallet.testnet.near.org/) via `near-api-js`'s [`WalletConnection`](https://github.com/near/near-api-js/blob/0aefdb01a151f7361463f3ff65c77dbfeee83200/lib/wallet-account.js#L13-L139). This prompts users to authorize access and upon approval a `FunctionCall` key is created. This key is only allowed to call methods on the contract that redirected the user to NEAR Wallet with a default allowance of 0.25 Ⓝ to cover gas costs for transactions. As non-monetary transactions are performed with this key, you will notice the allowance decreases and once 0.25 Ⓝ is burnt a new key will need to be created. If a request is made to transfer _ANY_ amount of tokens with a `FunctionCall` key, the user will be redirected back to wallet to authorize this transaction. You can see this functionality in action by trying out [NEAR Guestbook](https://near-examples.github.io/guest-book/).
+A forma mais simples de criar uma chave `FunctionCall` com seu dApp é pedir que os usuários se autentiquem usando a [carteira NEAR](https://wallet.testnet.near.org/) através da [`WalletConnection`](https://github.com/near/near-api-js/blob/0aefdb01a151f7361463f3ff65c77dbfeee83200/lib/wallet-account.js#L13-L139) da `near-api-js`. Isso pede aos usuários que autorizem acesso e após a aprovação uma chave `FunctionCall` é criada. Esta chave só tem permissão para chamar métodos do contrato que redirecionou o usuário para a carteira NEAR com uma allowance padrão de 0.25 Ⓝ para cobrir os custos de gás das transações. As non-monetary transactions are performed with this key, you will notice the allowance decreases and once 0.25 Ⓝ is burnt a new key will need to be created. If a request is made to transfer _ANY_ amount of tokens with a `FunctionCall` key, the user will be redirected back to wallet to authorize this transaction. You can see this functionality in action by trying out [NEAR Guestbook](https://near-examples.github.io/guest-book/).
 
 Another way to create a `FunctionAccess` key is to use `near-cli`'s [`add-key`](/docs/tools/near-cli#near-add-key) command. With `near-cli` you can be more specific with your `FunctionCall` key by only allowing it to call specific contract methods as well as make adjustments to the allowance amount.
 
@@ -114,7 +114,7 @@ Another way to create a `FunctionAccess` key is to use `near-cli`'s [`add-key`](
 
 If you're familiar with development on Ethereum, it's worth making a quick note about how accounts are different. The image below summarizes some key differences.
 
-![Ethereum vs NEAR accounts](/docs/assets/accounts-compare-ethereum-v-near.png)
+![Contas Ethereum vs. NEAR](/docs/assets/accounts-compare-ethereum-v-near.png)
 
 _image source: medium.com/@clinder_
 
@@ -132,6 +132,6 @@ near deploy --wasm-file path/to/contract.wasm --account-id contractAccount.devel
 
 Note for this to work you will need to login with NEAR CLI and authorize it to use the master account (`YOUR_ACCOUNT.testnet`) on your behalf. Learn more about [NEAR CLI here](/docs/tools/near-cli)
 
-> Got a question?
+> Tem alguma dúvida?
    <a href="https://stackoverflow.com/questions/tagged/nearprotocol">
-> <h8>Ask it on StackOverflow!</h8></a>
+> <h8>Pergunte no StackOverflow!</h8></a>

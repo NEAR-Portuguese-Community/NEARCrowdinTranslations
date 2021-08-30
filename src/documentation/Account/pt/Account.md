@@ -104,33 +104,33 @@ Uma chave `FunctionCall` é única, já que tem apenas permissão para chamar m�
 
 A forma mais simples de criar uma chave `FunctionCall` com seu dApp é pedir que os usuários se autentiquem usando a [carteira NEAR](https://wallet.testnet.near.org/) através da [`WalletConnection`](https://github.com/near/near-api-js/blob/0aefdb01a151f7361463f3ff65c77dbfeee83200/lib/wallet-account.js#L13-L139) da `near-api-js`. Isso pede aos usuários que autorizem acesso e após a aprovação uma chave `FunctionCall` é criada. Esta chave só tem permissão para chamar métodos do contrato que redirecionou o usuário para a carteira NEAR com uma allowance padrão de 0.25 Ⓝ para cobrir os custos de gás das transações. Conforme as transações não monetárias são realizadas com esta chave, você notará que a permissão diminui e uma vez que 0,25 Ⓝ seja queimado uma nova chave precisará ser criada. Se um pedido for feito para transferir _QUALQUER_ quantidade de tokens com uma chave de `FunctionCall`, o usuário será redirecionado de volta à carteira para autorizar a transação. Você pode ver esta funcionalidade em ação testando o [livro de visitas da NEAR](https://near-examples.github.io/guest-book/).
 
-Outra forma de criar uma chave de `FunctionAccess` é utilizar o comando [`add-key`](/docs/tools/near-cli#near-add-key) do `near-cli`. With `near-cli` you can be more specific with your `FunctionCall` key by only allowing it to call specific contract methods as well as make adjustments to the allowance amount.
+Outra forma de criar uma chave de `FunctionAccess` é utilizar o comando [`add-key`](/docs/tools/near-cli#near-add-key) do `near-cli`. Com o `near-cli` você pode ser mais específico com a sua chave de `FunctionCall` permitindo que ela só chame métodos específicos de contratos, bem como fazer ajustes no valor autorizado.
 
-`FunctionCall` access keys are a powerful usability feature of NEAR opening up many possibilities. Not only can you eliminate the need for users to authorize small transactions over and over again but you could even allow a user to interact with the blockchain without ever having to create an account. This can be accomplished by having the dApp automatically create a `FunctionCall` key that points to itself with a single click on your front-end allowing anyone to interact with your dApp seamlessly.
+Chaves de acesso `FunctionCall` são um recurso de usabilidade poderoso da NEAR abrindo muitas possibilidades. Você pode não só eliminar a necessidade de usuários autorizar pequenas transações várias e várias vezes, mas até mesmo permitir que um usuário interaja com a blockchain sem precisar criar uma conta. Isso pode ser feito fazendo com que o dApp crie automaticamente uma chave `FunctionCall` que aponta para si mesmo com um único clique no seu front-end permitindo que qualquer um interaja com seu dApp sem problemas.
 
 ---
 
 ## Comparação com o Ethereum
 
-If you're familiar with development on Ethereum, it's worth making a quick note about how accounts are different. The image below summarizes some key differences.
+Se você está familiarizado com o desenvolvimento na Ethereum, vale a pena fazer uma breve observação sobre como as contas são diferentes. A imagem abaixo resume algumas diferenças principais.
 
 ![Contas Ethereum vs. NEAR](/docs/assets/accounts-compare-ethereum-v-near.png)
 
-_image source: medium.com/@clinder_
+_fonte da imagem: medium.com/@clinder_
 
 ---
 
 ## Contas e Contratos
 
-Each NEAR account can only hold 1 smart contract. For applications where users should be able to organize multiple contracts you can create "subaccounts" whose "master account" is the user account. The format of a subaccount would include a dot in the name like `contract1.user-A-account`, `contract2.user-A-account`, etc. NEAR restricts the creation of accounts with a dot in the name such that these accounts can only by created by `user-A-account`, as if the user account is a top-level domain like `your-company.com` if you're familiar with this model.
+Cada conta NEAR pode conter um único contrato inteligente. Para aplicativos em que os usuários devem ser capazes de organizar vários contratos você pode criar "subcontas" cuja "conta mestre" é a conta do usuário. O formato de uma subconta incluiria um ponto no nome, como `contrato1.conta-de-usuário-A`, `contrato2.conta-de-usuário-A`, etc. A NEAR restringe a criação de contas com um ponto no nome, de modo que tais contas só possam ser criadas por `conta-de-usuário-A`, como se a conta de usuário fosse um domínio de topo como `sua-empresa.com` se você estiver familiarizado com este modelo.
 
-Using NEAR CLI you could deploy new contracts to your account like this:
+Usando o NEAR CLI você pode implantar novos contratos na sua conta assim:
 
 ```bash
-near deploy --wasm-file path/to/contract.wasm --account-id contractAccount.developerAccount.testnet --master-account yourAccount.testnet
+near deploy --wasm-file caminho/para/o/contrato.wasm --account-id contaDoContrato.contaDoDesenvolvedor.testnet --master-account suaConta.testnet
 ```
 
-Note for this to work you will need to login with NEAR CLI and authorize it to use the master account (`YOUR_ACCOUNT.testnet`) on your behalf. Learn more about [NEAR CLI here](/docs/tools/near-cli)
+Note que para isto funcionar você precisará fazer login com o NEAR CLI e autorizá-lo para usar a conta mestre (`SUA_CONTA.testnet`) em seu nome. Saiba mais sobre o [NEAR CLI aqui](/docs/tools/near-cli)
 
 > Tem alguma dúvida?
    <a href="https://stackoverflow.com/questions/tagged/nearprotocol">

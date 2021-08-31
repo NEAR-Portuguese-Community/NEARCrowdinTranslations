@@ -23,18 +23,18 @@ As recompensas NEAR são previsíveis e proporcionais ao seu stake. O protocolo 
 Se você quer recompensas por fazer staking, mas não quer executar seu próprio nó de validação, mesmo assim gaste algum tempo para conhecer a economia da NEAR e o que é preciso para se tornar um grande validador. Estes são alguns bons pontos de partida:
 
 1. Entenda a [economia de um validador](/docs/validator/economics)
-2. Look at the current Validators on the [block explorer](https://explorer.near.org/nodes/validators). Gather information on their reliability, fees and current stake.
-4. Properly plan your tokens custody, starting from the [available custody options](../tokens/token-custody).
-5. Verify what Validators offer to you, asking if they use the [staking pool](https://github.com/near/core-contracts) from NEAR Core Contracts, or their own smart contracts.
-6. If you are proficient with command-line interface, look at the [delegation page](/docs/validator/delegation) for a list of low-level commands you can use to stake.
-7. Join the Validators channels on [Discord](https://near.chat) to ask questions and meet NEAR staking community.
+2. Veja os validadores atuais no [explorador de blocos](https://explorer.near.org/nodes/validators). Colete informações sobre sua confiabilidade, taxas e stake atual.
+4. Planeje adequadamente sua custódia de tokens, a partir das [opções de custódia disponíveis](../tokens/token-custody).
+5. Verifique o que os validadores oferecem para você, pergunte se eles usam a [staking pool](https://github.com/near/core-contracts) dos contratos principais NEAR ou seus próprios contratos inteligentes.
+6. Se você é proficiente com a interface de linha de comando, consulte a [página sobre delegação](/docs/validator/delegation) para obter uma lista de comandos de baixo nível que você pode usar para fazer stake.
+7. Junte-se aos canais dos validadores no [Discord](https://near.chat) para fazer perguntas e conhecer a comunidade de staking da NEAR.
 
 <blockquote class="info">
-    <strong>did you know?</strong><br><br>
-    NEAR Protocol doesn't punish Delegators. So, if your favorite Validator screws up and get slashed, you will only lose a few rewards, and your stake will remain untouched.
+    <strong>você sabia?</strong><br><br>
+    O protocolo NEAR não pune os delegadores. Então, se o seu validador favorito errar e for cortado, você só perderá algumas recompensas, e seu stake permanecerá intacto.
 </blockquote>
 
-## For Validators
+## Para Validadores
 You are decided to see how deep the rabbit hole goes? No worries! NEAR is like many other Proof of Stake networks: keep your servers online \~100% of the time, be always ready to update your node, participate in the community. However, you have important differentiation factors, such as staking via smart contracts; planned protocol upgrades without hard forks; gas fees that burn tokens instead of giving rewards.
 
 You can find additional material below:

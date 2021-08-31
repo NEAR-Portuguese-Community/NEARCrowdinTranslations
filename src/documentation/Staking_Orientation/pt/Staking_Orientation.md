@@ -20,9 +20,9 @@ As recompensas NEAR são previsíveis e proporcionais ao seu stake. O protocolo 
 
 
 ## Para Delegadores
-If you want staking rewards, but you don't want to run your own validating node, spend anyway some time to know NEAR economics and what it takes to become a great Validator. Good starting points are:
+Se você quer recompensas por fazer staking, mas não quer executar seu próprio nó de validação, mesmo assim gaste algum tempo para conhecer a economia da NEAR e o que é preciso para se tornar um grande validador. Estes são alguns bons pontos de partida:
 
-1. Understand the [Economics of a Validator](/docs/validator/economics)
+1. Entenda a [economia de um validador](/docs/validator/economics)
 2. Look at the current Validators on the [block explorer](https://explorer.near.org/nodes/validators). Gather information on their reliability, fees and current stake.
 4. Properly plan your tokens custody, starting from the [available custody options](../tokens/token-custody).
 5. Verify what Validators offer to you, asking if they use the [staking pool](https://github.com/near/core-contracts) from NEAR Core Contracts, or their own smart contracts.

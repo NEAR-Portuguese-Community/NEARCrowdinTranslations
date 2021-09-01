@@ -35,29 +35,29 @@ Se você quer recompensas por fazer staking, mas não quer executar seu próprio
 </blockquote>
 
 ## Para Validadores
-You are decided to see how deep the rabbit hole goes? No worries! NEAR is like many other Proof of Stake networks: keep your servers online \~100% of the time, be always ready to update your node, participate in the community. However, you have important differentiation factors, such as staking via smart contracts; planned protocol upgrades without hard forks; gas fees that burn tokens instead of giving rewards.
+Você decidiu ver o quão fundo é o buraco do coelho? Sem problemas! A NEAR é como muitas outras redes de proof of stake: mantenha os seus servidores online \~100% do tempo, esteja sempre pronto para atualizar seu nó, participe da comunidade. No entanto, há fatores de diferenciação importantes, como o staking através de contratos inteligentes; atualizações planejadas do protocolo sem hard forks; taxas de gás que queimam tokens em vez de dar recompensas.
 
-You can find additional material below:
+Você pode encontrar material adicional a seguir:
 
-1. Understand the [Economics of a Validator](/docs/validator/economics)
-2. Check the basic [staking commands](/docs/validator/staking)
-3. Deploy your staking pool from the [core contracts](https://github.com/near/core-contracts)
+1. Entenda a [economia de um validador](/docs/validator/economics)
+2. Verifique os [comandos de staking](/docs/validator/staking) básicos
+3. Implante sua staking pool a partir dos [contratos principais](https://github.com/near/core-contracts)
 
 
-You are still here? If you want to learn more about NEAR, have a look at
-* [The Beginner’s Guide to the NEAR Blockchain](https://near.org/blog/the-beginners-guide-to-the-near-blockchain/) to get a high level overview on NEAR.
-* [The NEAR Whitepaper](https://near.org/papers/the-official-near-white-paper) to see the big picture.
-* [Economics in Sharded Blockchain](https://near.org/papers/economics-in-sharded-blockchain/) to know more about the incentives structure of NEAR.
-* [Sharding Design: Nightshade](https://near.org/papers/nightshade) to gain a more detailed understanding of the consensus mechanism.
+Você ainda está aqui? Se você quiser aprender mais sobre a NEAR, confira
+* [O Guia do Iniciante para a Blockchain da NEAR](https://near-portuguese.medium.com/o-guia-do-iniciante-para-a-blockchain-da-near-7776317b6c65) para obter uma visão geral de alto nível da NEAR.
+* [O Whitepaper da NEAR](https://near.org/papers/the-official-near-white-paper) para ver um panorama geral.
+* [Economia em Blockchain Compartilhada](https://near.org/papers/economics-in-sharded-blockchain/) para saber mais sobre a estrutura de incentivos da NEAR.
+* [Design de Compartilhamento: Nightshade](https://near.org/papers/nightshade) para ganhar um entendimento mais detalhado do mecanismo de consenso.
 
-If anything is unclear or you get stuck, please head over to our official chat on [Discord](https://near.chat), and join the validators section.
+Se algo não estiver claro ou você travar, por favor, vá ao nosso chat oficial no [Discord](https://near.chat), e entre na seção de validadores.
 
 <blockquote class="warning">
-    <strong>Heads up!</strong><br><br>
-    Once you open the Discord link above, you must complete an automated verification and enable your role as "validator", otherwise you'll not be able to send messages in the validator channels.
+    <strong>Atenção!</strong><br><br>
+    Depois de abrir o link do Discord acima, você deve concluir uma verificação automática e habilitar seu papel como "validador", caso contrário, não poderá enviar mensagens nos canais de validadores.
 </blockquote>
 
-## Stake Wars testnet
+## Rede de Testes Stake Wars
 
 Stake Wars was NEAR's incentivized testnet for professional validators. This initiative is over, but you can still learn from it.
 

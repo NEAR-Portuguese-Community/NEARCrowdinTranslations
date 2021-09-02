@@ -61,11 +61,11 @@ Se algo não estiver claro ou você travar, por favor, vá ao nosso chat oficial
 
 A Stake Wars foi a rede de testes incentivada pela NEAR para validadores profissionais. Esta iniciativa já terminou, mas ainda é possível aprender com ela.
 
-NEAR’s [MainNet](https://explorer.near.org/) is now "community governed" ([see full roadmap](https://near.org/blog/mainnet-roadmap/) and the [launch blogpost](https://near.org/blog/near-mainnet-phase-2-unrestricted-decentralized/)) so any validator can join. However, the network is running on a single shard, temporarily limiting the available slots for validators. As a result, you may need a high amount of tokens (around 1% of the total stake) to have your node _elected_ as a block producer, and receive the rewards.
+A [MainNet](https://explorer.near.org/) da NEAR agora é "governada pela comunidade" (veja [o cronograma completo](https://near.org/blog/mainnet-roadmap/) e o [blog de lançamento](https://near.org/blog/near-mainnet-phase-2-unrestricted-decentralized/)) então qualquer validador pode participar. No entanto, a rede está sendo executada em um único shard, limitando temporariamente os slots disponíveis para validadores. Como resultado, você pode precisar de uma grande quantidade de tokens (em torno de 1% do stake total) para ter o seu nó _eleito_ como um produtor de blocos, e receber as recompensas.
 
-While the network is getting additional shards and become more accessible for smaller validators, you can still use the [Stake Wars repo](https://github.com/nearprotocol/stakewars) to understand the techincal needs, test the stability of your system, and learn some of the unique aspects of NEAR’s delegation in preparation for the next phase of the protocol.
+Enquanto a rede está recebendo shards adicionais e se tornando mais acessível para validadores menores, você ainda pode usar o [repositório Stake Wars](https://github.com/nearprotocol/stakewars) para entender as necessidades tecnológicas, testar a estabilidade do seu sistema e aprender alguns dos aspectos exclusivos da delegação de NEAR em preparação para a próxima fase do protocolo.
 
-If you want to know more about this opportunity, read the ["Stake Wars is Over, but We’re Just Getting Started" blog post](https://near.org/blog/stake-wars-is-over-but-were-just-getting-started/).
-> Got a question?
+Se você quiser saber mais sobre esta oportunidade, leia a publicação ["Stake Wars is Over, mas estamos apenas começando"](https://near.org/blog/stake-wars-is-over-but-were-just-getting-started/) no blog.
+> Tem alguma dúvida?
 <a href="https://stackoverflow.com/questions/tagged/nearprotocol">
-  <h8>Ask it on StackOverflow!</h8></a>
+  <h8>Pergunte no StackOverflow!</h8></a>

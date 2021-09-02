@@ -73,30 +73,30 @@ A ação "criar conta" não será finalizada até o próximo bloco. At this poin
 
 </blockquote>
 
-## Costs of complex actions
+## Custos de ações complexas
 
-The numbers above should give you the sense that transactions on NEAR are cheap! But they don't give you much sense of how much it will cost to use a more complex app or operate a NEAR-based business. Let's cover some more complex gas calculations: deploying contracts and function calls.
+Os números acima devem te dar a sensação de que as transações na NEAR são baratas! Mas eles não te dão muita noção de quanto vai custar para usar um aplicativo mais complexo ou operar um negócio baseado na NEAR. Vamos cobrir alguns cálculos de gás mais complexos: implantar contratos e chamadas a funções.
 
-### Deploying Contracts
+### Implantação de contratos inteligentes
 
-The basic action costs include two different values for deploying contracts. Simplified, these are:
+Os custos básicos de ação incluem dois valores diferentes para a implementação de contratos. Simplificados, estes são:
 
     deploy_contract_cost: 184765750000,
     deploy_contract_cost_per_byte: 6812999,
 
-Again, these values can be queried by using the [`protocol_config`](/docs/api/rpc#protocol-config) RPC endpoint.
+Novamente, esses valores podem ser consultados usando o [`protocol_config`](/docs/api/rpc#protocol-config) RPC endpoint.
 
-The first is a baseline cost, no matter the contract size. Keeping in mind that each need to be multiplied by two, for both `send` and `execute` costs, and will also require sending & executing a receipt (see blue box above), the gas units comes to:
+O primeiro é um custo base, independentemente do tamanho do contrato. Mantendo em mente que cada um precisa ser multiplicado por dois, para conseguirem `enviar` e `executar` custos, e também exigirá o envio & executando um recibo (veja a caixa azul acima), as unidades de gás chegam a:
 
     2 * 184765750000 +
     2 * contract_size_in_bytes * 6812999 +
     2 * 108059500000
 
-(Divide the resulting number by 10¹² to get to TGas!)
+(Divida o número resultante por 10¹² para obter o resultado em TGas!)
 
-Note that this covers the cost of uploading and writing bytes to storage, but does _not_ cover the cost of holding these bytes in storage. Long-term storage is compensated via [storage staking][], a recoverable cost-per-byte amount that will also be deducted from your account during contract deployment.
+Note que isto cobre o custo de upload e escrita de bytes para armazenamento, mas _não_ cobre o custo de guardar esses bytes no armazenamento. O armazenamento de longo prazo é compensado através de [storage staking][], um valor recuperável de custo-por-byte que também será deduzido de sua conta durante a implantação do contrato.
 
-The AssemblyScript contract in [this example Fungible Token](https://github.com/near-examples/FT/pull/42) compiles to just over 16kb (the Rust contract is much larger, but this [will be optimized](https://github.com/near/near-sdk-rs/issues/167)). Using the calculation above, we find that it requires **0.81 TGas** (and thus 0.081mN at minimum gas price) for the transaction fee to deploy the contract, while 1.5N will be locked up for storage staking.
+O contrato em AssemblyScript [neste exemplo de Token Fungível](https://github.com/near-examples/FT/pull/42) compila para mais de 16kb (o contrato em Rust é muito maior, mas este [será otimizado](https://github.com/near/near-sdk-rs/issues/167)). Using the calculation above, we find that it requires **0.81 TGas** (and thus 0.081mN at minimum gas price) for the transaction fee to deploy the contract, while 1.5N will be locked up for storage staking.
 
 ### Function calls
 

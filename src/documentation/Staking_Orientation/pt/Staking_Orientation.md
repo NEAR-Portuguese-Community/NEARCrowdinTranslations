@@ -1,71 +1,71 @@
 ---
 id: staking-overview
-title: Staking Orientation
-sidebar_label: Orientation
+title: Orientações sobre Staking
+sidebar_label: Orientações
 ---
 
-## Welcome
+## Bem Vindo
 
-This section introduces you to staking principles and running your validating node.
+Nesta seção você será introduzido aos princípios do staking e a como rodar seu próprio nó validador.
 
-NEAR Protocol uses Proof-of-Stake (PoS) to secure its blockchain. _Validators_ represent the community of node operators that take care of the [blockchain consensus](../roles/integrator/faq#which-consensus-algorithm-does-near-use). Technically, the _validating nodes_ are servers that aggregate transactions into blocks, execute them, and maintain the latest state of the blockchain. The owners of these nodes, the _Validators_, get rewards for their service at the end of every epoch (\~12 hours).
+Protocolo NEAR usa Proof-of-Stake (PoS) para fazer a segurança da blockchain. Os _Validadores_ são a comunidade de operadores de nó que tomam conta do [consenso da blockchain](../roles/integrator/faq#which-consensus-algorithm-does-near-use). Tecnicamente, os _nós validadores_ são servidores que agregam transações em blocos, os executam, e mantém o último estado da blockchain. Os donos desses nós, os _Validadores_, ganham prêmios por seu serviço no final de cada época (\~12 horas).
 
-All Validators must _stake_ a certain amount of NEAR tokens, which represent a collateral against their dishonest behavior. _Staked tokens_ can't be spent: if a dishonest Validator attacks the blockchain consensus, the protocol progressively destroys their stake (see [slashing](staking-faq#what-is-a-slashing-behavior)). Staked tokens can be _unlocked_ anytime, but remain unspendable for three epochs, even after the validating node goes offline or decides to stop validating.
+Todos os Validadores devem deixar uma certa quantia de tokens NEAR em _stake_, o que representa um colateral contra um possível comportamento desonesto. _Tokens em stake_ não podem ser gastos: se um Validador desonesto atacar o consenso da blockchain, o protocolo progressivamente destrói seu stake (veja [slashing](staking-faq#what-is-a-slashing-behavior)). Tokens em Stake podem ser _desbloqueados_ a qualquer momento, mas continuam sem poder ser gastos por três épocas, mesmo que o nó validador fique offline ou decida parar de validar.
 
-NEAR Protocol automatically picks the best validators with an auction. Anyone running a validating node can participate by staking their tokens. At the end of every epoch, NEAR automatically selects the nodes with the biggest stake, making them eligible to generate new blocks and get rewards. If the stake is too small, the validating node will not receive a _validator seat_ and will work as a normal relay node, waiting for the next epoch (see the [market dynamics](economics#understand-market-dynamics) from the validator economics page).
+O protocolo NEAR escolhe automaticamente os melhores validadores com um leilão. Qualquer um que esteja executando um nó de validação pode participar fazendo stake de seus tokens. No final de cada época, o protocolo NEAR seleciona automaticamente os nós com a maior participação, tornando-os elegíveis para gerar novos blocos e obter recompensas. Se o stake é pequeno demais, o nó de validação não receberá um _lugar de validador_ e funcionará como um nó de retransmissão normal, esperando pela próxima época (veja a [dinâmica de mercado](economics#understand-market-dynamics) na página da economia de validador).
 
-Validators can increase their stake, thus their rewards, by asking for _delegation_. Delegation is the opportunity for all token holders to stake in partnership with a Validator, leasing a small portion of their validating node. _Delegators_ can lock their funds into a [_staking pool_](https://github.com/near/core-contracts), and receive rewards at the end of every epoch, minus the fees paid to the Validator.
+Validadores podem aumentar seu stake, e assim suas recompensas, pedindo _delegação_. Delegação é a oportunidade para todos os titulares de tokens participarem em parceria com um validador, alugando uma pequena porção do seu nó de validação. _Delegadores_ podem travar seus fundos em uma [_staking pool_](https://github.com/near/core-contracts), e receber recompensas no final de cada época, menos as taxas pagas ao Validador.
 
-NEAR rewards are predictable, and proportional to your stake. The protocol generates new tokens at a rate of \~5% of the total supply (annualized) and most of them are rewards. As an example, if the total supply is 1 billion tokens, and the annualized rewards are \~4.5%, all Validators will share 45 million NEAR tokens (see the [economics page](/docs/validator/economics) for more details). Regardless if you are Validator or Delegator, the bigger the stake you provide, the higher your cut of those rewards.
+As recompensas NEAR são previsíveis e proporcionais ao seu stake. O protocolo gera novos tokens a uma taxa de \~5% da oferta total (anualizada) e a maioria deles são recompensas. Como exemplo, se a oferta total for um bilhão de tokens, e as recompensas anuais forem \~4.5%, todos os validadores dividirão 45 milhões de tokens NEAR (veja a [página sobre economia](/docs/validator/economics) para mais detalhes). Independente se você ser validador ou delegador, quanto mais stake você faz, maior é a sua parte dessas recompensas.
 
 
-## For Delegators
-If you want staking rewards, but you don't want to run your own validating node, spend anyway some time to know NEAR economics and what it takes to become a great Validator. Good starting points are:
+## Para Delegadores
+Se você quer recompensas por fazer staking, mas não quer executar seu próprio nó de validação, mesmo assim gaste algum tempo para conhecer a economia da NEAR e o que é preciso para se tornar um grande validador. Estes são alguns bons pontos de partida:
 
-1. Understand the [Economics of a Validator](/docs/validator/economics)
-2. Look at the current Validators on the [block explorer](https://explorer.near.org/nodes/validators). Gather information on their reliability, fees and current stake.
-4. Properly plan your tokens custody, starting from the [available custody options](../tokens/token-custody).
-5. Verify what Validators offer to you, asking if they use the [staking pool](https://github.com/near/core-contracts) from NEAR Core Contracts, or their own smart contracts.
-6. If you are proficient with command-line interface, look at the [delegation page](/docs/validator/delegation) for a list of low-level commands you can use to stake.
-7. Join the Validators channels on [Discord](https://near.chat) to ask questions and meet NEAR staking community.
+1. Entenda a [economia de um validador](/docs/validator/economics)
+2. Veja os validadores atuais no [explorador de blocos](https://explorer.near.org/nodes/validators). Colete informações sobre sua confiabilidade, taxas e stake atual.
+4. Planeje adequadamente sua custódia de tokens, a partir das [opções de custódia disponíveis](../tokens/token-custody).
+5. Verifique o que os validadores oferecem para você, pergunte se eles usam a [staking pool](https://github.com/near/core-contracts) dos contratos principais NEAR ou seus próprios contratos inteligentes.
+6. Se você é proficiente com a interface de linha de comando, consulte a [página sobre delegação](/docs/validator/delegation) para obter uma lista de comandos de baixo nível que você pode usar para fazer stake.
+7. Junte-se aos canais dos validadores no [Discord](https://near.chat) para fazer perguntas e conhecer a comunidade de staking da NEAR.
 
 <blockquote class="info">
-    <strong>did you know?</strong><br><br>
-    NEAR Protocol doesn't punish Delegators. So, if your favorite Validator screws up and get slashed, you will only lose a few rewards, and your stake will remain untouched.
+    <strong>você sabia?</strong><br><br>
+    O protocolo NEAR não pune os delegadores. Então, se o seu validador favorito errar e for cortado, você só perderá algumas recompensas, e seu stake permanecerá intacto.
 </blockquote>
 
-## For Validators
-You are decided to see how deep the rabbit hole goes? No worries! NEAR is like many other Proof of Stake networks: keep your servers online \~100% of the time, be always ready to update your node, participate in the community. However, you have important differentiation factors, such as staking via smart contracts; planned protocol upgrades without hard forks; gas fees that burn tokens instead of giving rewards.
+## Para Validadores
+Você decidiu ver o quão fundo é o buraco do coelho? Sem problemas! A NEAR é como muitas outras redes de proof of stake: mantenha os seus servidores online \~100% do tempo, esteja sempre pronto para atualizar seu nó, participe da comunidade. No entanto, há fatores de diferenciação importantes, como o staking através de contratos inteligentes; atualizações planejadas do protocolo sem hard forks; taxas de gás que queimam tokens em vez de dar recompensas.
 
-You can find additional material below:
+Você pode encontrar material adicional a seguir:
 
-1. Understand the [Economics of a Validator](/docs/validator/economics)
-2. Check the basic [staking commands](/docs/validator/staking)
-3. Deploy your staking pool from the [core contracts](https://github.com/near/core-contracts)
+1. Entenda a [economia de um validador](/docs/validator/economics)
+2. Verifique os [comandos de staking](/docs/validator/staking) básicos
+3. Implante sua staking pool a partir dos [contratos principais](https://github.com/near/core-contracts)
 
 
-You are still here? If you want to learn more about NEAR, have a look at
-* [The Beginner’s Guide to the NEAR Blockchain](https://near.org/blog/the-beginners-guide-to-the-near-blockchain/) to get a high level overview on NEAR.
-* [The NEAR Whitepaper](https://near.org/papers/the-official-near-white-paper) to see the big picture.
-* [Economics in Sharded Blockchain](https://near.org/papers/economics-in-sharded-blockchain/) to know more about the incentives structure of NEAR.
-* [Sharding Design: Nightshade](https://near.org/papers/nightshade) to gain a more detailed understanding of the consensus mechanism.
+Você ainda está aqui? Se você quiser aprender mais sobre a NEAR, confira
+* [O Guia do Iniciante para a Blockchain da NEAR](https://near-portuguese.medium.com/o-guia-do-iniciante-para-a-blockchain-da-near-7776317b6c65) para obter uma visão geral de alto nível da NEAR.
+* [O Whitepaper da NEAR](https://near.org/papers/the-official-near-white-paper) para ver um panorama geral.
+* [Economia em Blockchain Compartilhada](https://near.org/papers/economics-in-sharded-blockchain/) para saber mais sobre a estrutura de incentivos da NEAR.
+* [Design de Compartilhamento: Nightshade](https://near.org/papers/nightshade) para ganhar um entendimento mais detalhado do mecanismo de consenso.
 
-If anything is unclear or you get stuck, please head over to our official chat on [Discord](https://near.chat), and join the validators section.
+Se algo não estiver claro ou você travar, por favor, vá ao nosso chat oficial no [Discord](https://near.chat), e entre na seção de validadores.
 
 <blockquote class="warning">
-    <strong>Heads up!</strong><br><br>
-    Once you open the Discord link above, you must complete an automated verification and enable your role as "validator", otherwise you'll not be able to send messages in the validator channels.
+    <strong>Atenção!</strong><br><br>
+    Depois de abrir o link do Discord acima, você deve concluir uma verificação automática e habilitar seu papel como "validador", caso contrário, não poderá enviar mensagens nos canais de validadores.
 </blockquote>
 
-## Stake Wars testnet
+## Rede de Testes Stake Wars
 
-Stake Wars was NEAR's incentivized testnet for professional validators. This initiative is over, but you can still learn from it.
+A Stake Wars foi a rede de testes incentivada pela NEAR para validadores profissionais. Esta iniciativa já terminou, mas ainda é possível aprender com ela.
 
-NEAR’s [MainNet](https://explorer.near.org/) is now "community governed" ([see full roadmap](https://near.org/blog/mainnet-roadmap/) and the [launch blogpost](https://near.org/blog/near-mainnet-phase-2-unrestricted-decentralized/)) so any validator can join. However, the network is running on a single shard, temporarily limiting the available slots for validators. As a result, you may need a high amount of tokens (around 1% of the total stake) to have your node _elected_ as a block producer, and receive the rewards.
+A [MainNet](https://explorer.near.org/) da NEAR agora é "governada pela comunidade" (veja [o cronograma completo](https://near.org/blog/mainnet-roadmap/) e o [blog de lançamento](https://near.org/blog/near-mainnet-phase-2-unrestricted-decentralized/)) então qualquer validador pode participar. No entanto, a rede está sendo executada em um único shard, limitando temporariamente os slots disponíveis para validadores. Como resultado, você pode precisar de uma grande quantidade de tokens (em torno de 1% do stake total) para ter o seu nó _eleito_ como um produtor de blocos, e receber as recompensas.
 
-While the network is getting additional shards and become more accessible for smaller validators, you can still use the [Stake Wars repo](https://github.com/nearprotocol/stakewars) to understand the techincal needs, test the stability of your system, and learn some of the unique aspects of NEAR’s delegation in preparation for the next phase of the protocol.
+Enquanto a rede está recebendo shards adicionais e se tornando mais acessível para validadores menores, você ainda pode usar o [repositório Stake Wars](https://github.com/nearprotocol/stakewars) para entender as necessidades tecnológicas, testar a estabilidade do seu sistema e aprender alguns dos aspectos exclusivos da delegação de NEAR em preparação para a próxima fase do protocolo.
 
-If you want to know more about this opportunity, read the ["Stake Wars is Over, but We’re Just Getting Started" blog post](https://near.org/blog/stake-wars-is-over-but-were-just-getting-started/).
-> Got a question?
+Se você quiser saber mais sobre esta oportunidade, leia a publicação ["Stake Wars is Over, mas estamos apenas começando"](https://near.org/blog/stake-wars-is-over-but-were-just-getting-started/) no blog.
+> Tem alguma dúvida?
 <a href="https://stackoverflow.com/questions/tagged/nearprotocol">
-  <h8>Ask it on StackOverflow!</h8></a>
+  <h8>Pergunte no StackOverflow!</h8></a>

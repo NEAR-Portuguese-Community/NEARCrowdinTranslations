@@ -1,12 +1,12 @@
-# NEAR Certified Developer
-This course is an opportunity for web developers to earn a Certificate of Completion that represents the ability to design, develop, test and deploy smart contracts on the NEAR platform.
+# Desenvolvedor Certificado NEAR
+Este curso é uma oportunidade para os desenvolvedores web ganharem um certificado de conclusão que representa a capacidade de projetar, desenvolver, testar e implantar contratos inteligentes na plataforma NEAR.
 
-# Welcome
-Glad you could join us. We will be working together to learn to build decentralized applications on the smart contract platform known as NEAR Protocol.
+# Bem-vindo
+Que bom que você pôde se juntar a nós. Vamos trabalhar juntos para aprender a construir aplicativos descentralizados na plataforma de contrato inteligente conhecida como NEAR Protocol.
 
-Here’s a report of what’s happening in the industry with these so-called “layer 1” platforms as of Dec 2020. The research makes it clear: NEAR is here.
+Aqui está um relatório sobre o que estava acontecendo no setor com as chamadas plataformas de "camada 1" em dezembro de 2020. A pesquisa deixa bem claro: NEAR chegou.
 
-# Immediately:
+# Imediatamente:
 
 1. Please join us on a dedicated Discord server. Use this invitation link: https://discord.gg/BHRZFbCVcS
 

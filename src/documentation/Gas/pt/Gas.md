@@ -40,9 +40,7 @@ Para te dar um ponto de partida sobre o que esperar por custos em NEAR, a tabela
 | Excluir Chave             | 0.41 | 0.041     | 4.1⨉10⁻⁵ |
 
 <blockquote class="info">
-<strong> Olhando mais a fundo</strong><br><br>
-
-De onde vêm esses números?
+<strong> Olhando mais a fundo</strong><br><br> De onde vêm esses números?
 
 NEAR é [configured](https://github.com/near/nearcore/blob/master/nearcore/res/genesis_config.json#L57-L119) com custos base. Um exemplo:
 
@@ -50,9 +48,7 @@ NEAR é [configured](https://github.com/near/nearcore/blob/master/nearcore/res/g
       send_sir:     99607375000,
       send_not_sir: 99607375000,
       execution:    99607375000
-    }
-
-O "sir" aqui significa "remetente é destinatário" ("sender is receiver"). Sim, todos eles são idênticos, mas isso pode mudar no futuro.
+    } O "sir" aqui significa "remetente é destinatário" ("sender is receiver"). Sim, todos eles são idênticos, mas isso pode mudar no futuro.
 
 Quando você faz um pedido para criar uma nova conta, NEAR imediatamente deduz o valor apropriado a `enviar` da sua conta. Então cria um _receipt_, um mecanismo interno de contabilidade para facilitar o design fragmentado e assíncrono da NEAR (se você for da Ethereum, esqueça o que sabe sobre os recibos da Ethereum, já que são completamente diferentes). Criar um recibo tem seus próprios custos associados:
 
@@ -60,9 +56,7 @@ Quando você faz um pedido para criar uma nova conta, NEAR imediatamente deduz o
       send_sir:     108059500000,
       send_not_sir: 108059500000,
       execution:    108059500000
-    }
-
-Você pode consultar esse valor usando o [`protocol_config`](/docs/api/rpc#protocol-config) RPC endpoint e procurar por `action_receipt_creation_config`.
+    } Você pode consultar esse valor usando o [`protocol_config`](/docs/api/rpc#protocol-config) RPC endpoint e procurar por `action_receipt_creation_config`.
 
 O valor apropriado a `enviar` para criar este recibo também é imediatamente deduzido da sua conta.
 
@@ -157,7 +151,7 @@ Calls to NEAR to read data are always free. But when you make a call to add or u
 
 If you're coming from Ethereum, you may be used to the idea of paying a higher gas price to get your transaction processed faster. In NEAR, gas costs are deterministic, and you can't pay extra.
 
-For basic operations like "transfer funds," you can't specify an amount to attach. The gas needed is easy to calculate ahead of time, so it's automatically attached for you. (Check it: [`near-cli`](https://github.com/near/near-cli) has a `send` command, which accepts no `gas` parameter; [`near-api-js`](https://github.com/near/near-api-js) has a [`sendTokens`](https://near.github.io/near-api-js/classes/near.near-1.html#sendtokens) function which accepts no `gas` argument.) As shown in the tables above, these operations are cheap, so you probably won't even notice the slight reduction in your account's balance.
+For basic operations like "transfer funds," you can't specify an amount to attach. The gas needed is easy to calculate ahead of time, so it's automatically attached for you. (Check it: [`near-cli`](https://github.com/near/near-cli) has a `send` command, which accepts no `gas` parameter; [`near-api-js`](https://github.com/near/near-api-js) has a [`sendTokens`](https://near.github.io/near-api-js/classes/near.near-1.html#sendtokens) function which accepts no `gas` argument.) As shown in the tables above, these operations are cheap, so you probably won't even notice the slight reduction in your account's balance. As shown in the tables above, these operations are cheap, so you probably won't even notice the slight reduction in your account's balance.
 
 Function calls are more complex and you can attach an explicit amount of gas to these transactions, up to a maximum value of 3⨉10¹⁴ gas units. This maximum value of prepaid gas is subject to change but you can query this value by using the [`protocol_config`](/docs/api/rpc#protocol-config) RPC endpoint and search for `max_total_prepaid_gas`.
 
@@ -176,9 +170,7 @@ Error:
 ```
 
 <blockquote class="warning">
-<strong>How many tokens will these units cost?</strong><br><br>
-
-Note that you are greenlighting a maximum number of gas _units_, not a number of NEAR tokens or yoctoNEAR.
+<strong>How many tokens will these units cost?</strong><br><br> Note that you are greenlighting a maximum number of gas _units_, not a number of NEAR tokens or yoctoNEAR.
 
 These units will be multiplied by the gas price at the block in which they're processed. If the function call makes cross-contract calls, then separate parts of the function will be processed in different blocks, and could use different gas prices. At a minimum, the function will take two blocks to complete, as explained in [the blue box above](#the-cost-of-common-actions).
 
@@ -186,7 +178,7 @@ Assuming the system rests at minimum gas price of 100 million yoctoNEAR during t
 
 Multiplying all three of these numbers, we find that maximum attached gas units allow about 0.2Ⓝ to be spent on the operation if gas prices stay at their minimum. If gas prices are above the minimum, this charge could be higher.
 
-What if the gas price is at the minimum during the starting block, but the operation takes several blocks to complete, and subsequent blocks have higher gas prices? Could the charge be more than ~0.2Ⓝ? No. The pessimistic multiplier accounts for this possibility.
+What if the gas price is at the minimum during the starting block, but the operation takes several blocks to complete, and subsequent blocks have higher gas prices? Could the charge be more than ~0.2Ⓝ? No. No. The pessimistic multiplier accounts for this possibility.
 
 </blockquote>
 

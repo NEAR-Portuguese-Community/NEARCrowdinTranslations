@@ -141,7 +141,7 @@ Either Create a new wallet, Recover an old one or Connect to your Ledger device.
 
 [Finoa](https://finoa.io/) is the first qualified custodian to offer NEAR asset custody.  Check with [Finoa](https://finoa.io/contact) to see if you are eligible and [their NEAR guide](https://www.finoa.io/near) for more information about their offering.
 
-**Delegation and Staking:** In early phases, users will be able to delegate funds to nodes run by Finoa or provided by Staking Facilities, Chorus One, Certus.One, Blockdaemon, Figment, BisonTrails or T-Systems.
+**Delegation and Staking:** In early phases, users will be able to delegate funds to nodes run by Finoa or provided by Staking Facilities, Chorus One, Certus. One, Blockdaemon, Figment, BisonTrails or T-Systems.
 
 
 ## Option 2: Coinbase

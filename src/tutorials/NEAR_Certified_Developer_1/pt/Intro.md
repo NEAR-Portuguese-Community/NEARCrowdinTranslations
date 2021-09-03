@@ -8,15 +8,15 @@ Aqui está um relatório sobre o que estava acontecendo no setor com as chamadas
 
 # Imediatamente:
 
-1. Please join us on a dedicated Discord server. Use this invitation link: https://discord.gg/BHRZFbCVcS
+1. Por favor, junte-se a nós em um servidor dedicado no Discord. Use este link de convite: https://discord.gg/BHRZFbCVcS
 
-2. Follow Learn NEAR on Twitter https://twitter.com/LearnNear
+2. Siga a conta Learn NEAR no Twitter https://twitter.com/LearnNear
 
-3. Create a testnet account  – YourName.testnet – https://wallet.testnet.near.org/
+3. Crie uma conta de testnet – SeuNome.testnet – https://wallet.testnet.near.org/
 
-4. Add our bot to monitor your testnet account https://t.me/LNC_testenet_watcher_bot
+4. Adicione o nosso bot para monitorar a sua conta na testnet https://t.me/LNC_testenet_watcher_bot
 
-# Before Step 1
+# Antes do Passo 1
 Please make sure you are familiar with a few of these basics before the week starts. Although you do not need to be an expert in these technologies, you should have no problem cloning a NodeJS project, downloading its dependencies and running a few scripts.
 
 * Basic JavaScript client and serverside development (see here and here)

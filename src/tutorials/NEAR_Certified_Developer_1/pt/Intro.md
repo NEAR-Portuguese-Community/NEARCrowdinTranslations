@@ -17,25 +17,25 @@ Aqui está um relatório sobre o que estava acontecendo no setor com as chamadas
 4. Adicione o nosso bot para monitorar a sua conta na testnet https://t.me/LNC_testenet_watcher_bot
 
 # Antes do Passo 1
-Please make sure you are familiar with a few of these basics before the week starts. Although you do not need to be an expert in these technologies, you should have no problem cloning a NodeJS project, downloading its dependencies and running a few scripts.
+Por favor, certifique-se de estar familiarizado com alguns destes conceitos básicos antes do início da semana. Embora não seja necessário ser especialista nestas tecnologias, você não deve ter problemas para clonar um projeto em NodeJS, baixando suas dependências e executando alguns scripts.
 
-* Basic JavaScript client and serverside development (see here and here)
-* Basic terminal control (see here and here )
-* Basic git commands (see here and here).
+* Desenvolvimento básico em JavaScript do lado do cliente e do servidor (veja aqui e aqui)
+* Controle básico do terminal (veja aqui e aqui)
+* Comandos básicos do git (veja aqui e aqui).
 
-# Overview
+# Visão Geral
 
-During this course we will practice:
+Durante este curso, praticaremos:
 
-* perceiving web 3 in the context of human history
-* reading contract code in Rust and AssemblyScript
-* writing contracts using Rust and AssemblyScript
-* testing contracts using unit and simulation tests
-* deploying contracts and a sensible user interface
+* a percepção da web 3 no contexto da história humana
+* a leitura de código de contratos em Rust e AssemblyScript
+* a escrita de código de contratos em Rust e AssemblyScript
+* o teste de contratos usando testes unitários e de simulação
+* a implantação de contratos e uma interface de usuário sensata
 
-The course will include lots of listening, watching, reading and writing.
+O curso incluirá ouvir, assistir, ler e escrever bastante.
 
-# Working Agreement
+# Acordo de Trabalho
 * We will meet for 60 mins on the last Friday of the month at 11AM ET for Demo Day live session
 * We encourage you to work in small-groups on demo project
 * We will meet with our small-group every day to align on progress, share confusion and promote aha! moments to the cohort

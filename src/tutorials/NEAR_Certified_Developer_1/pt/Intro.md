@@ -36,26 +36,26 @@ Durante este curso, praticaremos:
 O curso incluirá ouvir, assistir, ler e escrever bastante.
 
 # Acordo de Trabalho
-* We will meet for 60 mins on the last Friday of the month at 11AM ET for Demo Day live session
-* We encourage you to work in small-groups on demo project
-* We will meet with our small-group every day to align on progress, share confusion and promote aha! moments to the cohort
-* We agree to complete activities to the best of our ability
-* We agree to work towards a project demo by the end of the month.
+* Nós nos encontraremos por 60 minutos na última sexta-feira do mês às 12h, horário de Brasília para uma sessão de demonstração ao vivo (um "Demo Day").
+* Nós encorajamos que trabalhem em grupos pequenos no projeto de demonstração
+* Teremos encontros diários com nosso pequeno grupo para nos alinharmos quanto ao progresso, compartilharmos dúvidas e promovermos momentos de descoberta para o grupo
+* Nós concordamos em dar o melhor de nós para concluir as atividades
+* Nós concordamos em trabalhar visando a demonstração de um projeto até o final do mês.
 
-# Questions
-All questions should be posted to 1 of 2 Discord channels:
+# Perguntas
+Todas as perguntas devem ser enviadas em um de dois canais do Discord:
 
 ### #help
-Questions re: general logistics, general schedule, account issues, etc
+Questões a respeito de: logística geral, agenda geral, problemas com contas, etc
 
 ### #step- (step-1, step-2, etc.)
-Assignment support, confusion re: some topic for the step, etc
+Apoio às tarefas, dúvidas relativas a algum tópico da etapa, etc
 
-# FAQ
-## 1. How much does this cost?
-Nothing, in fact we pay you to complete this course.
+# Perguntas frequentes (FAQ)
+## 1. Quanto custa isso?
+Nada. Na verdade pagamos para que conclua este curso.
 
-## 2. Do I need to be a software developer to take this course?
+## 2. Eu preciso ser um desenvolvedor de software para fazer este curso?
 No, you do not, but it won’t be easy and you should budget 10 hours per day, no joke.
 
 If you are a junior software developer who recently graduated from a bootcamp or has less than 3 years professional experience, you should budget 4-6 hours per day. If you are an senior software developer with 5 years of professional experience or more, you should budget about 2-4 hours per day. If you are an experienced blockchain developer then you will likely be able to keep up with this course with about 1 hour per day of work.

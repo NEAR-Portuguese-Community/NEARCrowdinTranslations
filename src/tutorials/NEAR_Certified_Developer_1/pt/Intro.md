@@ -71,9 +71,9 @@ Não existe isso de vencer por aqui, porque estamos todos perdidos. Bem vindo, a
 ## 5. Quando chegaremos à lua?!
 Por favor, não faça isso.
 
-## 6. Do you care if I cheat?
-No, in fact cheating is encouraged. Let’s get one thing straight: if you’re serious about learning, the fastest way from here to there is to meet people, ask questions, look at some answers, look at even more answers, copy some examples, break things and finally, if you’re lucky, learn something new.
+## 6. Vocês se importam se eu colar?
+Não, na verdade a cola é encorajada. Vamos deixar uma coisa clara: se você quer realmente aprender, o caminho mais rápido daqui até lá é conhecer as pessoas, fazer perguntas, ver algumas respostas, olhar ainda mais respostas, copiar alguns exemplos, quebrar coisas e, finalmente, se você tiver sorte, aprender algo novo.
 
-As long as you’re honest about what you’re doing, you’re always welcome here.
+Desde que você seja honesto sobre o que você está fazendo, será sempre bem-vindo aqui.
 
-Just don’t take credit for others people’s work because that’s lame.
+Só não ganhe crédito pelo trabalho dos outros porque isso é patético.

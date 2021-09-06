@@ -56,17 +56,17 @@ Apoio às tarefas, dúvidas relativas a algum tópico da etapa, etc
 Nada. Na verdade pagamos para que conclua este curso.
 
 ## 2. Eu preciso ser um desenvolvedor de software para fazer este curso?
-No, you do not, but it won’t be easy and you should budget 10 hours per day, no joke.
+Não, você não precisa, mas não será fácil, e você deve dispor de 10 horas por dia, sem brincadeira.
 
-If you are a junior software developer who recently graduated from a bootcamp or has less than 3 years professional experience, you should budget 4-6 hours per day. If you are an senior software developer with 5 years of professional experience or more, you should budget about 2-4 hours per day. If you are an experienced blockchain developer then you will likely be able to keep up with this course with about 1 hour per day of work.
+Se você é um desenvolvedor de software júnior que se formou recentemente em um bootcamp ou tem menos de 3 anos de experiência profissional, você deve reservar de 4 a 6 horas por dia. Se você é um desenvolvedor de software sênior, com 5 anos de experiência profissional ou mais, você deve reservar cerca de 2 a 4 horas por dia. Se você é um desenvolvedor experiente em blockchain então você provavelmente será capaz de acompanhar este curso com cerca de 1 hora de trabalho por dia.
 
-## 3. Do I need a Mac?
-MacOS and Linux will be the easiest operating systems to use.
+## 3. Eu preciso de um Mac?
+O MacOS e o Linux serão os sistemas operacionais mais fáceis de utilizar.
 
-Windows may prove challenging but if you’re ok with that, please join us.
+Windows pode se mostrar desafiador, mas se você não tiver problema com isso, junte-se a nós.
 
-## 4. How do I know if I’m winning?
-There’s no such thing as winning here because we’re all lost. Welcome, friend.
+## 4. Como eu sei se eu estou ganhando?
+Não existe isso de vencer por aqui, porque estamos todos perdidos. Welcome, friend.
 
 ## 5. When moon?!
 Please don’t.

@@ -66,10 +66,10 @@ O MacOS e o Linux serão os sistemas operacionais mais fáceis de utilizar.
 Windows pode se mostrar desafiador, mas se você não tiver problema com isso, junte-se a nós.
 
 ## 4. Como eu sei se eu estou ganhando?
-Não existe isso de vencer por aqui, porque estamos todos perdidos. Welcome, friend.
+Não existe isso de vencer por aqui, porque estamos todos perdidos. Bem vindo, amigo.
 
-## 5. When moon?!
-Please don’t.
+## 5. Quando chegaremos à lua?!
+Por favor, não faça isso.
 
 ## 6. Do you care if I cheat?
 No, in fact cheating is encouraged. Let’s get one thing straight: if you’re serious about learning, the fastest way from here to there is to meet people, ask questions, look at some answers, look at even more answers, copy some examples, break things and finally, if you’re lucky, learn something new.

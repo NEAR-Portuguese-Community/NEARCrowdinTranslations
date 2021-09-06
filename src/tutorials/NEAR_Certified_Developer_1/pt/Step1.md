@@ -1,5 +1,5 @@
-# Step 1 – Perceiving web3
+# Passo 1 – Percebendo a web3
 
-## The goal is to learn to see this new world we are now living in.
+## O objetivo é aprender a ver este novo mundo em que agora vivemos.
 
-## CORE Activities
+## Principais atividades

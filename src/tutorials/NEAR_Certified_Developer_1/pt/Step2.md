@@ -1,8 +1,8 @@
-# Step 2 – Reading web3
+# Etapa 2 - Leitura da web3
 
-## The goal for today is to read as many contracts as you can.
+## O objetivo para hoje é ler o maior número possível de contratos.
 
-Try to figure out how to get to the contract code. Then move to quickly read the code. You want to see as much as you can. Ask yourself about the “purpose” of the contract (why is it?) and “code” (what is it?)
+Tente descobrir como chegar ao código do contrato. Then move to quickly read the code. You want to see as much as you can. Ask yourself about the “purpose” of the contract (why is it?) and “code” (what is it?)
 
 * AssemblyScript contracts are files that end in .ts, usually main.ts or index.ts
 * Rust contracts are always in a file named lib.rs.

@@ -2,31 +2,31 @@
 
 ## O objetivo para hoje é ler o maior número possível de contratos.
 
-Tente descobrir como chegar ao código do contrato. Then move to quickly read the code. You want to see as much as you can. Ask yourself about the “purpose” of the contract (why is it?) and “code” (what is it?)
+Tente descobrir como chegar ao código do contrato. Depois, vá ler o código rapidamente. Você quer ver o máximo que puder. Pergunte a si mesmo sobre o "propósito" do contrato (por que é?) e "código" (o que é?)
 
-* AssemblyScript contracts are files that end in .ts, usually main.ts or index.ts
-* Rust contracts are always in a file named lib.rs.
+* Contratos em AssemblyScript são arquivos que terminam em .ts, geralmente main.ts ou index.ts
+* Os contratos em Rust estão sempre em um arquivo chamado lib.rs.
 
-## CORE Activities
+## Principais atividades
 
-Choose AssemblyScript or Rust and REVIEW all 3 contracts labeled as CORE Activity for your language
+Escolha entre AssemblyScript e Rust e REVISE todos os 3 contratos rotulados como CORE Activity para a sua linguagem
 
 
-## BONUS Activities
+## Atividades BÔNUS
 
-Clone the [starter repository](https://github.com/Learn-NEAR/starter--AssemblyScript) for AssemblyScript and follow the instructions.
+Clonar o [repositório inicial](https://github.com/Learn-NEAR/starter--AssemblyScript) para AssemblyScript e siga as instruções.
 
-# Resources
+# Recursos
 
-## Remember for today’s activity
+## Lembrete para a atividade de hoje
 
-* You do NOT need to build and test each contract
-* You do NOT need to understand every line of code
-* You SHOULD simply read through the contracts as if you are looking at art or listening to music without worring about every dot or note
+* Você NÃO precisa construir e testar cada contrato
+* Você NÃO precisa entender todas as linhas de código
+* Você DEVE simplesmente ler os contratos como se estivesse olhando para arte ou ouvindo música sem se preocupar com cada ponto ou nota
 
 ## AssemblyScript
 
-| Name                         | Notes                                                                                                                                                                                                                                                                                                                                       | Code                                                                                   |
+| Nome                         | Notas                                                                                                                                                                                                                                                                                                                                       | Código                                                                                 |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | CORE                         |                                                                                                                                                                                                                                                                                                                                             |                                                                                        |
 | SputnikDAO                   | This contract is a simple version of a DAO to give out tips, bounties and grants. Allows anyone to send a proposal to reward other people with funds and get a council to vote for it.  The major difference between this and Moloch DAO design is that this contract would receive its function via donation and council has equal rights. | https://github.com/VitalPointAI/SputnikDao-AS-Contract/tree/main/sputnikdao-as         |

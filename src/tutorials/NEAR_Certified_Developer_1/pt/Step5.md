@@ -20,8 +20,8 @@ Deploying to MainNet is out of scope so we will focus on TestNet and, as bonus a
 
 * Use NEAR Explorer to verify the deployment (find evidence of the deployment to the target account to which the contract was deployed)
 
-* Use o NEAR CLI para executar o comando near state <contract-account> and notice that the code_hash is not the default value of all 1s
+* Use o NEAR CLI para executar o comando near state <contract-account> e note que o code_hash não é o valor padrão de todos os 1s
 
 ### 3. Verifique o seu uso da aplicação
 
-* Use NEAR Explorer to verify the deployment (find a record of any transactions related to your account or related the target account to which the contract was deployed)
+* Use o NEAR Explorer para verificar a implantação (localize um registro de quaisquer transações relacionadas à sua conta ou relaciona a conta de destino na qual o contrato foi implantado)

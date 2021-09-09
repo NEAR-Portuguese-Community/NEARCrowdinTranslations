@@ -4,10 +4,10 @@
 
 Quando dizemos "aplicativo" no NEAR costumamos dizer software que foi escrito para definir:
 
-1. on-chain data and behavior controlled by smart contracts (eg. NFT contract)
-2. off-chain data and behavior communicating with smart contracts (eg. web app) We have looked at many contracts and applications and now we will deploy them.
+1. dados na blochain e comportamento controlado por contratos inteligentes (por ex. contrato NFT)
+2. dados e comportamento fora da blockchain comunicando com contratos inteligentes (ex. aplicativo web) Nós analisamos muitos contratos e aplicativos e agora vamos implantá-los.
 
-Deploying to MainNet is out of scope so we will focus on TestNet and, as bonus activity, LocalNet where you can build in private. Tudo o que for executado na TestNet deve funcionar bem na MainNet. This is the only purpose of TestNet, in fact: to provide a full preview of our work before we take it live on MainNet.
+A implantação na MainNet está fora de escopo, por isso nos concentramos na TestNet e, como atividade bônus, a LocalNet, em que você poderá construir de forma privada. Tudo o que for executado na TestNet deve funcionar bem na MainNet. Este é o único objetivo da TestNet, de fato: fornecer uma prévia completa do nosso trabalho antes de o colocarmos no ar na MainNet.
 
 ## Principais atividades
 
@@ -18,7 +18,7 @@ Deploying to MainNet is out of scope so we will focus on TestNet and, as bonus a
 
 ### 2. Verifique se a aplicação foi implantada
 
-* Use NEAR Explorer to verify the deployment (find evidence of the deployment to the target account to which the contract was deployed)
+* Use o NEAR Explorer para verificar a implantação (localize evidência da implantação para a conta de destino na qual o contrato foi implantado)
 
 * Use o NEAR CLI para executar o comando near state <contract-account> e note que o code_hash não é o valor padrão de todos os 1s
 

@@ -1,4 +1,4 @@
-# Step 4 – Testing web3
+# Etapa 4 - Testando a web3
 
 ## O objetivo de hoje é escrever testes que passem para os seus contratos.
 
@@ -10,7 +10,7 @@ In the Resources section below choose AssemblyScript or Rust
 
 # Recursos
 
-REMEMBER:
+LEMBRE-SE:
 
 * You DO need to build (and run tests, if available) for each contract
 * You should TRY to understand EVERY line of code in the contract

@@ -31,7 +31,7 @@ Durante este curso, praticaremos:
 * a leitura de código de contratos em Rust e AssemblyScript
 * a escrita de código de contratos em Rust e AssemblyScript
 * o teste de contratos usando testes unitários e de simulação
-* a implantação de contratos e uma interface de usuário sensata
+* a implantação de contratos e uma interface de usuário razoável
 
 O curso incluirá ouvir, assistir, ler e escrever bastante.
 
@@ -43,7 +43,7 @@ O curso incluirá ouvir, assistir, ler e escrever bastante.
 * Nós concordamos em trabalhar visando a demonstração de um projeto até o final do mês.
 
 # Perguntas
-Todas as perguntas devem ser enviadas em um de dois canais do Discord:
+Todas as perguntas devem ser enviadas em um desses dois canais do Discord:
 
 ### #help
 Questões a respeito de: logística geral, agenda geral, problemas com contas, etc

@@ -1,14 +1,14 @@
 # Step 4 – Testing web3
 
-## The goal for today is to write tests that pass for your contracts.
+## O objetivo de hoje é escrever testes que passem para os seus contratos.
 
-## CORE Activities
+## Principais atividades
 
 In the Resources section below choose AssemblyScript or Rust
 
 * WRITE 3-5 unit tests for each contract listed as CORE Activity
 
-# Resources
+# Recursos
 
 REMEMBER:
 

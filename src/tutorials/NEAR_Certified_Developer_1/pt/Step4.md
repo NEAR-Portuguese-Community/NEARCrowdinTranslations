@@ -31,6 +31,6 @@ For a minimum of 3 contracts marked as CORE Activity in the Step 2 list
 
 Unit testing is included as part of the Rust language.
 
-You can read more about unit tests in [Rust by Example](https://doc.rust-lang.org/rust-by-example/testing/unit_testing.html) or [“the book”](https://doc.rust-lang.org/book/ch11-01-writing-tests.html).
+Você pode ler mais sobre testes unitários em [Rust by Example](https://doc.rust-lang.org/rust-by-example/testing/unit_testing.html) ou ["the book"](https://doc.rust-lang.org/book/ch11-01-writing-tests.html).
 
 All of NEAR’s [Core Contracts](https://github.com/near/core-contracts) include unit tests if you want to see some good examples.

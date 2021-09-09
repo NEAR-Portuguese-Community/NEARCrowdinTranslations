@@ -17,14 +17,14 @@ LEMBRE-SE:
 
 ## AssemblyScript
 
-For a minimum of 3 contracts marked as CORE Activity in the Step 2 list
+Para um mínimo de 3 contratos marcados como Atividade Principal na lista do Passo 2
 
 1. Write 3-5 new unit tests for each contract whether or not it already has unit tests
 2. Verify the tests pass as expected (tests can be run via command line)
 
 ## Rust
 
-For a minimum of 3 contracts marked as CORE Activity in the Step 2 list
+Para um mínimo de 3 contratos marcados como Atividade Principal na lista do Passo 2
 
 1. Write 3-5 new unit tests for each contract whether or not it already has unit tests
 2. Verify the tests pass as expected (tests can be run via IDE or command line)

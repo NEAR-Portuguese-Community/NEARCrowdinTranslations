@@ -7,7 +7,7 @@ Quando dizemos "aplicativo" no NEAR costumamos dizer software que foi escrito pa
 1. on-chain data and behavior controlled by smart contracts (eg. NFT contract)
 2. off-chain data and behavior communicating with smart contracts (eg. web app) We have looked at many contracts and applications and now we will deploy them.
 
-Deploying to MainNet is out of scope so we will focus on TestNet and, as bonus activity, LocalNet where you can build in private. Anything that runs on TestNet should work just as well on MainNet. This is the only purpose of TestNet, in fact: to provide a full preview of our work before we take it live on MainNet.
+Deploying to MainNet is out of scope so we will focus on TestNet and, as bonus activity, LocalNet where you can build in private. Tudo o que for executado na TestNet deve funcionar bem na MainNet. This is the only purpose of TestNet, in fact: to provide a full preview of our work before we take it live on MainNet.
 
 ## Principais atividades
 

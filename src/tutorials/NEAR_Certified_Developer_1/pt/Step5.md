@@ -1,22 +1,22 @@
-# Step 5 – Deploying web3
+# Passo 5 – Implantando web3
 
-## The goal is to deploy your contracts and verify they work.
+## O objetivo é implantar seus contratos e verificar se eles funcionam.
 
-When we say “application” on NEAR we usually mean software that has been written to define:
+Quando dizemos "aplicativo" no NEAR costumamos dizer software que foi escrito para definir:
 
 1. on-chain data and behavior controlled by smart contracts (eg. NFT contract)
 2. off-chain data and behavior communicating with smart contracts (eg. web app) We have looked at many contracts and applications and now we will deploy them.
 
 Deploying to MainNet is out of scope so we will focus on TestNet and, as bonus activity, LocalNet where you can build in private. Anything that runs on TestNet should work just as well on MainNet. This is the only purpose of TestNet, in fact: to provide a full preview of our work before we take it live on MainNet.
 
-## CORE Activities
+## Principais atividades
 
-### 1. Deploy at least one application to TestNet
+### 1. Implantar pelo menos uma aplicação no TestNet
 
-* Choose any one (or more) of the contracts and applications you saw on Day 1 and Day 2. It doesn’t matter, when deploying, whether the application is written in Rust or AssemblyScript. All contract code is compiled to WebAssembly and deployed to the network to be run inside a Wasm-compatible virtual machine.
-* You will use a command like yarn dev for most applications but you can just as easily deploy an application using NEAR CLI with near dev-deploy for TestNet (or near deploy if you have already created an account).
+* Escolha um (ou mais) dos contratos e aplicativos que você viu no dia 1 e dia 2. Não importa, ao implantar, se o aplicativo é escrito em Rust ou AssemblyScript. Todo o código do contrato é compilado para WebAssembly e implantado na rede para ser executado dentro de uma máquina virtual compatível com Wasm.
+* Você usará um comando como o yarn dev para a maioria dos aplicativos, mas você pode também fazer o deploy de um aplicativo usando NEAR CLI com near dev-deploy para TestNet (ou near deploy se você já criou uma conta).
 
-### 2. Verify the application was deployed
+### 2. Verifique se a aplicação foi implantada
 
 * Use NEAR Explorer to verify the deployment (find evidence of the deployment to the target account to which the contract was deployed)
 

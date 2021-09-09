@@ -1,4 +1,4 @@
-# Step 3 – Writing web3
+# Etapa 3 – Escrevendo a web3
 
 ## O objetivo de hoje é escrever contratos que compilam.
 

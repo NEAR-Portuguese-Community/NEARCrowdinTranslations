@@ -53,7 +53,7 @@ Apoio às tarefas, dúvidas relativas a algum tópico da etapa, etc
 
 # Perguntas frequentes (FAQ)
 ## 1. Quanto custa isso?
-Nada. Na verdade pagamos para que conclua este curso.
+Nada. Na verdade pagamos para que você conclua este curso.
 
 ## 2. Eu preciso ser um desenvolvedor de software para fazer este curso?
 Não, você não precisa, mas não será fácil, e você deve dispor de 10 horas por dia, sem brincadeira.

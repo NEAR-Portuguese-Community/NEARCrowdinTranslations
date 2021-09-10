@@ -1,4 +1,4 @@
-# Passo 5 – Implantando web3
+# Passo 5 – Implantando a web3
 
 ## O objetivo é implantar seus contratos e verificar se eles funcionam.
 

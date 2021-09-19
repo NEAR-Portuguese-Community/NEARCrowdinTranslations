@@ -7,13 +7,13 @@ Quando dizemos "aplicativo" no NEAR costumamos dizer software que foi escrito pa
 1. dados na blochain e comportamento controlado por contratos inteligentes (por ex. contrato NFT)
 2. dados e comportamento fora da blockchain comunicando com contratos inteligentes (ex. aplicativo web) Nós analisamos muitos contratos e aplicativos e agora vamos implantá-los.
 
-A implantação na MainNet está fora de escopo, por isso nos concentramos na TestNet e, como atividade bônus, a LocalNet, em que você poderá construir de forma privada. Tudo o que for executado na TestNet deve funcionar bem na MainNet. Este é o único objetivo da TestNet, de fato: fornecer uma prévia completa do nosso trabalho antes de o colocarmos no ar na MainNet.
+A implantação na MainNet está fora de escopo, por isso nos concentramos na TestNet e, como atividade bônus, a LocalNet, em que você poderá construir de forma privada. Tudo o que rodar na TestNet deve funcionar igualmente bem na MainNet. Este é o único objetivo da TestNet, de fato: fornecer uma prévia completa do nosso trabalho antes de o colocarmos no ar na MainNet.
 
 ## Principais atividades
 
 ### 1. Implantar pelo menos uma aplicação no TestNet
 
-* Escolha um (ou mais) dos contratos e aplicativos que você viu no dia 1 e dia 2. Não importa, ao implantar, se o aplicativo é escrito em Rust ou AssemblyScript. Todo o código do contrato é compilado para WebAssembly e implantado na rede para ser executado dentro de uma máquina virtual compatível com Wasm.
+* Escolha um (ou mais) dos contratos e aplicativos que você viu nos dias 1 e 2. Não importa, ao implantar, se o aplicativo é escrito em Rust ou AssemblyScript. Todo o código do contrato é compilado para WebAssembly e implantado na rede para ser executado dentro de uma máquina virtual compatível com Wasm.
 * Você usará um comando como o yarn dev para a maioria dos aplicativos, mas você pode também fazer o deploy de um aplicativo usando NEAR CLI com near dev-deploy para TestNet (ou near deploy se você já criou uma conta).
 
 ### 2. Verifique se a aplicação foi implantada

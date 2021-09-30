@@ -42,7 +42,7 @@ At a high level, it breaks down like this:
 
 NFTs are basically digital containers which can hold IP but which liberated it to be owned and traded so creators have a world of new ways to produce, distribute, remix and monetize content. DAOs are basically like shared bank accounts for communities which are entirely digital so it’s really easy for communities to act almost like official co-ops or companies and build sustainable models for themselves. They can issue fungible tokens which are basically membership cards with a lot more potential superpowers to drive more engagement. Open (“decentralized”) Finance is a whole toolkit which allows creators, communities, NFTs, DAOs, fungible tokens and all the other pieces of the digital economy to plug into each other in ways that no one has ever done before, allowing entirely new ways of earning income for creators or benefitting from the upside of membership for community members. Let’s look a little deeper into each of these pieces and why they’re so powerful to help creators.
 
-NFTs: Tools for Creators
+NFTs: Ferramentas para Criadores
 
 NFTs are understandably confusing for many people, so I’ll break it down in plain English.
 
@@ -72,7 +72,7 @@ Let me ask you — back when you were a kid and traded collectibles, did you do 
 
 Because NFTs are infinitely programmable, we don’t even know yet all the cool ways they can be used.  It’s possible to use NFTs as membership cards which give people access to special events. The artwork becomes more than just a thing to display or a cash flow, they become a special designation of status that the artist or anyone else can use to give special privileges to the holder of. What else might be possible?
 
-DAOs and FTs: Tools for Communities
+DAOs e FTs: Ferramentas para Comunidades
 
 A “DAO” is a decentralized autonomous organization–– which uses an admittedly clunky acronym to represent a formalized community that can self-govern and take on some aspects of a company.
 
@@ -80,7 +80,7 @@ Everyone who uses the blockchain gets a NEAR account.  It’s sort of like a Fac
 
 A DAO is basically just a more advanced account which can be shared between a group of people.  In this way, it’s similar to a bank account but it doesn’t actually need a bank.
 
-Why DAOs are so powerful
+Por que DAOs são tão poderosos
 
 DAOs are useful because they can do anything an individual user can but they can also represent all of the users who are their members. In the simplest example, you can store a bunch of tokens in a DAO and the group of users in the community can vote to send them to different places.  Let’s use the example of a fanclub DAO we’ll call `dj_blokk_fanclub`, where fans of that artist pool funds to buy VIP tickets for a show and raffle them off. Because the community exists on a permanent platform like NEAR, it isn’t lost if Facebook or Snap suddenly become less popular.
 

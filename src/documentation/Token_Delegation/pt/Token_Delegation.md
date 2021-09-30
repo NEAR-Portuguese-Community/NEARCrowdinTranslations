@@ -73,8 +73,7 @@ near view <LOCKUP_ID> get_owner_account_id ''
 You should expect a result like:
 
 ```
-$ near view meerkat.stakewars.testnet get_owner_account_id ''
-View call: meerkat.stakewars.testnet.get_owner_account_id()
+$ near view meerkat.stakewars.testnet get_owner_account_id '' View call: meerkat.stakewars.testnet.get_owner_account_id()
 'meerkat.testnet'
 
 ```
@@ -87,7 +86,7 @@ You can stake with Lockup contracts in three steps:
 2. Deposit and stake the tokens
 3. Measure the rewards
 
-### a. Set the staking pool
+### c. Change staking pools
 
 Lockup contracts can stake **to one staking pool at a time**, so this parameter can be changed only while no funds are staked.
 
@@ -100,15 +99,11 @@ near call <LOCKUP_ID> select_staking_pool '{"staking_pool_account_id": "<POOL_ID
 You should expect a result like:
 
 ```
-$ near call meerkat.stakewars.testnet select_staking_pool '{"staking_pool_account_id": "zpool.pool.f863973.m0"}' --accountId meerkat.testnet
-
-Scheduling a call: meerkat.stakewars.testnet.select_staking_pool({"staking_pool_account_id": "zpool.pool.f863973.m0"})
-Receipts: HEATt32tHqWdjkZoSxLhd43CYVBCUp1cFHexgWBEeKJg, EUP7tncJfKDPpKYdunx2qySZ6JmV3injBigyFBiuD96J, 99hdXWmaTQE7gR5vucxMWFNMw7ZLtzJ6WNMSVJHPGJxh
-    Log [meerkat.stakewars.testnet]: Selecting staking pool @zpool.pool.f863973.m0. Going to check whitelist first.
-Transaction Id 4Z2t1SeN2rdbJcPvfVGScpwyuGGKobZjT3eqvDu28sBk
+$ near call valeraverim.pool.f863973.m0 ping '{}' --accountId meerkat.testnet Scheduling a call: valeraverim.pool.f863973.m0.ping({})
+Transaction Id 4mTrz1hDBMTWZx251tX4M5CAo5j7LaxLiPtQrDvQgcZ9
 To see the transaction in the transaction explorer, please open this url in your browser
-https://explorer.testnet.near.org/transactions/4Z2t1SeN2rdbJcPvfVGScpwyuGGKobZjT3eqvDu28sBk
-true
+https://explorer.testnet.near.org/transactions/4mTrz1hDBMTWZx251tX4M5CAo5j7LaxLiPtQrDvQgcZ9
+''
 ```
 
 Where the `<LOCKUP_ID>` is `meerkat.stakewars.testnet`; `<POOL_ID>` is `zpool.pool.f863973.m0`; and `<OWNER_ID>` is `meerkat.testnet`. The `true` statement means that your call was successful, and the lockup contract accepted the `<POOL_ID>` parameter.
@@ -142,8 +137,7 @@ near view <LOCKUP_ID> get_balance ''
 You should expect a result like:
 
 ```
-$ near view meerkat.stakewars.testnet get_balance ''
-View call: meerkat.stakewars.testnet.get_balance()
+$ near view meerkat.stakewars.testnet get_balance '' View call: meerkat.stakewars.testnet.get_balance()
 '100000499656128234500000000'
 ```
 
@@ -163,20 +157,15 @@ near call <LOCKUP_ID> deposit_and_stake '{"amount": "<AMOUNT>"}' --accountId <OW
 You should expect a result like:
 
 ```
-$ near call meerkat.stakewars.testnet deposit_and_stake '{"amount": "65000000000000000000000000"}' --accountId meerkat.testnet --gas 200000000000000
-Scheduling a call: meerkat.stakewars.testnet.deposit_and_stake({"amount": "65000000000000000000000000"})
+$ near call meerkat.stakewars.testnet deposit_and_stake '{"amount": "65000000000000000000000000"}' --accountId meerkat.testnet --gas 200000000000000 Scheduling a call: meerkat.stakewars.testnet.deposit_and_stake({"amount": "65000000000000000000000000"})
 Receipts: BFJxgYMbPLpKy4jae3b5ZJfLuAmpcYCBG2oJniDgh1PA, 9sZSqdLvPXPzpRg9VLwaWjJaBUnXm42ntVCEK1UwmYTp, CMLdB4So6ZYPif8qq2s7zFvKw599HMBVcBfQg85AKNQm
-    Log [meerkat.stakewars.testnet]: Depositing and staking 65000000000000000000000000 to the staking pool @zpool.pool.f863973.m0
-Receipts: 3VpzWTG9Y2nbZmuJhmsub9bRLnwHCFtnW5NQqcMBWawF, 4BrEKDPmz3mAhnq5tTFYRQp8y9uRxGFwYffJFkPMdQ5P, HJPqqJDTajFfeEA8vFXTLDpxh4PYZCMJ2YLKpWVtwSMF
+    Log [meerkat.stakewars.testnet]: Depositing and staking 65000000000000000000000000 to the staking pool @zpool.pool.f863973.m0 Receipts: 3VpzWTG9Y2nbZmuJhmsub9bRLnwHCFtnW5NQqcMBWawF, 4BrEKDPmz3mAhnq5tTFYRQp8y9uRxGFwYffJFkPMdQ5P, HJPqqJDTajFfeEA8vFXTLDpxh4PYZCMJ2YLKpWVtwSMF
     Log [meerkat.stakewars.testnet]: Epoch 105: Contract received total rewards of 20383576173536987339742291104 tokens. New total staked balance is 104251712242552700026473040909. Total number of shares 77295581098329153455984430997
     Log [meerkat.stakewars.testnet]: Total rewards fee is 1511304065231935217653387665 stake shares.
     Log [meerkat.stakewars.testnet]: @meerkat.stakewars.testnet deposited 65000000000000000000000000. New unstaked balance is 65000000000000000000000000
     Log [meerkat.stakewars.testnet]: @meerkat.stakewars.testnet staking 64999999999999999999999999. Received 48193095953206307331949682 new staking shares. Total 1 unstaked balance and 48193095953206307331949682 staking shares
-    Log [meerkat.stakewars.testnet]: Contract total staked balance is 104316712242552700026473040909. Total number of shares 77343774194282359763316380679
-Receipt: FsJLXXEa8Jp8UNyiyG3XQhyHHSWzZ2bCjgWr8kPVjGmG
-    Log [meerkat.stakewars.testnet]: The deposit and stake of 65000000000000000000000000 to @zpool.pool.f863973.m0 succeeded
-Transaction Id AW9pFb5RjkCjsyu8ng56XVvckvd3drPBPtnqVo6bJhqh
-To see the transaction in the transaction explorer, please open this url in your browser
+    Log [meerkat.stakewars.testnet]: Contract total staked balance is 104316712242552700026473040909. Total number of shares 77343774194282359763316380679 Receipt: FsJLXXEa8Jp8UNyiyG3XQhyHHSWzZ2bCjgWr8kPVjGmG
+    Log [meerkat.stakewars.testnet]: The deposit and stake of 65000000000000000000000000 to @zpool.pool.f863973.m0 succeeded Transaction Id AW9pFb5RjkCjsyu8ng56XVvckvd3drPBPtnqVo6bJhqh To see the transaction in the transaction explorer, please open this url in your browser
 https://explorer.testnet.near.org/transactions/AW9pFb5RjkCjsyu8ng56XVvckvd3drPBPtnqVo6bJhqh
 true
 ```
@@ -232,7 +221,7 @@ Both these command require the amount in _yoctoNEAR_, which is the smallest unit
 
 As an example, if you want to unstake `10` NEAR tokens from the staking pool, you have to call the method `unstake` with `10000000000000000000000000` (`1*10^24`, 10 power 24, or 10 with 24 zeros) as an argument.
 
-### a. Unstake the tokens
+### b. Withdraw the tokens
 
 Before unstaking any tokens, use the the view method `get_account` introduced above to know what is the available balance:
 
@@ -243,8 +232,7 @@ near view <POOL_ID> get_account '{"account_id": "<LOCKUP_ID>"}'
 You should expect a result like:
 
 ```
-$ near view zpool.pool.f863973.m0 get_account '{"account_id": "meerkat.stakewars.testnet"}'
-View call: zpool.pool.f863973.m0.get_account({"account_id": "meerkat.stakewars.testnet"})
+$ near view zpool.pool.f863973.m0 get_account '{"account_id": "meerkat.stakewars.testnet"}' View call: zpool.pool.f863973.m0.get_account({"account_id": "meerkat.stakewars.testnet"})
 {
   account_id: 'meerkat.stakewars.testnet',
   unstaked_balance: '5',
@@ -273,24 +261,16 @@ near call <LOCKUP_ID> unstake '{"amount": "<YOCTO>"}' --accountId <OWNER_ID>
 You should expect a result like:
 
 ```
-$ near call meerkat.stakewars.testnet unstake '{"amount": "42000000000000000000000000"}' --accountId meerkat.testnet --useLedgerKey="44'/397'/0'/0'/1'" --gas 300000000000000
-Make sure to connect your Ledger and open NEAR app
-Scheduling a call: meerkat.stakewars.testnet.unstake({"amount": "42000000000000000000000000"})
+$ near call meerkat.stakewars.testnet unstake '{"amount": "42000000000000000000000000"}' --accountId meerkat.testnet --useLedgerKey="44'/397'/0'/0'/1'" --gas 300000000000000 Make sure to connect your Ledger and open NEAR app Scheduling a call: meerkat.stakewars.testnet.unstake({"amount": "42000000000000000000000000"})
 Waiting for confirmation on Ledger...
-Using public key: ed25519:5JgsX9jWUTS5ttHeTjuDFgCmB5YX77f7GHxuQfaGVsyj
-Waiting for confirmation on Ledger...
-Ledger app version: 1.1.3
-Receipts: D5fCCWa5b5N8X9VtxsbRvGhSSCQc56Jb312DEbG4YY8Z, 72rgHrMb1zkUU2RiEz2EMCAuMWFgRJTf8eovwAUkuo31, A2dvSgxpDXfNZUrDVdpewk1orVTVxCMiicjk7qyNq3dW
-    Log [meerkat.stakewars.testnet]: Unstaking 42000000000000000000000000 from the staking pool @zpool.pool.f863973.m0
-Receipts: 9MbLXn28nQyL6BopMEUggBD9NA1QfVio9VB3LTNJ6P5b, 5g7F6HehoGZ2DHS7w54xHAjAeHCsHaAsKpVed76MFYru, BKbtF77i1WEqpuFLtEjWerM2LVZW1md9ecQ5UcBpMNXj
+Using public key: ed25519:5JgsX9jWUTS5ttHeTjuDFgCmB5YX77f7GHxuQfaGVsyj Waiting for confirmation on Ledger...
+Ledger app version: 1.1.3 Receipts: D5fCCWa5b5N8X9VtxsbRvGhSSCQc56Jb312DEbG4YY8Z, 72rgHrMb1zkUU2RiEz2EMCAuMWFgRJTf8eovwAUkuo31, A2dvSgxpDXfNZUrDVdpewk1orVTVxCMiicjk7qyNq3dW
+    Log [meerkat.stakewars.testnet]: Unstaking 42000000000000000000000000 from the staking pool @zpool.pool.f863973.m0 Receipts: 9MbLXn28nQyL6BopMEUggBD9NA1QfVio9VB3LTNJ6P5b, 5g7F6HehoGZ2DHS7w54xHAjAeHCsHaAsKpVed76MFYru, BKbtF77i1WEqpuFLtEjWerM2LVZW1md9ecQ5UcBpMNXj
     Log [meerkat.stakewars.testnet]: Epoch 162: Contract received total rewards of 9488161121527521670023204339 tokens. New total staked balance is 142388816229749953331375665038. Total number of shares 79574075700231185032355056920
     Log [meerkat.stakewars.testnet]: Total rewards fee is 530246455678218748147822292 stake shares.
     Log [meerkat.stakewars.testnet]: @meerkat.stakewars.testnet unstaking 42000000000000000000000001. Spent 23471725293488513736732361 staking shares. Total 42000000000000000000000002 unstaked balance and 24721370659717793595217321 staking shares
-    Log [meerkat.stakewars.testnet]: Contract total staked balance is 142346816229749953331375665038. Total number of shares 79550603974937696518618324559
-Receipt: 3DXSx8aMvhwtJUB6mhTueNbDiqz5wYu3xzzYkZrgjw1u
-    Log [meerkat.stakewars.testnet]: Unstaking of 42000000000000000000000000 at @zpool.pool.f863973.m0 succeeded
-Transaction Id 2rRpdN8AAoySfWsgE7BRtRfz7VFnyFzRhssfaL87rXGf
-To see the transaction in the transaction explorer, please open this url in your browser
+    Log [meerkat.stakewars.testnet]: Contract total staked balance is 142346816229749953331375665038. Total number of shares 79550603974937696518618324559 Receipt: 3DXSx8aMvhwtJUB6mhTueNbDiqz5wYu3xzzYkZrgjw1u
+    Log [meerkat.stakewars.testnet]: Unstaking of 42000000000000000000000000 at @zpool.pool.f863973.m0 succeeded Transaction Id 2rRpdN8AAoySfWsgE7BRtRfz7VFnyFzRhssfaL87rXGf To see the transaction in the transaction explorer, please open this url in your browser
 https://explorer.testnet.near.org/transactions/2rRpdN8AAoySfWsgE7BRtRfz7VFnyFzRhssfaL87rXGf
 true
 ```
@@ -308,8 +288,7 @@ near view <POOL_ID> get_account '{"account_id": "<LOCKUP_ID>"}'
 The result should be as follows:
 
 ```
-$ near view zpool.pool.f863973.m0 get_account '{"account_id": "meerkat.stakewars.testnet"}'
-View call: zpool.pool.f863973.m0.get_account({"account_id": "meerkat.stakewars.testnet"})
+$ near view zpool.pool.f863973.m0 get_account '{"account_id": "meerkat.stakewars.testnet"}' View call: zpool.pool.f863973.m0.get_account({"account_id": "meerkat.stakewars.testnet"})
 {
   account_id: 'meerkat.stakewars.testnet',
   unstaked_balance: '42000000000000000000000006',
@@ -320,7 +299,7 @@ View call: zpool.pool.f863973.m0.get_account({"account_id": "meerkat.stakewars.t
 
 Where `<POOL_ID>` is `zpool.pool.f863973.m0`, the `<LOCKUP_ID>` is `meerkat.stakewars.testnet` and the variable `can_withdraw` is `true`. This means that your `42000000000000000000000000` _Yocto_ (42 NEAR tokens) are now available for withdraw.
 
-### b. Withdraw the tokens
+### b. a. Unstake the tokens
 
 Funds can be withdrawn after three epochs (\~36 hours) from the `unstake` command. It is highly recommended to read the [Lockup contracts documentation](../tokens/lockup) to understand which portion of the unstaked tokens is available for transfers, and which is still vesting and unavailable (even after three epochs).
 
@@ -333,33 +312,23 @@ near call <LOCKUP_ID> withdraw_all_from_staking_pool '' --accountId <OWNER_ID>
 You should expect a result like this one:
 
 ```
-$ near call meerkat.stakewars.testnet withdraw_all_from_staking_pool '' --accountId meerkat.testnet --useLedgerKey="44'/397'/0'/0'/1'" --gas 300000000000000
-
-Make sure to connect your Ledger and open NEAR app
-Scheduling a call: meerkat.stakewars.testnet.withdraw_all_from_staking_pool()
+$ near call meerkat.stakewars.testnet withdraw_all_from_staking_pool '' --accountId meerkat.testnet --useLedgerKey="44'/397'/0'/0'/1'" --gas 300000000000000 Make sure to connect your Ledger and open NEAR app Scheduling a call: meerkat.stakewars.testnet.withdraw_all_from_staking_pool()
 Waiting for confirmation on Ledger...
-Using public key: ed25519:5JgsX9jWUTS5ttHeTjuDFgCmB5YX77f7GHxuQfaGVsyj
-Waiting for confirmation on Ledger...
-Ledger app version: 1.1.3
-Receipts: 6dt3HNDrb7jM4F7cRtwgRSfRMWwFmE8BHeZSDghrpQtw, 7pNKTevct7Z4birAPec81LmnSpJSeJXbFq3cBdjFvsnM, A7yJXdaGcFyiBNQimFtHF479Jm6xiXHvfodTbtFf7Rww
-    Log [meerkat.stakewars.testnet]: Going to query the unstaked balance at the staking pool @zpool.pool.f863973.m0
-Receipts: 2ytgB57D6CJe3vkxdVTiVAytygpTteR4sDmpUNxo5Ltk, CZChcT1uDDxqojnZQq6r7zzx6FE3Z6E5fZ3F23Y1dnyM, GjrWhJgbCAAHUNyvw4QX5YKFpeUVNJ9GpuEdmUXFozeG
-    Log [meerkat.stakewars.testnet]: Withdrawing 42000000000000000000000006 from the staking pool @zpool.pool.f863973.m0
-Receipts: 9nHoqnQygqKYyyR5KDofkYy5KiJxbu2eymoGUUc2tSR3, 5RvBSb4BuHxRhc5U6nLgsCjAvJ88hJ2jwkr1ramk37mE, 5PDN1EYXnCJrTSU7zzJtmAuj9vvGSVurh94nvfHDHXpa, GTTGm4sXcSWD2gnohMJzD7TQcQxuSe7AFABZKqxPLgau
+Using public key: ed25519:5JgsX9jWUTS5ttHeTjuDFgCmB5YX77f7GHxuQfaGVsyj Waiting for confirmation on Ledger...
+Ledger app version: 1.1.3 Receipts: 6dt3HNDrb7jM4F7cRtwgRSfRMWwFmE8BHeZSDghrpQtw, 7pNKTevct7Z4birAPec81LmnSpJSeJXbFq3cBdjFvsnM, A7yJXdaGcFyiBNQimFtHF479Jm6xiXHvfodTbtFf7Rww
+    Log [meerkat.stakewars.testnet]: Going to query the unstaked balance at the staking pool @zpool.pool.f863973.m0 Receipts: 2ytgB57D6CJe3vkxdVTiVAytygpTteR4sDmpUNxo5Ltk, CZChcT1uDDxqojnZQq6r7zzx6FE3Z6E5fZ3F23Y1dnyM, GjrWhJgbCAAHUNyvw4QX5YKFpeUVNJ9GpuEdmUXFozeG
+    Log [meerkat.stakewars.testnet]: Withdrawing 42000000000000000000000006 from the staking pool @zpool.pool.f863973.m0 Receipts: 9nHoqnQygqKYyyR5KDofkYy5KiJxbu2eymoGUUc2tSR3, 5RvBSb4BuHxRhc5U6nLgsCjAvJ88hJ2jwkr1ramk37mE, 5PDN1EYXnCJrTSU7zzJtmAuj9vvGSVurh94nvfHDHXpa, GTTGm4sXcSWD2gnohMJzD7TQcQxuSe7AFABZKqxPLgau
     Log [meerkat.stakewars.testnet]: Epoch 168: Contract received total rewards of 514182787298700000000 tokens. New total staked balance is 142377784876419564057032272059. Total number of shares 79552334320822393318832070510
     Log [meerkat.stakewars.testnet]: Total rewards fee is 28729510739826825657 stake shares.
-    Log [meerkat.stakewars.testnet]: @meerkat.stakewars.testnet withdrawing 42000000000000000000000006. New unstaked balance is 0
-Receipt: rS5KjvzkbaxEH7aG8VXyd9EEEfY7PygdLzSZ3W9qf3w
-    Log [meerkat.stakewars.testnet]: The withdrawal of 42000000000000000000000006 from @zpool.pool.f863973.m0 succeeded
-Transaction Id EjNpoU7BNfEQujckL8JiAP8kYDH1SMLw4wC32tL3uyaH
-To see the transaction in the transaction explorer, please open this url in your browser
+    Log [meerkat.stakewars.testnet]: @meerkat.stakewars.testnet withdrawing 42000000000000000000000006. New unstaked balance is 0 Receipt: rS5KjvzkbaxEH7aG8VXyd9EEEfY7PygdLzSZ3W9qf3w
+    Log [meerkat.stakewars.testnet]: The withdrawal of 42000000000000000000000006 from @zpool.pool.f863973.m0 succeeded Transaction Id EjNpoU7BNfEQujckL8JiAP8kYDH1SMLw4wC32tL3uyaH To see the transaction in the transaction explorer, please open this url in your browser
 https://explorer.testnet.near.org/transactions/EjNpoU7BNfEQujckL8JiAP8kYDH1SMLw4wC32tL3uyaH
 true
 ```
 
 Where `<LOCKUP_ID>` is `meerkat.stakewars.testnet`, the `<OWNER_ID>` is `meerkat.testnet` and the `true` statement confirms the successful withdrawal.
 
-By using again the view method ``
+By using again the view method ````
 
 ```
 near view <POOL_ID> get_account '{"account_id": "<LOCKUP_ID>"}'
@@ -368,8 +337,7 @@ near view <POOL_ID> get_account '{"account_id": "<LOCKUP_ID>"}'
 The result should be as follows:
 
 ```
-$ near view zpool.pool.f863973.m0 get_account '{"account_id": "meerkat.stakewars.testnet"}'
-View call: zpool.pool.f863973.m0.get_account({"account_id": "meerkat.stakewars.testnet"})
+$ near view zpool.pool.f863973.m0 get_account '{"account_id": "meerkat.stakewars.testnet"}' View call: zpool.pool.f863973.m0.get_account({"account_id": "meerkat.stakewars.testnet"})
 {
   account_id: 'meerkat.stakewars.testnet',
   unstaked_balance: '0',
@@ -404,17 +372,12 @@ near call <POOL_ID> deposit_and_stake '' --accountId <OWNER_ID> --amount 100
 You should expect a result like:
 
 ```
-$ near call valeraverim.pool.f863973.m0 deposit_and_stake '' --accountId meerkat.testnet --amount 100
-
-Scheduling a call: valeraverim.pool.f863973.m0.deposit_and_stake() with attached 100 NEAR
-Receipts: FEfNuuCSttu7m4dKQPUSgpSFJSB86i6T2sYJWSv7PHPJ, GPYhZsyUuJgvr7gefxac4566DVQcyGs4wSFeydkmRX7D, 8hfcJuwsstnFQ1cgU5iUigvfrq1JcbaKURvKf5shaB4g
+$ near call valeraverim.pool.f863973.m0 deposit_and_stake '' --accountId meerkat.testnet --amount 100 Scheduling a call: valeraverim.pool.f863973.m0.deposit_and_stake() with attached 100 NEAR Receipts: FEfNuuCSttu7m4dKQPUSgpSFJSB86i6T2sYJWSv7PHPJ, GPYhZsyUuJgvr7gefxac4566DVQcyGs4wSFeydkmRX7D, 8hfcJuwsstnFQ1cgU5iUigvfrq1JcbaKURvKf5shaB4g
     Log [valeraverim.pool.f863973.m0]: Epoch 106: Contract received total rewards of 545371217890000000000 tokens. New total staked balance is 75030000959768421358700000000. Total number of shares 75029067713856889417103116457
     Log [valeraverim.pool.f863973.m0]: Total rewards fee is 54536443439735902364 stake shares.
     Log [valeraverim.pool.f863973.m0]: @meerkat.testnet deposited 100000000000000000000000000. New unstaked balance is 100000000000000000000000000
     Log [valeraverim.pool.f863973.m0]: @meerkat.testnet staking 99999999999999999999999999. Received 99998756169666008195607157 new staking shares. Total 1 unstaked balance and 99998756169666008195607157 staking shares
-    Log [valeraverim.pool.f863973.m0]: Contract total staked balance is 75130000959768421358700000000. Total number of shares 75129066470026555425298723614
-Transaction Id FDtzMmusJgFbryeVrdQyNvp6XU2xr11tecgqnnSsvyxv
-To see the transaction in the transaction explorer, please open this url in your browser
+    Log [valeraverim.pool.f863973.m0]: Contract total staked balance is 75130000959768421358700000000. Total number of shares 75129066470026555425298723614 Transaction Id FDtzMmusJgFbryeVrdQyNvp6XU2xr11tecgqnnSsvyxv To see the transaction in the transaction explorer, please open this url in your browser
 https://explorer.testnet.near.org/transactions/FDtzMmusJgFbryeVrdQyNvp6XU2xr11tecgqnnSsvyxv
 ''
 
@@ -431,8 +394,7 @@ near view <POOL_ID> get_account '{"account_id": "<OWNER_ID>"}'
 You should expect a result like:
 
 ```
-$ near view valeraverim.pool.f863973.m0 get_account '{"account_id": "meerkat.testnet"}'
-View call: valeraverim.pool.f863973.m0.get_account({"account_id": "meerkat.testnet"})
+$ near view valeraverim.pool.f863973.m0 get_account '{"account_id": "meerkat.testnet"}' View call: valeraverim.pool.f863973.m0.get_account({"account_id": "meerkat.testnet"})
 {
   account_id: 'meerkat.testnet',
   unstaked_balance: '1',

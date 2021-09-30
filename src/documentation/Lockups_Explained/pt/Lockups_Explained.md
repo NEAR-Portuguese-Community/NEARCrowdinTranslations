@@ -43,7 +43,7 @@ The lockup contract is then deployed with a predictable name. It is defined as `
 
 If you have received additional tokens to the lockup account, they are considered unlocked and can be freely withdrawn. For example, any rewards that are earned using this lockup account (e.g. from delegation) or any other funds sent to this lockup contract can be withdrawn by the owner at any time.
 
-The actual lockup release process happens on per block basis. E.g. if the release length is 1 calendar year, it will actually be `31,536,000` seconds, and with ~1-second blocks, `~1/31,536,000` will be released per block. When the lockup has been fully released, the Owner Account can add the full-access key and withdraw all the funds from it.
+The actual lockup release process happens on per block basis. E.g. E.g. if the release length is 1 calendar year, it will actually be `31,536,000` seconds, and with ~1-second blocks, `~1/31,536,000` will be released per block. When the lockup has been fully released, the Owner Account can add the full-access key and withdraw all the funds from it.
 
 The contract consists of lockup and vesting processes that go simultaneously. Both of these processes lock the tokens, but the mechanics slightly differ.
 

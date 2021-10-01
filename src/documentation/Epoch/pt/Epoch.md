@@ -1,7 +1,7 @@
 ---
 id: epoch
-title: Epoch
-sidebar_label: Epoch
+title: Época (Epoch)
+sidebar_label: Época (Epoch)
 ---
 
 > Uma **época (epoch)** é uma unidade de tempo onde os validadores permanecem constantes.
@@ -9,9 +9,9 @@ sidebar_label: Epoch
 - Ambas, `testnet` e `mainnet`, tem uma duração de época de ~12 horas ou 43.200 segundos para ser exato.
 - Você pode ver esta configuração fazendo a requisição **[`protocol_config`](/docs/api/rpc#protocol-config)** ao endpoint RPC e pesquisando por `epoch_length`.
 
-**Note:** Nodes garbage collect blocks after 5 epochs (~2.5 days) unless they are [archival nodes](/docs/roles/integrator/exchange-integration#running-an-archival-node).
+**Nota:** Nós fazem coleta de lixo dos blocos após 5 épocas (~2.5 dias) a menos que sejam [nós arquivo](/docs/roles/integrator/exchange-integration#running-an-archival-node).
 
-**Example:**
+**Exemplo:**
 
 <!--DOCUSAURUS_CODE_TABS-->
 
@@ -39,7 +39,7 @@ http post https://rpc.testnet.near.org jsonrpc=2.0 id=dontcare method=EXPERIMENT
 
 <!--END_DOCUSAURUS_CODE_TABS-->
 
-**Example Response:**
+**Exemplo de Resposta:**
 
 ```json
 {
@@ -72,8 +72,7 @@ http post https://rpc.testnet.near.org jsonrpc=2.0 id=dontcare method=EXPERIMENT
 }
 ```
 
-You can learn more about how epoch's are used to manage network validation in the [Validator FAQ](/docs/validator/staking-faq#what-is-an-epoch).
+Você pode aprender mais sobre como épocas são usadas para gerenciar a rede de validação no [FAQ Validadores](/docs/validator/staking-faq#what-is-an-epoch).
 
-> Got a question?
-   <a href="https://stackoverflow.com/questions/tagged/nearprotocol">
-> <h8>Ask it on StackOverflow!</h8></a>
+> Tem alguma dúvida?
+   <a href="https://stackoverflow.com/questions/tagged/nearprotocol"><h8> Pergunte no StackOverflow! </h8></a>

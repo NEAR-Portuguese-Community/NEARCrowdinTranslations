@@ -1,29 +1,29 @@
 ---
 id: networks
-title: NEAR Networks
-sidebar_label: Networks
+title: Redes NEAR
+sidebar_label: Redes
 ---
 
 O Protocolo NEAR opera em várias redes cada uma operando com seus próprios validadores independentes e estado único. Estas redes são as seguintes:
 
-* [`mainnet`](/docs/concepts/networks#mainnet)
-* [`testnet`](/docs/concepts/networks#testnet)
-* [`betanet`](/docs/concepts/networks#betanet)
-* [`localnet`](/docs/concepts/networks#localnet)
+* [`mainnet (rede principal)`](/docs/concepts/networks#mainnet)
+* [`testnet (rede teste)`](/docs/concepts/networks#testnet)
+* [`betanet (rede beta)`](/docs/concepts/networks#betanet)
+* [`localnet (rede local)`](/docs/concepts/networks#localnet)
 
 ---
 
 
 ## `mainnet`
 
-`mainnet` is for production ready smart contracts and live token transfers. Contracts ready for `mainnet` should have gone through rigorous testing and independent security reviews if necessary. `mainnet` is the only network where state is guaranteed to persist over time _(subject to the typical security guarantees of the network's validation process)_.
+`mainnet` é para contratos inteligentes prontos para produção e transferências de tokens que tem valor. Contratos prontos para `mainnet` devem ter passado por testes rigorosos e reviews de segurança independentes se necessário. `mainnet` é a única rede que o estado é garantido de persistir ao longo do tempo _(sujeito às garantias típicas de segurança do processo de validação da rede)_.
 
 * [ [Status](https://rpc.mainnet.near.org/status) ]
-* [ [Explorer](https://explorer.near.org) ]
-* [ [Wallet](https://wallet.near.org) ]
-* [ [Data Snapshots](/docs/develop/node/intro/node-data-snapshots) ]
+* [ [Explorador](https://explorer.near.org) ]
+* [ [Carteira](https://wallet.near.org) ]
+* [ [Snapshots de Dados](/docs/develop/node/intro/node-data-snapshots) ]
 
-**Note:** `near-cli` [network selection](/docs/tools/near-cli#network-selection) flag is `production`.
+**Nota: a flag para[ seleção da rede ](/docs/tools/near-cli#network-selection)na `near-cli` é `production`.</p>
 
 ---
 

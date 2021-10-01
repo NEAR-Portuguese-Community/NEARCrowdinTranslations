@@ -4,10 +4,10 @@ title: Epoch
 sidebar_label: Epoch
 ---
 
-> An **epoch** is a unit of time when validators of the network remain constant.
+> Uma **época (epoch)** é uma unidade de tempo onde os validadores permanecem constantes.
 
-- Both `testnet` and `mainnet` have an epoch duration of ~12 hours or 43,200 seconds to be exact.
-- You can view this setting by querying the **[`protocol_config`](/docs/api/rpc#protocol-config)** RPC endpoint and searching for `epoch_length`.
+- Ambas, `testnet` e `mainnet`, tem uma duração de época de ~12 horas ou 43.200 segundos para ser exato.
+- Você pode ver esta configuração fazendo a requisição **[`protocol_config`](/docs/api/rpc#protocol-config)** ao endpoint RPC e pesquisando por `epoch_length`.
 
 **Note:** Nodes garbage collect blocks after 5 epochs (~2.5 days) unless they are [archival nodes](/docs/roles/integrator/exchange-integration#running-an-archival-node).
 

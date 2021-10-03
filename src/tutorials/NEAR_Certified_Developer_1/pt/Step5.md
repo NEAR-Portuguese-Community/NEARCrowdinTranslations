@@ -24,4 +24,4 @@ A implantação na MainNet está fora de escopo, por isso nos concentramos na Te
 
 ### 3. Verifique o seu uso da aplicação
 
-* Use o NEAR Explorer para verificar a implantação (localize um registro de quaisquer transações relacionadas à sua conta ou relaciona a conta de destino na qual o contrato foi implantado)
+* Use o NEAR Explorer para verificar a implantação (localize um registro de quaisquer transações relacionadas à sua conta ou relacionada à conta de destino na qual o contrato foi implantado)

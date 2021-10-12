@@ -1,7 +1,7 @@
 ---
 id: data-storage
-title: Data Storage / Collections
-sidebar_label: Data Storage
+title: Armazenamento de Dados / Coleções
+sidebar_label: Armazenamento de dados
 ---
 
 ## Overview

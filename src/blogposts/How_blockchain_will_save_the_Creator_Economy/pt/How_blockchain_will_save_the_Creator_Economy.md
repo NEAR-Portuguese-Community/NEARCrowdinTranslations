@@ -1,6 +1,6 @@
-How blockchain will save the Creator Economy
+Como a blockchain salvará a Economia do Criador
 
-Creators are Innovators
+Criadores são Inovadores
 
 Creative industries have always led innovation because they’re fundamentally exploratory and hungry for ways to help create sustainably.
 

@@ -8,7 +8,7 @@ sidebar_label: Orientações
 
 Nesta seção você será introduzido aos princípios do staking e a como rodar seu próprio nó validador.
 
-Protocolo NEAR usa Proof-of-Stake (PoS) para fazer a segurança da blockchain. Os _Validadores_ são a comunidade de operadores de nó que tomam conta do [consenso da blockchain](../roles/integrator/faq#which-consensus-algorithm-does-near-use). Tecnicamente, os _nós validadores_ são servidores que agregam transações em blocos, os executam, e mantém o último estado da blockchain. Os donos desses nós, os _Validadores_, ganham prêmios por seu serviço no final de cada época (\~12 horas).
+O protocolo NEAR usa Proof-of-Stake (PoS) para fazer a segurança da blockchain. Os _Validadores_ são a comunidade de operadores de nó que tomam conta do [consenso da blockchain](../roles/integrator/faq#which-consensus-algorithm-does-near-use). Tecnicamente, os _nós validadores_ são servidores que agregam transações em blocos, os executam, e mantém o último estado da blockchain. Os donos desses nós, os _Validadores_, ganham prêmios por seu serviço no final de cada época (\~12 horas).
 
 Todos os Validadores devem deixar uma certa quantia de tokens NEAR em _stake_, o que representa um colateral contra um possível comportamento desonesto. _Tokens em stake_ não podem ser gastos: se um Validador desonesto atacar o consenso da blockchain, o protocolo progressivamente destrói seu stake (veja [slashing](staking-faq#what-is-a-slashing-behavior)). Tokens em Stake podem ser _desbloqueados_ a qualquer momento, mas continuam sem poder ser gastos por três épocas, mesmo que o nó validador fique offline ou decida parar de validar.
 

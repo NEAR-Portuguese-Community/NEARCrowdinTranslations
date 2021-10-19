@@ -16,7 +16,7 @@ O protocolo NEAR escolhe automaticamente os melhores validadores com um leilão.
 
 Validadores podem aumentar seu stake, e assim suas recompensas, pedindo _delegação_. Delegação é a oportunidade para todos os titulares de tokens participarem em parceria com um validador, alugando uma pequena porção do seu nó de validação. _Delegadores_ podem travar seus fundos em uma [_staking pool_](https://github.com/near/core-contracts), e receber recompensas no final de cada época, menos as taxas pagas ao Validador.
 
-As recompensas NEAR são previsíveis e proporcionais ao seu stake. O protocolo gera novos tokens a uma taxa de \~5% da oferta total (anualizada) e a maioria deles são recompensas. Como exemplo, se a oferta total for um bilhão de tokens, e as recompensas anuais forem \~4.5%, todos os validadores dividirão 45 milhões de tokens NEAR (veja a [página sobre economia](/docs/validator/economics) para mais detalhes). Independente se você ser validador ou delegador, quanto mais stake você faz, maior é a sua parte dessas recompensas.
+Na NEAR as recompensas são previsíveis e proporcionais ao seu stake. O protocolo gera novos tokens a uma taxa de \~5% da oferta total (anualizada) e a maioria deles são recompensas. Como exemplo, se a oferta total for um bilhão de tokens, e as recompensas anuais forem \~4.5%, todos os validadores dividirão 45 milhões de tokens NEAR (veja a [página sobre economia](/docs/validator/economics) para mais detalhes). Independente se você ser validador ou delegador, quanto mais stake você faz, maior é a sua parte dessas recompensas.
 
 
 ## Para Delegadores
@@ -30,12 +30,12 @@ Se você quer recompensas por fazer staking, mas não quer executar seu próprio
 7. Junte-se aos canais dos validadores no [Discord](https://near.chat) para fazer perguntas e conhecer a comunidade de staking da NEAR.
 
 <blockquote class="info">
-    <strong>você sabia?</strong><br><br>
+    <strong>Você Sabia?</strong><br><br>
     O protocolo NEAR não pune os delegadores. Então, se o seu validador favorito errar e for cortado, você só perderá algumas recompensas, e seu stake permanecerá intacto.
 </blockquote>
 
 ## Para Validadores
-Você decidiu ver o quão fundo é o buraco do coelho? Sem problemas! A NEAR é como muitas outras redes de proof of stake: mantenha os seus servidores online \~100% do tempo, esteja sempre pronto para atualizar seu nó, participe da comunidade. No entanto, há fatores de diferenciação importantes, como o staking através de contratos inteligentes; atualizações planejadas do protocolo sem hard forks; taxas de gás que queimam tokens em vez de dar recompensas.
+Você está decidido em ver o quão fundo o buraco do coelho vai? Sem problemas! A NEAR é como muitas outras redes de Proof of Stake: mantenha os seus servidores online \~100% do tempo, esteja sempre pronto para atualizar seu nó, participe da comunidade. No entanto, há fatores de diferenciação importantes, como o staking através de contratos inteligentes; atualizações planejadas do protocolo sem hard forks; taxas de gás que queimam tokens em vez de dar recompensas.
 
 Você pode encontrar material adicional a seguir:
 
@@ -48,7 +48,7 @@ Você ainda está aqui? Se você quiser aprender mais sobre a NEAR, confira
 * [O Guia do Iniciante para a Blockchain da NEAR](https://near-portuguese.medium.com/o-guia-do-iniciante-para-a-blockchain-da-near-7776317b6c65) para obter uma visão geral de alto nível da NEAR.
 * [O Whitepaper da NEAR](https://near.org/papers/the-official-near-white-paper) para ver um panorama geral.
 * [Economia em Blockchain Compartilhada](https://near.org/papers/economics-in-sharded-blockchain/) para saber mais sobre a estrutura de incentivos da NEAR.
-* [Design de Compartilhamento: Nightshade](https://near.org/papers/nightshade) para ganhar um entendimento mais detalhado do mecanismo de consenso.
+* [Sharding Design: Nightshade](https://near.org/papers/nightshade) para ganhar um entendimento mais detalhado do mecanismo de consenso.
 
 Se algo não estiver claro ou você travar, por favor, vá ao nosso chat oficial no [Discord](https://near.chat), e entre na seção de validadores.
 

@@ -42,13 +42,13 @@ A `testnet` é uma rede pública e a última rede de testes para alterações do
 
 ## `rede beta`
 
-A `betanet` é uma rede pública, onde o `nearcore` é executado para testar sua estabilidade e compatibilidade com versões anteriores. Os validadores na `betanet` são participantes do Grupo de Análise da Betanet (Betanet Analysis Group) onde se empenham em discussões ativas, relatam erros e participam da resolução de problemas. Na `betanet` o protocolo muda, existem hard forks automatizados, em que o estado é comprimido em uma nova gênese. Como tal, existe frequentemente uma nova gênese na `betanet`, e não existem snapshots de dados históricos. `betanet` usually has daily releases with protocol features that are not yet stabilized. State is maintained as much as possible but there is no guarantees with its high volatility.
+A `betanet` é uma rede pública, onde o `nearcore` é executado para testar sua estabilidade e compatibilidade com versões anteriores. Os validadores na `betanet` são participantes do Grupo de Análise da Betanet (Betanet Analysis Group) onde se empenham em discussões ativas, relatam erros e participam da resolução de problemas. Na `betanet` o protocolo muda, existem hard forks automatizados, em que o estado é comprimido em uma nova gênese. Como tal, existe frequentemente uma nova gênese na `betanet`, e não existem snapshots de dados históricos. A `betanet` normalmente tem versões diárias com recursos de protocolo que ainda não estão estabilizados. O estado é mantido tanto quanto possível, mas não há garantias, dada sua elevada volatilidade.
 
 * [ [Estado](https://rpc.betanet.near.org/status) ]
 * [ [Explorador](https://explorer.betanet.near.org) ]
 * [ [Carteira](https://wallet.betanet.near.org) ]
 
-`near-cli` [network selection](/docs/tools/near-cli#network-selection) variable is `betanet`
+A variável para [selecionar a rede](/docs/tools/near-cli#network-selection) na `near-cli` é `betanet`
 
 ---
 

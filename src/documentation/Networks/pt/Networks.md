@@ -54,14 +54,13 @@ A variável para [selecionar a rede](/docs/tools/near-cli#network-selection) na 
 
 ## `rede local`
 
-`localnet` is intended for developers who want to work with the NEAR platform independent of the public blockchain. You will need to generate nodes yourself. `localnet` gives you the total control over accounts, economics, and other factors for more advanced use cases (including making changes to `nearcore`). For developers, `localnet` is the right choice if you prefer to avoid leaking information about your work during the development process.
+A rede local (`localnet`) é destinada a desenvolvedores que querem trabalhar com a plataforma da NEAR independente do blockchain público. Você mesmo precisará gerar nós. A `localnet` lhe dá o controle total sobre as contas, economia, e outros fatores para casos de uso mais avançados (incluindo fazer alterações no `nearcore`). Para os desenvolvedores, a `localnet` é a escolha certa se você preferir evitar o vazamento de informações sobre o seu trabalho durante o processo de desenvolvimento.
 
-More on local development [here](/docs/develop/node/validator/running-a-node)
+Mais sobre desenvolvimento local [aqui](/docs/develop/node/validator/running-a-node)
 
-`near-cli` [network selection](/docs/tools/near-cli#network-selection) variable is `local`
+A variável para [selecionar a rede](/docs/tools/near-cli#network-selection) na `near-cli` é `local`
 
 ---
-> Got a question?
+> Tem alguma dúvida?
 <a href="https://stackoverflow.com/questions/tagged/nearprotocol">
-  <h8>Ask it on StackOverflow!</h8>
-</a>
+  <h8>Pergunte no StackOverflow!</h8></a>

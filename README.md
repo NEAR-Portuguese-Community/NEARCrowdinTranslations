@@ -9,13 +9,13 @@ Repository with the NEAR Crowdin translations. You can find the Crowdin project 
 | Title | Original |
 | ----- | -------- |
 | **TOKENS/STAKING** ||
-| Staking Orientation | [Link](https://docs.near.org/docs/validator/staking-overview) |
-| Token Custody Options | [Link](https://docs.near.org/docs/tokens/token-custody) |
-| Lockups Explained | [Link](https://docs.near.org/docs/tokens/lockup) |
-| Token Delegation | [Link](https://docs.near.org/docs/validator/delegation) |
-| Running a Validator Node | [Link](https://docs.near.org/docs/validator/staking) |
-| The Economics of a Validator | [Link](https://docs.near.org/docs/validator/economics) |
-| Staking FAQ | [Link](https://docs.near.org/docs/validator/staking-faq) |
+| Staking Orientation | [Link](https://wiki.near.org/validator/validator-overview) |
+| Token Custody Options | [Link](https://wiki.near.org/getting-started/near-token/token-custody) |
+| Lockups Explained | [Link](https://wiki.near.org/getting-started/near-token/lockups) |
+| Token Delegation | [Link](https://wiki.near.org/getting-started/near-token/token-delegation) |
+| Running a Validator Node | [Link](https://wiki.near.org/validator/validator-guides/running-a-validator) |
+| The Economics of a Validator | [Link](https://wiki.near.org/validator/validator-docs/validator-economics) |
+| Staking FAQ | [Link](https://wiki.near.org/validator/validator-support/faq) |
 | **CONCEPTS -> BASICS** ||
 | Account | [Link](https://docs.near.org/docs/concepts/account) |
 | Data Collection | [Link](https://github.com/near/docs/blob/master/docs/concepts/data-collections.md) |

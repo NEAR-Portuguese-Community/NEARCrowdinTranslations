@@ -8,7 +8,7 @@ sidebar_label: Orientações
 
 Nesta seção você será introduzido aos princípios do staking e a como rodar seu próprio nó validador.
 
-Protocolo NEAR usa Proof-of-Stake (PoS) para fazer a segurança da blockchain. Os _Validadores_ são a comunidade de operadores de nó que tomam conta do [consenso da blockchain](../roles/integrator/faq#which-consensus-algorithm-does-near-use). Tecnicamente, os _nós validadores_ são servidores que agregam transações em blocos, os executam, e mantém o último estado da blockchain. Os donos desses nós, os _Validadores_, ganham prêmios por seu serviço no final de cada época (\~12 horas).
+O protocolo NEAR usa Proof-of-Stake (PoS) para fazer a segurança da blockchain. Os _Validadores_ são a comunidade de operadores de nós responsáveis pelo [consenso da blockchain](../roles/integrator/faq#which-consensus-algorithm-does-near-use). Tecnicamente, os _nós validadores_ são servidores que agregam transações em blocos, os executam, e mantém o último estado da blockchain. Os donos desses nós, os _Validadores_, ganham prêmios por seu serviço no final de cada época (\~12 horas).
 
 Todos os Validadores devem deixar uma certa quantia de tokens NEAR em _stake_, o que representa um colateral contra um possível comportamento desonesto. _Tokens em stake_ não podem ser gastos: se um Validador desonesto atacar o consenso da blockchain, o protocolo progressivamente destrói seu stake (veja [slashing](staking-faq#what-is-a-slashing-behavior)). Tokens em Stake podem ser _desbloqueados_ a qualquer momento, mas continuam sem poder ser gastos por três épocas, mesmo que o nó validador fique offline ou decida parar de validar.
 
@@ -16,7 +16,7 @@ O protocolo NEAR escolhe automaticamente os melhores validadores com um leilão.
 
 Validadores podem aumentar seu stake, e assim suas recompensas, pedindo _delegação_. Delegação é a oportunidade para todos os titulares de tokens participarem em parceria com um validador, alugando uma pequena porção do seu nó de validação. _Delegadores_ podem travar seus fundos em uma [_staking pool_](https://github.com/near/core-contracts), e receber recompensas no final de cada época, menos as taxas pagas ao Validador.
 
-As recompensas NEAR são previsíveis e proporcionais ao seu stake. O protocolo gera novos tokens a uma taxa de \~5% da oferta total (anualizada) e a maioria deles são recompensas. Como exemplo, se a oferta total for um bilhão de tokens, e as recompensas anuais forem \~4.5%, todos os validadores dividirão 45 milhões de tokens NEAR (veja a [página sobre economia](/docs/validator/economics) para mais detalhes). Independente se você ser validador ou delegador, quanto mais stake você faz, maior é a sua parte dessas recompensas.
+Na NEAR as recompensas são previsíveis e proporcionais ao seu stake. O protocolo gera novos tokens a uma taxa de \~5% da oferta total (anualizada) e a maioria deles são recompensas. Como exemplo, se a oferta total for um bilhão de tokens, e as recompensas anuais forem \~4.5%, todos os validadores dividirão 45 milhões de tokens NEAR (veja a [página sobre economia](/docs/validator/economics) para mais detalhes). Independente se você ser validador ou delegador, quanto mais stake você faz, maior é a sua parte dessas recompensas.
 
 
 ## Para Delegadores
@@ -30,12 +30,12 @@ Se você quer recompensas por fazer staking, mas não quer executar seu próprio
 7. Junte-se aos canais dos validadores no [Discord](https://near.chat) para fazer perguntas e conhecer a comunidade de staking da NEAR.
 
 <blockquote class="info">
-    <strong>você sabia?</strong><br><br>
+    <strong>Você Sabia?</strong><br><br>
     O protocolo NEAR não pune os delegadores. Então, se o seu validador favorito errar e for cortado, você só perderá algumas recompensas, e seu stake permanecerá intacto.
 </blockquote>
 
 ## Para Validadores
-Você decidiu ver o quão fundo é o buraco do coelho? Sem problemas! A NEAR é como muitas outras redes de proof of stake: mantenha os seus servidores online \~100% do tempo, esteja sempre pronto para atualizar seu nó, participe da comunidade. No entanto, há fatores de diferenciação importantes, como o staking através de contratos inteligentes; atualizações planejadas do protocolo sem hard forks; taxas de gás que queimam tokens em vez de dar recompensas.
+Você está decidido em ver o quão fundo o buraco do coelho vai? Sem problemas! A NEAR é como muitas outras redes de Proof of Stake: mantenha os seus servidores online \~100% do tempo, esteja sempre pronto para atualizar seu nó, participe da comunidade. No entanto, há fatores de diferenciação importantes, como o staking através de contratos inteligentes; atualizações planejadas do protocolo sem hard forks; taxas de gás que queimam tokens em vez de dar recompensas.
 
 Você pode encontrar material adicional a seguir:
 
@@ -48,7 +48,7 @@ Você ainda está aqui? Se você quiser aprender mais sobre a NEAR, confira
 * [O Guia do Iniciante para a Blockchain da NEAR](https://near-portuguese.medium.com/o-guia-do-iniciante-para-a-blockchain-da-near-7776317b6c65) para obter uma visão geral de alto nível da NEAR.
 * [O Whitepaper da NEAR](https://near.org/papers/the-official-near-white-paper) para ver um panorama geral.
 * [Economia em Blockchain Compartilhada](https://near.org/papers/economics-in-sharded-blockchain/) para saber mais sobre a estrutura de incentivos da NEAR.
-* [Design de Compartilhamento: Nightshade](https://near.org/papers/nightshade) para ganhar um entendimento mais detalhado do mecanismo de consenso.
+* [Sharding Design: Nightshade](https://near.org/papers/nightshade) para ganhar um entendimento mais detalhado do mecanismo de consenso.
 
 Se algo não estiver claro ou você travar, por favor, vá ao nosso chat oficial no [Discord](https://near.chat), e entre na seção de validadores.
 

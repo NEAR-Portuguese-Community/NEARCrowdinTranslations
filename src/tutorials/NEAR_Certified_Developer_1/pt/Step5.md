@@ -5,9 +5,9 @@
 Quando dizemos "aplicativo" no NEAR costumamos dizer software que foi escrito para definir:
 
 1. dados na blochain e comportamento controlado por contratos inteligentes (por ex. contrato NFT)
-2. dados e comportamento fora da blockchain comunicando com contratos inteligentes (ex. aplicativo web) Nós analisamos muitos contratos e aplicativos e agora vamos implantá-los.
+2. dados e comportamento fora da blockchain comunicando com contratos inteligentes (ex. aplicativo web) Nós analisamos muitos contratos e aplicativos e agora vamos fazer deploy deles.
 
-A implantação na MainNet está fora de escopo, por isso nos concentramos na TestNet e, como atividade bônus, a LocalNet, em que você poderá construir de forma privada. Tudo o que rodar na TestNet deve funcionar igualmente bem na MainNet. Este é o único objetivo da TestNet, de fato: fornecer uma prévia completa do nosso trabalho antes de o colocarmos no ar na MainNet.
+O deploy na MainNet está fora de escopo, por isso nos concentramos na TestNet e, como atividade bônus, a LocalNet, em que você poderá construir de forma privada. Tudo o que rodar na TestNet deve funcionar igualmente bem na MainNet. Este é o único objetivo da TestNet, de fato: fornecer uma prévia completa do nosso trabalho antes de o colocarmos no ar na MainNet.
 
 ## Principais atividades
 
@@ -18,10 +18,10 @@ A implantação na MainNet está fora de escopo, por isso nos concentramos na Te
 
 ### 2. Verifique se a aplicação foi implantada
 
-* Use o NEAR Explorer para verificar a implantação (localize evidência da implantação para a conta de destino na qual o contrato foi implantado)
+* Use o NEAR Explorer para verificar o deploy. Ele localiza evidências do deploy para a conta de destino na qual o contrato foi implantado.
 
 * Use o NEAR CLI para executar o comando near state <contract-account> e note que o code_hash não é o valor padrão de todos os 1s
 
 ### 3. Verifique o seu uso da aplicação
 
-* Use o NEAR Explorer para verificar a implantação (localize um registro de quaisquer transações relacionadas à sua conta ou relaciona a conta de destino na qual o contrato foi implantado)
+* Use o NEAR Explorer para verificar a implantação (localize um registro de quaisquer transações relacionadas à sua conta ou relacionada à conta de destino na qual o contrato foi implantado)

@@ -1,29 +1,29 @@
 ---
-id: transaction
-title: Transaction
-sidebar_label: Transaction
+id: transação
+title: Transação
+sidebar_label: Transação
 ---
 
-## Overview
+## Visão Geral
 
-A transaction is the smallest unit of work that can be assigned to the network. Work in this case means compute (ie. executing a function) or storage (ie. reading / writing data).
+Uma transação é a menor unidade de trabalho que pode ser atribuída à rede. Trabalhar neste caso significa cálculo (isto é, execução de uma função) ou armazenamento (isto é, leitura/escrita de dados).
 
-## Transaction Processing
+## Processamento de uma Transação
 
-### Transaction
+### Transação
 
-A `Transaction` is a collection of `Actions` that describe what should be done at the destination (the `receiver` account).
+Uma `Transação` é uma coleção de `Ações` que descrevem o que deve ser feito no destino (a conta `destinatária`).
 
-Each `Transaction` is augmented with critical information about its:
+Cada `Transação` é aumentada com informações críticas sobre sua:
 
-- **origin** (ie. cryptographically signed by `signer`)
-- **destination** or intention (ie. sent or applied to `receiver`)
-- **recency** (ie. `block_hash` from recent block is within acceptable limits ... [1 epoch](/docs/concepts/epoch))
-- **uniqueness** (ie. `nonce` must be unique for a given `signer` `AccessKey`)
+- **origem** (ou seja, assinada criptograficamente por um `assinante`)
+- **destino** ou intenção (isto é, enviado ou aplicado ao `destinatário`)
+- **recência** (isto é, o `block_hash` do bloco recente está dentro de limites aceitáveis ... [1 época](/docs/concepts/epoch))
+- **unicidade** (ou seja, o `nonce` deve ser único para uma `AccessKey` de `assinante` dada)
 
-### Action
+### Ação
 
-An `Action` is a composable unit of operation that, together with zero or more other `Actions`, defines a sensible `Transaction`. There are currently 8 supported `Action` types:
+Uma `ação` é uma unidade de operação componível que, em conjunto com zero ou mais outras `ações`, define uma `transação` sensata. Atualmente existem 8 tipos de `ação` suportados:
 
 - `CreateAccount` to make a new account (for a person, contract, refrigerator, etc)
 - `DeleteAccount` to delete an account (and transfer balance to a beneficiary account)

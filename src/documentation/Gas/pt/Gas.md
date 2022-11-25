@@ -4,9 +4,9 @@ title: Gas
 sidebar_label: Gas
 ---
 
-Quando você faz chamadas para a blockchain NEAR para atualizar ou alterar dados, isso gera algum custo para as pessoas que administram a infraestrutura da blockchain. No final do dia, alguns computadores em algum lugar processam sua solicitação e os [validadores](/docs/validator/staking-overview) que executam esses computadores gastam capital significativo para manter esses computadores funcionando.
+Quando você faz chamadas para atualizar ou alterar dados na blockchain NEAR, isso gera algum custo para as pessoas que administram a infraestrutura da blockchain. No final do dia, alguns computadores em algum lugar processam sua solicitação e os [validadores](/docs/validator/staking-overview) que por manterem seus computadores funcionando são recompensados com um capital significativo.
 
-Como outras blockchains programáveis, a NEAR compensa essas pessoas cobrando _taxas de transação_, também chamado de _taxas de gás_.
+Como em outras blockchains programáveis, a NEAR compensa essas pessoas cobrando _taxas de transação_, também chamadas de _taxas de gás_.
 
 Se você estiver familiarizado com provedores de serviços de nuvem na web2 (Amazon Web Services, Google Cloud, etc), uma grande diferença com blockchains é que _usuários_ são cobrados imediatamente quando fazem uma chamada para um aplicativo, em vez de desenvolvedores enfrentando o custo de usar toda essa infraestrutura. Isso cria novas possibilidades, como apps que não têm o risco de sumir a longo prazo devido à falta de fundos do desenvolvedor/empresa. No entanto, isso também surge com escaladas na velocidade de utilização. Para ajudar com isso, a NEAR também fornece a capacidade de desenvolvedores [cobrir os custos de gás para usuários](#what-about-prepaid-gas), para criar uma experiência mais familiar para aqueles que vêm da web 2.
 
